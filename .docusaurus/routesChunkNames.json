@@ -1,244 +1,291 @@
 {
-  "/fpga_mafia_wiki/blog-cf0": {
-    "__comp": "a6aa9e1f",
+  "/fpga_mafia_wiki/__docusaurus/debug-444": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-docusaurus-debug-945-055"
+    }
+  },
+  "/fpga_mafia_wiki/__docusaurus/debug/config-469": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---fpga-mafia-wiki-docusaurus-debug-945-055"
+    }
+  },
+  "/fpga_mafia_wiki/__docusaurus/debug/content-f75": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---fpga-mafia-wiki-docusaurus-debug-945-055"
     },
-    "sidebar": "814f3328",
+    "allContent": "allContent---fpga-mafia-wiki-docusaurus-debug-content-246-49d"
+  },
+  "/fpga_mafia_wiki/__docusaurus/debug/globalData-ff5": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---fpga-mafia-wiki-docusaurus-debug-945-055"
+    }
+  },
+  "/fpga_mafia_wiki/__docusaurus/debug/metadata-15e": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---fpga-mafia-wiki-docusaurus-debug-945-055"
+    }
+  },
+  "/fpga_mafia_wiki/__docusaurus/debug/registry-c22": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---fpga-mafia-wiki-docusaurus-debug-945-055"
+    }
+  },
+  "/fpga_mafia_wiki/__docusaurus/debug/routes-768": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---fpga-mafia-wiki-docusaurus-debug-945-055"
+    }
+  },
+  "/fpga_mafia_wiki/blog-cf0": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
+    },
+    "sidebar": "sidebar---fpga-mafia-wiki-blog-814-526",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---fpga-mafia-wiki-blog-766-2fb"
       },
       {
-        "content": "f4f34a3a"
+        "content": "content---fpga-mafia-wiki-blogf-4-f-7f3"
       },
       {
-        "content": "8717b14a"
+        "content": "content---fpga-mafia-wiki-blog-871-a17"
       },
       {
-        "content": "925b3f96"
+        "content": "content---fpga-mafia-wiki-blog-925-9e3"
       }
     ],
-    "metadata": "39e2a2c3"
+    "metadata": "metadata---fpga-mafia-wiki-blog-39-e-834"
   },
   "/fpga_mafia_wiki/blog/archive-73f": {
-    "__comp": "9e4087bc",
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
     },
-    "archive": "2e71c225"
+    "archive": "archive---fpga-mafia-wiki-blog-archive-2-e-7-346"
   },
   "/fpga_mafia_wiki/blog/first-blog-post-dff": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
     },
-    "sidebar": "814f3328",
-    "content": "e273c56f"
+    "sidebar": "sidebar---fpga-mafia-wiki-blog-814-526",
+    "content": "content---fpga-mafia-wiki-blog-first-blog-poste-27-601"
   },
   "/fpga_mafia_wiki/blog/long-blog-post-3b5": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
     },
-    "sidebar": "814f3328",
-    "content": "73664a40"
+    "sidebar": "sidebar---fpga-mafia-wiki-blog-814-526",
+    "content": "content---fpga-mafia-wiki-blog-long-blog-post-736-4b4"
   },
   "/fpga_mafia_wiki/blog/mdx-blog-post-982": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
     },
-    "sidebar": "814f3328",
-    "content": "59362658"
+    "sidebar": "sidebar---fpga-mafia-wiki-blog-814-526",
+    "content": "content---fpga-mafia-wiki-blog-mdx-blog-post-593-2a2"
   },
   "/fpga_mafia_wiki/blog/tags-428": {
-    "__comp": "01a85c17",
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
     },
-    "sidebar": "814f3328",
-    "tags": "a4fffba8"
+    "sidebar": "sidebar---fpga-mafia-wiki-blog-814-526",
+    "tags": "tags---fpga-mafia-wiki-blog-tagsa-4-f-75a"
   },
   "/fpga_mafia_wiki/blog/tags/docusaurus-fa6": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---fpga-mafia-wiki-blog-814-526",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---fpga-mafia-wiki-blog-766-2fb"
       },
       {
-        "content": "f4f34a3a"
+        "content": "content---fpga-mafia-wiki-blogf-4-f-7f3"
       },
       {
-        "content": "8717b14a"
+        "content": "content---fpga-mafia-wiki-blog-871-a17"
       },
       {
-        "content": "925b3f96"
+        "content": "content---fpga-mafia-wiki-blog-925-9e3"
       }
     ],
-    "tag": "689f879e",
-    "listMetadata": "411bf300"
+    "tag": "tag---fpga-mafia-wiki-blog-tags-docusaurus-689-fd9",
+    "listMetadata": "listMetadata---fpga-mafia-wiki-blog-tags-docusaurus-411-daf"
   },
   "/fpga_mafia_wiki/blog/tags/facebook-629": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---fpga-mafia-wiki-blog-814-526",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---fpga-mafia-wiki-blog-766-2fb"
       }
     ],
-    "tag": "5d9ce195",
-    "listMetadata": "e3923cea"
+    "tag": "tag---fpga-mafia-wiki-blog-tags-facebook-5-d-9-94c",
+    "listMetadata": "listMetadata---fpga-mafia-wiki-blog-tags-facebooke-39-9ce"
   },
   "/fpga_mafia_wiki/blog/tags/hello-897": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---fpga-mafia-wiki-blog-814-526",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---fpga-mafia-wiki-blog-766-2fb"
       },
       {
-        "content": "8717b14a"
+        "content": "content---fpga-mafia-wiki-blog-871-a17"
       }
     ],
-    "tag": "89683b7d",
-    "listMetadata": "706f3471"
+    "tag": "tag---fpga-mafia-wiki-blog-tags-hello-896-e6d",
+    "listMetadata": "listMetadata---fpga-mafia-wiki-blog-tags-hello-706-6bf"
   },
   "/fpga_mafia_wiki/blog/tags/hola-576": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---fpga-mafia-wiki-blog-814-526",
     "items": [
       {
-        "content": "925b3f96"
+        "content": "content---fpga-mafia-wiki-blog-925-9e3"
       }
     ],
-    "tag": "934f0576",
-    "listMetadata": "9ff30b9b"
+    "tag": "tag---fpga-mafia-wiki-blog-tags-hola-934-031",
+    "listMetadata": "listMetadata---fpga-mafia-wiki-blog-tags-hola-9-ff-a7a"
   },
   "/fpga_mafia_wiki/blog/welcome-96b": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "82728f94"
+      "plugin": "plugin---fpga-mafia-wiki-blog-827-ce1"
     },
-    "sidebar": "814f3328",
-    "content": "d9f32620"
+    "sidebar": "sidebar---fpga-mafia-wiki-blog-814-526",
+    "content": "content---fpga-mafia-wiki-blog-welcomed-9-f-c68"
   },
   "/fpga_mafia_wiki/markdown-page-fed": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "b2b24e97"
+      "plugin": "plugin---fpga-mafia-wiki-markdown-pageb-2-b-21b"
     },
-    "content": "393be207"
+    "content": "content---fpga-mafia-wiki-markdown-page-393-239"
   },
-  "/fpga_mafia_wiki/docs-f09": {
-    "__comp": "1be78505",
+  "/fpga_mafia_wiki/docs-3dd": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "31bfa621"
+      "plugin": "plugin---fpga-mafia-wiki-docs-31-b-5dc"
     },
-    "versionMetadata": "935f2afb"
+    "versionMetadata": "versionMetadata---fpga-mafia-wiki-docs-935-a28"
   },
   "/fpga_mafia_wiki/docs/cache/ABD_notes-145": {
-    "__comp": "17896441",
-    "content": "b1385f9b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-cache-abd-notesb-13-bb2"
   },
   "/fpga_mafia_wiki/docs/cache/Appendix-820": {
-    "__comp": "17896441",
-    "content": "e9e98c23"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-cache-appendixe-9-e-d8e"
   },
   "/fpga_mafia_wiki/docs/cache/Assumption_Assertions-d1b": {
-    "__comp": "17896441",
-    "content": "d74b1376"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-cache-assumption-assertionsd-74-411"
   },
   "/fpga_mafia_wiki/docs/cache/cache_intro-20c": {
-    "__comp": "17896441",
-    "content": "0c293ab7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-cache-cache-intro-0-c-2-c5b"
   },
   "/fpga_mafia_wiki/docs/cache/cache_overview-5e8": {
-    "__comp": "17896441",
-    "content": "fae5f5e4"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-cache-cache-overviewfae-286"
   },
   "/fpga_mafia_wiki/docs/cache/High_level_block_description-8a2": {
-    "__comp": "17896441",
-    "content": "345f31f3"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-cache-high-level-block-description-345-5ea"
   },
   "/fpga_mafia_wiki/docs/cache/High_level_Transaction_Flows-249": {
-    "__comp": "17896441",
-    "content": "768c03bf"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-cache-high-level-transaction-flows-768-2f9"
   },
   "/fpga_mafia_wiki/docs/cache/Merge_Buffer_Behavior-9de": {
-    "__comp": "17896441",
-    "content": "a3c4366e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-cache-merge-buffer-behaviora-3-c-c68"
   },
   "/fpga_mafia_wiki/docs/cache/Verification-82d": {
-    "__comp": "17896441",
-    "content": "f13f06cc"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-cache-verificationf-13-4da"
   },
   "/fpga_mafia_wiki/docs/how_to/-6ae": {
-    "__comp": "17896441",
-    "content": "423a2063"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-423-500"
+  },
+  "/fpga_mafia_wiki/docs/how_to/Getting_started_tool_chain_tutorial-8ae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-getting-started-tool-chain-tutorial-93-d-57e"
   },
   "/fpga_mafia_wiki/docs/how_to/github_action-51f": {
-    "__comp": "17896441",
-    "content": "deb895d7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-github-actiondeb-c7e"
   },
-  "/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT-5f9": {
-    "__comp": "17896441",
-    "content": "0a99f5e6"
+  "/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT-51b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-how-to-git-0-a-9-70e"
+  },
+  "/fpga_mafia_wiki/docs/how_to/System-Verilog-0bc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-system-verilogdda-330"
+  },
+  "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg-f7c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-verilog-intro-vlg-626-be6"
+  },
+  "/fpga_mafia_wiki/docs/how_to/verilog/vlg1-2d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-verilog-vlg-189-a-b53"
+  },
+  "/fpga_mafia_wiki/docs/how_to/verilog/vlg2-e71": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-verilog-vlg-267-d-78c"
+  },
+  "/fpga_mafia_wiki/docs/how_to/verilog/vlg3-1b7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-verilog-vlg-3-daa-f89"
+  },
+  "/fpga_mafia_wiki/docs/how_to/verilog/vlg4-0d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-verilog-vlg-495-e-f93"
+  },
+  "/fpga_mafia_wiki/docs/how_to/verilog/vlg5-d1d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-verilog-vlg-5509-89c"
+  },
+  "/fpga_mafia_wiki/docs/how_to/verilog/vlg6-0d0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-how-to-verilog-vlg-61-aa-295"
   },
   "/fpga_mafia_wiki/docs/intro-6f6": {
-    "__comp": "17896441",
-    "content": "0e384e19"
-  },
-  "/fpga_mafia_wiki/docs/tutorial-basics/congratulations-9aa": {
-    "__comp": "17896441",
-    "content": "822bd8ab"
-  },
-  "/fpga_mafia_wiki/docs/tutorial-basics/create-a-blog-post-8ba": {
-    "__comp": "17896441",
-    "content": "533a09ca"
-  },
-  "/fpga_mafia_wiki/docs/tutorial-basics/create-a-document-666": {
-    "__comp": "17896441",
-    "content": "1e4232ab"
-  },
-  "/fpga_mafia_wiki/docs/tutorial-basics/create-a-page-e8a": {
-    "__comp": "17896441",
-    "content": "5c868d36"
-  },
-  "/fpga_mafia_wiki/docs/tutorial-basics/deploy-your-site-e53": {
-    "__comp": "17896441",
-    "content": "f55d3e7a"
-  },
-  "/fpga_mafia_wiki/docs/tutorial-basics/markdown-features-14b": {
-    "__comp": "17896441",
-    "content": "18c41134"
-  },
-  "/fpga_mafia_wiki/docs/tutorial-extras/manage-docs-versions-4fc": {
-    "__comp": "17896441",
-    "content": "dff1c289"
-  },
-  "/fpga_mafia_wiki/docs/tutorial-extras/translate-your-site-b32": {
-    "__comp": "17896441",
-    "content": "e44a2883"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---fpga-mafia-wiki-docs-intro-0-e-3-40a"
   },
   "/fpga_mafia_wiki/-c7b": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "b2b24e97"
+      "plugin": "plugin---fpga-mafia-wiki-markdown-pageb-2-b-21b"
     },
-    "config": "5e9f5e1a"
+    "config": "config---fpga-mafia-wiki-5-e-9-470"
   }
 }

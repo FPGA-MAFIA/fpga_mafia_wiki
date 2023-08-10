@@ -1,7 +1,7 @@
 {
   "unversionedId": "cache/High_level_Transaction_Flows",
   "id": "cache/High_level_Transaction_Flows",
-  "title": "<a name=\"_toc1967356741\"></a><a name=\"_toc1779312326\"></a>**6. High level Transaction Flows**",
+  "title": "High level Transaction Flows",
   "description": "In this chapter will describe the high-level transaction Flow.",
   "source": "@site/docs/cache/High_level_Transaction_Flows.md",
   "sourceDirName": "cache",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "Cache",
   "previous": {
-    "title": "5. High Level Block Description",
+    "title": "High Level Block Description",
     "permalink": "/fpga_mafia_wiki/docs/cache/High_level_block_description"
   },
   "next": {
-    "title": "<a name=\"_toc1444127171\"></a>**7. Merge Buffer Behavior**",
+    "title": "Merge Buffer Behavior",
     "permalink": "/fpga_mafia_wiki/docs/cache/Merge_Buffer_Behavior"
   }
 }

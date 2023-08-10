@@ -1,7 +1,7 @@
 {
   "unversionedId": "cache/Verification",
   "id": "cache/Verification",
-  "title": "<a name=\"_toc2123724073\"></a>**8. Verification**",
+  "title": "Verification",
   "description": "In this section we will write a list of scenarios and points we want to cover",
   "source": "@site/docs/cache/Verification.md",
   "sourceDirName": "cache",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "Cache",
   "previous": {
-    "title": "<a name=\"_toc1444127171\"></a>**7. Merge Buffer Behavior**",
+    "title": "Merge Buffer Behavior",
     "permalink": "/fpga_mafia_wiki/docs/cache/Merge_Buffer_Behavior"
   },
   "next": {
-    "title": "<a name=\"_toc2054752113\"></a>**9. Assumption & Assertions**",
+    "title": "Assumption & Assertions",
     "permalink": "/fpga_mafia_wiki/docs/cache/Assumption_Assertions"
   }
 }

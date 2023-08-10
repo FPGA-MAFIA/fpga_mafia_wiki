@@ -13,16 +13,33 @@ module.exports = {
     label: 'GitHub Action',
   },
 {
-    type: 'link',
+    type: 'doc',
     label: 'How to GIT',
-    href : 'https://github.com/amichai-bd/fpga_mafia/wiki/Git', 
+    id : 'how_to/HOW_TO_GIT',
 },
 {
-    type: 'link',
+    type: 'doc',
     label: 'Getting started tool chain tutorial',
-    href : 'https://github.com/amichai-bd/fpga_mafia/wiki/Getting-started---tool-chain-tutorial', 
-}
+    id : 'how_to/Getting_started_tool_chain_tutorial',
+},
+{
+  type: 'category',
+  label: 'System Verilog',
+  link: {
+    type: 'doc',
+    id: 'how_to/verilog/Intro_vlg',
+  },
+  items: [
+    'how_to/verilog/Intro_vlg',
+    'how_to/verilog/vlg1',
+    'how_to/verilog/vlg2',
+    'how_to/verilog/vlg3',
+    'how_to/verilog/vlg4',
+    'how_to/verilog/vlg5',
+    'how_to/verilog/vlg6',
 
+  ],
+},
   
   ],
   Cache: [

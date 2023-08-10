@@ -29,9 +29,9 @@ jobs:
       - name: Build the website
         run: yarn run build
 
-      # - name: Deploy to GitHub Pages
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
-      #   run: GIT_USER=noamsabb GITHUB_TOKEN=$GITHUB_TOKEN yarn run docusaurus deploy
+      - name: Deploy to GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+        run: GIT_USER=noamsabb GITHUB_TOKEN=$GITHUB_TOKEN yarn run docusaurus deploy
 
         

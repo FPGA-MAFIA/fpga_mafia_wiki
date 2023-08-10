@@ -1,8 +1,8 @@
 {
   "unversionedId": "how_to/HOW_TO_GIT",
   "id": "how_to/HOW_TO_GIT",
-  "title": "HOW_TO_GIT",
-  "description": "see instruction here:",
+  "title": "Motivation",
+  "description": "Git is a version control system allowing developers to track and manage changes to their codebase over time. Using Git offers several benefits:",
   "source": "@site/docs/how_to/HOW_TO_GIT.md",
   "sourceDirName": "how_to",
   "slug": "/how_to/HOW_TO_GIT",
@@ -11,5 +11,14 @@
   "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/HOW_TO_GIT.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "HowTo",
+  "previous": {
+    "title": "",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/github_action"
+  },
+  "next": {
+    "title": "Welcome to tool-chain tutorial!!",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/Getting_started_tool_chain_tutorial"
+  }
 }

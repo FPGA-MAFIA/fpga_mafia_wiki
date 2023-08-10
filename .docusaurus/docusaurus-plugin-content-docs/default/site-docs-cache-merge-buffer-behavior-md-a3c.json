@@ -1,7 +1,7 @@
 {
   "unversionedId": "cache/Merge_Buffer_Behavior",
   "id": "cache/Merge_Buffer_Behavior",
-  "title": "<a name=\"_toc1444127171\"></a>**7. Merge Buffer Behavior**",
+  "title": "Merge Buffer Behavior",
   "description": "In this chapter we will explain the Merge Buffer behavior through different cases",
   "source": "@site/docs/cache/Merge_Buffer_Behavior.md",
   "sourceDirName": "cache",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "Cache",
   "previous": {
-    "title": "<a name=\"_toc1967356741\"></a><a name=\"_toc1779312326\"></a>**6. High level Transaction Flows**",
+    "title": "High level Transaction Flows",
     "permalink": "/fpga_mafia_wiki/docs/cache/High_level_Transaction_Flows"
   },
   "next": {
-    "title": "<a name=\"_toc2123724073\"></a>**8. Verification**",
+    "title": "Verification",
     "permalink": "/fpga_mafia_wiki/docs/cache/Verification"
   }
 }

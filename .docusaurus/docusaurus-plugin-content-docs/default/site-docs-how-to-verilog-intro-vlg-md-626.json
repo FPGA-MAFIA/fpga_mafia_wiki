@@ -1,0 +1,24 @@
+{
+  "unversionedId": "how_to/verilog/Intro_vlg",
+  "id": "how_to/verilog/Intro_vlg",
+  "title": "Intro to System-Verilog",
+  "description": "System-Verilog vs Verilog",
+  "source": "@site/docs/how_to/verilog/Intro_vlg.md",
+  "sourceDirName": "how_to/verilog",
+  "slug": "/how_to/verilog/Intro_vlg",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/Intro_vlg.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "HowTo",
+  "previous": {
+    "title": "Welcome to tool-chain tutorial!!",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/Getting_started_tool_chain_tutorial"
+  },
+  "next": {
+    "title": "Intro to System-Verilog",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg"
+  }
+}

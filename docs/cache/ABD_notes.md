@@ -22,7 +22,7 @@ Need to make sure we correctly handle the case of a read after write back2back w
 A read request that has the same CL as existing TQ entry that is also marked as read will NOT merge!!! And will allocate a new TQ entry. (a TQ entry can serve multiple writes, but a single READ!)
 
 
-Need to think about this: Once an entry is set as “Read<a name="_int_ypnewna7"></a>”, writes cannot merge more writes into it?
+Need to think about this: Once an entry is set as “Read”, writes cannot merge more writes into it?
 
 - If the read missed, we will cancel the write, and re-issue it once the read miss is resolved.
 - If the read hit, the pipe lookup will return the data, will dealloc the entry.

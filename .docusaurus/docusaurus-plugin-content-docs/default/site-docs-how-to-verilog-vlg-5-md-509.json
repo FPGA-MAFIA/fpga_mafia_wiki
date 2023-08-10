@@ -1,0 +1,24 @@
+{
+  "unversionedId": "how_to/verilog/vlg5",
+  "id": "how_to/verilog/vlg5",
+  "title": "Module, Function, Macro",
+  "description": "In system verilog, there are multiple ways to define a block of code that can be reused.",
+  "source": "@site/docs/how_to/verilog/vlg5.md",
+  "sourceDirName": "how_to/verilog",
+  "slug": "/how_to/verilog/vlg5",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg5",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg5.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "HowTo",
+  "previous": {
+    "title": "System-Verilog Features",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg4"
+  },
+  "next": {
+    "title": "Common examples",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg6"
+  }
+}

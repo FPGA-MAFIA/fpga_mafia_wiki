@@ -56,6 +56,11 @@
               "sidebar": "Cache"
             },
             {
+              "id": "how_to/Getting_started_tool_chain_tutorial",
+              "path": "/fpga_mafia_wiki/docs/how_to/Getting_started_tool_chain_tutorial",
+              "sidebar": "HowTo"
+            },
+            {
               "id": "how_to/github_action",
               "path": "/fpga_mafia_wiki/docs/how_to/github_action",
               "sidebar": "HowTo"
@@ -66,44 +71,52 @@
             },
             {
               "id": "how_to/HOW_TO_GIT",
-              "path": "/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT"
+              "path": "/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT",
+              "sidebar": "HowTo"
+            },
+            {
+              "id": "how_to/System-Verilog",
+              "path": "/fpga_mafia_wiki/docs/how_to/System-Verilog"
+            },
+            {
+              "id": "how_to/verilog/Intro_vlg",
+              "path": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg",
+              "sidebar": "HowTo"
+            },
+            {
+              "id": "how_to/verilog/vlg1",
+              "path": "/fpga_mafia_wiki/docs/how_to/verilog/vlg1",
+              "sidebar": "HowTo"
+            },
+            {
+              "id": "how_to/verilog/vlg2",
+              "path": "/fpga_mafia_wiki/docs/how_to/verilog/vlg2",
+              "sidebar": "HowTo"
+            },
+            {
+              "id": "how_to/verilog/vlg3",
+              "path": "/fpga_mafia_wiki/docs/how_to/verilog/vlg3",
+              "sidebar": "HowTo"
+            },
+            {
+              "id": "how_to/verilog/vlg4",
+              "path": "/fpga_mafia_wiki/docs/how_to/verilog/vlg4",
+              "sidebar": "HowTo"
+            },
+            {
+              "id": "how_to/verilog/vlg5",
+              "path": "/fpga_mafia_wiki/docs/how_to/verilog/vlg5",
+              "sidebar": "HowTo"
+            },
+            {
+              "id": "how_to/verilog/vlg6",
+              "path": "/fpga_mafia_wiki/docs/how_to/verilog/vlg6",
+              "sidebar": "HowTo"
             },
             {
               "id": "intro",
               "path": "/fpga_mafia_wiki/docs/intro",
               "sidebar": "Hello"
-            },
-            {
-              "id": "tutorial-basics/congratulations",
-              "path": "/fpga_mafia_wiki/docs/tutorial-basics/congratulations"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/fpga_mafia_wiki/docs/tutorial-basics/create-a-blog-post"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/fpga_mafia_wiki/docs/tutorial-basics/create-a-document"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/fpga_mafia_wiki/docs/tutorial-basics/create-a-page"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/fpga_mafia_wiki/docs/tutorial-basics/deploy-your-site"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/fpga_mafia_wiki/docs/tutorial-basics/markdown-features"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/fpga_mafia_wiki/docs/tutorial-extras/manage-docs-versions"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/fpga_mafia_wiki/docs/tutorial-extras/translate-your-site"
             }
           ],
           "draftIds": [],

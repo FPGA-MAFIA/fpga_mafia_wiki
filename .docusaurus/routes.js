@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/fpga_mafia_wiki/__docusaurus/debug',
+    component: ComponentCreator('/fpga_mafia_wiki/__docusaurus/debug', '444'),
+    exact: true
+  },
+  {
+    path: '/fpga_mafia_wiki/__docusaurus/debug/config',
+    component: ComponentCreator('/fpga_mafia_wiki/__docusaurus/debug/config', '469'),
+    exact: true
+  },
+  {
+    path: '/fpga_mafia_wiki/__docusaurus/debug/content',
+    component: ComponentCreator('/fpga_mafia_wiki/__docusaurus/debug/content', 'f75'),
+    exact: true
+  },
+  {
+    path: '/fpga_mafia_wiki/__docusaurus/debug/globalData',
+    component: ComponentCreator('/fpga_mafia_wiki/__docusaurus/debug/globalData', 'ff5'),
+    exact: true
+  },
+  {
+    path: '/fpga_mafia_wiki/__docusaurus/debug/metadata',
+    component: ComponentCreator('/fpga_mafia_wiki/__docusaurus/debug/metadata', '15e'),
+    exact: true
+  },
+  {
+    path: '/fpga_mafia_wiki/__docusaurus/debug/registry',
+    component: ComponentCreator('/fpga_mafia_wiki/__docusaurus/debug/registry', 'c22'),
+    exact: true
+  },
+  {
+    path: '/fpga_mafia_wiki/__docusaurus/debug/routes',
+    component: ComponentCreator('/fpga_mafia_wiki/__docusaurus/debug/routes', '768'),
+    exact: true
+  },
+  {
     path: '/fpga_mafia_wiki/blog',
     component: ComponentCreator('/fpga_mafia_wiki/blog', 'cf0'),
     exact: true
@@ -64,7 +99,7 @@ export default [
   },
   {
     path: '/fpga_mafia_wiki/docs',
-    component: ComponentCreator('/fpga_mafia_wiki/docs', 'f09'),
+    component: ComponentCreator('/fpga_mafia_wiki/docs', '3dd'),
     routes: [
       {
         path: '/fpga_mafia_wiki/docs/cache/ABD_notes',
@@ -126,6 +161,12 @@ export default [
         exact: true
       },
       {
+        path: '/fpga_mafia_wiki/docs/how_to/Getting_started_tool_chain_tutorial',
+        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/Getting_started_tool_chain_tutorial', '8ae'),
+        exact: true,
+        sidebar: "HowTo"
+      },
+      {
         path: '/fpga_mafia_wiki/docs/how_to/github_action',
         component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/github_action', '51f'),
         exact: true,
@@ -133,54 +174,62 @@ export default [
       },
       {
         path: '/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT',
-        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT', '5f9'),
+        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT', '51b'),
+        exact: true,
+        sidebar: "HowTo"
+      },
+      {
+        path: '/fpga_mafia_wiki/docs/how_to/System-Verilog',
+        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/System-Verilog', '0bc'),
         exact: true
+      },
+      {
+        path: '/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg',
+        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg', 'f7c'),
+        exact: true,
+        sidebar: "HowTo"
+      },
+      {
+        path: '/fpga_mafia_wiki/docs/how_to/verilog/vlg1',
+        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/verilog/vlg1', '2d8'),
+        exact: true,
+        sidebar: "HowTo"
+      },
+      {
+        path: '/fpga_mafia_wiki/docs/how_to/verilog/vlg2',
+        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/verilog/vlg2', 'e71'),
+        exact: true,
+        sidebar: "HowTo"
+      },
+      {
+        path: '/fpga_mafia_wiki/docs/how_to/verilog/vlg3',
+        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/verilog/vlg3', '1b7'),
+        exact: true,
+        sidebar: "HowTo"
+      },
+      {
+        path: '/fpga_mafia_wiki/docs/how_to/verilog/vlg4',
+        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/verilog/vlg4', '0d8'),
+        exact: true,
+        sidebar: "HowTo"
+      },
+      {
+        path: '/fpga_mafia_wiki/docs/how_to/verilog/vlg5',
+        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/verilog/vlg5', 'd1d'),
+        exact: true,
+        sidebar: "HowTo"
+      },
+      {
+        path: '/fpga_mafia_wiki/docs/how_to/verilog/vlg6',
+        component: ComponentCreator('/fpga_mafia_wiki/docs/how_to/verilog/vlg6', '0d0'),
+        exact: true,
+        sidebar: "HowTo"
       },
       {
         path: '/fpga_mafia_wiki/docs/intro',
         component: ComponentCreator('/fpga_mafia_wiki/docs/intro', '6f6'),
         exact: true,
         sidebar: "Hello"
-      },
-      {
-        path: '/fpga_mafia_wiki/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/fpga_mafia_wiki/docs/tutorial-basics/congratulations', '9aa'),
-        exact: true
-      },
-      {
-        path: '/fpga_mafia_wiki/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/fpga_mafia_wiki/docs/tutorial-basics/create-a-blog-post', '8ba'),
-        exact: true
-      },
-      {
-        path: '/fpga_mafia_wiki/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/fpga_mafia_wiki/docs/tutorial-basics/create-a-document', '666'),
-        exact: true
-      },
-      {
-        path: '/fpga_mafia_wiki/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/fpga_mafia_wiki/docs/tutorial-basics/create-a-page', 'e8a'),
-        exact: true
-      },
-      {
-        path: '/fpga_mafia_wiki/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/fpga_mafia_wiki/docs/tutorial-basics/deploy-your-site', 'e53'),
-        exact: true
-      },
-      {
-        path: '/fpga_mafia_wiki/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/fpga_mafia_wiki/docs/tutorial-basics/markdown-features', '14b'),
-        exact: true
-      },
-      {
-        path: '/fpga_mafia_wiki/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/fpga_mafia_wiki/docs/tutorial-extras/manage-docs-versions', '4fc'),
-        exact: true
-      },
-      {
-        path: '/fpga_mafia_wiki/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/fpga_mafia_wiki/docs/tutorial-extras/translate-your-site', 'b32'),
-        exact: true
       }
     ]
   },

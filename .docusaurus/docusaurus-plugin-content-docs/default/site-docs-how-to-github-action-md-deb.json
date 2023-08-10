@@ -12,5 +12,9 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "HowTo"
+  "sidebar": "HowTo",
+  "next": {
+    "title": "Motivation",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT"
+  }
 }

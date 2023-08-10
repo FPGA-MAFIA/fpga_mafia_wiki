@@ -26,12 +26,65 @@
       {
         "type": "link",
         "label": "How to GIT",
-        "href": "https://github.com/amichai-bd/fpga_mafia/wiki/Git"
+        "href": "/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT",
+        "docId": "how_to/HOW_TO_GIT"
       },
       {
         "type": "link",
         "label": "Getting started tool chain tutorial",
-        "href": "https://github.com/amichai-bd/fpga_mafia/wiki/Getting-started---tool-chain-tutorial"
+        "href": "/fpga_mafia_wiki/docs/how_to/Getting_started_tool_chain_tutorial",
+        "docId": "how_to/Getting_started_tool_chain_tutorial"
+      },
+      {
+        "type": "category",
+        "label": "System Verilog",
+        "items": [
+          {
+            "type": "link",
+            "label": "Intro to System-Verilog",
+            "href": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg",
+            "docId": "how_to/verilog/Intro_vlg"
+          },
+          {
+            "type": "link",
+            "label": "Blocking vs Non-Blocking assignment",
+            "href": "/fpga_mafia_wiki/docs/how_to/verilog/vlg1",
+            "docId": "how_to/verilog/vlg1"
+          },
+          {
+            "type": "link",
+            "label": "Multiple dimensional arrays",
+            "href": "/fpga_mafia_wiki/docs/how_to/verilog/vlg2",
+            "docId": "how_to/verilog/vlg2"
+          },
+          {
+            "type": "link",
+            "label": "Coding Style",
+            "href": "/fpga_mafia_wiki/docs/how_to/verilog/vlg3",
+            "docId": "how_to/verilog/vlg3"
+          },
+          {
+            "type": "link",
+            "label": "System-Verilog Features",
+            "href": "/fpga_mafia_wiki/docs/how_to/verilog/vlg4",
+            "docId": "how_to/verilog/vlg4"
+          },
+          {
+            "type": "link",
+            "label": "Module, Function, Macro",
+            "href": "/fpga_mafia_wiki/docs/how_to/verilog/vlg5",
+            "docId": "how_to/verilog/vlg5"
+          },
+          {
+            "type": "link",
+            "label": "Common examples",
+            "href": "/fpga_mafia_wiki/docs/how_to/verilog/vlg6",
+            "docId": "how_to/verilog/vlg6"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true,
+        "href": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg"
       }
     ],
     "Cache": [
@@ -94,20 +147,20 @@
   "docs": {
     "cache/ABD_notes": {
       "id": "cache/ABD_notes",
-      "title": "<a name=\"_toc1529489236\"></a>**11. ABD Notes:**",
+      "title": "ABD Notes:",
       "description": "I gave some thought in to how to resolve the back2back request and this is what I produced:",
       "sidebar": "Cache"
     },
     "cache/Appendix": {
       "id": "cache/Appendix",
-      "title": "<a name=\"_toc121115370\"></a><a name=\"_toc93555976\"></a>**10. Appendix**",
-      "description": "10.1 Future Features",
+      "title": "Appendix",
+      "description": "Future Features",
       "sidebar": "Cache"
     },
     "cache/Assumption_Assertions": {
       "id": "cache/Assumption_Assertions",
-      "title": "<a name=\"_toc2054752113\"></a>**9. Assumption & Assertions**",
-      "description": "9.1 Core Interface Assumption:",
+      "title": "Assumption & Assertions",
+      "description": "Core Interface Assumption:",
       "sidebar": "Cache"
     },
     "cache/cache_intro": {
@@ -124,27 +177,33 @@
     },
     "cache/High_level_block_description": {
       "id": "cache/High_level_block_description",
-      "title": "5. High Level Block Description",
-      "description": "5.1 Transaction Queue (TQ)",
+      "title": "High Level Block Description",
+      "description": "Transaction Queue (TQ)",
       "sidebar": "Cache"
     },
     "cache/High_level_Transaction_Flows": {
       "id": "cache/High_level_Transaction_Flows",
-      "title": "<a name=\"_toc1967356741\"></a><a name=\"_toc1779312326\"></a>**6. High level Transaction Flows**",
+      "title": "High level Transaction Flows",
       "description": "In this chapter will describe the high-level transaction Flow.",
       "sidebar": "Cache"
     },
     "cache/Merge_Buffer_Behavior": {
       "id": "cache/Merge_Buffer_Behavior",
-      "title": "<a name=\"_toc1444127171\"></a>**7. Merge Buffer Behavior**",
+      "title": "Merge Buffer Behavior",
       "description": "In this chapter we will explain the Merge Buffer behavior through different cases",
       "sidebar": "Cache"
     },
     "cache/Verification": {
       "id": "cache/Verification",
-      "title": "<a name=\"_toc2123724073\"></a>**8. Verification**",
+      "title": "Verification",
       "description": "In this section we will write a list of scenarios and points we want to cover",
       "sidebar": "Cache"
+    },
+    "how_to/Getting_started_tool_chain_tutorial": {
+      "id": "how_to/Getting_started_tool_chain_tutorial",
+      "title": "Welcome to tool-chain tutorial!!",
+      "description": "Download a text editor",
+      "sidebar": "HowTo"
     },
     "how_to/github_action": {
       "id": "how_to/github_action",
@@ -154,59 +213,67 @@
     },
     "how_to/HOW_TO": {
       "id": "how_to/HOW_TO",
-      "title": "HOW_TO",
-      "description": "Please see here:"
+      "title": "Welcome to tool-chain tutorial!!",
+      "description": "Download a text editor"
     },
     "how_to/HOW_TO_GIT": {
       "id": "how_to/HOW_TO_GIT",
-      "title": "HOW_TO_GIT",
-      "description": "see instruction here:"
+      "title": "Motivation",
+      "description": "Git is a version control system allowing developers to track and manage changes to their codebase over time. Using Git offers several benefits:",
+      "sidebar": "HowTo"
+    },
+    "how_to/System-Verilog": {
+      "id": "how_to/System-Verilog",
+      "title": "Intro to System-Verilog",
+      "description": "System-Verilog vs Verilog"
+    },
+    "how_to/verilog/Intro_vlg": {
+      "id": "how_to/verilog/Intro_vlg",
+      "title": "Intro to System-Verilog",
+      "description": "System-Verilog vs Verilog",
+      "sidebar": "HowTo"
+    },
+    "how_to/verilog/vlg1": {
+      "id": "how_to/verilog/vlg1",
+      "title": "Blocking vs Non-Blocking assignment",
+      "description": "The main difference between these two types of assignments is how they are executed in relation to the rest of the code in a design.",
+      "sidebar": "HowTo"
+    },
+    "how_to/verilog/vlg2": {
+      "id": "how_to/verilog/vlg2",
+      "title": "Multiple dimensional arrays",
+      "description": "Packed vs Unpacked",
+      "sidebar": "HowTo"
+    },
+    "how_to/verilog/vlg3": {
+      "id": "how_to/verilog/vlg3",
+      "title": "Coding Style",
+      "description": "Signal declaration",
+      "sidebar": "HowTo"
+    },
+    "how_to/verilog/vlg4": {
+      "id": "how_to/verilog/vlg4",
+      "title": "System-Verilog Features",
+      "description": "`include",
+      "sidebar": "HowTo"
+    },
+    "how_to/verilog/vlg5": {
+      "id": "how_to/verilog/vlg5",
+      "title": "Module, Function, Macro",
+      "description": "In system verilog, there are multiple ways to define a block of code that can be reused.",
+      "sidebar": "HowTo"
+    },
+    "how_to/verilog/vlg6": {
+      "id": "how_to/verilog/vlg6",
+      "title": "Common examples",
+      "description": "Mux",
+      "sidebar": "HowTo"
     },
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "Hello"
-    },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template."
-    },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed..."
-    },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:"
-    },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:"
-    },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack)."
-    },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features."
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs."
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French."
     }
   }
 }

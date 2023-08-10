@@ -51,7 +51,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'how_to/github_action',
             position: 'right',
-            label: 'How To',
+            label: 'Wiki',
           },
           {
             type: 'doc',

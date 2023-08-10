@@ -1,0 +1,15 @@
+{
+  "unversionedId": "how_to/verilog/System-Verilog copy",
+  "id": "how_to/verilog/System-Verilog copy",
+  "title": "Table of Contents",
+  "description": "1. SystemVerilog vs Verilog",
+  "source": "@site/docs/how_to/verilog/System-Verilog copy.md",
+  "sourceDirName": "how_to/verilog",
+  "slug": "/how_to/verilog/System-Verilog copy",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/System-Verilog copy",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/System-Verilog copy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
