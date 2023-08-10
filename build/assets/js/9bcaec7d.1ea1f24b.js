@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_docs=self.webpackChunkmy_docs||[]).push([[5695],{1707:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/fpga_mafia_doc/blog/tags/facebook","allTagsPath":"/fpga_mafia_doc/blog/tags","count":1}')}}]);
