@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'FPGA Multi-Agent FabrIc Architecture ',
   tagline: '',
- url: 'https://amichai-bd.github.io ',
+  url: 'https://amichai-bd.github.io ',
   baseUrl: '/fpga_mafia_wiki/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
