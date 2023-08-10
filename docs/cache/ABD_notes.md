@@ -1,5 +1,5 @@
 
-# ABD Notes - tests:
+# ABD Notes - tests: number 3
 I gave some thought in to how to resolve the back2back request and this is what I produced:
 
 - Each tq entry can serve multiple writes that are to the same CL by writing the writes in order into the merge buffer.
@@ -29,3 +29,17 @@ Need to think about this: Once an entry is set as “Read<a name="_int_ypnewna7"
   In parallel a different entry will handle the write. (which we expect to hit – just like the read before it)
 - Not expecting to have 2 entries with the same cl & both are wait fill.. we can have 2 entries with same CL if we know that there was cache hit.
 - The order is promised due to the request intering the pipe in order. And if they all hit there is no issue. One there is a miss, no new request is being served in the pipe. So again- order is preserved.
+
+
+# build and deploy:  
+This should be all we need:
+> GIT_USER=amichai-bd USE_SSH=true yarn deploy  
+
+This can fix some issues:
+- rm yarn.lock -rf  
+- yarn install  
+- yarn build  
+- yarn add dotenv-cli --dev  
+- GIT_USER=amichai-bd USE_SSH=true yarn deploy  
+
+
