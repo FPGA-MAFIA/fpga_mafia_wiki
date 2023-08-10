@@ -31,9 +31,10 @@ Need to think about this: Once an entry is set as “Read<a name="_int_ypnewna7"
 - The order is promised due to the request intering the pipe in order. And if they all hit there is no issue. One there is a miss, no new request is being served in the pipe. So again- order is preserved.
 
 
-# build and deploy:  
+# Build and Deploy:  
 This should be all we need:
-> GIT_USER=amichai-bd USE_SSH=true yarn deploy  
+- yarn install  
+- GIT_USER=amichai-bd USE_SSH=true yarn deploy  
 
 This can fix some issues:
 - rm yarn.lock -rf  
