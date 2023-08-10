@@ -36,11 +36,4 @@ This should be all we need:
 - yarn install  
 - GIT_USER=amichai-bd USE_SSH=true yarn deploy  
 
-This can fix some issues:
-- rm yarn.lock -rf  
-- yarn install  
-- yarn build  
-- yarn add dotenv-cli --dev  
-- GIT_USER=amichai-bd USE_SSH=true yarn deploy  
-
 
