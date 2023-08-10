@@ -1,0 +1,24 @@
+{
+  "unversionedId": "cache/Appendix",
+  "id": "cache/Appendix",
+  "title": "<a name=\"_toc121115370\"></a><a name=\"_toc93555976\"></a>**10. Appendix**",
+  "description": "10.1 Future Features",
+  "source": "@site/docs/cache/Appendix.md",
+  "sourceDirName": "cache",
+  "slug": "/cache/Appendix",
+  "permalink": "/fpga_mafia_wiki/docs/cache/Appendix",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/cache/Appendix.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "Cache",
+  "previous": {
+    "title": "<a name=\"_toc2054752113\"></a>**9. Assumption & Assertions**",
+    "permalink": "/fpga_mafia_wiki/docs/cache/Assumption_Assertions"
+  },
+  "next": {
+    "title": "<a name=\"_toc1529489236\"></a>**11. ABD Notes:**",
+    "permalink": "/fpga_mafia_wiki/docs/cache/ABD_notes"
+  }
+}

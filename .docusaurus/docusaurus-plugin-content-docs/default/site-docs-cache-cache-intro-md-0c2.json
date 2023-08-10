@@ -1,0 +1,22 @@
+{
+  "unversionedId": "cache/cache_intro",
+  "id": "cache/cache_intro",
+  "title": "",
+  "description": "Noam Sabban",
+  "source": "@site/docs/cache/cache_intro.md",
+  "sourceDirName": "cache",
+  "slug": "/cache/cache_intro",
+  "permalink": "/fpga_mafia_wiki/docs/cache/cache_intro",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/cache/cache_intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": ""
+  },
+  "sidebar": "Cache",
+  "next": {
+    "title": "Overview",
+    "permalink": "/fpga_mafia_wiki/docs/cache/cache_overview"
+  }
+}

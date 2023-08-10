@@ -1,0 +1,15 @@
+{
+  "unversionedId": "how_to/HOW_TO",
+  "id": "how_to/HOW_TO",
+  "title": "HOW_TO",
+  "description": "Please see here:",
+  "source": "@site/docs/how_to/HOW_TO.md",
+  "sourceDirName": "how_to",
+  "slug": "/how_to/",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/HOW_TO.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
