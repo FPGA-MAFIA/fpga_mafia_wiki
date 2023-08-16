@@ -1,4 +1,4 @@
-name: Deploy Wiki
+name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Node
+    - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 16
+        node-version: '16'
 
     - name: Install dependencies
       run: yarn install
@@ -29,8 +29,9 @@ jobs:
     - name: Deploy to GitHub Pages
       env:
         DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-        GIT_USER: amichai-bd 
+        GIT_USER: GitHub Actions Bot
+        DEPLOYMENT_BRANCH: gh-pages
+        CURRENT_BRANCH: main
       run: |
         git remote set-url origin https://x-access-token:${DEPLOY_TOKEN}@github.com/amichai-bd/fpga_mafia_wiki.git
-        yarn deploy
         yarn deploy
