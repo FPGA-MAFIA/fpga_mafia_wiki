@@ -1,4 +1,4 @@
-# fpga_mafia_wiki
+t clean # fpga_mafia_wiki
 The documentation for the fpga_maifa project
 
 
@@ -17,3 +17,6 @@ If you have SSH keys set up with your Git provider, you can deploy using SSH.  T
 Alternatively, you can use HTTPS. When deploying this way, you may be prompted for your Git credentials in a browser pop-up:    
 ``` GIT_USER=amichai-bd yarn deploy ```   
 
+- Testing local the WIKI (recommended before deployment):  
+``` yarn run build ```
+``` yarn run start ```
