@@ -56,7 +56,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },  
           {
             type: 'doc',
-            docId: 'how_to/welcome',
+            docId: 'big_core/intro',
+            position: 'left',
+            label: 'Big Core', 
+          },  
+          {
+            type: 'doc',
+            docId: 'fabric/intro',
+            position: 'left',
+            label: 'Fabric', 
+          },  
+          {
+            type: 'doc',
+            docId: 'wiki/welcome',
             position: 'right',
             label: 'Wiki',
           },

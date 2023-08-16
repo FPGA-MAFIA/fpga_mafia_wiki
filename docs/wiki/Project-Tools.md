@@ -1,5 +1,5 @@
-# Develupment environment
-## vscode
+# Development environment
+## VS Code
 VS Code is a versatile and powerful code editor that can help you write and debug code more efficiently. Here are some reasons why VS Code is a good editor for our project:  
 - Accessible Command Line: VS Code provides an integrated terminal that allows you to run command-line tools directly from the editor. This includes tools like Git Bash, which can be useful for version control and other tasks.  
 - SystemVerilog Extensions: VS Code has extensions that provide syntax highlighting and autocompletion for SystemVerilog, which can make it easier to write and read SystemVerilog code.  
@@ -11,7 +11,7 @@ VS Code is a versatile and powerful code editor that can help you write and debu
 
 By using VS Code as your development environment, you can benefit from its many features and extensions, which can make it easier to write, debug, and manage your code.  
 
-## git-bash
+## Git Bash
 Git Bash is a command-line interface (CLI) that provides a Unix-like environment on Windows.  
 It includes a variety of Unix command-line tools, including Git, which can be used directly from the Git Bash terminal.  
 Git Bash also supports many standard Windows commands and utilities, which means that you can use it to run both Windows and Unix-based scripts and tools.  
@@ -20,23 +20,20 @@ Additionally, Git Bash provides a consistent, lightweight command-line interface
 Git Bash also supports Git GUI commands, including gitk, git-gui, and more, which can be useful for performing Git operations using a graphical interface.   
 Furthermore, Git Bash allows you to write shell scripts and interact with other scripts written in Python, making it a powerful tool for automating tasks and building custom workflows.  
 
-***
-***
-***
-# SW
-> \<TODO\>
+
+<!-- # SW
+> \<TODO\> -->
 ## RISCV GCC
 To be able to run programs on our proprietary RISCV CPU implementation, we need to create the executable files such as the `elf` files.
 This is done by using the RISCV GCC compiler. The RISC GCC compiler input are the C source files, crt0.s, and linker script. The output is the `elf` file.
 The crt0.s file is the C runtime file that is used to initialize the C runtime environment. 
 The linker script is used to define the memory layout of the executable file.
-
+<!-- 
 ## Python
-> \<TODO\>
+> \<TODO\> -->
 
-***
-***
-***
+<br />
+
 # HW
 ## ModelSim
 ModelSim is a hardware simulation and debug environment that supports VHDL, Verilog, and SystemVerilog design languages.  
@@ -50,16 +47,16 @@ The basic usage of the vlog command is as follows:
 
 Here, \<options\> are various command-line options that can be used to customize the compilation process, and \<files\> are the Verilog files that you want to compile.    
 The vlog command outputs compiled libraries and object files that are used during simulation.    
-Example:   
-TODO   
+<!-- Example:   
+TODO    -->
 
 ### vsim  
 `vsim` is a command-line utility in ModelSim that is used to start a simulation. It allows users to load a design, run a simulation, and debug the behavior of the design using various waveforms and probes.   
 The basic usage of the vsim command is as follows:  
 ``` vsim \<options\> \<top_module\> ```  
 Here, \<options\> are various command-line options that can be used to customize the simulation, and \<top_module\> is the top-level module of the design that you want to simulate.   
-Example:  
-TODO  
+<!-- Example:  
+TODO   -->
 Once the simulation is running, you can use various commands and menus to control the simulation, display waveforms, and set breakpoints.  
 
 ### GUI  
@@ -69,22 +66,16 @@ To start the ModelSim GUI, simply type vsim -gui on the command line. This will 
 The ModelSim GUI is particularly useful for tasks such as waveform analysis, which can be visualized more easily in the GUI than in the command-line interface.   
 The GUI also provides a more intuitive way to navigate and interact with the simulation environment.  
 
-***
-***
-***
 
-## Quartus 
+<!-- ## Quartus 
 > \<TODO\>
 ### DE10-lite FPGA
 > \<TODO\>
 ### Signal Tap
-> \<TODO\>
+> \<TODO\> -->
 
-***
-***
-***
 
-# github actions
+# Github actions
 ## Overview of Actions and Workflows
 GitHub Actions is a flexible, powerful platform for automating software development workflows.  
 With GitHub Actions, we can define custom workflows that run automated tasks whenever specific events occur in your repository.  
@@ -98,7 +89,8 @@ The workflow runs a series of steps, which currently simply runs the build per D
 - Run the tests, and report the results   
 We have configured the workflow to run on a local host to ensure that the environment is consistent and can be easily reproduced.
 
-### The benefits of using GitHub Actions for our project include:
+** The benefits of using GitHub Actions for our project include: **
+ 
 - Automated testing: By automating the build and test process, we can catch issues earlier and reduce the risk of introducing bugs.
 - Consistent environment: Running the workflow on a local host ensures that the environment is consistent and can be easily reproduced, making it easier for other contributors to get up and running quickly.
 - Customization: GitHub Actions allows us to define customized workflows that meet our specific needs and integrate with other tools and services we use in our project.  

@@ -13,11 +13,11 @@ title: ""
 
 
 
- Noam Sabban
+<a href="https://github.com/noamsabb" target="_blank">Noam Sabban</a>
 
 Fourth year project towards a bachelor's degree in Engineering
 
-Advisor: Amichai Ben-David
+Advisor: <a href="https://github.com/amichai-bd" target="_blank">Amichai Ben David</a>
 </div>
 
 

@@ -20,6 +20,24 @@
           "contentPathLocalized": "/Users/noam/Desktop/Projet Final/fpga_mafia_wiki/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "big_core/intro",
+              "id": "big_core/intro",
+              "title": "Big Core Intro",
+              "description": "",
+              "source": "@site/docs/big_core/intro.md",
+              "sourceDirName": "big_core",
+              "slug": "/big_core/intro",
+              "permalink": "/fpga_mafia_wiki/docs/big_core/intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/big_core/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              }
+            },
+            {
               "unversionedId": "cache/ABD_notes",
               "id": "cache/ABD_notes",
               "title": "ABD Notes - tests: number 4",
@@ -230,342 +248,21 @@
               }
             },
             {
-              "unversionedId": "how_to/Getting-started-tool-chain-tutorial",
-              "id": "how_to/Getting-started-tool-chain-tutorial",
-              "title": "Getting Started: tool-chain tutorial",
-              "description": "Download a text editor",
-              "source": "@site/docs/how_to/Getting-started-tool-chain-tutorial.md",
-              "sourceDirName": "how_to",
-              "slug": "/how_to/Getting-started-tool-chain-tutorial",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/Getting-started-tool-chain-tutorial",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/Getting-started-tool-chain-tutorial.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Getting_Started",
-              "previous": {
-                "title": "welcome",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/welcome"
-              },
-              "next": {
-                "title": "Motivation for using git",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/Git"
-              }
-            },
-            {
-              "unversionedId": "how_to/Git",
-              "id": "how_to/Git",
-              "title": "Motivation for using git",
-              "description": "Git is a version control system allowing developers to track and manage changes to their codebase over time. Using Git offers several benefits:",
-              "source": "@site/docs/how_to/Git.md",
-              "sourceDirName": "how_to",
-              "slug": "/how_to/Git",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/Git",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/Git.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Getting_Started",
-              "previous": {
-                "title": "Getting Started: tool-chain tutorial",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/Getting-started-tool-chain-tutorial"
-              },
-              "next": {
-                "title": "",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/github_action"
-              }
-            },
-            {
-              "unversionedId": "how_to/github_action",
-              "id": "how_to/github_action",
-              "title": "",
-              "description": "setting your personal PC as a server to run sanity action - gate keeper for Submit",
-              "source": "@site/docs/how_to/github_action.md",
-              "sourceDirName": "how_to",
-              "slug": "/how_to/github_action",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/github_action",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/github_action.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Getting_Started",
-              "previous": {
-                "title": "Motivation for using git",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/Git"
-              },
-              "next": {
-                "title": "Motivation",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT"
-              }
-            },
-            {
-              "unversionedId": "how_to/HOW_TO",
-              "id": "how_to/HOW_TO",
-              "title": "Welcome to tool-chain tutorial!!",
-              "description": "Download a text editor",
-              "source": "@site/docs/how_to/HOW_TO.md",
-              "sourceDirName": "how_to",
-              "slug": "/how_to/",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/HOW_TO.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "how_to/HOW_TO_GIT",
-              "id": "how_to/HOW_TO_GIT",
-              "title": "Motivation",
-              "description": "Git is a version control system allowing developers to track and manage changes to their codebase over time. Using Git offers several benefits:",
-              "source": "@site/docs/how_to/HOW_TO_GIT.md",
-              "sourceDirName": "how_to",
-              "slug": "/how_to/HOW_TO_GIT",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/HOW_TO_GIT.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Getting_Started",
-              "previous": {
-                "title": "",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/github_action"
-              },
-              "next": {
-                "title": "Getting Started: tool-chain tutorial",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/Getting-started-tool-chain-tutorial"
-              }
-            },
-            {
-              "unversionedId": "how_to/Project-Tools",
-              "id": "how_to/Project-Tools",
-              "title": "Develupment environment",
-              "description": "vscode",
-              "source": "@site/docs/how_to/Project-Tools.md",
-              "sourceDirName": "how_to",
-              "slug": "/how_to/Project-Tools",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/Project-Tools",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/Project-Tools.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "How_to",
-              "previous": {
-                "title": "Common examples",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg6"
-              },
-              "next": {
-                "title": "Intro to System-Verilog",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/System-Verilog"
-              }
-            },
-            {
-              "unversionedId": "how_to/System-Verilog",
-              "id": "how_to/System-Verilog",
-              "title": "Intro to System-Verilog",
-              "description": "SystemVerilog is a comprehensive hardware description and verification language that combines the best of both design and verification languages to provide a robust platform for the development and verification of electronic systems. Evolving from its predecessor, Verilog, SystemVerilog has been enriched with advanced data types, interfaces, and constructs to aid in the design, verification, and testing of both digital and mixed-signal systems. Given the complexity of modern electronic designs, SystemVerilog has become a crucial tool in ensuring the functionality, performance, and reliability of digital systems before they are physically realized.",
-              "source": "@site/docs/how_to/System-Verilog.md",
-              "sourceDirName": "how_to",
-              "slug": "/how_to/System-Verilog",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/System-Verilog",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/System-Verilog.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "How_to",
-              "previous": {
-                "title": "Develupment environment",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/Project-Tools"
-              }
-            },
-            {
-              "unversionedId": "how_to/verilog/Intro_vlg",
-              "id": "how_to/verilog/Intro_vlg",
-              "title": "Intro to System-Verilog",
-              "description": "System-Verilog vs Verilog",
-              "source": "@site/docs/how_to/verilog/Intro_vlg.md",
-              "sourceDirName": "how_to/verilog",
-              "slug": "/how_to/verilog/Intro_vlg",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/Intro_vlg.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "How_to",
-              "next": {
-                "title": "Intro to System-Verilog",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg"
-              }
-            },
-            {
-              "unversionedId": "how_to/verilog/vlg1",
-              "id": "how_to/verilog/vlg1",
-              "title": "Blocking vs Non-Blocking assignment",
-              "description": "The main difference between these two types of assignments is how they are executed in relation to the rest of the code in a design.",
-              "source": "@site/docs/how_to/verilog/vlg1.md",
-              "sourceDirName": "how_to/verilog",
-              "slug": "/how_to/verilog/vlg1",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg1",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg1.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "How_to",
-              "previous": {
-                "title": "Intro to System-Verilog",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg"
-              },
-              "next": {
-                "title": "Multiple dimensional arrays",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg2"
-              }
-            },
-            {
-              "unversionedId": "how_to/verilog/vlg2",
-              "id": "how_to/verilog/vlg2",
-              "title": "Multiple dimensional arrays",
-              "description": "Packed vs Unpacked",
-              "source": "@site/docs/how_to/verilog/vlg2.md",
-              "sourceDirName": "how_to/verilog",
-              "slug": "/how_to/verilog/vlg2",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg2",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg2.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "How_to",
-              "previous": {
-                "title": "Blocking vs Non-Blocking assignment",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg1"
-              },
-              "next": {
-                "title": "Coding Style",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg3"
-              }
-            },
-            {
-              "unversionedId": "how_to/verilog/vlg3",
-              "id": "how_to/verilog/vlg3",
-              "title": "Coding Style",
-              "description": "Signal declaration",
-              "source": "@site/docs/how_to/verilog/vlg3.md",
-              "sourceDirName": "how_to/verilog",
-              "slug": "/how_to/verilog/vlg3",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg3",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg3.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "How_to",
-              "previous": {
-                "title": "Multiple dimensional arrays",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg2"
-              },
-              "next": {
-                "title": "System-Verilog Features",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg4"
-              }
-            },
-            {
-              "unversionedId": "how_to/verilog/vlg4",
-              "id": "how_to/verilog/vlg4",
-              "title": "System-Verilog Features",
-              "description": "`include",
-              "source": "@site/docs/how_to/verilog/vlg4.md",
-              "sourceDirName": "how_to/verilog",
-              "slug": "/how_to/verilog/vlg4",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg4",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg4.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "How_to",
-              "previous": {
-                "title": "Coding Style",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg3"
-              },
-              "next": {
-                "title": "Module, Function, Macro",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg5"
-              }
-            },
-            {
-              "unversionedId": "how_to/verilog/vlg5",
-              "id": "how_to/verilog/vlg5",
-              "title": "Module, Function, Macro",
-              "description": "In system verilog, there are multiple ways to define a block of code that can be reused.",
-              "source": "@site/docs/how_to/verilog/vlg5.md",
-              "sourceDirName": "how_to/verilog",
-              "slug": "/how_to/verilog/vlg5",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg5",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg5.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "How_to",
-              "previous": {
-                "title": "System-Verilog Features",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg4"
-              },
-              "next": {
-                "title": "Common examples",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg6"
-              }
-            },
-            {
-              "unversionedId": "how_to/verilog/vlg6",
-              "id": "how_to/verilog/vlg6",
-              "title": "Common examples",
-              "description": "Mux",
-              "source": "@site/docs/how_to/verilog/vlg6.md",
-              "sourceDirName": "how_to/verilog",
-              "slug": "/how_to/verilog/vlg6",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg6",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg6.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "How_to",
-              "previous": {
-                "title": "Module, Function, Macro",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg5"
-              },
-              "next": {
-                "title": "Develupment environment",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/Project-Tools"
-              }
-            },
-            {
-              "unversionedId": "how_to/welcome",
-              "id": "how_to/welcome",
-              "title": "welcome",
+              "unversionedId": "fabric/intro",
+              "id": "fabric/intro",
+              "title": "Fabric Intro",
               "description": "",
-              "source": "@site/docs/how_to/welcome.md",
-              "sourceDirName": "how_to",
-              "slug": "/how_to/welcome",
-              "permalink": "/fpga_mafia_wiki/docs/how_to/welcome",
+              "source": "@site/docs/fabric/intro.md",
+              "sourceDirName": "fabric",
+              "slug": "/fabric/intro",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/intro",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/welcome.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/intro.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
-              "sidebar": "Getting_Started",
-              "next": {
-                "title": "Getting Started: tool-chain tutorial",
-                "permalink": "/fpga_mafia_wiki/docs/how_to/Getting-started-tool-chain-tutorial"
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
               }
             },
             {
@@ -584,108 +281,376 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
+              }
+            },
+            {
+              "unversionedId": "wiki/Getting-started-tool-chain-tutorial",
+              "id": "wiki/Getting-started-tool-chain-tutorial",
+              "title": "Getting Started: tool-chain tutorial",
+              "description": "Download a text editor",
+              "source": "@site/docs/wiki/Getting-started-tool-chain-tutorial.md",
+              "sourceDirName": "wiki",
+              "slug": "/wiki/Getting-started-tool-chain-tutorial",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/Getting-started-tool-chain-tutorial",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/Getting-started-tool-chain-tutorial.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Welcome to the fpga_mafia wiki !",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/welcome"
               },
-              "sidebar": "Hello"
+              "next": {
+                "title": "Intro to System-Verilog",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/Intro_vlg"
+              }
+            },
+            {
+              "unversionedId": "wiki/github_action",
+              "id": "wiki/github_action",
+              "title": "",
+              "description": "setting your personal PC as a server to run sanity action - gate keeper for Submit",
+              "source": "@site/docs/wiki/github_action.md",
+              "sourceDirName": "wiki",
+              "slug": "/wiki/github_action",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/github_action",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/github_action.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Motivation for using git",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/HOW_TO_GIT"
+              }
+            },
+            {
+              "unversionedId": "wiki/HOW_TO_GIT",
+              "id": "wiki/HOW_TO_GIT",
+              "title": "Motivation for using git",
+              "description": "Git is a version control system allowing developers to track and manage changes to their codebase over time. Using Git offers several benefits:",
+              "source": "@site/docs/wiki/HOW_TO_GIT.md",
+              "sourceDirName": "wiki",
+              "slug": "/wiki/HOW_TO_GIT",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/HOW_TO_GIT",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/HOW_TO_GIT.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Development environment",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/Project-Tools"
+              },
+              "next": {
+                "title": "",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/github_action"
+              }
+            },
+            {
+              "unversionedId": "wiki/Project-Tools",
+              "id": "wiki/Project-Tools",
+              "title": "Development environment",
+              "description": "VS Code",
+              "source": "@site/docs/wiki/Project-Tools.md",
+              "sourceDirName": "wiki",
+              "slug": "/wiki/Project-Tools",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/Project-Tools",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/Project-Tools.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Common examples",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg6"
+              },
+              "next": {
+                "title": "Motivation for using git",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/HOW_TO_GIT"
+              }
+            },
+            {
+              "unversionedId": "wiki/System-Verilog",
+              "id": "wiki/System-Verilog",
+              "title": "Intro to System-Verilog",
+              "description": "SystemVerilog is a comprehensive hardware description and verification language that combines the best of both design and verification languages to provide a robust platform for the development and verification of electronic systems. Evolving from its predecessor, Verilog, SystemVerilog has been enriched with advanced data types, interfaces, and constructs to aid in the design, verification, and testing of both digital and mixed-signal systems. Given the complexity of modern electronic designs, SystemVerilog has become a crucial tool in ensuring the functionality, performance, and reliability of digital systems before they are physically realized.",
+              "source": "@site/docs/wiki/System-Verilog.md",
+              "sourceDirName": "wiki",
+              "slug": "/wiki/System-Verilog",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/System-Verilog",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/System-Verilog.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "wiki/verilog/Intro_vlg",
+              "id": "wiki/verilog/Intro_vlg",
+              "title": "Intro to System-Verilog",
+              "description": "System-Verilog vs Verilog",
+              "source": "@site/docs/wiki/verilog/Intro_vlg.md",
+              "sourceDirName": "wiki/verilog",
+              "slug": "/wiki/verilog/Intro_vlg",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/Intro_vlg",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/verilog/Intro_vlg.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Getting Started: tool-chain tutorial",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/Getting-started-tool-chain-tutorial"
+              },
+              "next": {
+                "title": "Intro to System-Verilog",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/Intro_vlg"
+              }
+            },
+            {
+              "unversionedId": "wiki/verilog/vlg1",
+              "id": "wiki/verilog/vlg1",
+              "title": "Blocking vs Non-Blocking assignment",
+              "description": "The main difference between these two types of assignments is how they are executed in relation to the rest of the code in a design.",
+              "source": "@site/docs/wiki/verilog/vlg1.md",
+              "sourceDirName": "wiki/verilog",
+              "slug": "/wiki/verilog/vlg1",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg1",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/verilog/vlg1.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Intro to System-Verilog",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/Intro_vlg"
+              },
+              "next": {
+                "title": "Multiple dimensional arrays",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg2"
+              }
+            },
+            {
+              "unversionedId": "wiki/verilog/vlg2",
+              "id": "wiki/verilog/vlg2",
+              "title": "Multiple dimensional arrays",
+              "description": "Packed vs Unpacked",
+              "source": "@site/docs/wiki/verilog/vlg2.md",
+              "sourceDirName": "wiki/verilog",
+              "slug": "/wiki/verilog/vlg2",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg2",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/verilog/vlg2.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Blocking vs Non-Blocking assignment",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg1"
+              },
+              "next": {
+                "title": "Coding Style",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg3"
+              }
+            },
+            {
+              "unversionedId": "wiki/verilog/vlg3",
+              "id": "wiki/verilog/vlg3",
+              "title": "Coding Style",
+              "description": "Signal declaration",
+              "source": "@site/docs/wiki/verilog/vlg3.md",
+              "sourceDirName": "wiki/verilog",
+              "slug": "/wiki/verilog/vlg3",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg3",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/verilog/vlg3.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Multiple dimensional arrays",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg2"
+              },
+              "next": {
+                "title": "System-Verilog Features",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg4"
+              }
+            },
+            {
+              "unversionedId": "wiki/verilog/vlg4",
+              "id": "wiki/verilog/vlg4",
+              "title": "System-Verilog Features",
+              "description": "`include",
+              "source": "@site/docs/wiki/verilog/vlg4.md",
+              "sourceDirName": "wiki/verilog",
+              "slug": "/wiki/verilog/vlg4",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg4",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/verilog/vlg4.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Coding Style",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg3"
+              },
+              "next": {
+                "title": "Module, Function, Macro",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg5"
+              }
+            },
+            {
+              "unversionedId": "wiki/verilog/vlg5",
+              "id": "wiki/verilog/vlg5",
+              "title": "Module, Function, Macro",
+              "description": "In system verilog, there are multiple ways to define a block of code that can be reused.",
+              "source": "@site/docs/wiki/verilog/vlg5.md",
+              "sourceDirName": "wiki/verilog",
+              "slug": "/wiki/verilog/vlg5",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg5",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/verilog/vlg5.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "System-Verilog Features",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg4"
+              },
+              "next": {
+                "title": "Common examples",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg6"
+              }
+            },
+            {
+              "unversionedId": "wiki/verilog/vlg6",
+              "id": "wiki/verilog/vlg6",
+              "title": "Common examples",
+              "description": "Mux",
+              "source": "@site/docs/wiki/verilog/vlg6.md",
+              "sourceDirName": "wiki/verilog",
+              "slug": "/wiki/verilog/vlg6",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg6",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/verilog/vlg6.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Module, Function, Macro",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg5"
+              },
+              "next": {
+                "title": "Development environment",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/Project-Tools"
+              }
+            },
+            {
+              "unversionedId": "wiki/welcome",
+              "id": "wiki/welcome",
+              "title": "Welcome to the fpga_mafia wiki !",
+              "description": "Here we will describe the Tools, Flows & methodologies (TFM) of this project.",
+              "source": "@site/docs/wiki/welcome.md",
+              "sourceDirName": "wiki",
+              "slug": "/wiki/welcome",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/welcome",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/welcome.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "next": {
+                "title": "Getting Started: tool-chain tutorial",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/Getting-started-tool-chain-tutorial"
+              }
             }
           ],
           "drafts": [],
           "sidebars": {
-            "Hello": [
+            "Wiki": [
               {
                 "type": "doc",
-                "id": "intro",
-                "label": "Hello",
-                "translatable": true
-              }
-            ],
-            "Getting_Started": [
-              {
-                "type": "doc",
-                "id": "how_to/welcome"
-              },
-              {
-                "type": "doc",
-                "id": "how_to/Getting-started-tool-chain-tutorial",
-                "label": "Getting-started-tool-chain-tutorial",
+                "id": "wiki/welcome",
+                "label": "Welcome",
                 "translatable": true
               },
               {
                 "type": "doc",
-                "id": "how_to/Git",
-                "label": "Git",
+                "id": "wiki/Getting-started-tool-chain-tutorial",
+                "label": "Toolchain tutorial",
                 "translatable": true
               },
-              {
-                "type": "doc",
-                "id": "how_to/github_action",
-                "label": "Github Action",
-                "translatable": true
-              },
-              {
-                "type": "doc",
-                "label": "How to GIT",
-                "id": "how_to/HOW_TO_GIT",
-                "translatable": true
-              },
-              {
-                "type": "doc",
-                "label": "Getting started tool chain tutorial",
-                "id": "how_to/Getting-started-tool-chain-tutorial",
-                "translatable": true
-              }
-            ],
-            "How_to": [
               {
                 "type": "category",
                 "label": "System Verilog",
                 "link": {
                   "type": "doc",
-                  "id": "how_to/verilog/Intro_vlg"
+                  "id": "wiki/verilog/Intro_vlg"
                 },
                 "items": [
                   {
                     "type": "doc",
-                    "id": "how_to/verilog/Intro_vlg"
+                    "id": "wiki/verilog/Intro_vlg"
                   },
                   {
                     "type": "doc",
-                    "id": "how_to/verilog/vlg1"
+                    "id": "wiki/verilog/vlg1"
                   },
                   {
                     "type": "doc",
-                    "id": "how_to/verilog/vlg2"
+                    "id": "wiki/verilog/vlg2"
                   },
                   {
                     "type": "doc",
-                    "id": "how_to/verilog/vlg3"
+                    "id": "wiki/verilog/vlg3"
                   },
                   {
                     "type": "doc",
-                    "id": "how_to/verilog/vlg4"
+                    "id": "wiki/verilog/vlg4"
                   },
                   {
                     "type": "doc",
-                    "id": "how_to/verilog/vlg5"
+                    "id": "wiki/verilog/vlg5"
                   },
                   {
                     "type": "doc",
-                    "id": "how_to/verilog/vlg6"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "how_to/Project-Tools",
-                    "label": "Project-Tools",
-                    "translatable": true
-                  },
-                  {
-                    "type": "doc",
-                    "id": "how_to/System-Verilog",
-                    "label": "System-Verilog",
-                    "translatable": true
+                    "id": "wiki/verilog/vlg6"
                   }
                 ],
                 "collapsed": true,
                 "collapsible": true
+              },
+              {
+                "type": "doc",
+                "id": "wiki/Project-Tools",
+                "label": "Project-Tools",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "wiki/HOW_TO_GIT",
+                "label": "How to GIT",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "wiki/github_action",
+                "label": "Github Action",
+                "translatable": true
               }
             ],
             "Cache": [

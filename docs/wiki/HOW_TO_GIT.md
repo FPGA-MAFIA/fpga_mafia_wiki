@@ -68,7 +68,7 @@ Discussions in GitHub provide a dedicated space for collaboration. They allow fo
 4. Write your discussion's title and details.
 5. Click "Start discussion".
 
-# Simple Guide - Minimal Flow to Contribute to the Project
+## Simple Guide - Minimal Flow to Contribute to the Project
 
 ### Clone from Repository  
 - ```git clone https://github.com/amichai-bd/fpga_mafia.git```  
@@ -92,7 +92,7 @@ Discussions in GitHub provide a dedicated space for collaboration. They allow fo
 ###  Add a Pull Request
 - Visit your repository on "https://github.com/" and create a pull request via "Pull requests->New pull request"
 
-# Advanced Flows
+## Advanced Flows
 
 ### Merge Conflict
 - Merge conflicts happen when changes are made to the same part of a file on two different branches. Git doesn't know which changes to incorporate into the final merge. Therefore, you need to manually decide and resolve these conflicts.
