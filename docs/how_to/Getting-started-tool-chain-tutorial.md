@@ -1,4 +1,4 @@
-# Welcome to tool-chain tutorial!! 
+# Getting Started: tool-chain tutorial
 ## Download a text editor  
 - vscode: https://code.visualstudio.com/download  
 - add useful extensions (python, SystemVerilog, venus Terminal, Copilot, Diff, Spell Checker)  

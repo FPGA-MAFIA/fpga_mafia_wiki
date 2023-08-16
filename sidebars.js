@@ -6,11 +6,25 @@ module.exports = {
       label: 'Hello',
     },
   ],
-  HowTo: [
+  Getting_Started: [
+  {
+    type: 'doc',
+    id: 'how_to/welcome',
+  },
+  {
+    type: 'doc',
+    id: 'how_to/Getting-started-tool-chain-tutorial',
+    label: 'Getting-started-tool-chain-tutorial',
+  },
+  {
+    type: 'doc',
+    id: 'how_to/Git',
+    label: 'Git',
+  },
   {
     type: 'doc',
     id: 'how_to/github_action',
-    label: 'GitHub Action',
+    label: 'Github Action',
   },
 {
     type: 'doc',
@@ -20,8 +34,10 @@ module.exports = {
 {
     type: 'doc',
     label: 'Getting started tool chain tutorial',
-    id : 'how_to/Getting_started_tool_chain_tutorial',
+    id : 'how_to/Getting-started-tool-chain-tutorial',
 },
+],
+How_to: [
 {
   type: 'category',
   label: 'System Verilog',
@@ -37,6 +53,16 @@ module.exports = {
     'how_to/verilog/vlg4',
     'how_to/verilog/vlg5',
     'how_to/verilog/vlg6',
+  {
+    type: 'doc',
+    id: 'how_to/Project-Tools',
+    label: 'Project-Tools',
+  },
+  {
+    type: 'doc',
+    id: 'how_to/System-Verilog',
+    label: 'System-Verilog',
+  },
 
   ],
 },
@@ -91,4 +117,5 @@ module.exports = {
     
     
   ],
+
 };

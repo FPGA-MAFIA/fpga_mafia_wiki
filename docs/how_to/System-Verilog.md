@@ -1,4 +1,7 @@
+
 # Intro to System-Verilog
+
+SystemVerilog is a comprehensive hardware description and verification language that combines the best of both design and verification languages to provide a robust platform for the development and verification of electronic systems. Evolving from its predecessor, Verilog, SystemVerilog has been enriched with advanced data types, interfaces, and constructs to aid in the design, verification, and testing of both digital and mixed-signal systems. Given the complexity of modern electronic designs, SystemVerilog has become a crucial tool in ensuring the functionality, performance, and reliability of digital systems before they are physically realized.
 
 ## System-Verilog vs Verilog
 Verilog and SystemVerilog are both hardware description languages (HDLs) that are used to model, design, and verify digital and mixed-signal systems. Verilog is a standard in the field of electronic design automation (EDA) and is widely used for design and verification of digital circuits. SystemVerilog is an extension of Verilog that includes additional features and capabilities for more advanced design and verification tasks.
@@ -6,6 +9,7 @@ Verilog and SystemVerilog are both hardware description languages (HDLs) that ar
 ## Assignments: always vs assign
 In SystemVerilog, the assign and always statements are used to specify the behavior of a digital circuit.   
 The main difference between these two statements is the type of behavior they can describe.
+
 ### Assign
 The assign statement is used to specify a continuous assignment of a value to a signal. It is triggered whenever the value of any of the signals on the right-hand side of the assignment changes. The assign statement can only describe combinational logic, which has no memory or state.
 When using an assign, the left-hand side of the assignment may get a value only once.
@@ -19,6 +23,7 @@ assign result = !(|( vec_a ^ vec_b)); //equivalent to (vec_a == vec_b)). achieve
 ```
 
 ### Always and SystemVerilog always type
+
 While in Verilog, always assignments types are determined using the sensitive list & the Block/Non-Blocking assignment,  
 in SystemVerilog we use dedicated always_\<*\> blocks to enforce correctness:
 - always_comb
@@ -140,7 +145,9 @@ Generally, whenever you want a logical signal in your circuit, the `logic` type 
 
 Overall, logic is a more powerful and flexible data type than wire and reg in SystemVerilog. Using logic instead of wire and reg in SystemVerilog designs is generally recommended.
 
+
 ## System-Verilog typedef:
+
 the typedef keyword defines a new type alias for an existing type. It allows you to create a new name for an existing type, making your code more readable and easier to maintain.  
 Example:
 ```SystemVerilog 
@@ -205,6 +212,7 @@ assign physical_io = sel ? a_bus : b_bus;
 assign address = physical_io.b.address[4:0];
 assign data    = physical_io.a.data[5:0];
 ```
+
 <br />
 <br />
 
@@ -235,11 +243,12 @@ Please note:
 - It is recommended to have all sequential logic wrapped in \`macros   
 this means we can get a design without any visible non-Blocking assignments
 And we are very specific about the sequential logic, which has the non-Blocking assignments hidden in the `macros.
-<br />
-<br />
 
+<br />
+<br />
 
 # Multiple dimensional arrays
+
 ## Packed vs Unpacked
 In SystemVerilog, packed and unpacked arrays are used to represent different types of data storage.  
 Packed arrays store data in a compact, contiguous block of memory, while unpacked arrays store data in separate, non-contiguous memory locations.  
