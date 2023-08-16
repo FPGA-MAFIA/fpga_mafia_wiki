@@ -1,0 +1,24 @@
+{
+  "unversionedId": "how_to/Getting_started_tool_chain_tutorial",
+  "id": "how_to/Getting_started_tool_chain_tutorial",
+  "title": "Welcome to tool-chain tutorial!!",
+  "description": "Download a text editor",
+  "source": "@site/docs/how_to/Getting_started_tool_chain_tutorial.md",
+  "sourceDirName": "how_to",
+  "slug": "/how_to/Getting_started_tool_chain_tutorial",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/Getting_started_tool_chain_tutorial",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/Getting_started_tool_chain_tutorial.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "HowTo",
+  "previous": {
+    "title": "Motivation",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/HOW_TO_GIT"
+  },
+  "next": {
+    "title": "Intro to System-Verilog",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg"
+  }
+}

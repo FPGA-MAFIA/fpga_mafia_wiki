@@ -1,0 +1,24 @@
+{
+  "unversionedId": "how_to/verilog/vlg6",
+  "id": "how_to/verilog/vlg6",
+  "title": "Common examples",
+  "description": "Mux",
+  "source": "@site/docs/how_to/verilog/vlg6.md",
+  "sourceDirName": "how_to/verilog",
+  "slug": "/how_to/verilog/vlg6",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg6",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg6.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "How_to",
+  "previous": {
+    "title": "Module, Function, Macro",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg5"
+  },
+  "next": {
+    "title": "Develupment environment",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/Project-Tools"
+  }
+}

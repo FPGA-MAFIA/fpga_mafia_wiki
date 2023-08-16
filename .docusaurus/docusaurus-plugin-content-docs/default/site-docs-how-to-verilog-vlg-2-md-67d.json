@@ -1,0 +1,24 @@
+{
+  "unversionedId": "how_to/verilog/vlg2",
+  "id": "how_to/verilog/vlg2",
+  "title": "Multiple dimensional arrays",
+  "description": "Packed vs Unpacked",
+  "source": "@site/docs/how_to/verilog/vlg2.md",
+  "sourceDirName": "how_to/verilog",
+  "slug": "/how_to/verilog/vlg2",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg2",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg2.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "How_to",
+  "previous": {
+    "title": "Blocking vs Non-Blocking assignment",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg1"
+  },
+  "next": {
+    "title": "Coding Style",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg3"
+  }
+}

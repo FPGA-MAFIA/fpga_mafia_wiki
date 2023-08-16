@@ -1,0 +1,20 @@
+{
+  "unversionedId": "how_to/System-Verilog",
+  "id": "how_to/System-Verilog",
+  "title": "Intro to System-Verilog",
+  "description": "SystemVerilog is a comprehensive hardware description and verification language that combines the best of both design and verification languages to provide a robust platform for the development and verification of electronic systems. Evolving from its predecessor, Verilog, SystemVerilog has been enriched with advanced data types, interfaces, and constructs to aid in the design, verification, and testing of both digital and mixed-signal systems. Given the complexity of modern electronic designs, SystemVerilog has become a crucial tool in ensuring the functionality, performance, and reliability of digital systems before they are physically realized.",
+  "source": "@site/docs/how_to/System-Verilog.md",
+  "sourceDirName": "how_to",
+  "slug": "/how_to/System-Verilog",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/System-Verilog",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/System-Verilog.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "How_to",
+  "previous": {
+    "title": "Develupment environment",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/Project-Tools"
+  }
+}

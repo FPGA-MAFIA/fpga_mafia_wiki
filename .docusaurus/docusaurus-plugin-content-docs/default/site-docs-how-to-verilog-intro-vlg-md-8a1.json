@@ -1,0 +1,15 @@
+{
+  "unversionedId": "how_to/verilog/intro_vlg",
+  "id": "how_to/verilog/intro_vlg",
+  "title": "Intro to System-Verilog",
+  "description": "System-Verilog vs Verilog",
+  "source": "@site/docs/how_to/verilog/intro_vlg.md",
+  "sourceDirName": "how_to/verilog",
+  "slug": "/how_to/verilog/intro_vlg",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/intro_vlg",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/intro_vlg.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

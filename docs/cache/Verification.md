@@ -1,5 +1,5 @@
 
-# <a name="_toc2123724073"></a>**8. Verification** 
+# Verification
 In this section we will write a list of scenarios and points we want to cover
 
 - Rd after Rd to same cache-line: the first read request should miss but the second one should hit.

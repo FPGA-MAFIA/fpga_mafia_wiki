@@ -22,18 +22,10 @@ Need to make sure we correctly handle the case of a read after write back2back w
 A read request that has the same CL as existing TQ entry that is also marked as read will NOT merge!!! And will allocate a new TQ entry. (a TQ entry can serve multiple writes, but a single READ!)
 
 
-Need to think about this: Once an entry is set as “Read<a name="_int_ypnewna7"></a>”, writes cannot merge more writes into it?
+Need to think about this: Once an entry is set as “Read”, writes cannot merge more writes into it?
 
 - If the read missed, we will cancel the write, and re-issue it once the read miss is resolved.
 - If the read hit, the pipe lookup will return the data, will dealloc the entry.
   In parallel a different entry will handle the write. (which we expect to hit – just like the read before it)
 - Not expecting to have 2 entries with the same cl & both are wait fill.. we can have 2 entries with same CL if we know that there was cache hit.
 - The order is promised due to the request intering the pipe in order. And if they all hit there is no issue. One there is a miss, no new request is being served in the pipe. So again- order is preserved.
-
-
-# Build and Deploy:  
-This should be all we need:
-- yarn install  
-- GIT_USER=amichai-bd USE_SSH=true yarn deploy  
-
-

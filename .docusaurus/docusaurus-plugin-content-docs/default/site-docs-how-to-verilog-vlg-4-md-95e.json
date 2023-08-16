@@ -1,0 +1,24 @@
+{
+  "unversionedId": "how_to/verilog/vlg4",
+  "id": "how_to/verilog/vlg4",
+  "title": "System-Verilog Features",
+  "description": "`include",
+  "source": "@site/docs/how_to/verilog/vlg4.md",
+  "sourceDirName": "how_to/verilog",
+  "slug": "/how_to/verilog/vlg4",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg4",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg4.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "How_to",
+  "previous": {
+    "title": "Coding Style",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg3"
+  },
+  "next": {
+    "title": "Module, Function, Macro",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg5"
+  }
+}

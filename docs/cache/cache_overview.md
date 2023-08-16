@@ -1,6 +1,6 @@
 ﻿#  Overview
 
-This HAS (High-Level-Architecture-Specification) will describe the Cache <a name="_int_ep1dzelp"></a>DUT
+This HAS (High-Level-Architecture-Specification) will describe the Cache DUT
 The cache is a 4-way associative, 16KB Cache.
 The Cache structure:
 
@@ -15,11 +15,11 @@ The Cache structure:
 In abstract view, the cache neighboring blocks:
 
 - Core - sends read/write requests.
-- Far Memory (FM) – Cache read misses & modified write back (WB) for “dirty evict<a name="_int_whspgelr"></a>”.
+- Far Memory (FM) – Cache read misses & modified write back (WB) for “dirty evict”.
 ##  Top Level Cache diagram {#section-4-1}
 
 <div style={{ display: 'flex', justifyContent: 'center' }}>
-  <img alt="Image Alt Text" src="/img/Fig1.png" />
+  <img alt="Image Alt Text" src="/img/Fig2-3.png" />
 </div>
 
 

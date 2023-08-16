@@ -1,0 +1,24 @@
+{
+  "unversionedId": "how_to/verilog/vlg1",
+  "id": "how_to/verilog/vlg1",
+  "title": "Blocking vs Non-Blocking assignment",
+  "description": "The main difference between these two types of assignments is how they are executed in relation to the rest of the code in a design.",
+  "source": "@site/docs/how_to/verilog/vlg1.md",
+  "sourceDirName": "how_to/verilog",
+  "slug": "/how_to/verilog/vlg1",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg1",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg1.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "How_to",
+  "previous": {
+    "title": "Intro to System-Verilog",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg"
+  },
+  "next": {
+    "title": "Multiple dimensional arrays",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg2"
+  }
+}

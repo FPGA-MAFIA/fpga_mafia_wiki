@@ -1,0 +1,24 @@
+{
+  "unversionedId": "how_to/verilog/vlg3",
+  "id": "how_to/verilog/vlg3",
+  "title": "Coding Style",
+  "description": "Signal declaration",
+  "source": "@site/docs/how_to/verilog/vlg3.md",
+  "sourceDirName": "how_to/verilog",
+  "slug": "/how_to/verilog/vlg3",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg3",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/verilog/vlg3.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "How_to",
+  "previous": {
+    "title": "Multiple dimensional arrays",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg2"
+  },
+  "next": {
+    "title": "System-Verilog Features",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg4"
+  }
+}

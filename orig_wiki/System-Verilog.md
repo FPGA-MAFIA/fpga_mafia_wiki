@@ -1,16 +1,55 @@
+# Table of Contents
+1. [SystemVerilog vs Verilog](#systemverilog-vs-verilog)
+   1. [assignments: always vs assign](#assignments-always-vs-assign)
+      1. [assign](#assign)
+      1. [always and SystemVerilog always type](#always-and-systemverilog-always-type)
+   1. [Sensitivity list](#sensitivity-list)
+   1. [reg, wire, logic](#reg-wire-logic)
+   1. [systemverilog typedef:](#systemverilog-typedef)
+1. [Blocking vs Non-Blocking assignment](#blocking-vs-non-blocking-assignment)
+1. [multiple dimensional arrays](#multiple-dimensional-arrays)
+1. [Coding Style](#Coding-Style)
+   1. [signal declaration](#signal-decliration)
+   1. [Naming convention](#naming-convention)
+1. [define, Parameter, localparam, pvalue, Package, `include](#define-parameter-localparam-pvalue-package-include)
+   1. [`include](#include)
+   1. [Guarding macros](#guarding-macros)
+   1. [`Define](#define)
+   1. [macros](#macros)
+   1. [Parameter, localparam, Package](#parameter-localparam-package)
+1. [module, function, macro](#module-function-macro)
+   1. [common examples:](#common-examples)
+      1. [Mux](#mux)
+      1. [Counter](#counter)
+      1. [State-Machine](#state-machine)
+      1. [Find_First](#find_first)
+      1. [Shift register](#shift-register)
+      1. [Register-File](#register-file)
+      1. [Pipe-Line](#pipe-line)
+1. [Clock domain crossing](#clock-domain-crossing)
+   1. [Two flip-flop synchronizer](#two-flip-flop-synchronizer)
+   1. [Single bit — synchronizer with feedback acknowledge](#single-bit--synchronizer-with-feedback-acknowledge)
+   1. [gfifo](#gfifo)
+   1. [MCP: Multi-Cycle-Path](#mcp-multi-cycle-path)
+1. [PLL](#pll)
+[async vs sync Flop Reset](#async-vs-sync-flop-reset)
+1. [Compilation, Elaboration & Simulation](#compilation-elaboration--simulation)
+   1. [Compilation](#compilation)
+   1. [Elaboration](#elabortion)
+   1. [Simulation](#simulation)
 
-# Intro to System-Verilog
 
-SystemVerilog is a comprehensive hardware description and verification language that combines the best of both design and verification languages to provide a robust platform for the development and verification of electronic systems. Evolving from its predecessor, Verilog, SystemVerilog has been enriched with advanced data types, interfaces, and constructs to aid in the design, verification, and testing of both digital and mixed-signal systems. Given the complexity of modern electronic designs, SystemVerilog has become a crucial tool in ensuring the functionality, performance, and reliability of digital systems before they are physically realized.
+***
+***
 
-## System-Verilog vs Verilog
+
+# SystemVerilog vs Verilog
 Verilog and SystemVerilog are both hardware description languages (HDLs) that are used to model, design, and verify digital and mixed-signal systems. Verilog is a standard in the field of electronic design automation (EDA) and is widely used for design and verification of digital circuits. SystemVerilog is an extension of Verilog that includes additional features and capabilities for more advanced design and verification tasks.
 
-## Assignments: always vs assign
+## assignments: always vs assign
 In SystemVerilog, the assign and always statements are used to specify the behavior of a digital circuit.   
 The main difference between these two statements is the type of behavior they can describe.
-
-### Assign
+### assign
 The assign statement is used to specify a continuous assignment of a value to a signal. It is triggered whenever the value of any of the signals on the right-hand side of the assignment changes. The assign statement can only describe combinational logic, which has no memory or state.
 When using an assign, the left-hand side of the assignment may get a value only once.
 in contrast to always_comb where the left-hand side may be overridden within the always block. (see the always_comb section)
@@ -22,8 +61,7 @@ assign sum = addend_a + addend_b; //add
 assign result = !(|( vec_a ^ vec_b)); //equivalent to (vec_a == vec_b)). achieved by `XOR` bitwise between vec_a^vec_b, then `OR` all the bits, then `NOT` the result.
 ```
 
-### Always and SystemVerilog always type
-
+### always and SystemVerilog always type
 While in Verilog, always assignments types are determined using the sensitive list & the Block/Non-Blocking assignment,  
 in SystemVerilog we use dedicated always_\<*\> blocks to enforce correctness:
 - always_comb
@@ -145,9 +183,7 @@ Generally, whenever you want a logical signal in your circuit, the `logic` type 
 
 Overall, logic is a more powerful and flexible data type than wire and reg in SystemVerilog. Using logic instead of wire and reg in SystemVerilog designs is generally recommended.
 
-
-## System-Verilog typedef:
-
+## systemverilog typedef:
 the typedef keyword defines a new type alias for an existing type. It allows you to create a new name for an existing type, making your code more readable and easier to maintain.  
 Example:
 ```SystemVerilog 
@@ -213,10 +249,6 @@ assign address = physical_io.b.address[4:0];
 assign data    = physical_io.a.data[5:0];
 ```
 
-<br />
-<br />
-
-
 # Blocking vs Non-Blocking assignment
 The main difference between these two types of assignments is how they are executed in relation to the rest of the code in a design.  
 Blocking assignments are executed immediately and block the execution of any other statements until the assignment is completed.  
@@ -244,11 +276,7 @@ Please note:
 this means we can get a design without any visible non-Blocking assignments
 And we are very specific about the sequential logic, which has the non-Blocking assignments hidden in the `macros.
 
-<br />
-<br />
-
-# Multiple dimensional arrays
-
+# multiple dimensional arrays
 ## Packed vs Unpacked
 In SystemVerilog, packed and unpacked arrays are used to represent different types of data storage.  
 Packed arrays store data in a compact, contiguous block of memory, while unpacked arrays store data in separate, non-contiguous memory locations.  
@@ -331,12 +359,9 @@ logic [3:0][7:0] mixed_example [31:0][95:0];
 //accessing the MSB of this multi-dimensional array:
 assign the_msb = mixed_example[31][95][3][7];
 ```
-<br />
-<br />
 
-
-## Coding Style
-### Signal declaration
+# Coding Style
+## signal declaration
 - implicit declaration & declaration type
 In SystemVerilog declaring types are optional, but it is recommended to use them for better readability.
 If you do not explicitly declare a signal type, the default type is a single bit `logic`.
@@ -346,7 +371,7 @@ If you do not explicitly declare a signal type, the default type is a single bit
 
 
 
-### Naming convention
+## Naming convention
 - `Module:`     
 lower case, and use underscores to separate words.
 ```systemverilog 
@@ -397,7 +422,7 @@ Option 2: CamelCase, Suffixed PipeLetter and PipeNumber, example: SignalQ1, Sign
 
 
 # define, Parameter, localparam, pvalue, Package, `include
-### include
+### `include
 `include is used to include a file in the current file.
 The pre-compiler will replace the `include with the content of the file.
 The file can be a SystemVerilog file or a text file.
@@ -405,7 +430,7 @@ To allow the pre-compiler to find the file, the file must be in the same directo
 ```systemverilog
 `include "my_file.sv"
 ```
-### ifdef, ifndef, else, endif
+### `ifdef, `ifndef, `else, `endif
 `ifdef and `ifndef are used to check if a macro is defined or not.
 `else and `endif are used to define the else and end of the if statement.
 ```systemverilog
@@ -437,7 +462,7 @@ When the include files have this we may include the file as many times we want i
 - `define are non-scoped, so if you have a macro with the same name in a different file, it will be overridden by the macro in the included file.  
 - `define will affect only once the pre-compilation reads the specific file the define is in, so it will not affect any file that was parsed before the file with the define.
 
-### Define & macros
+### `Define & macros
 It is recommended to use `define in 2 cases:   
 
 1. As guarding macros for included files.  
@@ -480,7 +505,7 @@ Example for macros:
 
 
 
-### Parameter, localparam
+### Parameter, localparam, Package
 In SystemVerilog, both localparam and parameter are used to define constants, but there are some key differences between the two:
 - localparam is used to define constants within a module or an interface, and it cannot be overridden by any other module or interface. It can only be accessed within the same module or interface where it is defined. The value of a localparam is determined during the elaboration phase of the simulation and cannot be changed during runtime.
 - parameter is also used to define constants within a module or an interface, but a higher-level module or interface can override it. It can be accessed by any module that instantiates the module where it is defined. The value of a parameter can be determined during both the elaboration and runtime phases of the simulation.
@@ -516,7 +541,7 @@ endmodule
 
 In summary, localparam are more restrictive and cannot be overridden. In contrast, parameters are more flexible and can be overridden.
 
-### Package
+#### Package
 A SystemVerilog package is a collection of data types, functions, and other constructs that can be used to organize and reuse design elements. 
 A package allows you to encapsulate related functionality and make it available to other parts of the design without duplicating code. It also provides a way to organize and manage the design hierarchy by grouping related elements together. Packages can be used to define interfaces, data types, and classes that can be shared across multiple design modules, making it easier to reuse and maintain the design. They also provide a way to hide implementation details, while exposing a clear and consistent interface to other parts of the design.
 Example:
@@ -562,9 +587,10 @@ assign t_rsp.opcode  = ...;
 endmodule
 
 ```
-<br />
-<br />
 
+
+###
+value
 
 # Module, Function, Macro
 In system verilog, there are multiple ways to define a block of code that can be reused.   
@@ -614,8 +640,8 @@ Example:
 
 
 
-## Common examples:
-### Mux
+# common examples:
+## Mux
 In System Verilog, there are many ways to code a mux.  
 We will show a couple of examples and what are the implications of them
 
@@ -626,11 +652,11 @@ logic [1:0] enc_sel;
 logic [3:0] out ;
 ```
 
-### Most compact:
+## Most compact:
 ```systemverilog
 assign out = in[enc_sel];
 ```
-### Naive If else
+## Naive If else
 ```systemverilog
 always_comb begin
   if      (enc_sel == 2'b00) out =in[0];
@@ -640,7 +666,7 @@ always_comb begin
 end
 ```
 
-### compact if else - "? : "
+## compact if else - "? : "
 ```systemverilog
 assign out = (enc_sel == 2'b00) ? in[0] : 
              (enc_sel == 2'b01) ? in[1] : 
@@ -648,7 +674,7 @@ assign out = (enc_sel == 2'b00) ? in[0] :
                                   in[3] ; // (enc_sel == 2'b11) 
 ```
 
-### using case
+## using case
 ```systemverilog
 always_comb begin
   unique case (enc_sel) 
@@ -660,7 +686,7 @@ always_comb begin
   endcase 
 end
 ```
-### AND_OR mux
+## AND_OR mux
 ```systemverilog
 logic [MSB:0] in [3:0];
 logic [MSB:0] dec_sel;
@@ -730,6 +756,8 @@ end // always_comb
 See the example of traffic_light state_machine
 https://github.com/amichai-bd/fpga_mafia/discussions/27
 
+
+### Find_First
 
 ### Shift register
 This is a compact and nice way to code a Shift register:
@@ -805,8 +833,6 @@ always_comb begin
 end
 ```
 
-<br />
-<br />
 
 # Clock domain crossing
 In a multi-clock domain design, the clock domain crossing (CDC) problem arises when a signal is used in a clock domain that is different from the clock domain in which it was generated.   
@@ -822,15 +848,13 @@ This works will when the moving from a slower clock domain to a faster clock dom
 Incase of moving from a faster clock domain to a slower clock domain, there data will sampled only if the data is stable long enough for the target clock domain to sample it.
 
 
-<!-- TODO ## Single bit — synchronizer with feedback acknowledge
+## Single bit — synchronizer with feedback acknowledge
 ## gfifo
 ## MCP: Multi-Cycle-Path
-## PLL -->
-<br />
+## PLL
 
-
-## Async vs Sync Flop Reset
-### Synchronized Flop Reset
+# async vs sync Flop Reset
+## synchronized Flop Reset
 ```systemverilog 
 always_ff @( posedge clk) begin
    if(reset) out <=0;
@@ -838,27 +862,26 @@ always_ff @( posedge clk) begin
 end
 ```
 
-### Asynchronized Flop Reset
+## asynchronized Flop Reset
 ```systemverilog 
 always_ff @( posedge clk or posedge reset) begin
    if(reset) out <=0;
    else      out <= in;
 end
 ```
-<br />
 
-## Compilation, Elaboration & Simulation
+# Compilation, Elaboration & Simulation
 In SystemVerilog, the process of designing and testing a digital hardware system typically involves three main stages: compilation, elaboration, and simulation.
 
-### Precompile
+## precompile
 This is the first stage of the process, where the SystemVerilog source files are preprocessed to resolve any `include statements and `macros, and to perform any other necessary preprocessing tasks. A preprocessor tool typically performs the precompile stage, which generates a preprocessed version of the source files.
 
-### Compilation
+## Compilation
 This is the first stage of the process, where the SystemVerilog source code is compiled into an intermediate form that can be used for further processing. During compilation, the source code is checked for syntax errors and other issues and is transformed into a form that the next process stage can process.
 
-### Elaboration
+## Elaboration
 This is the second stage of the process, where the compiled code is elaborated into a structural description of the digital system. During elaboration, the code is analyzed to determine the structure and interconnections of the various modules and blocks of code in the design.
 
-### Simulation
+## Simulation
 This is the final stage of the process, where the elaborated design is simulated to verify its behavior. During simulation, the digital system is modeled and tested using a variety of input stimuli and test cases to ensure that it behaves as expected.
 

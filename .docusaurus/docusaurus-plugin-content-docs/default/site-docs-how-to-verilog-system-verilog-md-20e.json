@@ -1,0 +1,15 @@
+{
+  "unversionedId": "how_to/Verilog/System-Verilog",
+  "id": "how_to/Verilog/System-Verilog",
+  "title": "Intro to System-Verilog",
+  "description": "System-Verilog vs Verilog",
+  "source": "@site/docs/how_to/Verilog/System-Verilog.md",
+  "sourceDirName": "how_to/Verilog",
+  "slug": "/how_to/Verilog/System-Verilog",
+  "permalink": "/fpga_mafia_wiki/docs/how_to/Verilog/System-Verilog",
+  "draft": false,
+  "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/how_to/Verilog/System-Verilog.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
