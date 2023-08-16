@@ -29,6 +29,7 @@ jobs:
     - name: Deploy to GitHub Pages
       env:
         DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        GIT_USER: amichai-bd 
       run: |
         git remote set-url origin https://x-access-token:${DEPLOY_TOKEN}@github.com/amichai-bd/fpga_mafia_wiki.git
         yarn deploy
