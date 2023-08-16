@@ -54,6 +54,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Wiki',
           },
           {
+            type: 'doc',
             docId: 'how_to/welcome',
             position: 'left',
             label: 'Getting_Started',
