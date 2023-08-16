@@ -6,7 +6,6 @@ SystemVerilog is a comprehensive hardware description and verification language 
 Verilog and SystemVerilog are both hardware description languages (HDLs) that are used to model, design, and verify digital and mixed-signal systems. Verilog is a standard in the field of electronic design automation (EDA) and is widely used for design and verification of digital circuits. SystemVerilog is an extension of Verilog that includes additional features and capabilities for more advanced design and verification tasks.
 
 
-
 ## assignments: always vs assign
 In SystemVerilog, the assign and always statements are used to specify the behavior of a digital circuit.   
 The main difference between these two statements is the type of behavior they can describe.
