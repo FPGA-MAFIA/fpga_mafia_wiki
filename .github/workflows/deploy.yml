@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node
       uses: actions/setup-node@v2
       with:
-        node-version: 14 # If you're unsure about the version, 14 (LTS) is a good start
+        node-version: 16
 
     - name: Install dependencies
       run: yarn install
@@ -31,4 +31,5 @@ jobs:
         DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
       run: |
         git remote set-url origin https://x-access-token:${DEPLOY_TOKEN}@github.com/amichai-bd/fpga_mafia_wiki.git
+        yarn deploy
         yarn deploy
