@@ -26,6 +26,13 @@ jobs:
         git config --global user.name "GitHub Actions Bot"
         git config --global user.email "actions@github.com"
 
+    - name: Set Git Remote with Token
+      env:
+        DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+      run: |
+        git remote remove origin
+        git remote add origin https://x-access-token:${DEPLOY_TOKEN}@github.com/amichai-bd/fpga_mafia_wiki.git
+
     - name: Deploy to GitHub Pages
       env:
         DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
@@ -33,5 +40,4 @@ jobs:
         DEPLOYMENT_BRANCH: gh-pages
         CURRENT_BRANCH: main
       run: |
-        git remote set-url origin https://x-access-token:${DEPLOY_TOKEN}@github.com/amichai-bd/fpga_mafia_wiki.git
         yarn deploy
