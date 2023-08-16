@@ -17,8 +17,8 @@ If you have SSH keys set up with your Git provider, you can deploy using SSH.  T
 
 - Using HTTPS:   
 Alternatively, you can use HTTPS. When deploying this way, you may be prompted for your Git credentials in a browser pop-up:    
-``` GIT_USER=amichai-bd yarn deploy ```   
+``` GIT_USER=amichai-bd yarn deploy ```    
 
 ### Testing local the WIKI (recommended before deployment):  
-``` yarn run build ```
-``` yarn run start ```
+``` yarn run build ```   
+``` yarn run start ```  
