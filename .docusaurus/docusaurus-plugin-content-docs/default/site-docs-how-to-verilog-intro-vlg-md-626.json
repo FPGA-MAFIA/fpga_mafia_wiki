@@ -12,11 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "HowTo",
-  "previous": {
-    "title": "Welcome to tool-chain tutorial!!",
-    "permalink": "/fpga_mafia_wiki/docs/how_to/Getting_started_tool_chain_tutorial"
-  },
+  "sidebar": "How_to",
   "next": {
     "title": "Intro to System-Verilog",
     "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg"

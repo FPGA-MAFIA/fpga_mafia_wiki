@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "HowTo",
+  "sidebar": "How_to",
   "previous": {
     "title": "Intro to System-Verilog",
     "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/Intro_vlg"

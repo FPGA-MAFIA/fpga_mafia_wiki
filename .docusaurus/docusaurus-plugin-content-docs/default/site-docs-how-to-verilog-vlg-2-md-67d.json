@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "HowTo",
+  "sidebar": "How_to",
   "previous": {
     "title": "Blocking vs Non-Blocking assignment",
     "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg1"

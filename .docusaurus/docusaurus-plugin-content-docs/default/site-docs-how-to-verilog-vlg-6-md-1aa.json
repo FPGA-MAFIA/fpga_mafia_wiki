@@ -12,9 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "HowTo",
+  "sidebar": "How_to",
   "previous": {
     "title": "Module, Function, Macro",
     "permalink": "/fpga_mafia_wiki/docs/how_to/verilog/vlg5"
+  },
+  "next": {
+    "title": "Develupment environment",
+    "permalink": "/fpga_mafia_wiki/docs/how_to/Project-Tools"
   }
 }
