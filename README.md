@@ -11,11 +11,10 @@ If you're working with a freshly cloned repo or after having cleaned the repo wi
 ``` yarn install ```
 
 ### Deployment
-- Using SSH:
-If you have SSH keys set up with your Git provider, you can deploy using SSH.  This method avoids the need to manually enter credentials each time:  
-``` GIT_USER=amichai-bd USE_SSH=true yarn deploy ```   
+We have created a github action to deploy with every merge to main.  
+See: fpga_mafia_wiki\.github\workflows\deploy.yml  
 
-- Using HTTPS:   
+- Manually deploy from PC - using HTTPS:   
 Alternatively, you can use HTTPS. When deploying this way, you may be prompted for your Git credentials in a browser pop-up:    
 ``` GIT_USER=amichai-bd yarn deploy ```    
 
