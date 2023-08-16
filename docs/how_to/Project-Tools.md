@@ -46,19 +46,20 @@ It allows users to simulate and verify the functionality and performance of thei
 This step is necessary before running a simulation in ModelSim.  
   
 The basic usage of the vlog command is as follows:   
-``` vlog <options> <files> ```   
-Here, <options> are various command-line options that can be used to customize the compilation process, and <files> are the Verilog files that you want to compile.    
-The vlog command outputs compiled libraries and object files that are used during simulation.   
-Example:  
-``` <TODO> ```  
+> vlog \<options\> \<files\> 
+
+Here, \<options\> are various command-line options that can be used to customize the compilation process, and \<files\> are the Verilog files that you want to compile.    
+The vlog command outputs compiled libraries and object files that are used during simulation.    
+Example:   
+TODO   
 
 ### vsim  
 `vsim` is a command-line utility in ModelSim that is used to start a simulation. It allows users to load a design, run a simulation, and debug the behavior of the design using various waveforms and probes.   
 The basic usage of the vsim command is as follows:  
-``` vsim <options> <top_module> ```  
-Here, <options> are various command-line options that can be used to customize the simulation, and <top_module> is the top-level module of the design that you want to simulate.   
+``` vsim \<options\> \<top_module\> ```  
+Here, \<options\> are various command-line options that can be used to customize the simulation, and \<top_module\> is the top-level module of the design that you want to simulate.   
 Example:  
-``` <TODO> ```  
+TODO  
 Once the simulation is running, you can use various commands and menus to control the simulation, display waveforms, and set breakpoints.  
 
 ### GUI  

@@ -49,9 +49,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'how_to/github_action',
-            position: 'right',
-            label: 'How To',
+            docId: 'how_to/welcome',
+            position: 'left',
+            label: 'Getting_Started',
           },
           {
             type: 'doc',
@@ -60,7 +60,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Cache', 
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/amichai-bd/fpga_mafia',
             label: 'GitHub',
             position: 'right',
           },

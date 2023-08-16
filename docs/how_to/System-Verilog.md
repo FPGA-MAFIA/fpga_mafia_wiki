@@ -1,50 +1,11 @@
-# Table of Contents
-1. [SystemVerilog vs Verilog](#systemverilog-vs-verilog)
-   1. [assignments: always vs assign](#assignments-always-vs-assign)
-      1. [assign](#assign)
-      1. [always and SystemVerilog always type](#always-and-systemverilog-always-type)
-   1. [Sensitivity list](#sensitivity-list)
-   1. [reg, wire, logic](#reg-wire-logic)
-   1. [systemverilog typedef:](#systemverilog-typedef)
-1. [Blocking vs Non-Blocking assignment](#blocking-vs-non-blocking-assignment)
-1. [multiple dimensional arrays](#multiple-dimensional-arrays)
-1. [Coding Style](#Coding-Style)
-   1. [signal declaration](#signal-decliration)
-   1. [Naming convention](#naming-convention)
-1. [define, Parameter, localparam, pvalue, Package, `include](#define-parameter-localparam-pvalue-package-include)
-   1. [`include](#include)
-   1. [Guarding macros](#guarding-macros)
-   1. [`Define](#define)
-   1. [macros](#macros)
-   1. [Parameter, localparam, Package](#parameter-localparam-package)
-1. [module, function, macro](#module-function-macro)
-   1. [common examples:](#common-examples)
-      1. [Mux](#mux)
-      1. [Counter](#counter)
-      1. [State-Machine](#state-machine)
-      1. [Find_First](#find_first)
-      1. [Shift register](#shift-register)
-      1. [Register-File](#register-file)
-      1. [Pipe-Line](#pipe-line)
-1. [Clock domain crossing](#clock-domain-crossing)
-   1. [Two flip-flop synchronizer](#two-flip-flop-synchronizer)
-   1. [Single bit — synchronizer with feedback acknowledge](#single-bit--synchronizer-with-feedback-acknowledge)
-   1. [gfifo](#gfifo)
-   1. [MCP: Multi-Cycle-Path](#mcp-multi-cycle-path)
-1. [PLL](#pll)
-[async vs sync Flop Reset](#async-vs-sync-flop-reset)
-1. [Compilation, Elaboration & Simulation](#compilation-elaboration--simulation)
-   1. [Compilation](#compilation)
-   1. [Elaboration](#elabortion)
-   1. [Simulation](#simulation)
+# System Verilog introduction  
 
+SystemVerilog is a comprehensive hardware description and verification language that combines the best of both design and verification languages to provide a robust platform for the development and verification of electronic systems. Evolving from its predecessor, Verilog, SystemVerilog has been enriched with advanced data types, interfaces, and constructs to aid in the design, verification, and testing of both digital and mixed-signal systems. Given the complexity of modern electronic designs, SystemVerilog has become a crucial tool in ensuring the functionality, performance, and reliability of digital systems before they are physically realized.
 
-***
-***
-
-
-# SystemVerilog vs Verilog
+## SystemVerilog vs Verilog  
 Verilog and SystemVerilog are both hardware description languages (HDLs) that are used to model, design, and verify digital and mixed-signal systems. Verilog is a standard in the field of electronic design automation (EDA) and is widely used for design and verification of digital circuits. SystemVerilog is an extension of Verilog that includes additional features and capabilities for more advanced design and verification tasks.
+
+
 
 ## assignments: always vs assign
 In SystemVerilog, the assign and always statements are used to specify the behavior of a digital circuit.   

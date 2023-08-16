@@ -6,22 +6,36 @@ module.exports = {
       label: 'Hello',
     },
   ],
-  HowTo: [
+  Getting_Started: [
+  {
+    type: 'doc',
+    id: 'how_to/welcome',
+  },
+  {
+    type: 'doc',
+    id: 'how_to/Getting-started-tool-chain-tutorial',
+    label: 'Getting-started-tool-chain-tutorial',
+  },
+  {
+    type: 'doc',
+    id: 'how_to/Git',
+    label: 'Git',
+  },
   {
     type: 'doc',
     id: 'how_to/github_action',
-    label: 'GitHub Action',
+    label: 'Github Action',
   },
-{
-    type: 'link',
-    label: 'How to GIT',
-    href : 'https://github.com/amichai-bd/fpga_mafia/wiki/Git', 
-},
-{
-    type: 'link',
-    label: 'Getting started tool chain tutorial',
-    href : 'https://github.com/amichai-bd/fpga_mafia/wiki/Getting-started---tool-chain-tutorial', 
-}
+  {
+    type: 'doc',
+    id: 'how_to/Project-Tools',
+    label: 'Project-Tools',
+  },
+  {
+    type: 'doc',
+    id: 'how_to/System-Verilog',
+    label: 'System-Verilog',
+  },
 
   
   ],
@@ -74,4 +88,5 @@ module.exports = {
     
     
   ],
+
 };
