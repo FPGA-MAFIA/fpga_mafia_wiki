@@ -47,12 +47,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/BIU.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'how_to/welcome',
-            position: 'left',
-            label: 'Getting_Started',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'how_to/welcome',
+          //   position: 'left',
+          //   label: 'Getting_Started',
+          // },
           {
             type: 'doc',
             docId: 'cache/cache_intro',
@@ -61,7 +61,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },  
           {
             type: 'doc',
-            docId: 'how_to/github_action',
+            docId: 'how_to/welcome',
             position: 'right',
             label: 'Wiki',
           },

@@ -1,4 +1,4 @@
-# Motivation 
+# Motivation for using git
 
 Git is a version control system allowing developers to track and manage changes to their codebase over time. Using Git offers several benefits:
 
