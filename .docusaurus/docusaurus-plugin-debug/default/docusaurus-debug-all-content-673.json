@@ -343,8 +343,8 @@
               "frontMatter": {},
               "sidebar": "Wiki",
               "previous": {
-                "title": "Development environment",
-                "permalink": "/fpga_mafia_wiki/docs/wiki/Project-Tools"
+                "title": "Github actions",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/GitHubActions"
               },
               "next": {
                 "title": "",
@@ -352,16 +352,112 @@
               }
             },
             {
-              "unversionedId": "wiki/Project-Tools",
-              "id": "wiki/Project-Tools",
+              "unversionedId": "wiki/projectTool/GitBash",
+              "id": "wiki/projectTool/GitBash",
+              "title": "GitBash",
+              "description": "Git Bash",
+              "source": "@site/docs/wiki/projectTool/GitBash.md",
+              "sourceDirName": "wiki/projectTool",
+              "slug": "/wiki/projectTool/GitBash",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/GitBash",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/projectTool/GitBash.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Development environment",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/VsCode"
+              },
+              "next": {
+                "title": "Riscv",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/Riscv"
+              }
+            },
+            {
+              "unversionedId": "wiki/projectTool/GitHubActions",
+              "id": "wiki/projectTool/GitHubActions",
+              "title": "Github actions",
+              "description": "Overview of Actions and Workflows",
+              "source": "@site/docs/wiki/projectTool/GitHubActions.md",
+              "sourceDirName": "wiki/projectTool",
+              "slug": "/wiki/projectTool/GitHubActions",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/GitHubActions",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/projectTool/GitHubActions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "ModelSim",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/ModelSim"
+              },
+              "next": {
+                "title": "Motivation for using git",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/HOW_TO_GIT"
+              }
+            },
+            {
+              "unversionedId": "wiki/projectTool/ModelSim",
+              "id": "wiki/projectTool/ModelSim",
+              "title": "ModelSim",
+              "description": "ModelSim",
+              "source": "@site/docs/wiki/projectTool/ModelSim.md",
+              "sourceDirName": "wiki/projectTool",
+              "slug": "/wiki/projectTool/ModelSim",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/ModelSim",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/projectTool/ModelSim.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "Riscv",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/Riscv"
+              },
+              "next": {
+                "title": "Github actions",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/GitHubActions"
+              }
+            },
+            {
+              "unversionedId": "wiki/projectTool/Riscv",
+              "id": "wiki/projectTool/Riscv",
+              "title": "Riscv",
+              "description": "<!-- # SW",
+              "source": "@site/docs/wiki/projectTool/Riscv.md",
+              "sourceDirName": "wiki/projectTool",
+              "slug": "/wiki/projectTool/Riscv",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/Riscv",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/projectTool/Riscv.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Wiki",
+              "previous": {
+                "title": "GitBash",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/GitBash"
+              },
+              "next": {
+                "title": "ModelSim",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/ModelSim"
+              }
+            },
+            {
+              "unversionedId": "wiki/projectTool/VsCode",
+              "id": "wiki/projectTool/VsCode",
               "title": "Development environment",
               "description": "VS Code",
-              "source": "@site/docs/wiki/Project-Tools.md",
-              "sourceDirName": "wiki",
-              "slug": "/wiki/Project-Tools",
-              "permalink": "/fpga_mafia_wiki/docs/wiki/Project-Tools",
+              "source": "@site/docs/wiki/projectTool/VsCode.md",
+              "sourceDirName": "wiki/projectTool",
+              "slug": "/wiki/projectTool/VsCode",
+              "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/VsCode",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/Project-Tools.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/wiki/projectTool/VsCode.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -371,8 +467,8 @@
                 "permalink": "/fpga_mafia_wiki/docs/wiki/verilog/vlg6"
               },
               "next": {
-                "title": "Motivation for using git",
-                "permalink": "/fpga_mafia_wiki/docs/wiki/HOW_TO_GIT"
+                "title": "GitBash",
+                "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/GitBash"
               }
             },
             {
@@ -555,7 +651,7 @@
               },
               "next": {
                 "title": "Development environment",
-                "permalink": "/fpga_mafia_wiki/docs/wiki/Project-Tools"
+                "permalink": "/fpga_mafia_wiki/docs/wiki/projectTool/VsCode"
               }
             },
             {
@@ -635,10 +731,32 @@
                 "collapsible": true
               },
               {
-                "type": "doc",
-                "id": "wiki/Project-Tools",
+                "type": "category",
                 "label": "Project-Tools",
-                "translatable": true
+                "link": {
+                  "type": "doc",
+                  "id": "wiki/projectTool/VsCode"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "wiki/projectTool/GitBash"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "wiki/projectTool/Riscv"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "wiki/projectTool/ModelSim"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "wiki/projectTool/GitHubActions"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
               },
               {
                 "type": "doc",

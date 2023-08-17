@@ -28,9 +28,18 @@ module.exports = {
       ],
     },
     {
-      type: 'doc',
-      id: 'wiki/Project-Tools',
+      type: 'category',
       label: 'Project-Tools',
+      link: {
+        type: 'doc',
+        id: 'wiki/projectTool/VsCode',
+      },
+      items: [
+        'wiki/projectTool/GitBash',
+        'wiki/projectTool/Riscv',
+        'wiki/projectTool/ModelSim',
+        'wiki/projectTool/GitHubActions',
+      ],
     },
     {
       type: 'doc',
