@@ -68,9 +68,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },  
           {
             type: 'doc',
-            docId: 'wiki/welcome',
+            docId: 'Learning/welcome',
             position: 'right',
-            label: 'Wiki',
+            label: 'Learning',
           },
           {
             href: 'https://github.com/amichai-bd/fpga_mafia',

@@ -1,13 +1,13 @@
 module.exports = {
-  Wiki: [
+  Learning: [
     {
       type: 'doc',
-      id: 'wiki/welcome',
+      id: 'Learning/welcome',
       label: 'Welcome',
     },
     {
       type: 'doc',
-      id: 'wiki/Getting-started-tool-chain-tutorial',
+      id: 'Learning/Getting-started-tool-chain-tutorial',
       label: 'Toolchain tutorial',
     },
     {
@@ -15,16 +15,16 @@ module.exports = {
       label: 'System Verilog',
       link: {
         type: 'doc',
-        id: 'wiki/verilog/Intro_vlg',
+        id: 'Learning/verilog/Intro_vlg',
       },
       items: [
-        'wiki/verilog/Intro_vlg',
-        'wiki/verilog/vlg1',
-        'wiki/verilog/vlg2',
-        'wiki/verilog/vlg3',
-        'wiki/verilog/vlg4',
-        'wiki/verilog/vlg5',
-        'wiki/verilog/vlg6',
+        'Learning/verilog/Intro_vlg',
+        'Learning/verilog/vlg1',
+        'Learning/verilog/vlg2',
+        'Learning/verilog/vlg3',
+        'Learning/verilog/vlg4',
+        'Learning/verilog/vlg5',
+        'Learning/verilog/vlg6',
       ],
     },
     {
@@ -32,23 +32,23 @@ module.exports = {
       label: 'Project-Tools',
       link: {
         type: 'doc',
-        id: 'wiki/projectTool/VsCode',
+        id: 'Learning/projectTool/VsCode',
       },
       items: [
-        'wiki/projectTool/GitBash',
-        'wiki/projectTool/Riscv',
-        'wiki/projectTool/ModelSim',
-        'wiki/projectTool/GitHubActions',
+        'Learning/projectTool/GitBash',
+        'Learning/projectTool/Riscv',
+        'Learning/projectTool/ModelSim',
+        'Learning/projectTool/GitHubActions',
       ],
     },
     {
       type: 'doc',
-      id: 'wiki/HOW_TO_GIT',
+      id: 'Learning/HOW_TO_GIT',
       label: 'How to GIT',
     },
     {
       type: 'doc',
-      id: 'wiki/github_action',
+      id: 'Learning/github_action',
       label: 'Github Action',
     },
 
