@@ -338,83 +338,401 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
+              },
+              "sidebar": "Fabric",
+              "next": {
+                "title": "Fabric Intro",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_intro"
               }
             },
             {
-              "unversionedId": "fabric/MAS/fabric",
-              "id": "fabric/MAS/fabric",
-              "title": "fabric",
+              "unversionedId": "fabric/MAS/mas_arbiter",
+              "id": "fabric/MAS/mas_arbiter",
+              "title": "mas_arbiter",
               "description": "",
-              "source": "@site/docs/fabric/MAS/fabric.md",
+              "source": "@site/docs/fabric/MAS/mas_arbiter.md",
               "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/fabric",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/fabric",
+              "slug": "/fabric/MAS/mas_arbiter",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_arbiter",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/fabric.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "fabric/MAS/fifo_arb",
-              "id": "fabric/MAS/fifo_arb",
-              "title": "Fifo_Arb - MAS",
-              "description": "The fifo_arb Micro-Architecture-Specification",
-              "source": "@site/docs/fabric/MAS/fifo_arb.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/fifo_arb",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/fifo_arb",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/fifo_arb.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "fabric/MAS/mini_core",
-              "id": "fabric/MAS/mini_core",
-              "title": "mini_core",
-              "description": "",
-              "source": "@site/docs/fabric/MAS/mini_core.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/mini_core",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mini_core",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mini_core.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "fabric/MAS/mini_core_tile",
-              "id": "fabric/MAS/mini_core_tile",
-              "title": "mini_core_tile",
-              "description": "",
-              "source": "@site/docs/fabric/MAS/mini_core_tile.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/mini_core_tile",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mini_core_tile",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mini_core_tile.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "fabric/MAS/router",
-              "id": "fabric/MAS/router",
-              "title": "Router - MAS",
-              "description": "The router Micro-Architecture-Specification",
-              "source": "@site/docs/fabric/MAS/router.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/router",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/router",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/router.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_arbiter.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Fabric"
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "Fifo_Arb - MAS",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo_arb"
+              },
+              "next": {
+                "title": "mas_fifo",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS/mas_fabric",
+              "id": "fabric/MAS/mas_fabric",
+              "title": "mas_fabric",
+              "description": "",
+              "source": "@site/docs/fabric/MAS/mas_fabric.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/mas_fabric",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fabric",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_fabric.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "Fabric Intro",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_intro"
+              },
+              "next": {
+                "title": "mas_mini_core_tile",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core_tile"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS/mas_fifo",
+              "id": "fabric/MAS/mas_fifo",
+              "title": "mas_fifo",
+              "description": "",
+              "source": "@site/docs/fabric/MAS/mas_fifo.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/mas_fifo",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_fifo.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "mas_arbiter",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_arbiter"
+              },
+              "next": {
+                "title": "Fabric Intro",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_intro"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS/mas_fifo_arb",
+              "id": "fabric/MAS/mas_fifo_arb",
+              "title": "Fifo_Arb - MAS",
+              "description": "The fifo_arb Micro-Architecture-Specification",
+              "source": "@site/docs/fabric/MAS/mas_fifo_arb.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/mas_fifo_arb",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo_arb",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_fifo_arb.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "Router - MAS",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_router"
+              },
+              "next": {
+                "title": "mas_arbiter",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_arbiter"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS/mas_intro",
+              "id": "fabric/MAS/mas_intro",
+              "title": "Fabric Intro",
+              "description": "",
+              "source": "@site/docs/fabric/MAS/mas_intro.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/mas_intro",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "Fabric Intro",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/intro"
+              },
+              "next": {
+                "title": "mas_fabric",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fabric"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS/mas_mini_core",
+              "id": "fabric/MAS/mas_mini_core",
+              "title": "mas_mini_core",
+              "description": "",
+              "source": "@site/docs/fabric/MAS/mas_mini_core.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/mas_mini_core",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_mini_core.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "mas_mini_core_tile",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core_tile"
+              },
+              "next": {
+                "title": "Router - MAS",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_router"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS/mas_mini_core_tile",
+              "id": "fabric/MAS/mas_mini_core_tile",
+              "title": "mas_mini_core_tile",
+              "description": "",
+              "source": "@site/docs/fabric/MAS/mas_mini_core_tile.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/mas_mini_core_tile",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core_tile",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_mini_core_tile.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "mas_fabric",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fabric"
+              },
+              "next": {
+                "title": "mas_mini_core",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS/mas_router",
+              "id": "fabric/MAS/mas_router",
+              "title": "Router - MAS",
+              "description": "The router Micro-Architecture-Specification",
+              "source": "@site/docs/fabric/MAS/mas_router.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/mas_router",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_router",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_router.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "mas_mini_core",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core"
+              },
+              "next": {
+                "title": "Fifo_Arb - MAS",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo_arb"
+              }
+            },
+            {
+              "unversionedId": "fabric/verification/verification_arbiter",
+              "id": "fabric/verification/verification_arbiter",
+              "title": "verification_arbiter",
+              "description": "",
+              "source": "@site/docs/fabric/verification/verification_arbiter.md",
+              "sourceDirName": "fabric/verification",
+              "slug": "/fabric/verification/verification_arbiter",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_arbiter",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/verification/verification_arbiter.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "verification_fifo_arb",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_fifo_arb"
+              },
+              "next": {
+                "title": "verification_fifo",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_fifo"
+              }
+            },
+            {
+              "unversionedId": "fabric/verification/verification_fabric",
+              "id": "fabric/verification/verification_fabric",
+              "title": "verification_fabric",
+              "description": "",
+              "source": "@site/docs/fabric/verification/verification_fabric.md",
+              "sourceDirName": "fabric/verification",
+              "slug": "/fabric/verification/verification_fabric",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_fabric",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/verification/verification_fabric.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "Fabric Intro",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_intro"
+              },
+              "next": {
+                "title": "verification_mini_core_tile",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_mini_core_tile"
+              }
+            },
+            {
+              "unversionedId": "fabric/verification/verification_fifo",
+              "id": "fabric/verification/verification_fifo",
+              "title": "verification_fifo",
+              "description": "",
+              "source": "@site/docs/fabric/verification/verification_fifo.md",
+              "sourceDirName": "fabric/verification",
+              "slug": "/fabric/verification/verification_fifo",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_fifo",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/verification/verification_fifo.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "verification_arbiter",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_arbiter"
+              }
+            },
+            {
+              "unversionedId": "fabric/verification/verification_fifo_arb",
+              "id": "fabric/verification/verification_fifo_arb",
+              "title": "verification_fifo_arb",
+              "description": "",
+              "source": "@site/docs/fabric/verification/verification_fifo_arb.md",
+              "sourceDirName": "fabric/verification",
+              "slug": "/fabric/verification/verification_fifo_arb",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_fifo_arb",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/verification/verification_fifo_arb.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "verification_router",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_router"
+              },
+              "next": {
+                "title": "verification_arbiter",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_arbiter"
+              }
+            },
+            {
+              "unversionedId": "fabric/verification/verification_intro",
+              "id": "fabric/verification/verification_intro",
+              "title": "Fabric Intro",
+              "description": "",
+              "source": "@site/docs/fabric/verification/verification_intro.md",
+              "sourceDirName": "fabric/verification",
+              "slug": "/fabric/verification/verification_intro",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/verification/verification_intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "mas_fifo",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo"
+              },
+              "next": {
+                "title": "verification_fabric",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_fabric"
+              }
+            },
+            {
+              "unversionedId": "fabric/verification/verification_mini_core",
+              "id": "fabric/verification/verification_mini_core",
+              "title": "verification_mini_core",
+              "description": "",
+              "source": "@site/docs/fabric/verification/verification_mini_core.md",
+              "sourceDirName": "fabric/verification",
+              "slug": "/fabric/verification/verification_mini_core",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_mini_core",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/verification/verification_mini_core.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "verification_mini_core_tile",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_mini_core_tile"
+              },
+              "next": {
+                "title": "verification_router",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_router"
+              }
+            },
+            {
+              "unversionedId": "fabric/verification/verification_mini_core_tile",
+              "id": "fabric/verification/verification_mini_core_tile",
+              "title": "verification_mini_core_tile",
+              "description": "",
+              "source": "@site/docs/fabric/verification/verification_mini_core_tile.md",
+              "sourceDirName": "fabric/verification",
+              "slug": "/fabric/verification/verification_mini_core_tile",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_mini_core_tile",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/verification/verification_mini_core_tile.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "verification_fabric",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_fabric"
+              },
+              "next": {
+                "title": "verification_mini_core",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_mini_core"
+              }
+            },
+            {
+              "unversionedId": "fabric/verification/verification_router",
+              "id": "fabric/verification/verification_router",
+              "title": "verification_router",
+              "description": "",
+              "source": "@site/docs/fabric/verification/verification_router.md",
+              "sourceDirName": "fabric/verification",
+              "slug": "/fabric/verification/verification_router",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_router",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/verification/verification_router.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "verification_mini_core",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_mini_core"
+              },
+              "next": {
+                "title": "verification_fifo_arb",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_fifo_arb"
+              }
             },
             {
               "unversionedId": "intro",
@@ -435,491 +753,494 @@
               }
             },
             {
-              "unversionedId": "Learning/Getting-started-tool-chain-tutorial",
-              "id": "Learning/Getting-started-tool-chain-tutorial",
-              "title": "Getting Started: tool-chain tutorial",
-              "description": "Download a text editor",
-              "source": "@site/docs/Learning/Getting-started-tool-chain-tutorial.md",
-              "sourceDirName": "Learning",
-              "slug": "/Learning/Getting-started-tool-chain-tutorial",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/Getting-started-tool-chain-tutorial",
+              "unversionedId": "TFM/projectTool/git_and_github",
+              "id": "TFM/projectTool/git_and_github",
+              "title": "Git and GitHub",
+              "description": "Motivation for using git",
+              "source": "@site/docs/TFM/projectTool/git_and_github.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/git_and_github",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_and_github",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/Getting-started-tool-chain-tutorial.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/git_and_github.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
-                "title": "Welcome to the fpga_mafia wiki !",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/welcome"
+                "title": "VS Code",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/VsCode"
               },
               "next": {
-                "title": "Intro to System-Verilog",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/Intro_vlg"
+                "title": "GitBash",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitBash"
               }
             },
             {
-              "unversionedId": "Learning/github_action",
-              "id": "Learning/github_action",
-              "title": "",
-              "description": "setting your personal PC as a server to run sanity action - gate keeper for Submit",
-              "source": "@site/docs/Learning/github_action.md",
-              "sourceDirName": "Learning",
-              "slug": "/Learning/github_action",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/github_action",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/github_action.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Learning",
-              "previous": {
-                "title": "Motivation for using git",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/HOW_TO_GIT"
-              }
-            },
-            {
-              "unversionedId": "Learning/HOW_TO_GIT",
-              "id": "Learning/HOW_TO_GIT",
-              "title": "Motivation for using git",
-              "description": "Git is a version control system allowing developers to track and manage changes to their codebase over time. Using Git offers several benefits:",
-              "source": "@site/docs/Learning/HOW_TO_GIT.md",
-              "sourceDirName": "Learning",
-              "slug": "/Learning/HOW_TO_GIT",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/HOW_TO_GIT",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/HOW_TO_GIT.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Learning",
-              "previous": {
-                "title": "Github actions",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/GitHubActions"
-              },
-              "next": {
-                "title": "",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/github_action"
-              }
-            },
-            {
-              "unversionedId": "Learning/projectTool/GitBash",
-              "id": "Learning/projectTool/GitBash",
+              "unversionedId": "TFM/projectTool/GitBash",
+              "id": "TFM/projectTool/GitBash",
               "title": "GitBash",
               "description": "Git Bash",
-              "source": "@site/docs/Learning/projectTool/GitBash.md",
-              "sourceDirName": "Learning/projectTool",
-              "slug": "/Learning/projectTool/GitBash",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/GitBash",
+              "source": "@site/docs/TFM/projectTool/GitBash.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/GitBash",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitBash",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/projectTool/GitBash.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/GitBash.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
-                "title": "Development environment",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/VsCode"
-              },
-              "next": {
-                "title": "Riscv",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/Riscv"
-              }
-            },
-            {
-              "unversionedId": "Learning/projectTool/GitHubActions",
-              "id": "Learning/projectTool/GitHubActions",
-              "title": "Github actions",
-              "description": "Overview of Actions and Workflows",
-              "source": "@site/docs/Learning/projectTool/GitHubActions.md",
-              "sourceDirName": "Learning/projectTool",
-              "slug": "/Learning/projectTool/GitHubActions",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/GitHubActions",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/projectTool/GitHubActions.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Learning",
-              "previous": {
-                "title": "ModelSim",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/ModelSim"
-              },
-              "next": {
-                "title": "Motivation for using git",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/HOW_TO_GIT"
-              }
-            },
-            {
-              "unversionedId": "Learning/projectTool/ModelSim",
-              "id": "Learning/projectTool/ModelSim",
-              "title": "ModelSim",
-              "description": "ModelSim",
-              "source": "@site/docs/Learning/projectTool/ModelSim.md",
-              "sourceDirName": "Learning/projectTool",
-              "slug": "/Learning/projectTool/ModelSim",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/ModelSim",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/projectTool/ModelSim.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Learning",
-              "previous": {
-                "title": "Riscv",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/Riscv"
+                "title": "Git and GitHub",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_and_github"
               },
               "next": {
                 "title": "Github actions",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/GitHubActions"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitHubActions"
               }
             },
             {
-              "unversionedId": "Learning/projectTool/Riscv",
-              "id": "Learning/projectTool/Riscv",
-              "title": "Riscv",
-              "description": "<!-- # SW",
-              "source": "@site/docs/Learning/projectTool/Riscv.md",
-              "sourceDirName": "Learning/projectTool",
-              "slug": "/Learning/projectTool/Riscv",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/Riscv",
+              "unversionedId": "TFM/projectTool/GitHubActions",
+              "id": "TFM/projectTool/GitHubActions",
+              "title": "Github actions",
+              "description": "Overview of Actions and Workflows",
+              "source": "@site/docs/TFM/projectTool/GitHubActions.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/GitHubActions",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitHubActions",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/projectTool/Riscv.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/GitHubActions.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
                 "title": "GitBash",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/GitBash"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitBash"
+              },
+              "next": {
+                "title": "Riscv",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Riscv"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/intro",
+              "id": "TFM/projectTool/intro",
+              "title": "intro",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/intro.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/intro",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Welcome to the Tools, Flows & Methodologies Page",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/welcome"
+              },
+              "next": {
+                "title": "VS Code",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/VsCode"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/ModelSim",
+              "id": "TFM/projectTool/ModelSim",
+              "title": "ModelSim",
+              "description": "ModelSim",
+              "source": "@site/docs/TFM/projectTool/ModelSim.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/ModelSim",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/ModelSim",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/ModelSim.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Riscv",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Riscv"
+              },
+              "next": {
+                "title": "Walkthrough - tool-chain tutorial",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Walkthrough"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/Riscv",
+              "id": "TFM/projectTool/Riscv",
+              "title": "Riscv",
+              "description": "<!-- # SW",
+              "source": "@site/docs/TFM/projectTool/Riscv.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/Riscv",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Riscv",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/Riscv.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Github actions",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitHubActions"
               },
               "next": {
                 "title": "ModelSim",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/ModelSim"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/ModelSim"
               }
             },
             {
-              "unversionedId": "Learning/projectTool/VsCode",
-              "id": "Learning/projectTool/VsCode",
-              "title": "Development environment",
-              "description": "VS Code",
-              "source": "@site/docs/Learning/projectTool/VsCode.md",
-              "sourceDirName": "Learning/projectTool",
-              "slug": "/Learning/projectTool/VsCode",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/VsCode",
+              "unversionedId": "TFM/projectTool/VsCode",
+              "id": "TFM/projectTool/VsCode",
+              "title": "VS Code",
+              "description": "VS Code is a versatile and powerful code editor that can help you write and debug code more efficiently. Here are some reasons why VS Code is a good editor for our project:",
+              "source": "@site/docs/TFM/projectTool/VsCode.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/VsCode",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/VsCode",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/projectTool/VsCode.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/VsCode.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
-                "title": "Common examples",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg6"
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/intro"
               },
               "next": {
-                "title": "GitBash",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/GitBash"
+                "title": "Git and GitHub",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_and_github"
               }
             },
             {
-              "unversionedId": "Learning/System-Verilog",
-              "id": "Learning/System-Verilog",
-              "title": "Intro to System-Verilog",
-              "description": "SystemVerilog is a comprehensive hardware description and verification language that combines the best of both design and verification languages to provide a robust platform for the development and verification of electronic systems. Evolving from its predecessor, Verilog, SystemVerilog has been enriched with advanced data types, interfaces, and constructs to aid in the design, verification, and testing of both digital and mixed-signal systems. Given the complexity of modern electronic designs, SystemVerilog has become a crucial tool in ensuring the functionality, performance, and reliability of digital systems before they are physically realized.",
-              "source": "@site/docs/Learning/System-Verilog.md",
-              "sourceDirName": "Learning",
-              "slug": "/Learning/System-Verilog",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/System-Verilog",
+              "unversionedId": "TFM/projectTool/Walkthrough",
+              "id": "TFM/projectTool/Walkthrough",
+              "title": "Walkthrough - tool-chain tutorial",
+              "description": "Download a text editor",
+              "source": "@site/docs/TFM/projectTool/Walkthrough.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/Walkthrough",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Walkthrough",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/System-Verilog.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/Walkthrough.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "ModelSim",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/ModelSim"
+              },
+              "next": {
+                "title": "vlg_intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg_intro"
+              }
             },
             {
-              "unversionedId": "Learning/verilog/Intro_vlg",
-              "id": "Learning/verilog/Intro_vlg",
+              "unversionedId": "TFM/verilog/vlg_intro",
+              "id": "TFM/verilog/vlg_intro",
+              "title": "vlg_intro",
+              "description": "",
+              "source": "@site/docs/TFM/verilog/vlg_intro.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/vlg_intro",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg_intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg_intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Walkthrough - tool-chain tutorial",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Walkthrough"
+              },
+              "next": {
+                "title": "Intro to System-Verilog",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg0"
+              }
+            },
+            {
+              "unversionedId": "TFM/verilog/vlg0",
+              "id": "TFM/verilog/vlg0",
               "title": "Intro to System-Verilog",
               "description": "System-Verilog vs Verilog",
-              "source": "@site/docs/Learning/verilog/Intro_vlg.md",
-              "sourceDirName": "Learning/verilog",
-              "slug": "/Learning/verilog/Intro_vlg",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/Intro_vlg",
+              "source": "@site/docs/TFM/verilog/vlg0.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/vlg0",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg0",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/verilog/Intro_vlg.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg0.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
-                "title": "Getting Started: tool-chain tutorial",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/Getting-started-tool-chain-tutorial"
+                "title": "vlg_intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg_intro"
               },
               "next": {
-                "title": "Intro to System-Verilog",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/Intro_vlg"
+                "title": "Blocking vs Non-Blocking assignment",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg1"
               }
             },
             {
-              "unversionedId": "Learning/verilog/vlg1",
-              "id": "Learning/verilog/vlg1",
+              "unversionedId": "TFM/verilog/vlg1",
+              "id": "TFM/verilog/vlg1",
               "title": "Blocking vs Non-Blocking assignment",
               "description": "The main difference between these two types of assignments is how they are executed in relation to the rest of the code in a design.",
-              "source": "@site/docs/Learning/verilog/vlg1.md",
-              "sourceDirName": "Learning/verilog",
-              "slug": "/Learning/verilog/vlg1",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg1",
+              "source": "@site/docs/TFM/verilog/vlg1.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/vlg1",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg1",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/verilog/vlg1.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg1.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
                 "title": "Intro to System-Verilog",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/Intro_vlg"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg0"
               },
               "next": {
                 "title": "Multiple dimensional arrays",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg2"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg2"
               }
             },
             {
-              "unversionedId": "Learning/verilog/vlg2",
-              "id": "Learning/verilog/vlg2",
+              "unversionedId": "TFM/verilog/vlg2",
+              "id": "TFM/verilog/vlg2",
               "title": "Multiple dimensional arrays",
               "description": "Packed vs Unpacked",
-              "source": "@site/docs/Learning/verilog/vlg2.md",
-              "sourceDirName": "Learning/verilog",
-              "slug": "/Learning/verilog/vlg2",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg2",
+              "source": "@site/docs/TFM/verilog/vlg2.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/vlg2",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg2",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/verilog/vlg2.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg2.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
                 "title": "Blocking vs Non-Blocking assignment",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg1"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg1"
               },
               "next": {
                 "title": "Coding Style",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg3"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg3"
               }
             },
             {
-              "unversionedId": "Learning/verilog/vlg3",
-              "id": "Learning/verilog/vlg3",
+              "unversionedId": "TFM/verilog/vlg3",
+              "id": "TFM/verilog/vlg3",
               "title": "Coding Style",
               "description": "Signal declaration",
-              "source": "@site/docs/Learning/verilog/vlg3.md",
-              "sourceDirName": "Learning/verilog",
-              "slug": "/Learning/verilog/vlg3",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg3",
+              "source": "@site/docs/TFM/verilog/vlg3.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/vlg3",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg3",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/verilog/vlg3.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg3.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
                 "title": "Multiple dimensional arrays",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg2"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg2"
               },
               "next": {
                 "title": "System-Verilog Features",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg4"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg4"
               }
             },
             {
-              "unversionedId": "Learning/verilog/vlg4",
-              "id": "Learning/verilog/vlg4",
+              "unversionedId": "TFM/verilog/vlg4",
+              "id": "TFM/verilog/vlg4",
               "title": "System-Verilog Features",
               "description": "`include",
-              "source": "@site/docs/Learning/verilog/vlg4.md",
-              "sourceDirName": "Learning/verilog",
-              "slug": "/Learning/verilog/vlg4",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg4",
+              "source": "@site/docs/TFM/verilog/vlg4.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/vlg4",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg4",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/verilog/vlg4.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg4.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
                 "title": "Coding Style",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg3"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg3"
               },
               "next": {
                 "title": "Module, Function, Macro",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg5"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg5"
               }
             },
             {
-              "unversionedId": "Learning/verilog/vlg5",
-              "id": "Learning/verilog/vlg5",
+              "unversionedId": "TFM/verilog/vlg5",
+              "id": "TFM/verilog/vlg5",
               "title": "Module, Function, Macro",
               "description": "In system verilog, there are multiple ways to define a block of code that can be reused.",
-              "source": "@site/docs/Learning/verilog/vlg5.md",
-              "sourceDirName": "Learning/verilog",
-              "slug": "/Learning/verilog/vlg5",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg5",
+              "source": "@site/docs/TFM/verilog/vlg5.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/vlg5",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg5",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/verilog/vlg5.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg5.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
                 "title": "System-Verilog Features",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg4"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg4"
               },
               "next": {
                 "title": "Common examples",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg6"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg6"
               }
             },
             {
-              "unversionedId": "Learning/verilog/vlg6",
-              "id": "Learning/verilog/vlg6",
+              "unversionedId": "TFM/verilog/vlg6",
+              "id": "TFM/verilog/vlg6",
               "title": "Common examples",
               "description": "Mux",
-              "source": "@site/docs/Learning/verilog/vlg6.md",
-              "sourceDirName": "Learning/verilog",
-              "slug": "/Learning/verilog/vlg6",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg6",
+              "source": "@site/docs/TFM/verilog/vlg6.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/vlg6",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg6",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/verilog/vlg6.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg6.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "previous": {
                 "title": "Module, Function, Macro",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/verilog/vlg5"
-              },
-              "next": {
-                "title": "Development environment",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/projectTool/VsCode"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg5"
               }
             },
             {
-              "unversionedId": "Learning/welcome",
-              "id": "Learning/welcome",
-              "title": "Welcome to the fpga_mafia wiki !",
+              "unversionedId": "TFM/welcome",
+              "id": "TFM/welcome",
+              "title": "Welcome to the Tools, Flows & Methodologies Page",
               "description": "Here we will describe the Tools, Flows & methodologies (TFM) of this project.",
-              "source": "@site/docs/Learning/welcome.md",
-              "sourceDirName": "Learning",
-              "slug": "/Learning/welcome",
-              "permalink": "/fpga_mafia_wiki/docs/Learning/welcome",
+              "source": "@site/docs/TFM/welcome.md",
+              "sourceDirName": "TFM",
+              "slug": "/TFM/welcome",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/welcome",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/Learning/welcome.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/welcome.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "Learning",
+              "sidebar": "TFM",
               "next": {
-                "title": "Getting Started: tool-chain tutorial",
-                "permalink": "/fpga_mafia_wiki/docs/Learning/Getting-started-tool-chain-tutorial"
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/intro"
               }
             }
           ],
           "drafts": [],
           "sidebars": {
-            "Learning": [
+            "TFM": [
               {
                 "type": "doc",
-                "id": "Learning/welcome",
+                "id": "TFM/welcome",
                 "label": "Welcome",
                 "translatable": true
-              },
-              {
-                "type": "doc",
-                "id": "Learning/Getting-started-tool-chain-tutorial",
-                "label": "Toolchain tutorial",
-                "translatable": true
-              },
-              {
-                "type": "category",
-                "label": "System Verilog",
-                "link": {
-                  "type": "doc",
-                  "id": "Learning/verilog/Intro_vlg"
-                },
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Learning/verilog/Intro_vlg"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Learning/verilog/vlg1"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Learning/verilog/vlg2"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Learning/verilog/vlg3"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Learning/verilog/vlg4"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Learning/verilog/vlg5"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Learning/verilog/vlg6"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
               },
               {
                 "type": "category",
                 "label": "Project-Tools",
                 "link": {
                   "type": "doc",
-                  "id": "Learning/projectTool/VsCode"
+                  "id": "TFM/projectTool/intro"
                 },
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Learning/projectTool/GitBash"
+                    "id": "TFM/projectTool/VsCode"
                   },
                   {
                     "type": "doc",
-                    "id": "Learning/projectTool/Riscv"
+                    "id": "TFM/projectTool/git_and_github"
                   },
                   {
                     "type": "doc",
-                    "id": "Learning/projectTool/ModelSim"
+                    "id": "TFM/projectTool/GitBash"
                   },
                   {
                     "type": "doc",
-                    "id": "Learning/projectTool/GitHubActions"
+                    "id": "TFM/projectTool/GitHubActions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/Riscv"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/ModelSim"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/Walkthrough"
                   }
                 ],
                 "collapsed": true,
                 "collapsible": true
               },
               {
-                "type": "doc",
-                "id": "Learning/HOW_TO_GIT",
-                "label": "How to GIT",
-                "translatable": true
-              },
-              {
-                "type": "doc",
-                "id": "Learning/github_action",
-                "label": "Github Action",
-                "translatable": true
+                "type": "category",
+                "label": "System Verilog",
+                "link": {
+                  "type": "doc",
+                  "id": "TFM/verilog/vlg_intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "TFM/verilog/vlg0"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/verilog/vlg1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/verilog/vlg2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/verilog/vlg3"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/verilog/vlg4"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/verilog/vlg5"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/verilog/vlg6"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
               }
             ],
             "Cache": [
@@ -981,9 +1302,89 @@
             "Fabric": [
               {
                 "type": "doc",
-                "id": "fabric/MAS/router",
-                "label": "router",
+                "id": "fabric/intro",
+                "label": "intro",
                 "translatable": true
+              },
+              {
+                "type": "category",
+                "label": "Fabric MAS",
+                "link": {
+                  "type": "doc",
+                  "id": "fabric/MAS/mas_intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "fabric/MAS/mas_fabric"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/MAS/mas_mini_core_tile"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/MAS/mas_mini_core"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/MAS/mas_router"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/MAS/mas_fifo_arb"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/MAS/mas_arbiter"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/MAS/mas_fifo"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Fabric Verification",
+                "link": {
+                  "type": "doc",
+                  "id": "fabric/verification/verification_intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "fabric/verification/verification_fabric"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/verification/verification_mini_core_tile"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/verification/verification_mini_core"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/verification/verification_router"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/verification/verification_fifo_arb"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/verification/verification_arbiter"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fabric/verification/verification_fifo"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
               }
             ]
           }

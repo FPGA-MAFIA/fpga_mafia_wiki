@@ -1,5 +1,4 @@
-# Development environment
-## VS Code
+# VS Code
 VS Code is a versatile and powerful code editor that can help you write and debug code more efficiently. Here are some reasons why VS Code is a good editor for our project:  
 - Accessible Command Line: VS Code provides an integrated terminal that allows you to run command-line tools directly from the editor. This includes tools like Git Bash, which can be useful for version control and other tasks.  
 - SystemVerilog Extensions: VS Code has extensions that provide syntax highlighting and autocompletion for SystemVerilog, which can make it easier to write and read SystemVerilog code.  
