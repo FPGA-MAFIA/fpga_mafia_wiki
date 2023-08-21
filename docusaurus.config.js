@@ -83,20 +83,72 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         links: [
           {
 			  // Down left
-            title: 'Docs',
+            title: 'Contributors',
             items: [
               {
-                label: 'Tuto',
-                to: '/docs/intro',
+                label: 'Amichai Ben-David',
+                to: 'https://www.linkedin.com/in/amichai-ben-david',
+              },
+              {
+                label: 'Noam Sabban',
+                to: 'https://www.linkedin.com/in/noam-sabban',
+              },
+              {
+                label: 'Shmuel Sfez',
+                to: 'https://github.com/ShmuelSfez',
+              },
+              { 
+                label: 'Yeonatan Perelman',
+                to: 'https://github.com/yeonatanPerelman',
+              },
+              {
+                label: 'Daniel Kaufman',
+                to: 'https://github.com/danielk532',
               },
             ],
           },
           {
-            title: 'More',
+			  // Down left
+            title: 'RTL Units',
             items: [
               {
-                label: 'GitHub',
+                label: 'Fabric',
+                to: '/docs/fabric/intro',
+              },
+              {
+                label: 'Big Core',
+                to: '/docs/big_core/intro',
+              },
+              {
+                label: 'Cache',
+                to: '/docs/cache/cache_intro',
+              }
+            ],
+          },
+          {
+			  // Down left
+            title: 'TFM',
+            items: [
+              {
+                label: 'Project-Tool',
+                to: '/docs/TFM/projectTool/intro',
+              },
+              {
+                label: 'System-Verilog',
+                to: '/docs/TFM/verilog/vlg_intro',
+              },
+            ],
+          },
+          {
+            title: 'GitHub - links',
+            items: [
+              {
+                label: 'GitHub - FPGA MAFIA',
                 href: 'https://github.com/amichai-bd/fpga_mafia',
+              },
+              {
+                label: 'GitHub - FPGA MAFIA WIKI',
+                href: 'https://github.com/amichai-bd/fpga_mafia_wiki',
               },
             ],
           },
@@ -104,8 +156,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         copyright: `Copyright © ${new Date().getFullYear()} MAFIA Project`,
       },
       prism: {
-        theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['systemverilog'],
       },
     }),
 });
