@@ -41,34 +41,34 @@ TODO - insert the block diagram
 | S_ERROR                 |                     |                                                                              |
 
 #### Typical FSM flow:
-- **Write Hit:**      S_IDLE -> S_LU_CORE->S_ IDLE
-        - New write request from the core
-        - TQ entry is allocated in parallel to the pipe lookup
-        - TQ entry merge buffer is updated speculatively with the new request data
-        - Lookup response is received as hit - the TQ data is discarded. Entry returns to S_IDLE   
-          *there is a case of B2B writes where the TQ state will not return to S_IDLE until the "last write" to the same CL responds from lookup  
-           See Merge Buffer Behavior for more details
+- **Write Hit:**      S_IDLE -> S_LU_CORE->S_ IDLE  
+        - New write request from the core  
+        - TQ entry is allocated in parallel to the pipe lookup  
+        - TQ entry merge buffer is updated speculatively with the new request data  
+        - Lookup response is received as hit - the TQ data is discarded. Entry returns to S_IDLE     
+          *there is a case of B2B writes where the TQ state will not return to S_IDLE until the "last write" to the same CL responds from lookup    
+           See Merge Buffer Behavior for more details  
 
-- **Write Miss:**     S_IDLE -> S_LU_CORE->S_MB_WAIT_FILL -> S_MB_FILL_READY -> S_ IDLE
-        - New write request from the core
-        - TQ entry is allocated in parallel to the pipe lookup
-        - TQ entry merge buffer is updated speculatively with the new request data.
-        - Lookup response is received as miss - moving to the MB_WAIT_FILL state.
-        - Far memory response is received, Merge buffer updates the write with the fill data, moving to the MB_FILL_READY state.
-        - The TQ entry wins the arbitration to send the "Fill" to the lookup pipe -> moving to the S_IDLE state.   
+- **Write Miss:**     S_IDLE -> S_LU_CORE->S_MB_WAIT_FILL -> S_MB_FILL_READY -> S_ IDLE    
+        - New write request from the core  
+        - TQ entry is allocated in parallel to the pipe lookup  
+        - TQ entry merge buffer is updated speculatively with the new request data.  
+        - Lookup response is received as miss - moving to the MB_WAIT_FILL state.  
+        - Far memory response is received, Merge buffer updates the write with the fill data, moving to the MB_FILL_READY state.  
+        - The TQ entry wins the arbitration to send the "Fill" to the lookup pipe -> moving to the S_IDLE state.    
           Note: We have a guaranty that the fill lookup will always win cache allocation. Meaning there is no "miss" for a fill request. this allows us to move to the S_IDLE state without waiting for the lookup response.
 
-- **Read Hit:**       S_IDLE -> S_LU_CORE->S_ IDLE
-        - New read request from the core
-        - TQ entry is allocated in parallel to the pipe lookup
-        - TQ entry merge buffer is updated speculatively with the new request data
-        - Lookup response is received as hit - the TQ data is discarded. Entry returns to S_IDLE
+- **Read Hit:**       S_IDLE -> S_LU_CORE->S_ IDLE  
+        - New read request from the core  
+        - TQ entry is allocated in parallel to the pipe lookup  
+        - TQ entry merge buffer is updated speculatively with the new request data  
+        - Lookup response is received as hit - the TQ data is discarded. Entry returns to S_IDLE  
 
-- **Read Miss:**      S_IDLE -> S_LU_CORE->S_MB_WAIT_FILL -> S_MB_FILL_READY -> S_ IDLE
-        - New read request from the core
-        - TQ entry is allocated in parallel to the pipe lookup
-        - There is no Data updated to the TQ entry merge buffer (this is a read request)
-        - Lookup response is received as miss - moving to the MB_WAIT_FILL state.
+- **Read Miss:**      S_IDLE -> S_LU_CORE->S_MB_WAIT_FILL -> S_MB_FILL_READY -> S_ IDLE  
+        - New read request from the core  
+        - TQ entry is allocated in parallel to the pipe lookup  
+        - There is no Data updated to the TQ entry merge buffer (this is a read request)  
+        - Lookup response is received as miss - moving to the MB_WAIT_FILL state.  
         - Far memory response is received, Merge buffer updates the write with the fill data, moving to the MB_FILL_READY state.
         - The TQ entry wins the arbitration to send the "Fill" to the lookup pipe -> moving to the S_IDLE state.   
           Note: We have a guaranty that the fill lookup will always win cache allocation.  

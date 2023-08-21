@@ -200,6 +200,81 @@
               }
             },
             {
+              "unversionedId": "cache/MAS/d_cache",
+              "id": "cache/MAS/d_cache",
+              "title": "Data Cache - MAS",
+              "description": "The data cache Micro-Architecture-Specification",
+              "source": "@site/docs/cache/MAS/d_cache.md",
+              "sourceDirName": "cache/MAS",
+              "slug": "/cache/MAS/d_cache",
+              "permalink": "/fpga_mafia_wiki/docs/cache/MAS/d_cache",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/cache/MAS/d_cache.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "cache/MAS/pipe",
+              "id": "cache/MAS/pipe",
+              "title": "pipe",
+              "description": "",
+              "source": "@site/docs/cache/MAS/pipe.md",
+              "sourceDirName": "cache/MAS",
+              "slug": "/cache/MAS/pipe",
+              "permalink": "/fpga_mafia_wiki/docs/cache/MAS/pipe",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/cache/MAS/pipe.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "cache/MAS/tag_data_arrays",
+              "id": "cache/MAS/tag_data_arrays",
+              "title": "tag_data_arrays",
+              "description": "",
+              "source": "@site/docs/cache/MAS/tag_data_arrays.md",
+              "sourceDirName": "cache/MAS",
+              "slug": "/cache/MAS/tag_data_arrays",
+              "permalink": "/fpga_mafia_wiki/docs/cache/MAS/tag_data_arrays",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/cache/MAS/tag_data_arrays.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "cache/MAS/tq",
+              "id": "cache/MAS/tq",
+              "title": "tq",
+              "description": "",
+              "source": "@site/docs/cache/MAS/tq.md",
+              "sourceDirName": "cache/MAS",
+              "slug": "/cache/MAS/tq",
+              "permalink": "/fpga_mafia_wiki/docs/cache/MAS/tq",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/cache/MAS/tq.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "cache/MAS/tq_entry",
+              "id": "cache/MAS/tq_entry",
+              "title": "tq_entry - MAS",
+              "description": "The transaction queue entry Micro-Architecture-Specification",
+              "source": "@site/docs/cache/MAS/tq_entry.md",
+              "sourceDirName": "cache/MAS",
+              "slug": "/cache/MAS/tq_entry",
+              "permalink": "/fpga_mafia_wiki/docs/cache/MAS/tq_entry",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/cache/MAS/tq_entry.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
               "unversionedId": "cache/Merge_Buffer_Behavior",
               "id": "cache/Merge_Buffer_Behavior",
               "title": "Merge Buffer Behavior",
@@ -264,6 +339,82 @@
               "frontMatter": {
                 "sidebar_position": 1
               }
+            },
+            {
+              "unversionedId": "fabric/MAS/fabric",
+              "id": "fabric/MAS/fabric",
+              "title": "fabric",
+              "description": "",
+              "source": "@site/docs/fabric/MAS/fabric.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/fabric",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/fabric",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/fabric.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "fabric/MAS/fifo_arb",
+              "id": "fabric/MAS/fifo_arb",
+              "title": "Fifo_Arb - MAS",
+              "description": "The fifo_arb Micro-Architecture-Specification",
+              "source": "@site/docs/fabric/MAS/fifo_arb.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/fifo_arb",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/fifo_arb",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/fifo_arb.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "fabric/MAS/mini_core",
+              "id": "fabric/MAS/mini_core",
+              "title": "mini_core",
+              "description": "",
+              "source": "@site/docs/fabric/MAS/mini_core.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/mini_core",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mini_core",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mini_core.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "fabric/MAS/mini_core_tile",
+              "id": "fabric/MAS/mini_core_tile",
+              "title": "mini_core_tile",
+              "description": "",
+              "source": "@site/docs/fabric/MAS/mini_core_tile.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/mini_core_tile",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mini_core_tile",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mini_core_tile.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "fabric/MAS/router",
+              "id": "fabric/MAS/router",
+              "title": "Router - MAS",
+              "description": "The router Micro-Architecture-Specification",
+              "source": "@site/docs/fabric/MAS/router.md",
+              "sourceDirName": "fabric/MAS",
+              "slug": "/fabric/MAS/router",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/router",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/router.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric"
             },
             {
               "unversionedId": "intro",
@@ -824,6 +975,14 @@
                 "type": "doc",
                 "id": "cache/ABD_notes",
                 "label": "ABD Notes",
+                "translatable": true
+              }
+            ],
+            "Fabric": [
+              {
+                "type": "doc",
+                "id": "fabric/MAS/router",
+                "label": "router",
                 "translatable": true
               }
             ]

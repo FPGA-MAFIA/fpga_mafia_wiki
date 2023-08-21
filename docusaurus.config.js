@@ -47,7 +47,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/BIU.png',
         },
         items: [
-        
           {
             type: 'doc',
             docId: 'cache/cache_intro',

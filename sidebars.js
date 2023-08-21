@@ -102,4 +102,11 @@ module.exports = {
     
     
   ],
+  Fabric:[
+    {
+      type: 'doc',
+      id: 'fabric/MAS/router',
+      label: 'router',
+    },
+  ],
 };
