@@ -163,7 +163,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'mini_core MAS',
+      label: 'Mini_core MAS',
       link: {
         type: 'doc',
         id: 'fabric/MAS_mini_core/mas_intro',
