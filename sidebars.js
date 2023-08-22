@@ -43,37 +43,37 @@ module.exports = {
   Build: [
     {
       type: 'doc',
-      id: 'build/intro',
+      id: 'build_script/intro',
       label: 'Intro',
     },
     {
       type: 'doc',
-      id: 'build/SW_compile',
+      id: 'build_script/SW_compile',
       label: 'SW Compile',
     },
     {
       type: 'doc',
-      id: 'build/HW_compile',
+      id: 'build_script/HW_compile',
       label: 'HW Compile',
     },
     {
       type: 'doc',
-      id: 'build/HW_elab_simulate',
+      id: 'build_script/HW_elab_simulate',
       label: 'HW elaboration & simulation',
     },
     {
       type: 'doc',
-      id: 'build/HW_gui_debug',
+      id: 'build_script/HW_gui_debug',
       label: 'HW GUI - debug',
     },
     {
       type: 'doc',
-      id: 'build/PostProcess',
+      id: 'build_script/PostProcess',
       label: 'PP - Simulation Post Process',
     },
     {
       type: 'doc',
-      id: 'build/BuildOptions',
+      id: 'build_script/BuildOptions',
       label: 'Build Options & Examples',
     },
   ],

@@ -120,16 +120,16 @@
               }
             },
             {
-              "unversionedId": "build/BuildOptions",
-              "id": "build/BuildOptions",
+              "unversionedId": "build_script/BuildOptions",
+              "id": "build_script/BuildOptions",
               "title": "The MAFIA Build Flow",
               "description": "",
-              "source": "@site/docs/build/BuildOptions.md",
-              "sourceDirName": "build",
-              "slug": "/build/BuildOptions",
-              "permalink": "/fpga_mafia_wiki/docs/build/BuildOptions",
+              "source": "@site/docs/build_script/BuildOptions.md",
+              "sourceDirName": "build_script",
+              "slug": "/build_script/BuildOptions",
+              "permalink": "/fpga_mafia_wiki/docs/build_script/BuildOptions",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/BuildOptions.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build_script/BuildOptions.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -139,20 +139,20 @@
               "sidebar": "Build",
               "previous": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/PostProcess"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/PostProcess"
               }
             },
             {
-              "unversionedId": "build/HW_compile",
-              "id": "build/HW_compile",
+              "unversionedId": "build_script/HW_compile",
+              "id": "build_script/HW_compile",
               "title": "The MAFIA Build Flow",
               "description": "",
-              "source": "@site/docs/build/HW_compile.md",
-              "sourceDirName": "build",
-              "slug": "/build/HW_compile",
-              "permalink": "/fpga_mafia_wiki/docs/build/HW_compile",
+              "source": "@site/docs/build_script/HW_compile.md",
+              "sourceDirName": "build_script",
+              "slug": "/build_script/HW_compile",
+              "permalink": "/fpga_mafia_wiki/docs/build_script/HW_compile",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/HW_compile.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build_script/HW_compile.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -162,24 +162,24 @@
               "sidebar": "Build",
               "previous": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/SW_compile"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/SW_compile"
               },
               "next": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/HW_elab_simulate"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/HW_elab_simulate"
               }
             },
             {
-              "unversionedId": "build/HW_elab_simulate",
-              "id": "build/HW_elab_simulate",
+              "unversionedId": "build_script/HW_elab_simulate",
+              "id": "build_script/HW_elab_simulate",
               "title": "The MAFIA Build Flow",
               "description": "",
-              "source": "@site/docs/build/HW_elab_simulate.md",
-              "sourceDirName": "build",
-              "slug": "/build/HW_elab_simulate",
-              "permalink": "/fpga_mafia_wiki/docs/build/HW_elab_simulate",
+              "source": "@site/docs/build_script/HW_elab_simulate.md",
+              "sourceDirName": "build_script",
+              "slug": "/build_script/HW_elab_simulate",
+              "permalink": "/fpga_mafia_wiki/docs/build_script/HW_elab_simulate",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/HW_elab_simulate.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build_script/HW_elab_simulate.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -189,24 +189,24 @@
               "sidebar": "Build",
               "previous": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/HW_compile"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/HW_compile"
               },
               "next": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/HW_gui_debug"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/HW_gui_debug"
               }
             },
             {
-              "unversionedId": "build/HW_gui_debug",
-              "id": "build/HW_gui_debug",
+              "unversionedId": "build_script/HW_gui_debug",
+              "id": "build_script/HW_gui_debug",
               "title": "The MAFIA Build Flow",
               "description": "",
-              "source": "@site/docs/build/HW_gui_debug.md",
-              "sourceDirName": "build",
-              "slug": "/build/HW_gui_debug",
-              "permalink": "/fpga_mafia_wiki/docs/build/HW_gui_debug",
+              "source": "@site/docs/build_script/HW_gui_debug.md",
+              "sourceDirName": "build_script",
+              "slug": "/build_script/HW_gui_debug",
+              "permalink": "/fpga_mafia_wiki/docs/build_script/HW_gui_debug",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/HW_gui_debug.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build_script/HW_gui_debug.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -216,24 +216,24 @@
               "sidebar": "Build",
               "previous": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/HW_elab_simulate"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/HW_elab_simulate"
               },
               "next": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/PostProcess"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/PostProcess"
               }
             },
             {
-              "unversionedId": "build/intro",
-              "id": "build/intro",
+              "unversionedId": "build_script/intro",
+              "id": "build_script/intro",
               "title": "The MAFIA Build Flow",
               "description": "",
-              "source": "@site/docs/build/intro.md",
-              "sourceDirName": "build",
-              "slug": "/build/intro",
-              "permalink": "/fpga_mafia_wiki/docs/build/intro",
+              "source": "@site/docs/build_script/intro.md",
+              "sourceDirName": "build_script",
+              "slug": "/build_script/intro",
+              "permalink": "/fpga_mafia_wiki/docs/build_script/intro",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/intro.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build_script/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -243,47 +243,20 @@
               "sidebar": "Build",
               "next": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/SW_compile"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/SW_compile"
               }
             },
             {
-              "unversionedId": "build/PostProcess",
-              "id": "build/PostProcess",
+              "unversionedId": "build_script/PostProcess",
+              "id": "build_script/PostProcess",
               "title": "The MAFIA Build Flow",
               "description": "",
-              "source": "@site/docs/build/PostProcess.md",
-              "sourceDirName": "build",
-              "slug": "/build/PostProcess",
-              "permalink": "/fpga_mafia_wiki/docs/build/PostProcess",
+              "source": "@site/docs/build_script/PostProcess.md",
+              "sourceDirName": "build_script",
+              "slug": "/build_script/PostProcess",
+              "permalink": "/fpga_mafia_wiki/docs/build_script/PostProcess",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/PostProcess.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "Build",
-              "previous": {
-                "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/HW_gui_debug"
-              },
-              "next": {
-                "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/BuildOptions"
-              }
-            },
-            {
-              "unversionedId": "build/SW_compile",
-              "id": "build/SW_compile",
-              "title": "The MAFIA Build Flow",
-              "description": "",
-              "source": "@site/docs/build/SW_compile.md",
-              "sourceDirName": "build",
-              "slug": "/build/SW_compile",
-              "permalink": "/fpga_mafia_wiki/docs/build/SW_compile",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/SW_compile.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build_script/PostProcess.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -293,11 +266,38 @@
               "sidebar": "Build",
               "previous": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/intro"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/HW_gui_debug"
               },
               "next": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build/HW_compile"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/BuildOptions"
+              }
+            },
+            {
+              "unversionedId": "build_script/SW_compile",
+              "id": "build_script/SW_compile",
+              "title": "The MAFIA Build Flow",
+              "description": "",
+              "source": "@site/docs/build_script/SW_compile.md",
+              "sourceDirName": "build_script",
+              "slug": "/build_script/SW_compile",
+              "permalink": "/fpga_mafia_wiki/docs/build_script/SW_compile",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build_script/SW_compile.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Build",
+              "previous": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build_script/intro"
+              },
+              "next": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build_script/HW_compile"
               }
             },
             {
@@ -1563,43 +1563,43 @@
             "Build": [
               {
                 "type": "doc",
-                "id": "build/intro",
+                "id": "build_script/intro",
                 "label": "Intro",
                 "translatable": true
               },
               {
                 "type": "doc",
-                "id": "build/SW_compile",
+                "id": "build_script/SW_compile",
                 "label": "SW Compile",
                 "translatable": true
               },
               {
                 "type": "doc",
-                "id": "build/HW_compile",
+                "id": "build_script/HW_compile",
                 "label": "HW Compile",
                 "translatable": true
               },
               {
                 "type": "doc",
-                "id": "build/HW_elab_simulate",
+                "id": "build_script/HW_elab_simulate",
                 "label": "HW elaboration & simulation",
                 "translatable": true
               },
               {
                 "type": "doc",
-                "id": "build/HW_gui_debug",
+                "id": "build_script/HW_gui_debug",
                 "label": "HW GUI - debug",
                 "translatable": true
               },
               {
                 "type": "doc",
-                "id": "build/PostProcess",
+                "id": "build_script/PostProcess",
                 "label": "PP - Simulation Post Process",
                 "translatable": true
               },
               {
                 "type": "doc",
-                "id": "build/BuildOptions",
+                "id": "build_script/BuildOptions",
                 "label": "Build Options & Examples",
                 "translatable": true
               }
