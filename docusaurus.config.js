@@ -49,6 +49,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
+            docId: 'fabric/intro',
+            position: 'left',
+            label: 'Fabric', 
+          },  
+          {
+            type: 'doc',
             docId: 'cache/cache_intro',
             position: 'left',
             label: 'Cache', 
@@ -61,9 +67,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },  
           {
             type: 'doc',
-            docId: 'fabric/intro',
+            docId: 'build/intro',
             position: 'left',
-            label: 'Fabric', 
+            label: 'Build', 
           },  
           {
             type: 'doc',
@@ -116,13 +122,33 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/docs/fabric/intro',
               },
               {
+                label: '- Router',
+                to: '/docs/fabric/intro',
+              },
+              {
+                label: '- Mini Core',
+                to: '/docs/fabric/intro',
+              },
+              {
                 label: 'Big Core',
                 to: '/docs/big_core/intro',
               },
               {
-                label: 'Cache',
+                label: 'Memory Subsystem',
+                to: '/docs/cache/cache_intro',//FIXME
+              },
+              {
+                label: '- Instruction Cache',
+                to: '/docs/cache/cache_intro',//FIXME
+              },
+              {
+                label: '- Data Cache',
                 to: '/docs/cache/cache_intro',
-              }
+              },
+              {
+                label: '- Memory Controller',
+                to: '/docs/cache/cache_intro',//FIXME
+              },
             ],
           },
           {
@@ -130,8 +156,24 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'TFM',
             items: [
               {
-                label: 'Project-Tool',
+                label: 'Project Tool',
                 to: '/docs/TFM/projectTool/intro',
+              },
+              {
+                label: '- Git & GitHub',
+                to: '/docs/TFM/projectTool/git_and_github',
+              },
+              {
+                label: '- RISCV GCC',
+                to: '/docs/TFM/projectTool/GccRiscV',
+              },
+              {
+                label: '- Modelsim',
+                to: '/docs/TFM/projectTool/ModelSim',
+              },
+              {
+                label: '- Quartus',
+                to: '/docs/TFM/projectTool/ModelSim',//FIXME
               },
               {
                 label: 'System-Verilog',

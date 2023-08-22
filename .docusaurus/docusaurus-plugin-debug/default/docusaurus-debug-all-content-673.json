@@ -35,6 +35,269 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
+              },
+              "sidebar": "Big_core",
+              "next": {
+                "title": "Big Core Intro",
+                "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/intro"
+              }
+            },
+            {
+              "unversionedId": "big_core/MAS/big_core_top",
+              "id": "big_core/MAS/big_core_top",
+              "title": "Big Core Top",
+              "description": "",
+              "source": "@site/docs/big_core/MAS/big_core_top.md",
+              "sourceDirName": "big_core/MAS",
+              "slug": "/big_core/MAS/big_core_top",
+              "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/big_core_top",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/big_core/MAS/big_core_top.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Big_core",
+              "previous": {
+                "title": "Memory Wrapper",
+                "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/mem_wrap"
+              }
+            },
+            {
+              "unversionedId": "big_core/MAS/intro",
+              "id": "big_core/MAS/intro",
+              "title": "Big Core Intro",
+              "description": "",
+              "source": "@site/docs/big_core/MAS/intro.md",
+              "sourceDirName": "big_core/MAS",
+              "slug": "/big_core/MAS/intro",
+              "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/big_core/MAS/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Big_core",
+              "previous": {
+                "title": "Big Core Intro",
+                "permalink": "/fpga_mafia_wiki/docs/big_core/intro"
+              },
+              "next": {
+                "title": "Memory Wrapper",
+                "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/mem_wrap"
+              }
+            },
+            {
+              "unversionedId": "big_core/MAS/mem_wrap",
+              "id": "big_core/MAS/mem_wrap",
+              "title": "Memory Wrapper",
+              "description": "Introduction",
+              "source": "@site/docs/big_core/MAS/mem_wrap.md",
+              "sourceDirName": "big_core/MAS",
+              "slug": "/big_core/MAS/mem_wrap",
+              "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/mem_wrap",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/big_core/MAS/mem_wrap.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Big_core",
+              "previous": {
+                "title": "Big Core Intro",
+                "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/intro"
+              },
+              "next": {
+                "title": "Big Core Top",
+                "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/big_core_top"
+              }
+            },
+            {
+              "unversionedId": "build/BuildOptions",
+              "id": "build/BuildOptions",
+              "title": "The MAFIA Build Flow",
+              "description": "",
+              "source": "@site/docs/build/BuildOptions.md",
+              "sourceDirName": "build",
+              "slug": "/build/BuildOptions",
+              "permalink": "/fpga_mafia_wiki/docs/build/BuildOptions",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/BuildOptions.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Build",
+              "previous": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/PostProcess"
+              }
+            },
+            {
+              "unversionedId": "build/HW_compile",
+              "id": "build/HW_compile",
+              "title": "The MAFIA Build Flow",
+              "description": "",
+              "source": "@site/docs/build/HW_compile.md",
+              "sourceDirName": "build",
+              "slug": "/build/HW_compile",
+              "permalink": "/fpga_mafia_wiki/docs/build/HW_compile",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/HW_compile.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Build",
+              "previous": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/SW_compile"
+              },
+              "next": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/HW_elab_simulate"
+              }
+            },
+            {
+              "unversionedId": "build/HW_elab_simulate",
+              "id": "build/HW_elab_simulate",
+              "title": "The MAFIA Build Flow",
+              "description": "",
+              "source": "@site/docs/build/HW_elab_simulate.md",
+              "sourceDirName": "build",
+              "slug": "/build/HW_elab_simulate",
+              "permalink": "/fpga_mafia_wiki/docs/build/HW_elab_simulate",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/HW_elab_simulate.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Build",
+              "previous": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/HW_compile"
+              },
+              "next": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/HW_gui_debug"
+              }
+            },
+            {
+              "unversionedId": "build/HW_gui_debug",
+              "id": "build/HW_gui_debug",
+              "title": "The MAFIA Build Flow",
+              "description": "",
+              "source": "@site/docs/build/HW_gui_debug.md",
+              "sourceDirName": "build",
+              "slug": "/build/HW_gui_debug",
+              "permalink": "/fpga_mafia_wiki/docs/build/HW_gui_debug",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/HW_gui_debug.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Build",
+              "previous": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/HW_elab_simulate"
+              },
+              "next": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/PostProcess"
+              }
+            },
+            {
+              "unversionedId": "build/intro",
+              "id": "build/intro",
+              "title": "The MAFIA Build Flow",
+              "description": "",
+              "source": "@site/docs/build/intro.md",
+              "sourceDirName": "build",
+              "slug": "/build/intro",
+              "permalink": "/fpga_mafia_wiki/docs/build/intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Build",
+              "next": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/SW_compile"
+              }
+            },
+            {
+              "unversionedId": "build/PostProcess",
+              "id": "build/PostProcess",
+              "title": "The MAFIA Build Flow",
+              "description": "",
+              "source": "@site/docs/build/PostProcess.md",
+              "sourceDirName": "build",
+              "slug": "/build/PostProcess",
+              "permalink": "/fpga_mafia_wiki/docs/build/PostProcess",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/PostProcess.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Build",
+              "previous": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/HW_gui_debug"
+              },
+              "next": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/BuildOptions"
+              }
+            },
+            {
+              "unversionedId": "build/SW_compile",
+              "id": "build/SW_compile",
+              "title": "The MAFIA Build Flow",
+              "description": "",
+              "source": "@site/docs/build/SW_compile.md",
+              "sourceDirName": "build",
+              "slug": "/build/SW_compile",
+              "permalink": "/fpga_mafia_wiki/docs/build/SW_compile",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build/SW_compile.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "Build",
+              "previous": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/intro"
+              },
+              "next": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build/HW_compile"
               }
             },
             {
@@ -342,116 +605,44 @@
               "sidebar": "Fabric",
               "next": {
                 "title": "Fabric Intro",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_intro"
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/mas_intro"
               }
             },
             {
-              "unversionedId": "fabric/MAS/mas_arbiter",
-              "id": "fabric/MAS/mas_arbiter",
-              "title": "mas_arbiter",
-              "description": "",
-              "source": "@site/docs/fabric/MAS/mas_arbiter.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/mas_arbiter",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_arbiter",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_arbiter.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Fabric",
-              "previous": {
-                "title": "Fifo_Arb - MAS",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo_arb"
-              },
-              "next": {
-                "title": "mas_fifo",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo"
-              }
-            },
-            {
-              "unversionedId": "fabric/MAS/mas_fabric",
-              "id": "fabric/MAS/mas_fabric",
+              "unversionedId": "fabric/MAS_fabric/mas_fabric",
+              "id": "fabric/MAS_fabric/mas_fabric",
               "title": "mas_fabric",
               "description": "",
-              "source": "@site/docs/fabric/MAS/mas_fabric.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/mas_fabric",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fabric",
+              "source": "@site/docs/fabric/MAS_fabric/mas_fabric.md",
+              "sourceDirName": "fabric/MAS_fabric",
+              "slug": "/fabric/MAS_fabric/",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_fabric.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_fabric/mas_fabric.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "Fabric",
               "previous": {
                 "title": "Fabric Intro",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_intro"
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/mas_intro"
               },
               "next": {
                 "title": "mas_mini_core_tile",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core_tile"
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/mas_mini_core_tile"
               }
             },
             {
-              "unversionedId": "fabric/MAS/mas_fifo",
-              "id": "fabric/MAS/mas_fifo",
-              "title": "mas_fifo",
-              "description": "",
-              "source": "@site/docs/fabric/MAS/mas_fifo.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/mas_fifo",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_fifo.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Fabric",
-              "previous": {
-                "title": "mas_arbiter",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_arbiter"
-              },
-              "next": {
-                "title": "Fabric Intro",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_intro"
-              }
-            },
-            {
-              "unversionedId": "fabric/MAS/mas_fifo_arb",
-              "id": "fabric/MAS/mas_fifo_arb",
-              "title": "Fifo_Arb - MAS",
-              "description": "The fifo_arb Micro-Architecture-Specification",
-              "source": "@site/docs/fabric/MAS/mas_fifo_arb.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/mas_fifo_arb",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo_arb",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_fifo_arb.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Fabric",
-              "previous": {
-                "title": "Router - MAS",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_router"
-              },
-              "next": {
-                "title": "mas_arbiter",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_arbiter"
-              }
-            },
-            {
-              "unversionedId": "fabric/MAS/mas_intro",
-              "id": "fabric/MAS/mas_intro",
+              "unversionedId": "fabric/MAS_fabric/mas_intro",
+              "id": "fabric/MAS_fabric/mas_intro",
               "title": "Fabric Intro",
               "description": "",
-              "source": "@site/docs/fabric/MAS/mas_intro.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/mas_intro",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_intro",
+              "source": "@site/docs/fabric/MAS_fabric/mas_intro.md",
+              "sourceDirName": "fabric/MAS_fabric",
+              "slug": "/fabric/MAS_fabric/mas_intro",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/mas_intro",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_intro.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_fabric/mas_intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -465,68 +656,194 @@
               },
               "next": {
                 "title": "mas_fabric",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fabric"
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/"
               }
             },
             {
-              "unversionedId": "fabric/MAS/mas_mini_core",
-              "id": "fabric/MAS/mas_mini_core",
-              "title": "mas_mini_core",
-              "description": "",
-              "source": "@site/docs/fabric/MAS/mas_mini_core.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/mas_mini_core",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_mini_core.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Fabric",
-              "previous": {
-                "title": "mas_mini_core_tile",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core_tile"
-              },
-              "next": {
-                "title": "Router - MAS",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_router"
-              }
-            },
-            {
-              "unversionedId": "fabric/MAS/mas_mini_core_tile",
-              "id": "fabric/MAS/mas_mini_core_tile",
+              "unversionedId": "fabric/MAS_fabric/mas_mini_core_tile",
+              "id": "fabric/MAS_fabric/mas_mini_core_tile",
               "title": "mas_mini_core_tile",
               "description": "",
-              "source": "@site/docs/fabric/MAS/mas_mini_core_tile.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/mas_mini_core_tile",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core_tile",
+              "source": "@site/docs/fabric/MAS_fabric/mas_mini_core_tile.md",
+              "sourceDirName": "fabric/MAS_fabric",
+              "slug": "/fabric/MAS_fabric/mas_mini_core_tile",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/mas_mini_core_tile",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_mini_core_tile.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_fabric/mas_mini_core_tile.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "Fabric",
               "previous": {
                 "title": "mas_fabric",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fabric"
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/"
               },
               "next": {
-                "title": "mas_mini_core",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core"
+                "title": "Fabric Intro",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/mas_intro"
               }
             },
             {
-              "unversionedId": "fabric/MAS/mas_router",
-              "id": "fabric/MAS/mas_router",
+              "unversionedId": "fabric/MAS_mini_core/mas_intro",
+              "id": "fabric/MAS_mini_core/mas_intro",
+              "title": "Fabric Intro",
+              "description": "",
+              "source": "@site/docs/fabric/MAS_mini_core/mas_intro.md",
+              "sourceDirName": "fabric/MAS_mini_core",
+              "slug": "/fabric/MAS_mini_core/mas_intro",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/mas_intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_mini_core/mas_intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "mas_mini_core_tile",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/mas_mini_core_tile"
+              },
+              "next": {
+                "title": "mas_mini_core",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS_mini_core/mas_mini_core",
+              "id": "fabric/MAS_mini_core/mas_mini_core",
+              "title": "mas_mini_core",
+              "description": "",
+              "source": "@site/docs/fabric/MAS_mini_core/mas_mini_core.md",
+              "sourceDirName": "fabric/MAS_mini_core",
+              "slug": "/fabric/MAS_mini_core/",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_mini_core/mas_mini_core.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "Fabric Intro",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/mas_intro"
+              },
+              "next": {
+                "title": "Fabric Intro",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_intro"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS_router/mas_arbiter",
+              "id": "fabric/MAS_router/mas_arbiter",
+              "title": "mas_arbiter",
+              "description": "",
+              "source": "@site/docs/fabric/MAS_router/mas_arbiter.md",
+              "sourceDirName": "fabric/MAS_router",
+              "slug": "/fabric/MAS_router/mas_arbiter",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_arbiter",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_router/mas_arbiter.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "Fifo_Arb - MAS",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_fifo_arb"
+              },
+              "next": {
+                "title": "mas_fifo",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_fifo"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS_router/mas_fifo",
+              "id": "fabric/MAS_router/mas_fifo",
+              "title": "mas_fifo",
+              "description": "",
+              "source": "@site/docs/fabric/MAS_router/mas_fifo.md",
+              "sourceDirName": "fabric/MAS_router",
+              "slug": "/fabric/MAS_router/mas_fifo",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_fifo",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_router/mas_fifo.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "mas_arbiter",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_arbiter"
+              },
+              "next": {
+                "title": "Fabric Intro",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/verification/verification_intro"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS_router/mas_fifo_arb",
+              "id": "fabric/MAS_router/mas_fifo_arb",
+              "title": "Fifo_Arb - MAS",
+              "description": "The fifo_arb Micro-Architecture-Specification",
+              "source": "@site/docs/fabric/MAS_router/mas_fifo_arb.md",
+              "sourceDirName": "fabric/MAS_router",
+              "slug": "/fabric/MAS_router/mas_fifo_arb",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_fifo_arb",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_router/mas_fifo_arb.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "Router - MAS",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/"
+              },
+              "next": {
+                "title": "mas_arbiter",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_arbiter"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS_router/mas_intro",
+              "id": "fabric/MAS_router/mas_intro",
+              "title": "Fabric Intro",
+              "description": "",
+              "source": "@site/docs/fabric/MAS_router/mas_intro.md",
+              "sourceDirName": "fabric/MAS_router",
+              "slug": "/fabric/MAS_router/mas_intro",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_router/mas_intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "Fabric",
+              "previous": {
+                "title": "mas_mini_core",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/"
+              },
+              "next": {
+                "title": "Router - MAS",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/"
+              }
+            },
+            {
+              "unversionedId": "fabric/MAS_router/mas_router",
+              "id": "fabric/MAS_router/mas_router",
               "title": "Router - MAS",
               "description": "The router Micro-Architecture-Specification",
-              "source": "@site/docs/fabric/MAS/mas_router.md",
-              "sourceDirName": "fabric/MAS",
-              "slug": "/fabric/MAS/mas_router",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_router",
+              "source": "@site/docs/fabric/MAS_router/mas_router.md",
+              "sourceDirName": "fabric/MAS_router",
+              "slug": "/fabric/MAS_router/",
+              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS/mas_router.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_router/mas_router.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -535,12 +852,12 @@
               },
               "sidebar": "Fabric",
               "previous": {
-                "title": "mas_mini_core",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_mini_core"
+                "title": "Fabric Intro",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_intro"
               },
               "next": {
                 "title": "Fifo_Arb - MAS",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo_arb"
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_fifo_arb"
               }
             },
             {
@@ -655,7 +972,7 @@
               "sidebar": "Fabric",
               "previous": {
                 "title": "mas_fifo",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS/mas_fifo"
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_fifo"
               },
               "next": {
                 "title": "verification_fabric",
@@ -753,6 +1070,30 @@
               }
             },
             {
+              "unversionedId": "TFM/projectTool/GccRiscV",
+              "id": "TFM/projectTool/GccRiscV",
+              "title": "GccRiscV",
+              "description": "<!-- # SW",
+              "source": "@site/docs/TFM/projectTool/GccRiscV.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/GccRiscV",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GccRiscV",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/GccRiscV.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Github actions",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitHubActions"
+              },
+              "next": {
+                "title": "ModelSim",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/ModelSim"
+              }
+            },
+            {
               "unversionedId": "TFM/projectTool/git_and_github",
               "id": "TFM/projectTool/git_and_github",
               "title": "Git and GitHub",
@@ -820,8 +1161,8 @@
                 "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitBash"
               },
               "next": {
-                "title": "Riscv",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Riscv"
+                "title": "GccRiscV",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GccRiscV"
               }
             },
             {
@@ -864,36 +1205,12 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "Riscv",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Riscv"
+                "title": "GccRiscV",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GccRiscV"
               },
               "next": {
                 "title": "Walkthrough - tool-chain tutorial",
                 "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Walkthrough"
-              }
-            },
-            {
-              "unversionedId": "TFM/projectTool/Riscv",
-              "id": "TFM/projectTool/Riscv",
-              "title": "Riscv",
-              "description": "<!-- # SW",
-              "source": "@site/docs/TFM/projectTool/Riscv.md",
-              "sourceDirName": "TFM/projectTool",
-              "slug": "/TFM/projectTool/Riscv",
-              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Riscv",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/Riscv.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "TFM",
-              "previous": {
-                "title": "Github actions",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitHubActions"
-              },
-              "next": {
-                "title": "ModelSim",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/ModelSim"
               }
             },
             {
@@ -1188,7 +1505,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "TFM/projectTool/Riscv"
+                    "id": "TFM/projectTool/GccRiscV"
                   },
                   {
                     "type": "doc",
@@ -1241,6 +1558,50 @@
                 ],
                 "collapsed": true,
                 "collapsible": true
+              }
+            ],
+            "Build": [
+              {
+                "type": "doc",
+                "id": "build/intro",
+                "label": "Intro",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "build/SW_compile",
+                "label": "SW Compile",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "build/HW_compile",
+                "label": "HW Compile",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "build/HW_elab_simulate",
+                "label": "HW elaboration & simulation",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "build/HW_gui_debug",
+                "label": "HW GUI - debug",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "build/PostProcess",
+                "label": "PP - Simulation Post Process",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "build/BuildOptions",
+                "label": "Build Options & Examples",
+                "translatable": true
               }
             ],
             "Cache": [
@@ -1299,6 +1660,34 @@
                 "translatable": true
               }
             ],
+            "Big_core": [
+              {
+                "type": "doc",
+                "id": "big_core/intro",
+                "label": "intro",
+                "translatable": true
+              },
+              {
+                "type": "category",
+                "label": "Big-Core MAS",
+                "link": {
+                  "type": "doc",
+                  "id": "big_core/MAS/intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "big_core/MAS/mem_wrap"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "big_core/MAS/big_core_top"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
             "Fabric": [
               {
                 "type": "doc",
@@ -1311,36 +1700,60 @@
                 "label": "Fabric MAS",
                 "link": {
                   "type": "doc",
-                  "id": "fabric/MAS/mas_intro"
+                  "id": "fabric/MAS_fabric/mas_intro"
                 },
                 "items": [
                   {
                     "type": "doc",
-                    "id": "fabric/MAS/mas_fabric"
+                    "id": "fabric/MAS_fabric/mas_fabric"
                   },
                   {
                     "type": "doc",
-                    "id": "fabric/MAS/mas_mini_core_tile"
+                    "id": "fabric/MAS_fabric/mas_mini_core_tile"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "mini_core MAS",
+                "link": {
+                  "type": "doc",
+                  "id": "fabric/MAS_mini_core/mas_intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "fabric/MAS_mini_core/mas_mini_core"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Router MAS",
+                "link": {
+                  "type": "doc",
+                  "id": "fabric/MAS_router/mas_intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "fabric/MAS_router/mas_router"
                   },
                   {
                     "type": "doc",
-                    "id": "fabric/MAS/mas_mini_core"
+                    "id": "fabric/MAS_router/mas_fifo_arb"
                   },
                   {
                     "type": "doc",
-                    "id": "fabric/MAS/mas_router"
+                    "id": "fabric/MAS_router/mas_arbiter"
                   },
                   {
                     "type": "doc",
-                    "id": "fabric/MAS/mas_fifo_arb"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "fabric/MAS/mas_arbiter"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "fabric/MAS/mas_fifo"
+                    "id": "fabric/MAS_router/mas_fifo"
                   }
                 ],
                 "collapsed": true,
