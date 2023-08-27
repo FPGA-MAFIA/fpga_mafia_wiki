@@ -37,10 +37,9 @@ function HomepageHeader() {
           <div>
           <h3><strong>Current Development Status:</strong></h3>
           <p>
-            This project is currently a work in progress (WIP).
-            <br/> We are in the process of enabling
-            and integrating individual IPs.
-            <br/><br/>Our team is working diligently to deliver a fully functional fabric by August 1, 2023.
+            <br/>This project is currently a work in progress
+            <br/> We are in the process of enabling and integrating individual IPs
+            <br/>Our team is working diligently to deliver a fully functional fabric by August 1, 2023.
           </p>
         </div>
         </div>
@@ -75,7 +74,11 @@ export default function Home() {
     A initiative aimed at designing a System-on-a-Chip (SoC) Tile-based mesh fabric.
     Our architecture is designed to be highly versatile, capable of incorporating a variety of functionalities.
   </p>
-
+<br/>
+  <div style={{ textAlign: 'center' }}>
+    <img src="https://user-images.githubusercontent.com/81047407/218485725-d4442e94-7129-48b9-92bb-8f2ce52a301c.png" alt="Project Image" width="650" />
+  </div>
+<br/>
   <h2>Functionality includes</h2>
   <ul>
     <li>RISCV mini-cores and big-cores</li>
@@ -123,12 +126,6 @@ export default function Home() {
     <li>Software examples demonstrating the utilization of many cores for distributed calculations and parallel computation.</li>
   </ul>
 
-<br/>
-
-  <div style={{ textAlign: 'center' }}>
-    <img src="https://user-images.githubusercontent.com/81047407/218485725-d4442e94-7129-48b9-92bb-8f2ce52a301c.png" alt="Project Image" width="650" />
-  </div>
-<br/>
 
   <h2>Getting Started</h2>
   <p>
