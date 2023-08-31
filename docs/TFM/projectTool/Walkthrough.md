@@ -27,7 +27,7 @@ Example:
 export PATH=$PATH:/c/Users/abendavid/AppData/Roaming/xPacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin
 ```
 
-*FIXME - this is not correct- should add the ~/.bashrc that path - no need for using the aliases*
+FIXME - this is not correct- should add the ~/.bashrc that path - no need for using the aliases
 alias rv_gcc='/c/Users/amich/AppData/Roaming/xPacks/riscv-none-embed-gcc/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/riscv-none-embed-gcc.exe'  
 alias rv_objcopy='/c/Users/amich/AppData/Roaming/xPacks/riscv-none-embed-gcc/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/riscv-none-embed-objcopy.exe'  
 alias rv_objdump='/c/Users/amich/AppData/Roaming/xPacks/riscv-none-embed-gcc/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/riscv-none-embed-objdump.exe'  
