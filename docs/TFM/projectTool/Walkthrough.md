@@ -20,7 +20,7 @@ Download indevidual files: modelsim, quartus, "Intel MAX 10 Device Support".
 
 
 
-## Gitbash shell - Set aliases for the compile & link commands: (add to:  "~/.aliases" or C:\Program Files\Git\etc\profile.d\aliases.sh)  
+## Gitbash shell - compile & link commands:  
 Add to the ~/.bashrc the PATH of the gcc compiler
 Example:
 ```
