@@ -124,7 +124,7 @@ module.exports = {
       label: 'ABD Notes',
     },
   ],
-  RiscV_Cores:[
+  RISCV_Cores:[
     {
       type: 'doc',
       id: 'rvc/intro',

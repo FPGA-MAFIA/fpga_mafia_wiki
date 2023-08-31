@@ -63,7 +63,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'rvc/intro',
             position: 'left',
-            label: 'RiscV_Cores', 
+            label: 'RISCV_Cores', 
           },  
           {
             type: 'doc',
