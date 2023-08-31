@@ -181,7 +181,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'System-Verilog',
-                to: '/docs/TFM/verilog/vlg_intro',
+                to: '/docs/TFM/verilog/intro',
               },
             ],
           },
