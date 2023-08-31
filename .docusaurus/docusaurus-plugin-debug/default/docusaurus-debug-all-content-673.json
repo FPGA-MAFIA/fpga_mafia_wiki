@@ -20,29 +20,6 @@
           "contentPathLocalized": "C:\\Users\\abendavid\\OneDrive - NVIDIA Corporation\\Desktop\\github\\BIU_project\\fpga_mafia_wiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
-              "unversionedId": "big_core/intro",
-              "id": "big_core/intro",
-              "title": "Big Core Intro",
-              "description": "",
-              "source": "@site/docs/big_core/intro.md",
-              "sourceDirName": "big_core",
-              "slug": "/big_core/intro",
-              "permalink": "/fpga_mafia_wiki/docs/big_core/intro",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/big_core/intro.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "Big_core",
-              "next": {
-                "title": "Big Core Intro",
-                "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/intro"
-              }
-            },
-            {
               "unversionedId": "big_core/MAS/big_core_top",
               "id": "big_core/MAS/big_core_top",
               "title": "Big Core Top",
@@ -58,11 +35,6 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
-              },
-              "sidebar": "Big_core",
-              "previous": {
-                "title": "Memory Wrapper",
-                "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/mem_wrap"
               }
             },
             {
@@ -81,15 +53,6 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
-              },
-              "sidebar": "Big_core",
-              "previous": {
-                "title": "Big Core Intro",
-                "permalink": "/fpga_mafia_wiki/docs/big_core/intro"
-              },
-              "next": {
-                "title": "Memory Wrapper",
-                "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/mem_wrap"
               }
             },
             {
@@ -108,15 +71,6 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
-              },
-              "sidebar": "Big_core",
-              "previous": {
-                "title": "Big Core Intro",
-                "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/intro"
-              },
-              "next": {
-                "title": "Big Core Top",
-                "permalink": "/fpga_mafia_wiki/docs/big_core/MAS/big_core_top"
               }
             },
             {
@@ -1070,6 +1024,421 @@
               }
             },
             {
+              "unversionedId": "rvc/big_core/big_core",
+              "id": "rvc/big_core/big_core",
+              "title": "Big Core Top",
+              "description": "",
+              "source": "@site/docs/rvc/big_core/big_core.md",
+              "sourceDirName": "rvc/big_core",
+              "slug": "/rvc/big_core/",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/big_core/big_core.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "Big Core Top",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/big_core_top"
+              },
+              "next": {
+                "title": "Memory Wrapper",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/mem_wrap"
+              }
+            },
+            {
+              "unversionedId": "rvc/big_core/big_core_top",
+              "id": "rvc/big_core/big_core_top",
+              "title": "Big Core Top",
+              "description": "",
+              "source": "@site/docs/rvc/big_core/big_core_top.md",
+              "sourceDirName": "rvc/big_core",
+              "slug": "/rvc/big_core/big_core_top",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/big_core_top",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/big_core/big_core_top.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "Big Core Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/intro"
+              },
+              "next": {
+                "title": "Big Core Top",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/"
+              }
+            },
+            {
+              "unversionedId": "rvc/big_core/intro",
+              "id": "rvc/big_core/intro",
+              "title": "Big Core Intro",
+              "description": "",
+              "source": "@site/docs/rvc/big_core/intro.md",
+              "sourceDirName": "rvc/big_core",
+              "slug": "/rvc/big_core/intro",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/big_core/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "wb",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/wb"
+              },
+              "next": {
+                "title": "Big Core Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/intro"
+              }
+            },
+            {
+              "unversionedId": "rvc/big_core/mem_wrap",
+              "id": "rvc/big_core/mem_wrap",
+              "title": "Memory Wrapper",
+              "description": "Introduction",
+              "source": "@site/docs/rvc/big_core/mem_wrap.md",
+              "sourceDirName": "rvc/big_core",
+              "slug": "/rvc/big_core/mem_wrap",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/mem_wrap",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/big_core/mem_wrap.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "Big Core Top",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/"
+              },
+              "next": {
+                "title": "Big Core Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/intro"
+              }
+            },
+            {
+              "unversionedId": "rvc/common/ctrl",
+              "id": "rvc/common/ctrl",
+              "title": "ctrl",
+              "description": "",
+              "source": "@site/docs/rvc/common/ctrl.md",
+              "sourceDirName": "rvc/common",
+              "slug": "/rvc/common/ctrl",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/common/ctrl",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/common/ctrl.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/intro"
+              },
+              "next": {
+                "title": "if",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/if"
+              }
+            },
+            {
+              "unversionedId": "rvc/common/decode",
+              "id": "rvc/common/decode",
+              "title": "decode",
+              "description": "",
+              "source": "@site/docs/rvc/common/decode.md",
+              "sourceDirName": "rvc/common",
+              "slug": "/rvc/common/decode",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/common/decode",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/common/decode.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "if",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/if"
+              },
+              "next": {
+                "title": "rf",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/rf"
+              }
+            },
+            {
+              "unversionedId": "rvc/common/exe",
+              "id": "rvc/common/exe",
+              "title": "exe",
+              "description": "",
+              "source": "@site/docs/rvc/common/exe.md",
+              "sourceDirName": "rvc/common",
+              "slug": "/rvc/common/exe",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/common/exe",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/common/exe.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "rf",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/rf"
+              },
+              "next": {
+                "title": "mem_acs",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/mem_acs"
+              }
+            },
+            {
+              "unversionedId": "rvc/common/if",
+              "id": "rvc/common/if",
+              "title": "if",
+              "description": "",
+              "source": "@site/docs/rvc/common/if.md",
+              "sourceDirName": "rvc/common",
+              "slug": "/rvc/common/if",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/common/if",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/common/if.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "ctrl",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/ctrl"
+              },
+              "next": {
+                "title": "decode",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/decode"
+              }
+            },
+            {
+              "unversionedId": "rvc/common/intro",
+              "id": "rvc/common/intro",
+              "title": "Intro",
+              "description": "",
+              "source": "@site/docs/rvc/common/intro.md",
+              "sourceDirName": "rvc/common",
+              "slug": "/rvc/common/intro",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/common/intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/common/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/intro"
+              },
+              "next": {
+                "title": "ctrl",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/ctrl"
+              }
+            },
+            {
+              "unversionedId": "rvc/common/mem_acs",
+              "id": "rvc/common/mem_acs",
+              "title": "mem_acs",
+              "description": "",
+              "source": "@site/docs/rvc/common/mem_acs.md",
+              "sourceDirName": "rvc/common",
+              "slug": "/rvc/common/mem_acs",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/common/mem_acs",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/common/mem_acs.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "exe",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/exe"
+              },
+              "next": {
+                "title": "wb",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/wb"
+              }
+            },
+            {
+              "unversionedId": "rvc/common/rf",
+              "id": "rvc/common/rf",
+              "title": "rf",
+              "description": "",
+              "source": "@site/docs/rvc/common/rf.md",
+              "sourceDirName": "rvc/common",
+              "slug": "/rvc/common/rf",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/common/rf",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/common/rf.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "decode",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/decode"
+              },
+              "next": {
+                "title": "exe",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/exe"
+              }
+            },
+            {
+              "unversionedId": "rvc/common/wb",
+              "id": "rvc/common/wb",
+              "title": "wb",
+              "description": "",
+              "source": "@site/docs/rvc/common/wb.md",
+              "sourceDirName": "rvc/common",
+              "slug": "/rvc/common/wb",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/common/wb",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/common/wb.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "mem_acs",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/mem_acs"
+              },
+              "next": {
+                "title": "Big Core Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/intro"
+              }
+            },
+            {
+              "unversionedId": "rvc/intro",
+              "id": "rvc/intro",
+              "title": "Intro",
+              "description": "",
+              "source": "@site/docs/rvc/intro.md",
+              "sourceDirName": "rvc",
+              "slug": "/rvc/intro",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "next": {
+                "title": "Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/common/intro"
+              }
+            },
+            {
+              "unversionedId": "rvc/mini_core/intro",
+              "id": "rvc/mini_core/intro",
+              "title": "Big Core Intro",
+              "description": "",
+              "source": "@site/docs/rvc/mini_core/intro.md",
+              "sourceDirName": "rvc/mini_core",
+              "slug": "/rvc/mini_core/intro",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/mini_core/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "Memory Wrapper",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/mem_wrap"
+              },
+              "next": {
+                "title": "Big Core Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/intro"
+              }
+            },
+            {
+              "unversionedId": "rvc/mini_core/mini_core",
+              "id": "rvc/mini_core/mini_core",
+              "title": "Intro",
+              "description": "",
+              "source": "@site/docs/rvc/mini_core/mini_core.md",
+              "sourceDirName": "rvc/mini_core",
+              "slug": "/rvc/mini_core/",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/mini_core/mini_core.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/mini_core_top"
+              },
+              "next": {
+                "title": "Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/mini_core_mem_wrap"
+              }
+            },
+            {
+              "unversionedId": "rvc/mini_core/mini_core_mem_wrap",
+              "id": "rvc/mini_core/mini_core_mem_wrap",
+              "title": "Intro",
+              "description": "",
+              "source": "@site/docs/rvc/mini_core/mini_core_mem_wrap.md",
+              "sourceDirName": "rvc/mini_core",
+              "slug": "/rvc/mini_core/mini_core_mem_wrap",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/mini_core_mem_wrap",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/mini_core/mini_core_mem_wrap.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/"
+              }
+            },
+            {
+              "unversionedId": "rvc/mini_core/mini_core_top",
+              "id": "rvc/mini_core/mini_core_top",
+              "title": "Intro",
+              "description": "",
+              "source": "@site/docs/rvc/mini_core/mini_core_top.md",
+              "sourceDirName": "rvc/mini_core",
+              "slug": "/rvc/mini_core/mini_core_top",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/mini_core_top",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/mini_core/mini_core_top.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RiscV_Cores",
+              "previous": {
+                "title": "Big Core Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/intro"
+              },
+              "next": {
+                "title": "Intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/"
+              }
+            },
+            {
               "unversionedId": "TFM/projectTool/GccRiscV",
               "id": "TFM/projectTool/GccRiscV",
               "title": "GccRiscV",
@@ -1660,28 +2029,104 @@
                 "translatable": true
               }
             ],
-            "Big_core": [
+            "RiscV_Cores": [
               {
                 "type": "doc",
-                "id": "big_core/intro",
+                "id": "rvc/intro",
                 "label": "intro",
                 "translatable": true
               },
               {
                 "type": "category",
-                "label": "Big-Core MAS",
+                "label": "Common Components",
                 "link": {
                   "type": "doc",
-                  "id": "big_core/MAS/intro"
+                  "id": "rvc/common/intro"
                 },
                 "items": [
                   {
                     "type": "doc",
-                    "id": "big_core/MAS/mem_wrap"
+                    "id": "rvc/common/ctrl"
                   },
                   {
                     "type": "doc",
-                    "id": "big_core/MAS/big_core_top"
+                    "id": "rvc/common/if"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/common/decode"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/common/rf"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/common/exe"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/common/mem_acs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/common/wb"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Big Core",
+                "link": {
+                  "type": "doc",
+                  "id": "rvc/big_core/intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "rvc/big_core/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/big_core/big_core_top"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/big_core/big_core"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/big_core/mem_wrap"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Mini Core",
+                "link": {
+                  "type": "doc",
+                  "id": "rvc/mini_core/intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "rvc/mini_core/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/mini_core/mini_core_top"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/mini_core/mini_core"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/mini_core/mini_core_mem_wrap"
                   }
                 ],
                 "collapsed": true,
