@@ -20,14 +20,14 @@ Download indevidual files: modelsim, quartus, "Intel MAX 10 Device Support".
 
 
 
-## Gitbash shell - Set aliases for the compile & link commands: (add to:  "~/.aliases" or C:\Program Files\Git\etc\profile.d\aliases.sh)  
+## Gitbash shell - compile & link commands:  
 Add to the ~/.bashrc the PATH of the gcc compiler
 Example:
 ```
 export PATH=$PATH:/c/Users/abendavid/AppData/Roaming/xPacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin
 ```
 
-*FIXME - this is not correct- should add the ~/.bashrc that path - no need for using the aliases*
+FIXME - this is not correct- should add the ~/.bashrc that path - no need for using the aliases
 alias rv_gcc='/c/Users/amich/AppData/Roaming/xPacks/riscv-none-embed-gcc/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/riscv-none-embed-gcc.exe'  
 alias rv_objcopy='/c/Users/amich/AppData/Roaming/xPacks/riscv-none-embed-gcc/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/riscv-none-embed-objcopy.exe'  
 alias rv_objdump='/c/Users/amich/AppData/Roaming/xPacks/riscv-none-embed-gcc/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/riscv-none-embed-objdump.exe'  
