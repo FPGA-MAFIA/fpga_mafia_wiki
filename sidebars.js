@@ -237,4 +237,7 @@ module.exports = {
       ],
     },
   ],
+  MAS: [
+    
+  ]
 };
