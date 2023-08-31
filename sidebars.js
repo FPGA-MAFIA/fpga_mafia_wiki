@@ -155,7 +155,6 @@ module.exports = {
         id: 'rvc/big_core/intro',
       },
       items: [
-        'rvc/big_core/intro',
         'rvc/big_core/big_core_top',
         'rvc/big_core/big_core',
         'rvc/big_core/mem_wrap',
@@ -169,7 +168,6 @@ module.exports = {
         id: 'rvc/mini_core/intro',
       },
       items: [
-        'rvc/mini_core/intro',
         'rvc/mini_core/mini_core_top',
         'rvc/mini_core/mini_core',
         'rvc/mini_core/mini_core_mem_wrap',

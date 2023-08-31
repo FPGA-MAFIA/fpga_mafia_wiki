@@ -122,16 +122,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/docs/fabric/intro',
               },
               {
+                label: '- Tile',
+                to: '/docs/fabric/intro',
+              },
+              {
                 label: '- Router',
                 to: '/docs/fabric/intro',
               },
               {
-                label: '- Mini Core',
-                to: '/docs/fabric/intro',
-              },
-              {
-                label: 'Big Core',
-                to: '/docs/big_core/intro',
+                label: 'RISCV Cores',
+                to: '/docs/rvc/intro',
               },
               {
                 label: 'Memory Subsystem',
