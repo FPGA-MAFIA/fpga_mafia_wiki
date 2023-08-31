@@ -1,3 +1,4 @@
+# SystemVerilog Types
 ## reg, wire, logic
 The reg and wire data types are used to represent digital signals in a hardware description. The main difference between these two data types is their use and the type of behavior they can describe.
 
@@ -21,7 +22,7 @@ Generally, whenever you want a logical signal in your circuit, the `logic` type 
 
 Overall, logic is a more powerful and flexible data type than wire and reg in SystemVerilog. Using logic instead of wire and reg in SystemVerilog designs is generally recommended.
 
-## System-Verilog typedef:
+## System-Verilog typedef
 the typedef keyword defines a new type alias for an existing type. It allows you to create a new name for an existing type, making your code more readable and easier to maintain.  
 Example:
 ```SystemVerilog 
@@ -87,7 +88,7 @@ assign address = physical_io.b.address[4:0];
 assign data    = physical_io.a.data[5:0];
 ```
 
-### Parameter, localparam, Package
+## Parameter, localparam, Package
 In SystemVerilog, both localparam and parameter are used to define constants, but there are some key differences between the two:
 - localparam is used to define constants within a module or an interface, and it cannot be overridden by any other module or interface. It can only be accessed within the same module or interface where it is defined. The value of a localparam is determined during the elaboration phase of the simulation and cannot be changed during runtime.
 - parameter is also used to define constants within a module or an interface, but a higher-level module or interface can override it. It can be accessed by any module that instantiates the module where it is defined. The value of a parameter can be determined during both the elaboration and runtime phases of the simulation.
