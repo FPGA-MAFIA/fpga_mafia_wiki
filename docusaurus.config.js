@@ -22,7 +22,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/amichai-bd/fpga_mafia_wiki/tree/main',
         },
         theme: {
@@ -68,7 +67,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             type: 'doc',
             docId: 'build_script/intro',
-            position: 'left',
+            position: 'right',
             label: 'Build', 
           },  
           {
@@ -79,7 +78,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             href: 'https://github.com/amichai-bd/fpga_mafia',
-            label: 'GitHub',
+            label: 'GitHub - Project',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/amichai-bd/fpga_mafia_wiki',
+            label: 'GitHub - Wiki',
             position: 'right',
           },
         ],

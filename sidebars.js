@@ -173,6 +173,21 @@ module.exports = {
         'rvc/mini_core/mini_core_mem_wrap',
       ],
     },
+    {
+      type: 'category',
+      label: 'Core Verification',
+      link: {
+        type: 'doc',
+        id: 'rvc/core_verification/intro',
+      },
+      items: [
+        'rvc/core_verification/elf_tests',
+        'rvc/core_verification/regressions',
+        'rvc/core_verification/rv32i_ref_model',
+        'rvc/core_verification/print_sanity',
+
+      ],
+    },
   ],
   Fabric:[
     {
@@ -190,17 +205,6 @@ module.exports = {
       items: [
         'fabric/MAS_fabric/mas_fabric',
         'fabric/MAS_fabric/mas_mini_core_tile',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Mini_core MAS',
-      link: {
-        type: 'doc',
-        id: 'fabric/MAS_mini_core/mas_intro',
-      },
-      items: [
-        'fabric/MAS_mini_core/mas_mini_core',
       ],
     },
     {

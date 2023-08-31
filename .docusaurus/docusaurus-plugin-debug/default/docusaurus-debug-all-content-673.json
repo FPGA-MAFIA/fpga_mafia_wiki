@@ -652,57 +652,6 @@
               },
               "next": {
                 "title": "Fabric Intro",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/mas_intro"
-              }
-            },
-            {
-              "unversionedId": "fabric/MAS_mini_core/mas_intro",
-              "id": "fabric/MAS_mini_core/mas_intro",
-              "title": "Fabric Intro",
-              "description": "",
-              "source": "@site/docs/fabric/MAS_mini_core/mas_intro.md",
-              "sourceDirName": "fabric/MAS_mini_core",
-              "slug": "/fabric/MAS_mini_core/mas_intro",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/mas_intro",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_mini_core/mas_intro.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "Fabric",
-              "previous": {
-                "title": "mas_mini_core_tile",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/mas_mini_core_tile"
-              },
-              "next": {
-                "title": "mas_mini_core",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/"
-              }
-            },
-            {
-              "unversionedId": "fabric/MAS_mini_core/mas_mini_core",
-              "id": "fabric/MAS_mini_core/mas_mini_core",
-              "title": "mas_mini_core",
-              "description": "",
-              "source": "@site/docs/fabric/MAS_mini_core/mas_mini_core.md",
-              "sourceDirName": "fabric/MAS_mini_core",
-              "slug": "/fabric/MAS_mini_core/",
-              "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/fabric/MAS_mini_core/mas_mini_core.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "Fabric",
-              "previous": {
-                "title": "Fabric Intro",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/mas_intro"
-              },
-              "next": {
-                "title": "Fabric Intro",
                 "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_router/mas_intro"
               }
             },
@@ -797,8 +746,8 @@
               },
               "sidebar": "Fabric",
               "previous": {
-                "title": "mas_mini_core",
-                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_mini_core/"
+                "title": "mas_mini_core_tile",
+                "permalink": "/fpga_mafia_wiki/docs/fabric/MAS_fabric/mas_mini_core_tile"
               },
               "next": {
                 "title": "Router - MAS",
@@ -1109,8 +1058,8 @@
                 "permalink": "/fpga_mafia_wiki/docs/rvc/common/wb"
               },
               "next": {
-                "title": "intro",
-                "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/intro"
+                "title": "big_core_top",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/big_core_top"
               }
             },
             {
@@ -1330,6 +1279,122 @@
               }
             },
             {
+              "unversionedId": "rvc/core_verification/elf_tests",
+              "id": "rvc/core_verification/elf_tests",
+              "title": "elf_tests",
+              "description": "rv32irefmodel",
+              "source": "@site/docs/rvc/core_verification/elf_tests.md",
+              "sourceDirName": "rvc/core_verification",
+              "slug": "/rvc/core_verification/elf_tests",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/elf_tests",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/core_verification/elf_tests.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RISCV_Cores",
+              "previous": {
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/intro"
+              },
+              "next": {
+                "title": "regressions",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/regressions"
+              }
+            },
+            {
+              "unversionedId": "rvc/core_verification/intro",
+              "id": "rvc/core_verification/intro",
+              "title": "intro",
+              "description": "intro.md",
+              "source": "@site/docs/rvc/core_verification/intro.md",
+              "sourceDirName": "rvc/core_verification",
+              "slug": "/rvc/core_verification/intro",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/core_verification/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RISCV_Cores",
+              "previous": {
+                "title": "mini_core_mem_wrap",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/mini_core_mem_wrap"
+              },
+              "next": {
+                "title": "elf_tests",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/elf_tests"
+              }
+            },
+            {
+              "unversionedId": "rvc/core_verification/print_sanity",
+              "id": "rvc/core_verification/print_sanity",
+              "title": "print_sanity",
+              "description": "rv32irefmodel",
+              "source": "@site/docs/rvc/core_verification/print_sanity.md",
+              "sourceDirName": "rvc/core_verification",
+              "slug": "/rvc/core_verification/print_sanity",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/print_sanity",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/core_verification/print_sanity.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RISCV_Cores",
+              "previous": {
+                "title": "rv32i_ref_model",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/rv32i_ref_model"
+              }
+            },
+            {
+              "unversionedId": "rvc/core_verification/regressions",
+              "id": "rvc/core_verification/regressions",
+              "title": "regressions",
+              "description": "rv32irefmodel",
+              "source": "@site/docs/rvc/core_verification/regressions.md",
+              "sourceDirName": "rvc/core_verification",
+              "slug": "/rvc/core_verification/regressions",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/regressions",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/core_verification/regressions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RISCV_Cores",
+              "previous": {
+                "title": "elf_tests",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/elf_tests"
+              },
+              "next": {
+                "title": "rv32i_ref_model",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/rv32i_ref_model"
+              }
+            },
+            {
+              "unversionedId": "rvc/core_verification/rv32i_ref_model",
+              "id": "rvc/core_verification/rv32i_ref_model",
+              "title": "rv32i_ref_model",
+              "description": "rv32irefmodel",
+              "source": "@site/docs/rvc/core_verification/rv32i_ref_model.md",
+              "sourceDirName": "rvc/core_verification",
+              "slug": "/rvc/core_verification/rv32i_ref_model",
+              "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/rv32i_ref_model",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/rvc/core_verification/rv32i_ref_model.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "RISCV_Cores",
+              "previous": {
+                "title": "regressions",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/regressions"
+              },
+              "next": {
+                "title": "print_sanity",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/print_sanity"
+              }
+            },
+            {
               "unversionedId": "rvc/intro",
               "id": "rvc/intro",
               "title": "intro",
@@ -1369,8 +1434,8 @@
                 "permalink": "/fpga_mafia_wiki/docs/rvc/big_core/mem_wrap"
               },
               "next": {
-                "title": "intro",
-                "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/intro"
+                "title": "mini_core_top",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/mini_core_top"
               }
             },
             {
@@ -1415,6 +1480,10 @@
               "previous": {
                 "title": "mini_core",
                 "permalink": "/fpga_mafia_wiki/docs/rvc/mini_core/"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/rvc/core_verification/intro"
               }
             },
             {
@@ -2089,10 +2158,6 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "rvc/big_core/intro"
-                  },
-                  {
-                    "type": "doc",
                     "id": "rvc/big_core/big_core_top"
                   },
                   {
@@ -2117,10 +2182,6 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "rvc/mini_core/intro"
-                  },
-                  {
-                    "type": "doc",
                     "id": "rvc/mini_core/mini_core_top"
                   },
                   {
@@ -2130,6 +2191,34 @@
                   {
                     "type": "doc",
                     "id": "rvc/mini_core/mini_core_mem_wrap"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Core Verification",
+                "link": {
+                  "type": "doc",
+                  "id": "rvc/core_verification/intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "rvc/core_verification/elf_tests"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/core_verification/regressions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/core_verification/rv32i_ref_model"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rvc/core_verification/print_sanity"
                   }
                 ],
                 "collapsed": true,
@@ -2158,22 +2247,6 @@
                   {
                     "type": "doc",
                     "id": "fabric/MAS_fabric/mas_mini_core_tile"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "Mini_core MAS",
-                "link": {
-                  "type": "doc",
-                  "id": "fabric/MAS_mini_core/mas_intro"
-                },
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "fabric/MAS_mini_core/mas_mini_core"
                   }
                 ],
                 "collapsed": true,
