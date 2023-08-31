@@ -6,6 +6,11 @@ module.exports = {
       label: 'Welcome',
     },
     {
+      type: 'doc',
+      id: 'TFM/walkthrough_mafia',
+      label: 'walkthrough_mafia',
+    },
+    {
       type: 'category',
       label: 'Project-Tools',
       link: {

@@ -1622,8 +1622,8 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "Tools, Flows & Methodologies",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/welcome"
+                "title": "walkthrough_mafia",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/walkthrough_mafia"
               },
               "next": {
                 "title": "VS Code",
@@ -1891,6 +1891,30 @@
               }
             },
             {
+              "unversionedId": "TFM/walkthrough_mafia",
+              "id": "TFM/walkthrough_mafia",
+              "title": "walkthrough_mafia",
+              "description": "",
+              "source": "@site/docs/TFM/walkthrough_mafia.md",
+              "sourceDirName": "TFM",
+              "slug": "/TFM/walkthrough_mafia",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/walkthrough_mafia",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/walkthrough_mafia.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Tools, Flows & Methodologies",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/welcome"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/intro"
+              }
+            },
+            {
               "unversionedId": "TFM/welcome",
               "id": "TFM/welcome",
               "title": "Tools, Flows & Methodologies",
@@ -1906,8 +1930,8 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "next": {
-                "title": "intro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/intro"
+                "title": "walkthrough_mafia",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/walkthrough_mafia"
               }
             }
           ],
@@ -1918,6 +1942,12 @@
                 "type": "doc",
                 "id": "TFM/welcome",
                 "label": "Welcome",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "TFM/walkthrough_mafia",
+                "label": "walkthrough_mafia",
                 "translatable": true
               },
               {
@@ -2673,7 +2703,7 @@
         "permalink": "/fpga_mafia_wiki/HomePage_content",
         "source": "@site/src/pages/HomePage_content.mdx",
         "title": "Welcome to the MAFIA Project",
-        "description": "A initiative aimed at designing a System-on-a-Chip (SoC) Tile-based mesh fabric.",
+        "description": "MAFIA:  Multi-Agent-Fabric-Integration-Architecture",
         "frontMatter": {}
       },
       {
