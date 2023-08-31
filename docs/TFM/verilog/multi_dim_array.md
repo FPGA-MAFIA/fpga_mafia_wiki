@@ -1,4 +1,3 @@
-
 # Multiple dimensional arrays
 ## Packed vs Unpacked
 In SystemVerilog, packed and unpacked arrays are used to represent different types of data storage.  
@@ -82,5 +81,8 @@ logic [3:0][7:0] mixed_example [31:0][95:0];
 //accessing the MSB of this multi-dimensional array:
 assign the_msb = mixed_example[31][95][3][7];
 ```
-<br />
-<br />
+
+## structs & multi-dimensional arrays
+systemverilog Structs can also be used to create multi-dimensional arrays.
+May be packed or unpacked. and me a vector of any struct type.
+

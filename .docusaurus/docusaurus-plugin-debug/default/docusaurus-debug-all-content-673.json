@@ -92,6 +92,26 @@
               }
             },
             {
+              "unversionedId": "build_script/build_gui",
+              "id": "build_script/build_gui",
+              "title": "build_gui",
+              "description": "",
+              "source": "@site/docs/build_script/build_gui.md",
+              "sourceDirName": "build_script",
+              "slug": "/build_script/build_gui",
+              "permalink": "/fpga_mafia_wiki/docs/build_script/build_gui",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build_script/build_gui.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "MAFIA_Build",
+              "previous": {
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build_script/BuildOptions"
+              }
+            },
+            {
               "unversionedId": "build_script/BuildOptions",
               "id": "build_script/BuildOptions",
               "title": "The MAFIA Build Flow",
@@ -108,10 +128,14 @@
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "Build",
+              "sidebar": "MAFIA_Build",
               "previous": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build_script/PostProcess"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/HW_gui_debug"
+              },
+              "next": {
+                "title": "build_gui",
+                "permalink": "/fpga_mafia_wiki/docs/build_script/build_gui"
               }
             },
             {
@@ -131,7 +155,7 @@
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "Build",
+              "sidebar": "MAFIA_Build",
               "previous": {
                 "title": "The MAFIA Build Flow",
                 "permalink": "/fpga_mafia_wiki/docs/build_script/SW_compile"
@@ -158,7 +182,7 @@
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "Build",
+              "sidebar": "MAFIA_Build",
               "previous": {
                 "title": "The MAFIA Build Flow",
                 "permalink": "/fpga_mafia_wiki/docs/build_script/HW_compile"
@@ -185,14 +209,14 @@
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "Build",
+              "sidebar": "MAFIA_Build",
               "previous": {
                 "title": "The MAFIA Build Flow",
                 "permalink": "/fpga_mafia_wiki/docs/build_script/HW_elab_simulate"
               },
               "next": {
                 "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build_script/PostProcess"
+                "permalink": "/fpga_mafia_wiki/docs/build_script/BuildOptions"
               }
             },
             {
@@ -212,37 +236,10 @@
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "Build",
+              "sidebar": "MAFIA_Build",
               "next": {
                 "title": "The MAFIA Build Flow",
                 "permalink": "/fpga_mafia_wiki/docs/build_script/SW_compile"
-              }
-            },
-            {
-              "unversionedId": "build_script/PostProcess",
-              "id": "build_script/PostProcess",
-              "title": "The MAFIA Build Flow",
-              "description": "",
-              "source": "@site/docs/build_script/PostProcess.md",
-              "sourceDirName": "build_script",
-              "slug": "/build_script/PostProcess",
-              "permalink": "/fpga_mafia_wiki/docs/build_script/PostProcess",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/build_script/PostProcess.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "Build",
-              "previous": {
-                "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build_script/HW_gui_debug"
-              },
-              "next": {
-                "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build_script/BuildOptions"
               }
             },
             {
@@ -262,7 +259,7 @@
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "Build",
+              "sidebar": "MAFIA_Build",
               "previous": {
                 "title": "The MAFIA Build Flow",
                 "permalink": "/fpga_mafia_wiki/docs/build_script/intro"
@@ -1698,21 +1695,89 @@
                 "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/ModelSim"
               },
               "next": {
-                "title": "vlg_intro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg_intro"
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/intro"
               }
             },
             {
-              "unversionedId": "TFM/verilog/vlg_intro",
-              "id": "TFM/verilog/vlg_intro",
-              "title": "vlg_intro",
-              "description": "",
-              "source": "@site/docs/TFM/verilog/vlg_intro.md",
+              "unversionedId": "TFM/verilog/basic_concepts",
+              "id": "TFM/verilog/basic_concepts",
+              "title": "Intro to System-Verilog",
+              "description": "System-Verilog vs Verilog",
+              "source": "@site/docs/TFM/verilog/basic_concepts.md",
               "sourceDirName": "TFM/verilog",
-              "slug": "/TFM/verilog/vlg_intro",
-              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg_intro",
+              "slug": "/TFM/verilog/basic_concepts",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/basic_concepts",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg_intro.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/basic_concepts.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/intro"
+              },
+              "next": {
+                "title": "sv_types",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/sv_types"
+              }
+            },
+            {
+              "unversionedId": "TFM/verilog/coding_style",
+              "id": "TFM/verilog/coding_style",
+              "title": "Coding Style",
+              "description": "Signal declaration",
+              "source": "@site/docs/TFM/verilog/coding_style.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/coding_style",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/coding_style",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/coding_style.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Multiple dimensional arrays",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/multi_dim_array"
+              },
+              "next": {
+                "title": "pre-compiler include , define & macros",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/pre_compile"
+              }
+            },
+            {
+              "unversionedId": "TFM/verilog/examples",
+              "id": "TFM/verilog/examples",
+              "title": "Common examples",
+              "description": "Mux",
+              "source": "@site/docs/TFM/verilog/examples.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/examples",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/examples",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/examples.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "pre-compiler include , define & macros",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/pre_compile"
+              }
+            },
+            {
+              "unversionedId": "TFM/verilog/intro",
+              "id": "TFM/verilog/intro",
+              "title": "intro",
+              "description": "",
+              "source": "@site/docs/TFM/verilog/intro.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/intro",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/intro.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1723,171 +1788,79 @@
               },
               "next": {
                 "title": "Intro to System-Verilog",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg0"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/basic_concepts"
               }
             },
             {
-              "unversionedId": "TFM/verilog/vlg0",
-              "id": "TFM/verilog/vlg0",
-              "title": "Intro to System-Verilog",
-              "description": "System-Verilog vs Verilog",
-              "source": "@site/docs/TFM/verilog/vlg0.md",
+              "unversionedId": "TFM/verilog/multi_dim_array",
+              "id": "TFM/verilog/multi_dim_array",
+              "title": "Multiple dimensional arrays",
+              "description": "Packed vs Unpacked",
+              "source": "@site/docs/TFM/verilog/multi_dim_array.md",
               "sourceDirName": "TFM/verilog",
-              "slug": "/TFM/verilog/vlg0",
-              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg0",
+              "slug": "/TFM/verilog/multi_dim_array",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/multi_dim_array",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg0.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/multi_dim_array.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "vlg_intro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg_intro"
+                "title": "sv_types",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/sv_types"
               },
               "next": {
-                "title": "Blocking vs Non-Blocking assignment",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg1"
+                "title": "Coding Style",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/coding_style"
               }
             },
             {
-              "unversionedId": "TFM/verilog/vlg1",
-              "id": "TFM/verilog/vlg1",
-              "title": "Blocking vs Non-Blocking assignment",
-              "description": "The main difference between these two types of assignments is how they are executed in relation to the rest of the code in a design.",
-              "source": "@site/docs/TFM/verilog/vlg1.md",
+              "unversionedId": "TFM/verilog/pre_compile",
+              "id": "TFM/verilog/pre_compile",
+              "title": "pre-compiler include , define & macros",
+              "description": "`include",
+              "source": "@site/docs/TFM/verilog/pre_compile.md",
               "sourceDirName": "TFM/verilog",
-              "slug": "/TFM/verilog/vlg1",
-              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg1",
+              "slug": "/TFM/verilog/pre_compile",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/pre_compile",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg1.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/pre_compile.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Coding Style",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/coding_style"
+              },
+              "next": {
+                "title": "Common examples",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/examples"
+              }
+            },
+            {
+              "unversionedId": "TFM/verilog/sv_types",
+              "id": "TFM/verilog/sv_types",
+              "title": "sv_types",
+              "description": "reg, wire, logic",
+              "source": "@site/docs/TFM/verilog/sv_types.md",
+              "sourceDirName": "TFM/verilog",
+              "slug": "/TFM/verilog/sv_types",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/sv_types",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/sv_types.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
                 "title": "Intro to System-Verilog",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg0"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/basic_concepts"
               },
               "next": {
                 "title": "Multiple dimensional arrays",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg2"
-              }
-            },
-            {
-              "unversionedId": "TFM/verilog/vlg2",
-              "id": "TFM/verilog/vlg2",
-              "title": "Multiple dimensional arrays",
-              "description": "Packed vs Unpacked",
-              "source": "@site/docs/TFM/verilog/vlg2.md",
-              "sourceDirName": "TFM/verilog",
-              "slug": "/TFM/verilog/vlg2",
-              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg2",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg2.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "TFM",
-              "previous": {
-                "title": "Blocking vs Non-Blocking assignment",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg1"
-              },
-              "next": {
-                "title": "Coding Style",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg3"
-              }
-            },
-            {
-              "unversionedId": "TFM/verilog/vlg3",
-              "id": "TFM/verilog/vlg3",
-              "title": "Coding Style",
-              "description": "Signal declaration",
-              "source": "@site/docs/TFM/verilog/vlg3.md",
-              "sourceDirName": "TFM/verilog",
-              "slug": "/TFM/verilog/vlg3",
-              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg3",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg3.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "TFM",
-              "previous": {
-                "title": "Multiple dimensional arrays",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg2"
-              },
-              "next": {
-                "title": "System-Verilog Features",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg4"
-              }
-            },
-            {
-              "unversionedId": "TFM/verilog/vlg4",
-              "id": "TFM/verilog/vlg4",
-              "title": "System-Verilog Features",
-              "description": "`include",
-              "source": "@site/docs/TFM/verilog/vlg4.md",
-              "sourceDirName": "TFM/verilog",
-              "slug": "/TFM/verilog/vlg4",
-              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg4",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg4.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "TFM",
-              "previous": {
-                "title": "Coding Style",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg3"
-              },
-              "next": {
-                "title": "Module, Function, Macro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg5"
-              }
-            },
-            {
-              "unversionedId": "TFM/verilog/vlg5",
-              "id": "TFM/verilog/vlg5",
-              "title": "Module, Function, Macro",
-              "description": "In system verilog, there are multiple ways to define a block of code that can be reused.",
-              "source": "@site/docs/TFM/verilog/vlg5.md",
-              "sourceDirName": "TFM/verilog",
-              "slug": "/TFM/verilog/vlg5",
-              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg5",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg5.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "TFM",
-              "previous": {
-                "title": "System-Verilog Features",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg4"
-              },
-              "next": {
-                "title": "Common examples",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg6"
-              }
-            },
-            {
-              "unversionedId": "TFM/verilog/vlg6",
-              "id": "TFM/verilog/vlg6",
-              "title": "Common examples",
-              "description": "Mux",
-              "source": "@site/docs/TFM/verilog/vlg6.md",
-              "sourceDirName": "TFM/verilog",
-              "slug": "/TFM/verilog/vlg6",
-              "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg6",
-              "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/verilog/vlg6.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "TFM",
-              "previous": {
-                "title": "Module, Function, Macro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/vlg5"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/multi_dim_array"
               }
             },
             {
@@ -1995,43 +1968,39 @@
                 "label": "System Verilog",
                 "link": {
                   "type": "doc",
-                  "id": "TFM/verilog/vlg_intro"
+                  "id": "TFM/verilog/intro"
                 },
                 "items": [
                   {
                     "type": "doc",
-                    "id": "TFM/verilog/vlg0"
+                    "id": "TFM/verilog/basic_concepts"
                   },
                   {
                     "type": "doc",
-                    "id": "TFM/verilog/vlg1"
+                    "id": "TFM/verilog/sv_types"
                   },
                   {
                     "type": "doc",
-                    "id": "TFM/verilog/vlg2"
+                    "id": "TFM/verilog/multi_dim_array"
                   },
                   {
                     "type": "doc",
-                    "id": "TFM/verilog/vlg3"
+                    "id": "TFM/verilog/coding_style"
                   },
                   {
                     "type": "doc",
-                    "id": "TFM/verilog/vlg4"
+                    "id": "TFM/verilog/pre_compile"
                   },
                   {
                     "type": "doc",
-                    "id": "TFM/verilog/vlg5"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "TFM/verilog/vlg6"
+                    "id": "TFM/verilog/examples"
                   }
                 ],
                 "collapsed": true,
                 "collapsible": true
               }
             ],
-            "Build": [
+            "MAFIA_Build": [
               {
                 "type": "doc",
                 "id": "build_script/intro",
@@ -2064,14 +2033,14 @@
               },
               {
                 "type": "doc",
-                "id": "build_script/PostProcess",
-                "label": "PP - Simulation Post Process",
+                "id": "build_script/BuildOptions",
+                "label": "Build Options & Examples",
                 "translatable": true
               },
               {
                 "type": "doc",
-                "id": "build_script/BuildOptions",
-                "label": "Build Options & Examples",
+                "id": "build_script/build_gui",
+                "label": "Build GUI - command generator",
                 "translatable": true
               }
             ],

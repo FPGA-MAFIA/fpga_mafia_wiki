@@ -1,4 +1,3 @@
-
 # Common examples
 ## Mux
 In System Verilog, there are many ways to code a mux.  

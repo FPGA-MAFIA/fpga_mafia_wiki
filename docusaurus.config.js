@@ -68,7 +68,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'build_script/intro',
             position: 'right',
-            label: 'Build', 
+            label: 'MAFIA_Build', 
           },  
           {
             type: 'doc',

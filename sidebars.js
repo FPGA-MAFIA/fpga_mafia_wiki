@@ -32,20 +32,19 @@ module.exports = {
       label: 'System Verilog',
       link: {
         type: 'doc',
-        id: 'TFM/verilog/vlg_intro',
+        id: 'TFM/verilog/intro',
       },
       items: [
-        'TFM/verilog/vlg0',
-        'TFM/verilog/vlg1',
-        'TFM/verilog/vlg2',
-        'TFM/verilog/vlg3',
-        'TFM/verilog/vlg4',
-        'TFM/verilog/vlg5',
-        'TFM/verilog/vlg6',
+        'TFM/verilog/basic_concepts',
+        'TFM/verilog/sv_types',
+        'TFM/verilog/multi_dim_array',
+        'TFM/verilog/coding_style',
+        'TFM/verilog/pre_compile',
+        'TFM/verilog/examples',
       ],
     },
   ],
-  Build: [
+  MAFIA_Build: [
     {
       type: 'doc',
       id: 'build_script/intro',
@@ -73,13 +72,13 @@ module.exports = {
     },
     {
       type: 'doc',
-      id: 'build_script/PostProcess',
-      label: 'PP - Simulation Post Process',
+      id: 'build_script/BuildOptions',
+      label: 'Build Options & Examples',
     },
     {
       type: 'doc',
-      id: 'build_script/BuildOptions',
-      label: 'Build Options & Examples',
+      id: 'build_script/build_gui',
+      label: 'Build GUI - command generator',
     },
   ],
   Cache: [
