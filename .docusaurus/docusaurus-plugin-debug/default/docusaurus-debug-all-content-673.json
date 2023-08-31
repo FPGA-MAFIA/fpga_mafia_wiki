@@ -1073,7 +1073,7 @@
               "unversionedId": "TFM/projectTool/GccRiscV",
               "id": "TFM/projectTool/GccRiscV",
               "title": "GccRiscV",
-              "description": "<!-- # SW",
+              "description": "RISCV GCC",
               "source": "@site/docs/TFM/projectTool/GccRiscV.md",
               "sourceDirName": "TFM/projectTool",
               "slug": "/TFM/projectTool/GccRiscV",
@@ -1181,7 +1181,7 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "Welcome to the Tools, Flows & Methodologies Page",
+                "title": "Tools, Flows & Methodologies",
                 "permalink": "/fpga_mafia_wiki/docs/TFM/welcome"
               },
               "next": {
@@ -1452,7 +1452,7 @@
             {
               "unversionedId": "TFM/welcome",
               "id": "TFM/welcome",
-              "title": "Welcome to the Tools, Flows & Methodologies Page",
+              "title": "Tools, Flows & Methodologies",
               "description": "Here we will describe the Tools, Flows & methodologies (TFM) of this project.",
               "source": "@site/docs/TFM/welcome.md",
               "sourceDirName": "TFM",
