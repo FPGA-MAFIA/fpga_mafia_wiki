@@ -59,7 +59,7 @@ logic [MSB:0] out ;
 ```
 
 
-### Counter
+## Counter
 using macro:
 ``` systemverilog
 assign next_count = count +1;
@@ -79,7 +79,7 @@ always_ff  @(posedge clk) begin
 end
 ```
 
-### State-Machine
+## State-Machine
 Guidelines:
 - Use an Enumerate value for the state
 - Have a simple Flip-Flop to sample the state.   
@@ -115,9 +115,9 @@ See the example of traffic_light state_machine
 https://github.com/amichai-bd/fpga_mafia/discussions/27
 
 
-### Find_First
+## Find_First
 
-### Shift register
+## Shift register
 This is a compact and nice way to code a Shift register:
 ```systemverilog
 logic [MSB_DATA:0] shift_register [MSB_SHFT:0]
@@ -126,7 +126,7 @@ assign shift_register[0] = data_in[MSB_DATA:0];
 `DFF(shift_register[MSB_SHFT:1] , shift_register[MSB_SHFT-1:0] , clk)
 ```
 
-### Register-File
+## Register-File
 example of a duel read single write register file:  
 ```systemverilog
 logic [31:0] Register [31:0]; 
@@ -142,7 +142,7 @@ assign RegRdData2 = Register[RegSrc2];
 
 ```
 
-### Pipe-Line
+## Pipe-Line
 
 For a pipe where we accumulate & calculate different attributes we can use a "struct" with relevant fields, and keep adding/overriding then down the pipe:
  lu_valid, lu_set,lu_tag,hit, miss, mb_hit_cancel, set_ways_mru[3:0], set_ways_valid[3:0], set_ways_victim[3:0],set_ways_hit[3:0], set_ways_enc_hit[2:0], fill_cl_data[127:0], fill_valid, lu_opcode[1:0] // RD_LU, WR_LU,FILL_LU
