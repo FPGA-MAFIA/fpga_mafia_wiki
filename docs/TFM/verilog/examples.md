@@ -10,11 +10,11 @@ logic [1:0] enc_sel;
 logic [3:0] out ;
 ```
 
-## Most compact:
+### Most compact:
 ```systemverilog
 assign out = in[enc_sel];
 ```
-## Naive If else
+### Naive If else
 ```systemverilog
 always_comb begin
   if      (enc_sel == 2'b00) out =in[0];
@@ -24,7 +24,7 @@ always_comb begin
 end
 ```
 
-## compact if else - "? : "
+### compact if else - "? : "
 ```systemverilog
 assign out = (enc_sel == 2'b00) ? in[0] : 
              (enc_sel == 2'b01) ? in[1] : 
@@ -32,7 +32,7 @@ assign out = (enc_sel == 2'b00) ? in[0] :
                                   in[3] ; // (enc_sel == 2'b11) 
 ```
 
-## using case
+### using case
 ```systemverilog
 always_comb begin
   unique case (enc_sel) 
@@ -44,7 +44,7 @@ always_comb begin
   endcase 
 end
 ```
-## AND_OR mux
+### AND_OR mux
 ```systemverilog
 logic [MSB:0] in [3:0];
 logic [MSB:0] dec_sel;
