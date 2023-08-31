@@ -22,22 +22,9 @@ function HomepageHeader() {
         </div>
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div align = 'left'>
-        <h3>Contributors:</h3>
-        <a href="https://github.com/amichai-bd" target="_blank">Amichai Ben David</a>
-        <br/>
-        <a href="https://github.com/danielk532" target="_blank">Daniel Kaufman</a>
-        <br/>
-        <a href="https://github.com/noamsabb" target="_blank">Noam Sabban</a>
-        <br/>
-        <a href="https://github.com/ShmuelSfez" target="_blank">Shmuel Sfez</a>
-        <br/>
-        <a href="https://github.com/yeonatanPerelman" target="_blank">Yeonatan Perelman</a>
-        </div>
-
-          <div>
           <h3><strong>Current Development Status:</strong></h3>
           <p>
-            <br/>This project is currently a work in progress
+            This project is currently a work in progress
             <br/> We are in the process of enabling and integrating individual IPs
             <br/>Our team is working diligently to deliver a fully functional fabric by August 1, 2023.
           </p>
