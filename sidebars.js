@@ -124,22 +124,55 @@ module.exports = {
       label: 'ABD Notes',
     },
   ],
-  Big_core:[
+  RiscV_Cores:[
     {
       type: 'doc',
-      id: 'big_core/intro',
+      id: 'rvc/intro',
       label: 'intro',
     },
     {
       type: 'category',
-      label: 'Big-Core MAS',
+      label: 'Common Components',
       link: {
         type: 'doc',
-        id: 'big_core/MAS/intro',
+        id: 'rvc/common/intro',
       },
       items: [
-        'big_core/MAS/mem_wrap',
-        'big_core/MAS/big_core_top',
+        'rvc/common/ctrl',
+        'rvc/common/if',
+        'rvc/common/decode',
+        'rvc/common/rf',
+        'rvc/common/exe',
+        'rvc/common/mem_acs',
+        'rvc/common/wb',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Big Core',
+      link: {
+        type: 'doc',
+        id: 'rvc/big_core/intro',
+      },
+      items: [
+        'rvc/big_core/intro',
+        'rvc/big_core/big_core_top',
+        'rvc/big_core/big_core',
+        'rvc/big_core/mem_wrap',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Mini Core',
+      link: {
+        type: 'doc',
+        id: 'rvc/mini_core/intro',
+      },
+      items: [
+        'rvc/mini_core/intro',
+        'rvc/mini_core/mini_core_top',
+        'rvc/mini_core/mini_core',
+        'rvc/mini_core/mini_core_mem_wrap',
       ],
     },
   ],

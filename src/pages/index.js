@@ -54,7 +54,7 @@ export default function Home() {
   </p>
 <br/>
   <div style={{ textAlign: 'center' }}>
-    <img src="https://user-images.githubusercontent.com/81047407/218485725-d4442e94-7129-48b9-92bb-8f2ce52a301c.png" alt="Project Image" width="650" />
+    <img src="https://user-images.githubusercontent.com/81047407/218485725-d4442e94-7129-48b9-92bb-8f2ce52a301c.png" alt="Project Image" width="1250" />
   </div>
 <br/>
   <h2>Functionality includes</h2>
@@ -78,8 +78,8 @@ export default function Home() {
 
   <h3>Technology Stack</h3>
   <p>
-    The project's RTL is written in SystemVerilog.
-    We utilize the GNU GCC for the RISCV software stack, which includes linker, assembly, and C source files.
+    The project's RTL is written in SystemVerilog.  
+    We utilize the GNU GCC for the RISCV software stack, which includes linker, assembly, and C source files.  
     Python is employed for build scripts, post-processing, GUI, and other utilities.
   </p>
 
