@@ -27,10 +27,6 @@ Example:
 export PATH=$PATH:/c/Users/abendavid/AppData/Roaming/xPacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin
 ```
 
-FIXME - this is not correct- should add the ~/.bashrc that path - no need for using the aliases
-alias rv_gcc='/c/Users/amich/AppData/Roaming/xPacks/riscv-none-embed-gcc/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/riscv-none-embed-gcc.exe'  
-alias rv_objcopy='/c/Users/amich/AppData/Roaming/xPacks/riscv-none-embed-gcc/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/riscv-none-embed-objcopy.exe'  
-alias rv_objdump='/c/Users/amich/AppData/Roaming/xPacks/riscv-none-embed-gcc/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/riscv-none-embed-objdump.exe'  
 
 ## Test the RISCV toolchain:  
 ### 1. Create a simple c program. - "alive.c"  
@@ -119,16 +115,16 @@ link new ams file with gpc initializer and creates elf file
 creates readable elf file  
 creates the instruction file   
 //FIXME - need to update the rv_gcc command to correct values!
->  rv_gcc -S -ffreestanding -march=rv32i `<file>`.c -o `<file>`_rv32i.c.s  
->  rv_gcc -O3 -march=rv32i -T./link.common.ld -nostartfiles -D__riscv__ crt0.S `<file>`_rv32i.c.s -o `<file>`_rv32i.elf  
->  rv_objdump -gd `<file>`_rv32i.elf > `<file>`_rv32i_elf.txt  
->  rv_objcopy --srec-len 1 --output-target=verilog `<file>`_rv32i.elf `<file>`_inst_mem_rv32i.sv  
+>  riscv-none-embed-gcc.exe -S -ffreestanding -march=rv32i `<file>`.c -o `<file>`_rv32i.c.s  
+>  riscv-none-embed-gcc.exe -O3 -march=rv32i -T./link.common.ld -nostartfiles -D__riscv__ crt0.S `<file>`_rv32i.c.s -o `<file>`_rv32i.elf  
+>  riscv-none-embed-objdump.exe -gd `<file>`_rv32i.elf > `<file>`_rv32i_elf.txt  
+>  riscv-none-embed-objcopy.exe --srec-len 1 --output-target=verilog `<file>`_rv32i.elf `<file>`_inst_mem_rv32i.sv  
 #### Example:  
 //FIXME - need to update the rv_gcc command to correct values!
->  rv_gcc -S -ffreestanding -march=rv32i `alive`.c -o alive_rv32i.c.s  
->  rv_gcc -O3 -march=rv32i -T./link.common.ld -nostartfiles -D__riscv__ crt0.S `alive`_rv32i.c.s -o `alive`_rv32i.elf   
->  rv_objdump -gd `alive`_rv32i.elf > `alive`_rv32i_elf.txt    
->  rv_objcopy --srec-len 1 --output-target=verilog `alive`_rv32i.elf `alive`_inst_mem_rv32i.sv   
+>  riscv-none-embed-gcc.exe -S -ffreestanding -march=rv32i `alive`.c -o alive_rv32i.c.s  
+>  riscv-none-embed-gcc.exe -O3 -march=rv32i -T./link.common.ld -nostartfiles -D__riscv__ crt0.S `alive`_rv32i.c.s -o `alive`_rv32i.elf   
+>  riscv-none-embed-objdump.exe  -gd `alive`_rv32i.elf > `alive`_rv32i_elf.txt    
+>  riscv-none-embed-objcopy.exe --srec-len 1 --output-target=verilog `alive`_rv32i.elf `alive`_inst_mem_rv32i.sv   
 ### 5. Run ls -l in shell to see all the generated toolchain files. 
 >   ls -l
 
