@@ -114,7 +114,6 @@ create assembly file from c file
 link new ams file with gpc initializer and creates elf file  
 creates readable elf file  
 creates the instruction file   
-//FIXME - need to update the rv_gcc command to correct values!
 >  riscv-none-embed-gcc.exe -S -ffreestanding -march=rv32i `<file>`.c -o `<file>`_rv32i.c.s  
 >  riscv-none-embed-gcc.exe -O3 -march=rv32i -T./link.common.ld -nostartfiles -D__riscv__ crt0.S `<file>`_rv32i.c.s -o `<file>`_rv32i.elf  
 >  riscv-none-embed-objdump.exe -gd `<file>`_rv32i.elf > `<file>`_rv32i_elf.txt  
@@ -128,10 +127,9 @@ creates the instruction file
 ### 5. Run ls -l in shell to see all the generated toolchain files. 
 >   ls -l
 
-make sure you have the files:
+make sure you have created the files:
 - crt0.S  
 - link.common.ld  
-- alive.c  
 - alive_rv32i.c.s  
 - alive_rv32i.elf  
 - alive_rv32i_elf.txt  
