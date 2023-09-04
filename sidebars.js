@@ -1,30 +1,63 @@
 module.exports = {
-  TFM: [
+TFM: [
     {
       type: 'doc',
       id: 'TFM/welcome',
       label: 'Welcome',
     },
     {
-      type: 'doc',
-      id: 'TFM/walkthrough_mafia',
-      label: 'walkthrough_mafia',
+      type: 'category',
+      label: 'GCC - RISCV',
+      link: {
+        type: 'doc',
+        id: 'TFM/projectTool/gcc_intro',
+      },
+      items: [
+        'TFM/projectTool/GccRiscV',
+        'TFM/projectTool/linker',
+        'TFM/projectTool/crt0',
+      ],
     },
     {
       type: 'category',
-      label: 'Project-Tools',
+      label: 'modelsim',
       link: {
         type: 'doc',
-        id: 'TFM/projectTool/intro',
+        id: 'TFM/projectTool/modelsim_intro',
       },
       items: [
-        'TFM/projectTool/VsCode',
-        'TFM/projectTool/git_and_github',
+        'TFM/projectTool/hw_compile',
+        'TFM/projectTool/hw_elab_sim',
+        'TFM/projectTool/hw_gui_debug',
+        'TFM/projectTool/modelsim_examples',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Quartus & FPGA',
+      link: {
+        type: 'doc',
+        id: 'TFM/projectTool/quartus_intro',
+      },
+      items: [
+        'TFM/projectTool/quartus',
+        'TFM/projectTool/quartus_gui',
+        'TFM/projectTool/de10lite',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'vscode environment',
+      link: {
+        type: 'doc',
+        id: 'TFM/projectTool/VsCode',
+      },
+      items: [
         'TFM/projectTool/GitBash',
-        'TFM/projectTool/GitHubActions',
-        'TFM/projectTool/GccRiscV',
-        'TFM/projectTool/ModelSim',
-        'TFM/projectTool/Walkthrough',
+        'TFM/projectTool/version_control',
+        'TFM/projectTool/drawio',
+        'TFM/projectTool/markdown',
+        `TFM/projectTool/sv-extensions`,
       ],
     },
     {
@@ -44,11 +77,17 @@ module.exports = {
       ],
     },
   ],
-  MAFIA_Build: [
+
+MAFIA_Build: [
     {
       type: 'doc',
       id: 'build_script/intro',
       label: 'Intro',
+    },
+    {
+      type: 'doc',
+      id: 'TFM/walkthrough_mafia',
+      label: 'walkthrough_mafia',
     },
     {
       type: 'doc',
