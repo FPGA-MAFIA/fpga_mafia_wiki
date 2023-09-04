@@ -238,8 +238,8 @@
               },
               "sidebar": "MAFIA_Build",
               "next": {
-                "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build_script/SW_compile"
+                "title": "walkthrough_mafia",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/walkthrough_mafia"
               }
             },
             {
@@ -261,8 +261,8 @@
               },
               "sidebar": "MAFIA_Build",
               "previous": {
-                "title": "The MAFIA Build Flow",
-                "permalink": "/fpga_mafia_wiki/docs/build_script/intro"
+                "title": "walkthrough_mafia",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/walkthrough_mafia"
               },
               "next": {
                 "title": "The MAFIA Build Flow",
@@ -1508,6 +1508,102 @@
               }
             },
             {
+              "unversionedId": "TFM/projectTool/crt0",
+              "id": "TFM/projectTool/crt0",
+              "title": "crt0",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/crt0.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/crt0",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/crt0",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/crt0.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "linker",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/linker"
+              },
+              "next": {
+                "title": "modelsim_intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/modelsim_intro"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/de10lite",
+              "id": "TFM/projectTool/de10lite",
+              "title": "de10lite",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/de10lite.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/de10lite",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/de10lite",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/de10lite.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "quartus_gui",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/quartus_gui"
+              },
+              "next": {
+                "title": "VS Code",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/VsCode"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/drawio",
+              "id": "TFM/projectTool/drawio",
+              "title": "drawio",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/drawio.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/drawio",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/drawio",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/drawio.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "version_control",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/version_control"
+              },
+              "next": {
+                "title": "markdown",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/markdown"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/gcc_intro",
+              "id": "TFM/projectTool/gcc_intro",
+              "title": "gcc_intro",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/gcc_intro.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/gcc_intro",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/gcc_intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/gcc_intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Tools, Flows & Methodologies",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/welcome"
+              },
+              "next": {
+                "title": "GccRiscV",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GccRiscV"
+              }
+            },
+            {
               "unversionedId": "TFM/projectTool/GccRiscV",
               "id": "TFM/projectTool/GccRiscV",
               "title": "GccRiscV",
@@ -1523,12 +1619,12 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "Github actions",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitHubActions"
+                "title": "gcc_intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/gcc_intro"
               },
               "next": {
-                "title": "ModelSim",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/ModelSim"
+                "title": "linker",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/linker"
               }
             },
             {
@@ -1544,16 +1640,7 @@
               "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/git_and_github.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
-              "sidebar": "TFM",
-              "previous": {
-                "title": "VS Code",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/VsCode"
-              },
-              "next": {
-                "title": "GitBash",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitBash"
-              }
+              "frontMatter": {}
             },
             {
               "unversionedId": "TFM/projectTool/GitBash",
@@ -1571,12 +1658,12 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "Git and GitHub",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_and_github"
+                "title": "VS Code",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/VsCode"
               },
               "next": {
-                "title": "Github actions",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitHubActions"
+                "title": "version_control",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/version_control"
               }
             },
             {
@@ -1592,15 +1679,78 @@
               "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/GitHubActions.md",
               "tags": [],
               "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "TFM/projectTool/hw_compile",
+              "id": "TFM/projectTool/hw_compile",
+              "title": "hw_compile",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/hw_compile.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/hw_compile",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_compile",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/hw_compile.md",
+              "tags": [],
+              "version": "current",
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "GitBash",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitBash"
+                "title": "modelsim_intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/modelsim_intro"
               },
               "next": {
-                "title": "GccRiscV",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GccRiscV"
+                "title": "hw_elab_sim",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_elab_sim"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/hw_elab_sim",
+              "id": "TFM/projectTool/hw_elab_sim",
+              "title": "hw_elab_sim",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/hw_elab_sim.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/hw_elab_sim",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_elab_sim",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/hw_elab_sim.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "hw_compile",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_compile"
+              },
+              "next": {
+                "title": "hw_gui_debug",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_gui_debug"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/hw_gui_debug",
+              "id": "TFM/projectTool/hw_gui_debug",
+              "title": "hw_gui_debug",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/hw_gui_debug.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/hw_gui_debug",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_gui_debug",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/hw_gui_debug.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "hw_elab_sim",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_elab_sim"
+              },
+              "next": {
+                "title": "modelsim_examples",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/modelsim_examples"
               }
             },
             {
@@ -1616,15 +1766,54 @@
               "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/intro.md",
               "tags": [],
               "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "TFM/projectTool/linker",
+              "id": "TFM/projectTool/linker",
+              "title": "linker",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/linker.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/linker",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/linker",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/linker.md",
+              "tags": [],
+              "version": "current",
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "walkthrough_mafia",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/walkthrough_mafia"
+                "title": "GccRiscV",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GccRiscV"
               },
               "next": {
-                "title": "VS Code",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/VsCode"
+                "title": "crt0",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/crt0"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/markdown",
+              "id": "TFM/projectTool/markdown",
+              "title": "markdown",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/markdown.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/markdown",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/markdown",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/markdown.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "drawio",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/drawio"
+              },
+              "next": {
+                "title": "sv-extensions",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/sv-extensions"
               }
             },
             {
@@ -1640,15 +1829,189 @@
               "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/ModelSim.md",
               "tags": [],
               "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "TFM/projectTool/modelsim_examples",
+              "id": "TFM/projectTool/modelsim_examples",
+              "title": "modelsim_examples",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/modelsim_examples.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/modelsim_examples",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/modelsim_examples",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/modelsim_examples.md",
+              "tags": [],
+              "version": "current",
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "GccRiscV",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GccRiscV"
+                "title": "hw_gui_debug",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_gui_debug"
               },
               "next": {
-                "title": "Walkthrough - tool-chain tutorial",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Walkthrough"
+                "title": "quartus_intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/quartus_intro"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/modelsim_intro",
+              "id": "TFM/projectTool/modelsim_intro",
+              "title": "modelsim_intro",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/modelsim_intro.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/modelsim_intro",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/modelsim_intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/modelsim_intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "crt0",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/crt0"
+              },
+              "next": {
+                "title": "hw_compile",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_compile"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/quartus",
+              "id": "TFM/projectTool/quartus",
+              "title": "quartus",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/quartus.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/quartus",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/quartus",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/quartus.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "quartus_intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/quartus_intro"
+              },
+              "next": {
+                "title": "quartus_gui",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/quartus_gui"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/quartus_gui",
+              "id": "TFM/projectTool/quartus_gui",
+              "title": "quartus_gui",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/quartus_gui.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/quartus_gui",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/quartus_gui",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/quartus_gui.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "quartus",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/quartus"
+              },
+              "next": {
+                "title": "de10lite",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/de10lite"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/quartus_intro",
+              "id": "TFM/projectTool/quartus_intro",
+              "title": "quartus_intro",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/quartus_intro.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/quartus_intro",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/quartus_intro",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/quartus_intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "modelsim_examples",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/modelsim_examples"
+              },
+              "next": {
+                "title": "quartus",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/quartus"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/sv-extensions",
+              "id": "TFM/projectTool/sv-extensions",
+              "title": "sv-extensions",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/sv-extensions.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/sv-extensions",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/sv-extensions",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/sv-extensions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "markdown",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/markdown"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/intro"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/sv-extentions",
+              "id": "TFM/projectTool/sv-extentions",
+              "title": "sv-extentions",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/sv-extentions.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/sv-extentions",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/sv-extentions",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/sv-extentions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "TFM/projectTool/version_control",
+              "id": "TFM/projectTool/version_control",
+              "title": "version_control",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/version_control.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/version_control",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/version_control",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/version_control.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "GitBash",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitBash"
+              },
+              "next": {
+                "title": "drawio",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/drawio"
               }
             },
             {
@@ -1667,12 +2030,12 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "intro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/intro"
+                "title": "de10lite",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/de10lite"
               },
               "next": {
-                "title": "Git and GitHub",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_and_github"
+                "title": "GitBash",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitBash"
               }
             },
             {
@@ -1688,16 +2051,7 @@
               "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/Walkthrough.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
-              "sidebar": "TFM",
-              "previous": {
-                "title": "ModelSim",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/ModelSim"
-              },
-              "next": {
-                "title": "intro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/intro"
-              }
+              "frontMatter": {}
             },
             {
               "unversionedId": "TFM/verilog/basic_concepts",
@@ -1719,7 +2073,7 @@
                 "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/intro"
               },
               "next": {
-                "title": "sv_types",
+                "title": "SystemVerilog Types",
                 "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/sv_types"
               }
             },
@@ -1783,8 +2137,8 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "Walkthrough - tool-chain tutorial",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Walkthrough"
+                "title": "sv-extensions",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/sv-extensions"
               },
               "next": {
                 "title": "Intro to System-Verilog",
@@ -1807,7 +2161,7 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "sv_types",
+                "title": "SystemVerilog Types",
                 "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/sv_types"
               },
               "next": {
@@ -1842,7 +2196,7 @@
             {
               "unversionedId": "TFM/verilog/sv_types",
               "id": "TFM/verilog/sv_types",
-              "title": "sv_types",
+              "title": "SystemVerilog Types",
               "description": "reg, wire, logic",
               "source": "@site/docs/TFM/verilog/sv_types.md",
               "sourceDirName": "TFM/verilog",
@@ -1877,14 +2231,14 @@
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "TFM",
+              "sidebar": "MAFIA_Build",
               "previous": {
-                "title": "Tools, Flows & Methodologies",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/welcome"
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build_script/intro"
               },
               "next": {
-                "title": "intro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/intro"
+                "title": "The MAFIA Build Flow",
+                "permalink": "/fpga_mafia_wiki/docs/build_script/SW_compile"
               }
             },
             {
@@ -1903,8 +2257,8 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "next": {
-                "title": "walkthrough_mafia",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/walkthrough_mafia"
+                "title": "gcc_intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/gcc_intro"
               }
             }
           ],
@@ -1918,46 +2272,108 @@
                 "translatable": true
               },
               {
-                "type": "doc",
-                "id": "TFM/walkthrough_mafia",
-                "label": "walkthrough_mafia",
-                "translatable": true
-              },
-              {
                 "type": "category",
-                "label": "Project-Tools",
+                "label": "GCC - RISCV",
                 "link": {
                   "type": "doc",
-                  "id": "TFM/projectTool/intro"
+                  "id": "TFM/projectTool/gcc_intro"
                 },
                 "items": [
-                  {
-                    "type": "doc",
-                    "id": "TFM/projectTool/VsCode"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "TFM/projectTool/git_and_github"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "TFM/projectTool/GitBash"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "TFM/projectTool/GitHubActions"
-                  },
                   {
                     "type": "doc",
                     "id": "TFM/projectTool/GccRiscV"
                   },
                   {
                     "type": "doc",
-                    "id": "TFM/projectTool/ModelSim"
+                    "id": "TFM/projectTool/linker"
                   },
                   {
                     "type": "doc",
-                    "id": "TFM/projectTool/Walkthrough"
+                    "id": "TFM/projectTool/crt0"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "modelsim",
+                "link": {
+                  "type": "doc",
+                  "id": "TFM/projectTool/modelsim_intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/hw_compile"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/hw_elab_sim"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/hw_gui_debug"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/modelsim_examples"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Quartus & FPGA",
+                "link": {
+                  "type": "doc",
+                  "id": "TFM/projectTool/quartus_intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/quartus"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/quartus_gui"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/de10lite"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "vscode environment",
+                "link": {
+                  "type": "doc",
+                  "id": "TFM/projectTool/VsCode"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/GitBash"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/version_control"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/drawio"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/markdown"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/sv-extensions"
                   }
                 ],
                 "collapsed": true,
@@ -2005,6 +2421,12 @@
                 "type": "doc",
                 "id": "build_script/intro",
                 "label": "Intro",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "TFM/walkthrough_mafia",
+                "label": "walkthrough_mafia",
                 "translatable": true
               },
               {
