@@ -1,6 +1,3 @@
-const sidebar_tfm = require('./sidebar/sidebar_tfm');
-const MAFIA_build = require('./sidebar/MAFIA_build');
-
 module.exports = {
 TFM: [
     {
