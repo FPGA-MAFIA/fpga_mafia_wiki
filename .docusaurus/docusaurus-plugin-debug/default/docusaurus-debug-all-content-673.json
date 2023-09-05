@@ -1701,21 +1701,21 @@
                 "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/modelsim_intro"
               },
               "next": {
-                "title": "hw_elab_sim",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_elab_sim"
+                "title": "hw_elab",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_elab"
               }
             },
             {
-              "unversionedId": "TFM/projectTool/hw_elab_sim",
-              "id": "TFM/projectTool/hw_elab_sim",
-              "title": "hw_elab_sim",
+              "unversionedId": "TFM/projectTool/hw_elab",
+              "id": "TFM/projectTool/hw_elab",
+              "title": "hw_elab",
               "description": "",
-              "source": "@site/docs/TFM/projectTool/hw_elab_sim.md",
+              "source": "@site/docs/TFM/projectTool/hw_elab.md",
               "sourceDirName": "TFM/projectTool",
-              "slug": "/TFM/projectTool/hw_elab_sim",
-              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_elab_sim",
+              "slug": "/TFM/projectTool/hw_elab",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_elab",
               "draft": false,
-              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/hw_elab_sim.md",
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/hw_elab.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1725,8 +1725,8 @@
                 "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_compile"
               },
               "next": {
-                "title": "hw_gui_debug",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_gui_debug"
+                "title": "hw_sim",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_sim"
               }
             },
             {
@@ -1745,12 +1745,36 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "hw_elab_sim",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_elab_sim"
+                "title": "hw_sim",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_sim"
               },
               "next": {
                 "title": "modelsim_examples",
                 "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/modelsim_examples"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/hw_sim",
+              "id": "TFM/projectTool/hw_sim",
+              "title": "hw_sim",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/hw_sim.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/hw_sim",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_sim",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/hw_sim.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "hw_elab",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_elab"
+              },
+              "next": {
+                "title": "hw_gui_debug",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/hw_gui_debug"
               }
             },
             {
@@ -2309,7 +2333,11 @@
                   },
                   {
                     "type": "doc",
-                    "id": "TFM/projectTool/hw_elab_sim"
+                    "id": "TFM/projectTool/hw_elab"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/hw_sim"
                   },
                   {
                     "type": "doc",
