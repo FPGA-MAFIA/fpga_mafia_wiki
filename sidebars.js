@@ -6,6 +6,11 @@ TFM: [
       label: 'Welcome',
     },
     {
+      type: 'doc',
+      id: 'TFM/projectTool/Walkthrough',
+      label: 'GettingStarted',
+    },
+    {
       type: 'category',
       label: 'GCC - RISCV',
       link: {
