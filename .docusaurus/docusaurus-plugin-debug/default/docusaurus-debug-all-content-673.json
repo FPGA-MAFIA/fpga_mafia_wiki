@@ -1640,7 +1640,88 @@
               "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/git_and_github.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/intro"
+              },
+              "next": {
+                "title": "git_cheat_sheet",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_cheat_sheet"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/git_cheat_sheet",
+              "id": "TFM/projectTool/git_cheat_sheet",
+              "title": "git_cheat_sheet",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/git_cheat_sheet.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/git_cheat_sheet",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_cheat_sheet",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/git_cheat_sheet.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Git and GitHub",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_and_github"
+              },
+              "next": {
+                "title": "Github actions",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitHubActions"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/git_hub_projects",
+              "id": "TFM/projectTool/git_hub_projects",
+              "title": "git_hub_projects",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/git_hub_projects.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/git_hub_projects",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_hub_projects",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/git_hub_projects.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Github actions",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/GitHubActions"
+              },
+              "next": {
+                "title": "git_hub_tfm",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_hub_tfm"
+              }
+            },
+            {
+              "unversionedId": "TFM/projectTool/git_hub_tfm",
+              "id": "TFM/projectTool/git_hub_tfm",
+              "title": "git_hub_tfm",
+              "description": "",
+              "source": "@site/docs/TFM/projectTool/git_hub_tfm.md",
+              "sourceDirName": "TFM/projectTool",
+              "slug": "/TFM/projectTool/git_hub_tfm",
+              "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_hub_tfm",
+              "draft": false,
+              "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/git_hub_tfm.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "git_hub_projects",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_hub_projects"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/intro"
+              }
             },
             {
               "unversionedId": "TFM/projectTool/GitBash",
@@ -1679,7 +1760,16 @@
               "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/GitHubActions.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "git_cheat_sheet",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_cheat_sheet"
+              },
+              "next": {
+                "title": "git_hub_projects",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_hub_projects"
+              }
             },
             {
               "unversionedId": "TFM/projectTool/hw_compile",
@@ -1790,7 +1880,16 @@
               "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/intro.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "sv-extensions",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/sv-extensions"
+              },
+              "next": {
+                "title": "Git and GitHub",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_and_github"
+              }
             },
             {
               "unversionedId": "TFM/projectTool/linker",
@@ -1996,7 +2095,7 @@
               },
               "next": {
                 "title": "intro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/intro"
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/intro"
               }
             },
             {
@@ -2093,8 +2192,8 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "intro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/intro"
+                "title": "Common examples",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/examples"
               },
               "next": {
                 "title": "SystemVerilog Types",
@@ -2141,8 +2240,12 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "pre-compiler include , define & macros",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/pre_compile"
+                "title": "intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/intro"
+              },
+              "next": {
+                "title": "Intro to System-Verilog",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/basic_concepts"
               }
             },
             {
@@ -2161,12 +2264,12 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "sv-extensions",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/sv-extensions"
+                "title": "git_hub_tfm",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/git_hub_tfm"
               },
               "next": {
-                "title": "Intro to System-Verilog",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/basic_concepts"
+                "title": "Common examples",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/examples"
               }
             },
             {
@@ -2211,10 +2314,6 @@
               "previous": {
                 "title": "Coding Style",
                 "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/coding_style"
-              },
-              "next": {
-                "title": "Common examples",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/verilog/examples"
               }
             },
             {
@@ -2409,12 +2508,48 @@
               },
               {
                 "type": "category",
+                "label": "git & github",
+                "link": {
+                  "type": "doc",
+                  "id": "TFM/projectTool/intro"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/git_and_github"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/git_cheat_sheet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/GitHubActions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/git_hub_projects"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "TFM/projectTool/git_hub_tfm"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
                 "label": "System Verilog",
                 "link": {
                   "type": "doc",
                   "id": "TFM/verilog/intro"
                 },
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "TFM/verilog/examples"
+                  },
                   {
                     "type": "doc",
                     "id": "TFM/verilog/basic_concepts"
@@ -2434,10 +2569,6 @@
                   {
                     "type": "doc",
                     "id": "TFM/verilog/pre_compile"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "TFM/verilog/examples"
                   }
                 ],
                 "collapsed": true,

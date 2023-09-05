@@ -63,6 +63,21 @@ TFM: [
     },
     {
       type: 'category',
+      label: 'git & github',
+      link: {
+        type: 'doc',
+        id: 'TFM/projectTool/intro',
+      },
+      items: [
+        'TFM/projectTool/git_and_github',
+        'TFM/projectTool/git_cheat_sheet',
+        'TFM/projectTool/GitHubActions',
+        `TFM/projectTool/git_hub_projects`,
+        `TFM/projectTool/git_hub_tfm`,
+      ],
+    },
+    {
+      type: 'category',
       label: 'System Verilog',
       link: {
         type: 'doc',
