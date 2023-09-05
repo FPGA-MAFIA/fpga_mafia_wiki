@@ -27,7 +27,8 @@ TFM: [
       },
       items: [
         'TFM/projectTool/hw_compile',
-        'TFM/projectTool/hw_elab_sim',
+        'TFM/projectTool/hw_elab',
+        'TFM/projectTool/hw_sim',
         'TFM/projectTool/hw_gui_debug',
         'TFM/projectTool/modelsim_examples',
       ],
