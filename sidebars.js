@@ -69,12 +69,12 @@ TFM: [
         id: 'TFM/verilog/intro',
       },
       items: [
+        'TFM/verilog/examples',
         'TFM/verilog/basic_concepts',
         'TFM/verilog/sv_types',
         'TFM/verilog/multi_dim_array',
         'TFM/verilog/coding_style',
         'TFM/verilog/pre_compile',
-        'TFM/verilog/examples',
       ],
     },
   ],
