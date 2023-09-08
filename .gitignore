@@ -3,5 +3,4 @@ build/
 .docusaurus/*
 .docusaursus/
 
-docusaurus.config.js
-.docusaursus
+.docusaurus/docusaurus-plugin-debug/default/docusaurus-debug-all-content-673.json
