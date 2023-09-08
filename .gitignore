@@ -2,3 +2,5 @@ node_modules/
 build/
 .docusaurus/*
 .docusaursus/
+
+.docusaurus/docusaurus-plugin-debug/default/docusaurus-debug-all-content-673.json
