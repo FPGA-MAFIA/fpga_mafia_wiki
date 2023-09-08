@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\abendavid\\OneDrive - NVIDIA Corporation\\Desktop\\github\\BIU_project\\fpga_mafia_wiki\\sidebars.js",
-          "contentPath": "C:\\Users\\abendavid\\OneDrive - NVIDIA Corporation\\Desktop\\github\\BIU_project\\fpga_mafia_wiki\\docs",
-          "contentPathLocalized": "C:\\Users\\abendavid\\OneDrive - NVIDIA Corporation\\Desktop\\github\\BIU_project\\fpga_mafia_wiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\mafia_wiki\\fpga_mafia_wiki\\sidebars.js",
+          "contentPath": "C:\\mafia_wiki\\fpga_mafia_wiki\\docs",
+          "contentPathLocalized": "C:\\mafia_wiki\\fpga_mafia_wiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "big_core/intro",
@@ -1595,8 +1595,8 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "previous": {
-                "title": "Tools, Flows & Methodologies",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/welcome"
+                "title": "Walkthrough - tool-chain tutorial",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Walkthrough"
               },
               "next": {
                 "title": "GccRiscV",
@@ -1655,7 +1655,7 @@
               "unversionedId": "TFM/projectTool/git_cheat_sheet",
               "id": "TFM/projectTool/git_cheat_sheet",
               "title": "git_cheat_sheet",
-              "description": "",
+              "description": "This page will be updated soon!",
               "source": "@site/docs/TFM/projectTool/git_cheat_sheet.md",
               "sourceDirName": "TFM/projectTool",
               "slug": "/TFM/projectTool/git_cheat_sheet",
@@ -2174,7 +2174,16 @@
               "editUrl": "https://github.com/amichai-bd/fpga_mafia_wiki/tree/main/docs/TFM/projectTool/Walkthrough.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "TFM",
+              "previous": {
+                "title": "Tools, Flows & Methodologies",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/welcome"
+              },
+              "next": {
+                "title": "gcc_intro",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/gcc_intro"
+              }
             },
             {
               "unversionedId": "TFM/verilog/basic_concepts",
@@ -2380,8 +2389,8 @@
               "frontMatter": {},
               "sidebar": "TFM",
               "next": {
-                "title": "gcc_intro",
-                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/gcc_intro"
+                "title": "Walkthrough - tool-chain tutorial",
+                "permalink": "/fpga_mafia_wiki/docs/TFM/projectTool/Walkthrough"
               }
             }
           ],
@@ -2392,6 +2401,12 @@
                 "type": "doc",
                 "id": "TFM/welcome",
                 "label": "Welcome",
+                "translatable": true
+              },
+              {
+                "type": "doc",
+                "id": "TFM/projectTool/Walkthrough",
+                "label": "GettingStarted",
                 "translatable": true
               },
               {
