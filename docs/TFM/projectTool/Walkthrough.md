@@ -60,7 +60,7 @@ int main()  {
     z = x+y;  
 }  // main()
 ```
-- Type the following command to examine an assembly file "example.s" created from "alive.c"
+- Type the following command that creates an assembly file "example.s" from "alive.c"
 ```
 riscv-none-embed-gcc.exe -S -ffreestanding -march=rv32i ../../../verif/mini_core/tests/alive.c -o example.s
 ```
@@ -148,12 +148,12 @@ cd ./target/mini_core/tests/alive/gcc_files
  riscv-none-embed-gcc.exe -S -ffreestanding -march=rv32i -I ../../../../../app/defines ../../../../.././verif/mini_core/tests/alive.c -o alive_rv32i.c.s
 ```
 - Create an *.elf file
-In that command we re-define the offset and length of instruction and data memory and combining it crt0.s  to create alive_rv32i.elf   
+In that command we re-define the offset and length of instruction and data memory and combining it with crt0.s file to create alive_rv32i.elf   
 ```
 riscv-none-embed-gcc.exe -O3 -march=rv32i -T ../../../../../app/link.common.ld -I ../../../../../app/defines -Wl,--defsym=I_MEM_OFFSET=0 -Wl,--defsym=I_MEM_LENGTH=65536 -Wl,--defsym=D_MEM_OFFSET=65536 -Wl,--defsym=D_MEM_LENGTH=61440 -nostartfiles -D__riscv__ -Wl,-Map=alive.map ../../../../../app/crt0.S alive_rv32i.c.s -o alive_rv32i.elf
 ```
 - Create "visible" *.elf file
-In order to view alive_rv32i.elf file we do the following command. Some of crt0.s lines can be seen in that file.
+In order to view alive_rv32i.elf file we do the following command. (Some of crt0.s lines caעןא n be seen in that file).
 ```
 riscv-none-embed-objdump.exe -gd alive_rv32i.elf > alive_rv32i_elf.txt
 ```
@@ -169,6 +169,22 @@ make sure you have created the files:
 - alive_rv32i.elf  
 - alive_rv32i_elf.txt  
 - alive_inst_mem_rv32i.sv  
+
+### Running RISCV toolchain using GUI
+Using the GUI, you can execute Section 5 in just a matter of seconds.
+- Install the termcolor module
+```
+pip install termcolor
+```
+- Navigate to fpga_mafia folder and open the GUI by typing
+```
+python gui_build.py  
+``` 
+>DUT: choose mini_core.  
+>Mark -tests and than choose alive.c   
+>Mark -app.   
+>Apply Run Command.    
+
 
 ## MODELSIM - systemverilog toolchain 
 1. write a simple systemverilog module: `test.sv` 
@@ -210,7 +226,8 @@ make sure you have created the files:
     test_tb.sv
     ```
 1. Make directory called `"work"`
-    > `mkdir work`
+    > `mkdir work`  
+    - Please note that The presence of Hebrew letters in the pass could lead to errors. 
 1. Compile systemverilog from `"dotf"` file list.
     > `vlog.exe -f test_list.f`
 1. Elaboration & simulation  
@@ -221,6 +238,16 @@ make sure you have created the files:
 
 1. Make sure you see the wave form of your code when running with `-gui`:
 ![image](https://user-images.githubusercontent.com/81047407/137597659-b4465e6f-3d8d-4fd6-867a-c63df68b89e7.png)
+
+
+### How to use GUI window
+At gui window please choose the following
+>DUT: choose mini_core.  
+>Mark -test and than choose alive.c   
+>Mark -app, -hw, -sim   
+>Apply Run Command  
+> For model sim gui add -gui 
+
 
 
 ## Now you have everything you need to start designing a RISCV core in systemverilog!!
