@@ -97,6 +97,11 @@ TFM: [
         'TFM/verilog/pre_compile',
       ],
     },
+    {
+      type: 'doc',
+      id: 'TFM/projectTool/TFM_Sanity',
+      label: 'TFM_Sanity',
+    },
   ],
 
 MAFIA_Build: [
