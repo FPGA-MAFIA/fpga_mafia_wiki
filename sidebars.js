@@ -8,19 +8,34 @@ TFM: [
     {
       type: 'doc',
       id: 'TFM/projectTool/Walkthrough',
-      label: 'GettingStarted',
+      label: 'GettingStarted(draft)',
     },
     {
       type: 'category',
-      label: 'GCC - RISCV',
+      label: 'GettingStarted',
       link: {
         type: 'doc',
-        id: 'TFM/projectTool/gcc_intro',
+        id: 'TFM/projectTool/start',
       },
       items: [
-        'TFM/projectTool/GccRiscV',
-        'TFM/projectTool/linker',
-        'TFM/projectTool/crt0',
+        'TFM/projectTool/GitBash',
+        'TFM/projectTool/bashrc',
+        'TFM/projectTool/python',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'vscode environment',
+      link: {
+        type: 'doc',
+        id: 'TFM/projectTool/VsCode',
+      },
+      items: [
+        'TFM/projectTool/vs_code',
+        'TFM/projectTool/version_control',
+        'TFM/projectTool/drawio',
+        'TFM/projectTool/markdown',
+        `TFM/projectTool/sv-extensions`,
       ],
     },
     {
@@ -53,17 +68,15 @@ TFM: [
     },
     {
       type: 'category',
-      label: 'vscode environment',
+      label: 'GCC - RISCV',
       link: {
         type: 'doc',
-        id: 'TFM/projectTool/VsCode',
+        id: 'TFM/projectTool/gcc_intro',
       },
       items: [
-        'TFM/projectTool/GitBash',
-        'TFM/projectTool/version_control',
-        'TFM/projectTool/drawio',
-        'TFM/projectTool/markdown',
-        `TFM/projectTool/sv-extensions`,
+        'TFM/projectTool/GccRiscV',
+        'TFM/projectTool/linker',
+        'TFM/projectTool/crt0',
       ],
     },
     {

@@ -178,7 +178,7 @@ pip install termcolor
 ```
 - Navigate to fpga_mafia folder and open the GUI by typing
 ```
-python gui_build.py  
+python gui_build.py
 ``` 
 >DUT: choose mini_core.  
 >Mark -tests and than choose alive.c   
