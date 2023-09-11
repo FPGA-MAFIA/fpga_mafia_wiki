@@ -18,6 +18,8 @@ TFM: [
         id: 'TFM/projectTool/VsCode',
       },
       items: [
+        'TFM/projectTool/python',
+        'TFM/projectTool/vs_code',
         'TFM/projectTool/GitBash',
         'TFM/projectTool/version_control',
         'TFM/projectTool/drawio',
