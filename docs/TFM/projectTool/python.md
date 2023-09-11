@@ -15,4 +15,6 @@ If you get a message like "command not found," it means you should include the P
 - go to terminal and type `source ~/.bashrc`
 - type in terminal `python --version`, now you will get the version 
 
+note : It's important to know that the way you write the PATH in Windows is different from how you do it in a Linux environment.
+For example' PATH in windows that looks like that `c:\folder1\folder2` will be written in `~/.bashrc` as `/c/folder1/folder2`
 

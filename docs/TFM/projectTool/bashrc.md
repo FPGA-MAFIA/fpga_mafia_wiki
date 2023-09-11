@@ -7,7 +7,7 @@
 - Adjust how the Bash shell behaves for that user.  
 - It's all about making the command line work the way you want it to for your user account.
 
-Because we're using Windows, and the `~/.bashrc` file is meant for Linux, it might seem unnecessary to install it. However, here's why we still install it: We're using GitBash, which acts like a Linux terminal. When we open GitBash, it reads the `~/.bashrc` file, so having it installed helps configure our GitBash environment.
+Because we're using Windows, and the `~/.bashrc` file is meant for Linux, it might seem unnecessary to add it. However, here's why we still install it: We're using GitBash, which acts like a Linux terminal. When we open GitBash, it reads the `~/.bashrc` file, so having it installed helps configure our GitBash environment.
 
 ## Seting bashrc
 ```
