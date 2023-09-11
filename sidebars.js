@@ -8,7 +8,20 @@ TFM: [
     {
       type: 'doc',
       id: 'TFM/projectTool/Walkthrough',
+      label: 'GettingStarted(draft)',
+    },
+    {
+      type: 'category',
       label: 'GettingStarted',
+      link: {
+        type: 'doc',
+        id: 'TFM/projectTool/start',
+      },
+      items: [
+        'TFM/projectTool/GitBash',
+        'TFM/projectTool/bashrc',
+        'TFM/projectTool/python',
+      ],
     },
     {
       type: 'category',
@@ -18,9 +31,7 @@ TFM: [
         id: 'TFM/projectTool/VsCode',
       },
       items: [
-        'TFM/projectTool/python',
         'TFM/projectTool/vs_code',
-        'TFM/projectTool/GitBash',
         'TFM/projectTool/version_control',
         'TFM/projectTool/drawio',
         'TFM/projectTool/markdown',
