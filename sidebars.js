@@ -37,6 +37,11 @@ TFM: [
       ],
     },
     {
+      type: 'doc',
+      id: 'TFM/projectTool/hardware_tools',
+      label: 'hw simulator & tools',
+    },
+    {
       type: 'category',
       label: 'modelsim',
       link: {
@@ -61,7 +66,7 @@ TFM: [
       items: [
         'TFM/projectTool/quartus',
         'TFM/projectTool/quartus_gui',
-        'TFM/projectTool/de10lite',
+        'TFM/projectTool/fpga_and_de10lite',
       ],
     },
     {
