@@ -32,8 +32,3 @@ Version control is a system that helps individuals and teams manage changes to f
 - **Backup and Disaster Recovery:** It serves as a form of backup, allowing users to recover previous versions in case of data loss or errors.
 
 In summary, version control is a crucial tool for tracking and managing changes in files and projects, enabling collaboration, maintaining history, and providing a safety net against data loss or mistakes. Git is a popular choice due to its versatility and wide adoption in various industries.
-
-
-
-
-
