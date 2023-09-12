@@ -32,10 +32,8 @@ TFM: [
       },
       items: [
         'TFM/projectTool/vs_code',
-        'TFM/projectTool/version_control',
-        'TFM/projectTool/drawio',
+        'TFM/projectTool/extensions',
         'TFM/projectTool/markdown',
-        `TFM/projectTool/sv-extensions`,
       ],
     },
     {
@@ -87,6 +85,7 @@ TFM: [
         id: 'TFM/projectTool/intro',
       },
       items: [
+        'TFM/projectTool/version_control',
         'TFM/projectTool/git_and_github',
         'TFM/projectTool/git_cheat_sheet',
         'TFM/projectTool/GitHubActions',
