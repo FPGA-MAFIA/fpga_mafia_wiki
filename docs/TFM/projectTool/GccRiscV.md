@@ -137,11 +137,12 @@ Now, we have everything required to start working on our goals, which is to crea
 
 - Create an *.elf file
 In that command we re-define the offset and length of instruction and data memory and combining it with crt0.s file to create example_rv32i.elf   
+
 ```
-riscv-none-embed-gcc.exe -O3 -march=rv32i -T basic_linker.ld -I -Wl,--defsym=I_MEM_OFFSET=0 -Wl,--defsym=I_MEM_LENGTH=65536 -Wl,--defsym=D_MEM_OFFSET=65536 -Wl,--defsym=D_MEM_LENGTH=61440 -nostartfiles -D__riscv__ -Wl,-Map=alive.map crt0.S example.s -o example_rv32i.elf
+riscv-none-embed-gcc.exe -O3 -march=rv32i -T basic_linker.ld -nostartfiles -D__riscv__ -Wl,-Map=alive.map crt0.S example.s -o example_rv32i.elf
 ```
 - Create "visible" *.elf file
-In order to view alive_rv32i.elf file we do the following command. (Some of crt0.s lines caעןא n be seen in that file).
+In order to view example_rv32i.elf file we do the following command. 
 ```
 riscv-none-embed-objdump.exe -gd example_rv32i.elf > example_rv32i_elf.txt
 ```
