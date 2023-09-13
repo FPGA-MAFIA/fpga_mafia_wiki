@@ -65,8 +65,9 @@ TFM: [
       },
       items: [
         'TFM/projectTool/quartus',
+        'TFM/projectTool/fpga',
+        'TFM/projectTool/de10_lite',
         'TFM/projectTool/quartus_gui',
-        'TFM/projectTool/fpga_and_de10lite',
       ],
     },
     {

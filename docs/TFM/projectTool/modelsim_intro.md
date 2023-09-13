@@ -14,4 +14,7 @@ Key points about ModelSim:
 
 In summary, ModelSim is a versatile and widely used tool in the field of digital design and verification, helping engineers and designers ensure the correctness and performance of their hardware designs through simulation and debugging.
 
+***The best way to learn ModelSim is by practicing, so don't worry, we'll come back to it later.***
+
 Please be aware that we're using the free version, and some features might not work. But don't worry, the free version includes everything we need.
+
