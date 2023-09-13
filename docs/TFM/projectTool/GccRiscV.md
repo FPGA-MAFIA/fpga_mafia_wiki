@@ -136,8 +136,6 @@ Now, we have everything required to start working on our goals, which is to crea
  Run the following commands:
 
 - Create an *.elf file
-In that command we re-define the offset and length of instruction and data memory and combining it with crt0.s file to create example_rv32i.elf   
-
 ```
 riscv-none-embed-gcc.exe -O3 -march=rv32i -T basic_linker.ld -nostartfiles -D__riscv__ -Wl,-Map=alive.map crt0.S example.s -o example_rv32i.elf
 ```
