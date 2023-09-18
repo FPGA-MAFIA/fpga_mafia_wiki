@@ -4,3 +4,5 @@ build/
 .docusaursus/
 .docusaurus/docusaurus-plugin-debug/default/docusaurus-debug-all-content-673.json
 .docusaurus/docusaurus-plugin-debug/default/docusaurus-debug-all-content-673.json
+.history/
+

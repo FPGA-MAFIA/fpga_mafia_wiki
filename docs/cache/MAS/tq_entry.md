@@ -5,10 +5,24 @@ The transaction queue entry Micro-Architecture-Specification
 TODO - insert the block diagram
 
 ## Top level interface
-| Name                    | Size   | in/out | Description                          |
-|-------------------------|--------|--------|--------------------------------------|
-| clk                     |        | in     |                                      |
-| rst                     |        | in     |                                      |
+| Name                    | Size     | Direction | Description                          |
+|-------------------------|--------  |--------   |--------------------------------------|
+| clk                     | 1 bit    | In     | Clock signal for synchronous operation  |
+| rst                     | 1 bit    | In     | Reset signal for resetting the module   |
+| entry_id                | 3 bits   | In     | Entry identifier for this module        |
+| core2cache_req          | 60 bits  | In     | Core-to-cache request data              |
+| allocate_entry          | 1 bit    | In     | Signal to allocate an entry             |
+| fm2cache_rd_rsp         | 149 bits | In     | FM-to-cache read response data          |
+| pipe_lu_rsp_q3          | 164 bits | In     | Pipe lookup response data               |
+| first_fill              | 1 bit    | In     | Signal indicating the first fill        |
+| cancel_core_req         | 1 bit    | In     | Signal to cancel the core request       |
+| tq_entry                | 162 bits | Out    | TQ entry data output                    |
+| next_tq_entry           | 162 bits | Out    | Next TQ entry data output               |
+| rd_req_hit_mb           | 1 bit    | Out    | Signal indicating a read request hit    |
+| wr_req_hit_mb           | 1 bit    | Out    | Signal indicating a write request hit   |
+| free_entry              | 1 bit    | Out    | Signal indicating a free entry          |
+| fill_entry              | 1 bit    | Out    | Signal indicating a fill entry          |
+
 
 
 ## Main components:
@@ -17,16 +31,16 @@ TODO - insert the block diagram
 #### Motivation:
 
 #### Table of Flops:
-| Name                    | Size   | Description                                    | when & how data writes           | who consumes the data       |
-|-------------------------|--------|------------------------------------------------|----------------------------------|-----------------------------|
-| state                   |        |                                                |                                  |                             |
-| merge_buffer_e_modified |        |                                                |                                  |                             |
-| rd_indication           |        |                                                |                                  |                             |
-| wr_indication           |        |                                                |                                  |                             |
-| merge_buffer_data       |        |                                                |                                  |                             |
-| cl_address              |        |                                                |                                  |                             |
-| cl_word_offset          |        |                                                |                                  |                             |
-| reg_id                  |        |                                                |                                  |                             |
+| Name                    | Size     | Description                                    | when & how data writes                    | who consumes the data       |
+|-------------------------|----------|------------------------------------------------|----------------------------------         |-----------------------------|
+| state                   |  3  bits |      State of the TQ Entry                     |          State transition                 |                             |
+| merge_buffer_e_modified |  4  bits |      Indication of merge Buffer modification   | Bit is set when data in MB is modified    |                             |
+| rd_indication           |  1  bits |      Read indication                           | Bit is set when read request is processed |                             |
+| wr_indication           |  1  bits |      Write indication                          | Bit is set when write request is processed|                             |
+| merge_buffer_data       | 128 bits |      Data stored in the merge buffer           |  When merge buffer data is updated        |                             |
+| cl_address              |  16 bits |      Cache Line Adress                         |  When cache line address is set           |                             |
+| cl_word_offset          |  2  bits |      Word offset within a Cache Line           |  When word offset is set                  |                             |
+| reg_id                  |  6  bits |      Register identifier                       |  When register identifier is set          |                             |
 
 ### TQ entry FSM:
 #### Motivation:
@@ -34,14 +48,14 @@ TODO - insert the block diagram
 #### Table of FSM states:
 | Name                    | Possible Next State |  Description                                                                 |
 |-------------------------|---------------------|------------------------------------------------------------------------------|
-| S_IDLE                  | S_LU_CORE           |                                                                              |
-| S_LU_CORE               | S_IDLE              |                                                                              |
-| S_MB_WAIT_FILL          | S_MB_FILL_READY     |                                                                              |
-| S_MB_FILL_READY         | S_IDLE              |                                                                              |
-| S_ERROR                 |                     |                                                                              |
+| S_IDLE                  | S_LU_CORE           |     Waiting for a core request to allocate the entry                         |
+| S_LU_CORE               | S_IDLE              |  Core requests are being processed, and interactions with LU pipe may occur  |
+| S_MB_WAIT_FILL          | S_MB_FILL_READY     |   The module is waiting for a cache fill response.                           |
+| S_MB_FILL_READY         | S_IDLE              |   The module is ready to send a cache fill response to the LU pipe           |
+| S_ERROR                 |                     |   Indicates an unexpected or erroneous situation                             |
 
 #### Typical FSM flow:
-- **Write Hit:**      S_IDLE -> S_LU_CORE->S_ IDLE  
+**Write Hit:**      S_IDLE -> S_LU_CORE->S_ IDLE  
         - New write request from the core  
         - TQ entry is allocated in parallel to the pipe lookup  
         - TQ entry merge buffer is updated speculatively with the new request data  
