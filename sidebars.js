@@ -12,25 +12,15 @@ TFM: [
     },
     {
       type: 'category',
-      label: 'GettingStarted',
-      link: {
-        type: 'doc',
-        id: 'TFM/projectTool/start',
-      },
-      items: [
-        'TFM/projectTool/GitBash',
-        'TFM/projectTool/bashrc',
-        'TFM/projectTool/python',
-      ],
-    },
-    {
-      type: 'category',
       label: 'vscode environment',
       link: {
         type: 'doc',
         id: 'TFM/projectTool/VsCode',
       },
       items: [
+        'TFM/projectTool/GitBash',
+        'TFM/projectTool/bashrc',
+        'TFM/projectTool/python',
         'TFM/projectTool/vs_code',
         'TFM/projectTool/extensions',
         'TFM/projectTool/markdown',
