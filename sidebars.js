@@ -171,47 +171,45 @@ MAFIA_Build: [
       label: 'Intro',
     },
     {
-      type: 'doc',
-      id: 'cache/cache_overview',
-      label: 'Overview',
+      type: 'category',
+      label: 'HAS',
+      link: {
+        type: 'doc',
+        id: 'cache/HAS/HAS_intro',
+      },
+      items: [
+      ],
     },
     {
-      type: 'doc',
-      id: 'cache/High_level_block_description',
-      label: 'High level block description',
-    },
-    {
-      type: 'doc',
-      id: 'cache/High_level_Transaction_Flows',
-      label: 'High level Transaction Flows',
-    },
-    {
-      type: 'doc',
-      id: 'cache/Merge_Buffer_Behavior',
-      label: 'Merge Buffer Behavior',
-    },
-    {
-      type: 'doc',
-      id: 'cache/Verification',
-      label: 'Verification',
-    },
-    {
-      type: 'doc',
-      id: 'cache/Assumption_Assertions',
-      label: 'Assumption & Assertions',
-    },
-    {
-      type: 'doc',
-      id: 'cache/Appendix',
-      label: 'Appendix',
-    },
-    {
-      type: 'doc',
-      id: 'cache/ABD_notes',
-      label: 'ABD Notes',
-    },
+          type: 'category',
+          label: 'MAS',
+          link: {
+            type: 'doc',
+            id: 'cache/MAS/MAS_intro',
+          },
+          items: [
+            'cache/MAS/d_cache',
+            'cache/MAS/pipe',
+            'cache/MAS/tag_data_arrays',
+            'cache/MAS/tq_entry',
+            'cache/MAS/tq',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Verification',
+          link: {
+            type: 'doc',
+            id: 'cache/Verif/verif_intro',
+          },
+          items: [
+            'cache/Verif/refModel',
+            'cache/Verif/Dedicated_test',
+          ],
+        },
   ],
-  RISCV_Cores:[
+
+RISCV_Cores:[
     {
       type: 'doc',
       id: 'rvc/intro',
@@ -276,7 +274,7 @@ MAFIA_Build: [
       ],
     },
   ],
-  Fabric:[
+Fabric:[
     {
       type: 'doc',
       id: 'fabric/intro',
@@ -326,7 +324,4 @@ MAFIA_Build: [
       ],
     },
   ],
-  MAS: [
-    
-  ]
 };
