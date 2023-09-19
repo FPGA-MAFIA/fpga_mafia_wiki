@@ -10,7 +10,7 @@ TFM: [
       label: 'IDE - Integrated Development Environment',
       link: {
         type: 'doc',
-        id: 'TFM/projectTool/VsCode',
+        id: 'TFM/projectTool/IDE',
       },
       items: [
         'TFM/projectTool/vs_code',
