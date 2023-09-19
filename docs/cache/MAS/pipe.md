@@ -40,7 +40,9 @@ Mafia Encoder components are used to encode information, such as matching ways i
 
 The “Pipe” is a 3-stage pipeline that manages the tag array lookup (LU) & Cache access.
 
-### Q1 - <span style={{ fontSize: '0.9em' }}> Set Lookup / Tag Array Lookup </span>
+<!-- ### Q1 - <span style={{ fontSize: '0.9em' }}> Set Lookup / Tag Array Lookup </span> -->
+### Q1 - Set Lookup / Tag Array Lookup 
+
 
 In this stage, the module performs a set lookup and tag array lookup. It prepares the cache request by extracting relevant information from the input request.
 
@@ -50,7 +52,8 @@ Features and Actions:
 - Prepares the cache request by populating various fields.
 - Assigns signals to the tag array lookup request.
 
-### Q2 - <span style={{ fontSize: '0.9em' }}>Data Hazard Resolution, Tag Comparison, Allocation of Victim </span>
+<!-- ### Q2 - <span style={{ fontSize: '0.9em' }}>Data Hazard Resolution, Tag Comparison, Allocation of Victim </span> -->
+### Q2 - Data Hazard Resolution, Tag Comparison, Allocation of Victim 
 
 Stage Q2 is critical for hazard resolution, tag comparison, and determining the victim for cache allocation.
 
@@ -62,7 +65,8 @@ Features and Actions:
 - Allocates a victim in case of cache fills.
 - Updates cache metadata such as MRU, modified bits, and tags.
 
-### Q3 - <span style={{ fontSize: '0.9em' }}>Update of Tag Array, Data Fetch, Cache Miss Handling </span>
+<!-- ### Q3 - <span style={{ fontSize: '0.9em' }}>Update of Tag Array, Data Fetch, Cache Miss Handling </span> -->
+### Q3 - Update of Tag Array, Data Fetch, Cache Miss Handling 
 
 In the third stage, the module updates the tag array, fetches data from the data array, and handles cache misses.
 
