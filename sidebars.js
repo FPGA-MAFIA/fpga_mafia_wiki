@@ -7,7 +7,7 @@ TFM: [
     },
     {
       type: 'category',
-      label: 'vscode environment',
+      label: 'IDE - Integrated Development Environment',
       link: {
         type: 'doc',
         id: 'TFM/projectTool/VsCode',
