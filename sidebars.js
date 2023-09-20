@@ -23,16 +23,11 @@ TFM: [
       ],
     },
     {
-      type: 'doc',
-      id: 'TFM/projectTool/hardware_tools',
-      label: 'hw simulator & tools',
-    },
-    {
       type: 'category',
       label: 'modelsim',
       link: {
         type: 'doc',
-        id: 'TFM/projectTool/modelsim_intro',
+        id: 'TFM/projectTool/modelsim_intro',   
       },
       items: [
         'TFM/projectTool/hw_compile',

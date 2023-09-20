@@ -18,3 +18,8 @@ In summary, ModelSim is a versatile and widely used tool in the field of digital
 
 Please be aware that we're using the free version, and some features might not work. But don't worry, the free version includes everything we need.
 
+Even though we're discussing ModelSim, we will download all the necessary hardware tools (ModelSim, Quartus, and DE10-Lite) simultaneously, and then we'll provide separate explanations for each of them.
+## Download Modelsim  - a system Verilog compiler & simulator (lite free version), Quartus and DE10-LITE 
+- https://www.intel.com/content/www/us/en/software-kit/660907/intel-quartus-prime-lite-edition-design-software-version-20-1-1-for-windows.html  
+Download indevidual files: modelsim, quartus, "Intel MAX 10 Device Support".  
+  - Note: after all three programs are downloaded, run the Quartus installation, which will automatically install Modelsim & MAX10.  
