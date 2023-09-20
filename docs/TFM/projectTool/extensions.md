@@ -49,4 +49,9 @@ Compare documents quick and easily extension
 
 <u> extension id </u>: fabiospampinato.vscode-diff
 
+### GitHub Copilot
+GitHub Copilot is an AI-powered coding assistant developed by GitHub in collaboration with OpenAI. It is designed to help developers write code more efficiently by providing code suggestions, auto-completions, and even generating entire code blocks and functions. GitHub Copilot is tightly integrated with the Visual Studio Code (VS Code) editor and is intended to assist developers across various programming languages and tasks.
 
+<u> extension id </u>: GitHub.copilot
+
+* Please note that this extension is not for free. [Paying policy](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)
