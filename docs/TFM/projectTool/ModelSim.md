@@ -29,9 +29,3 @@ To start the ModelSim GUI, simply type vsim -gui on the command line. This will 
 The ModelSim GUI is particularly useful for tasks such as waveform analysis, which can be visualized more easily in the GUI than in the command-line interface.   
 The GUI also provides a more intuitive way to navigate and interact with the simulation environment.  
 
-Even though we're discussing ModelSim, we will download all the necessary hardware tools (ModelSim, Quartus, and DE10-Lite) simultaneously, and then we'll provide separate explanations for each of them.
-
-## Download Modelsim  - a system Verilog compiler & simulator (lite free version)  
-- https://www.intel.com/content/www/us/en/software-kit/660907/intel-quartus-prime-lite-edition-design-software-version-20-1-1-for-windows.html  
-Download indevidual files: modelsim, quartus, "Intel MAX 10 Device Support".  
-  - Note: after all three programs are downloaded, run the Quartus installation, which will automatically install Modelsim & MAX10.  
