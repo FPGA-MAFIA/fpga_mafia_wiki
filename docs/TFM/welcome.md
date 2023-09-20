@@ -18,23 +18,23 @@ The MAFIA project is a multi disciplinary project that requires understanding of
 
 There are many different tools and methodologies that can be used to develop a project like this. 
 In this TFM chapter we will describe the tools and methodologies that we have chosen to use in this project.  
-**We will try and kee the TFM section as a stand alone section that can be used for any project, and not necessarily for the MAFIA project.  
+**We will try and keep the TFM section as a stand alone section that can be used for any project, and not necessarily for the MAFIA project.  
 
 
 ## List of tools and links we use:
 *We are running all the tools on windows without WSL*
 
-| Tool                      |    Used in MAFIA       |      Link    |    
-|---------------------------|------------------------|--------------|
-| Editor & IDE              | VSCODE                 |              |
-| Terminal                  | gitbash for windows    |              |
-| HW design & verification  | SystemVerilog          |              |
-| HW compiler & simulation  | Modelsim               |              |
-| HW FPGA                   | Quartus & DE10-Lite    |              |
-| SW compiler               | RISCV GCC              |              |
-| Scripts & automation      | python                 |              |
-| Documentation             | Docusaurus             |              |
-| Diagrams                  | draw.io                |              |
-| Version Control           | git                    |              |
-| CI/CD                     | github actions         |              |
-| Project management        | github issues, discussions, projects, milestones, etc | |
+| Tool                      |    Used in MAFIA       |      Link                                           |    
+|---------------------------|------------------------|-----------------------------------------------------|
+| Editor & IDE              | VSCODE                 |  [vs_code](/docs/TFM/projectTool/vs_code.md)        |
+| Terminal                  | gitbash for windows    |  [GitBash](/docs/TFM/projectTool/GitBash.md)        |            
+| HW design & verification  | SystemVerilog          |  [SV](/docs/TFM/verilog/intro.md)                   |
+| HW compiler & simulation  | Modelsim               |  [ModelSIm](/docs/TFM/projectTool/modelsim_intro.md)|
+| HW FPGA                   | Quartus & DE10-Lite    |  [Quartus](/docs/TFM/projectTool/quartus_intro.md)  |
+| SW compiler               | RISCV GCC              |  [RISCV GCC](/docs/TFM/projectTool/gcc_intro.md)    |
+| Scripts & automation      | python                 |  [python](/docs/TFM/projectTool/python.md)          |
+| Documentation             | Docusaurus             |  [Docusaurus](/docs/TFM/projectTool/docusaurus.md)  |
+| Diagrams                  | draw.io                |  [Docusaurus](/docs/TFM/projectTool/drawio.md)      |
+| Version Control           | git                    |  [Git](/docs/TFM/projectTool/intro.md)              |
+| CI/CD                     | github actions         |  [Git](/docs/TFM/projectTool/intro.md)              |
+| Project management        | github issues, discussions, projects, milestones, etc |                      |

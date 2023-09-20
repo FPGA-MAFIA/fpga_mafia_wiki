@@ -17,8 +17,9 @@ TFM: [
         'TFM/projectTool/GitBash',
         'TFM/projectTool/bashrc',
         'TFM/projectTool/extensions',
-        'TFM/projectTool/markdown',
         'TFM/projectTool/python',
+        'TFM/projectTool/markdown',
+        'TFM/projectTool/docusaurus',
       ],
     },
     {
