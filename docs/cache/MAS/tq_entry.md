@@ -51,11 +51,13 @@ In the heart of our cache architecture lies the TQ (Transaction Queue) entry Fin
 | Name                    | Possible Next State |  Description                                                                 |
 |-------------------------|---------------------|------------------------------------------------------------------------------|
 | S_IDLE                  | S_LU_CORE           |   Waiting for a core request to allocate the entry                           |
-| S_LU_CORE               | S_IDLE              |   Core requests are being processed, and interactions with LU pipe may occur |
+| S_LU_CORE               | S_IDLE / S_MB_WAIT_FILL |   Core requests are being processed, and interactions with LU pipe may occur |
 | S_MB_WAIT_FILL          | S_MB_FILL_READY     |   The module is waiting for a cache fill response.                           |
 | S_MB_FILL_READY         | S_IDLE              |   The module is ready to send a cache fill response to the LU pipe           |
 | S_ERROR                 |                     |   Indicates an unexpected or erroneous situation                             |
 
+Diagram of the TQ entry FSM:
+![TQ entry FSM](/drawio/tq_entry_fsm.png)
 ## Typical FSM flow:
 
 <!-- ### Write Hit: &nbsp;&nbsp; <span style={{ fontSize: '0.7em' }}>S_IDLE -> S_LU_CORE -> S_IDLE</span> -->
