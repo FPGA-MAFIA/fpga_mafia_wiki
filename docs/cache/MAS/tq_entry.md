@@ -61,10 +61,8 @@ Diagram of the TQ entry FSM:
 ## Typical FSM flow:
 
 <!-- ### Write Hit: &nbsp;&nbsp; <span style={{ fontSize: '0.7em' }}>S_IDLE -> S_LU_CORE -> S_IDLE</span> -->
-### Write Hit: S_IDLE -> S_LU_CORE -> S_IDLE
-
-
-
+### Write Hit: 
+S_IDLE -> S_LU_CORE -> S_IDLE
 - New write request from the core
 - TQ entry is allocated in parallel to the pipe lookup
 - TQ entry merge buffer is updated speculatively with the new request data
@@ -74,8 +72,8 @@ Diagram of the TQ entry FSM:
 
 
 <!-- ### Write Miss: &nbsp;&nbsp;<span style={{ fontSize: '0.7em' }}>  S_IDLE -> S_LU_CORE->S_MB_WAIT_FILL -> S_MB_FILL_READY -> S_ IDLE </span> -->
-### Write Miss: S_IDLE -> S_LU_CORE->S_MB_WAIT_FILL -> S_MB_FILL_READY -> S_ IDLE 
-
+### Write Miss:
+S_IDLE -> S_LU_CORE->S_MB_WAIT_FILL -> S_MB_FILL_READY -> S_ IDLE 
 - New write request from the core  
 - TQ entry is allocated in parallel to the pipe lookup  
 - TQ entry merge buffer is updated speculatively with the new request data.  
@@ -85,7 +83,8 @@ Diagram of the TQ entry FSM:
   Note: We have a guaranty that the fill lookup will always win cache allocation. Meaning there is no "miss" for a fill request. this allows us to move to the S_IDLE state without waiting for the lookup response.
 
 <!-- ### Read Hit: &nbsp;&nbsp;<span style={{ fontSize: '0.7em' }}> S_IDLE -> S_LU_CORE->S_ IDLE </span> -->
-### Read Hit: S_IDLE -> S_LU_CORE->S_ IDLE 
+### Read Hit:
+S_IDLE -> S_LU_CORE->S_ IDLE 
 
 - New read request from the core  
 - TQ entry is allocated in parallel to the pipe lookup  
@@ -93,7 +92,8 @@ Diagram of the TQ entry FSM:
 - Lookup response is received as hit - the TQ data is discarded. Entry returns to S_IDLE  
 
 <!-- ### Read Miss:&nbsp;&nbsp;<span style={{ fontSize: '0.7em' }}>   S_IDLE -> S_LU_CORE->S_MB_WAIT_FILL -> S_MB_FILL_READY -> S_ IDLE  </span> -->
-### Read Miss:  S_IDLE -> S_LU_CORE->S_MB_WAIT_FILL -> S_MB_FILL_READY -> S_ IDLE  
+### Read Miss:
+S_IDLE -> S_LU_CORE->S_MB_WAIT_FILL -> S_MB_FILL_READY -> S_ IDLE  
 
 - New read request from the core  
 - TQ entry is allocated in parallel to the pipe lookup  
