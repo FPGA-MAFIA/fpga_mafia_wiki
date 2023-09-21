@@ -56,7 +56,7 @@ In the heart of our cache architecture lies the TQ (Transaction Queue) entry Fin
 | S_MB_FILL_READY         | S_IDLE              |   The module is ready to send a cache fill response to the LU pipe           |
 | S_ERROR                 |                     |   Indicates an unexpected or erroneous situation                             |
 
-Diagram of the TQ entry FSM:
+#### Diagram of the TQ entry FSM:
 ![TQ entry FSM](/drawio/tq_entry_fsm.jpg)
 ## Typical FSM flow:
 
