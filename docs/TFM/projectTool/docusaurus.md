@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# Docusaurus
+We recommend using the [Docusaurus](https://docusaurus.io/) tool to create and maintain the documentation for your project.
+
 Docusaurus is an open-source documentation framework that simplifies the process of building, deploying, and maintaining websites for software documentation, blogs, and other content types. Developed by Facebook, it has gained popularity in the developer and technical writing communities due to its ease of use and customizable features.
 
 Key features and aspects of Docusaurus include:
@@ -22,9 +24,8 @@ Key features and aspects of Docusaurus include:
 Overall, Docusaurus is an excellent tool for creating and maintaining documentation websites. It empowers developers and technical writers to focus on content creation while handling the technical aspects of website development and deployment. Its user-friendly approach and flexibility make it a popular choice for many software projects seeking to provide high-quality documentation to their users.
 
 
-For mor info please [click here](https://docusaurus.io/)
-=======
-# Docusaurus
-We recommend using the [Docusaurus](https://docusaurus.io/) tool to create and maintain the documentation for your project.
-For more information, see the [Docusaurus documentation](https://docusaurus.io/docs/).
->>>>>>> 5a22a781038b40d4fb477981dc0286b6505d4e5e
+For more info please [click here](https://docusaurus.io/)
+For documentation, see [Docusaurus documentation](https://docusaurus.io/docs/).
+
+
+
