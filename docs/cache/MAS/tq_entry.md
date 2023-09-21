@@ -57,7 +57,7 @@ In the heart of our cache architecture lies the TQ (Transaction Queue) entry Fin
 | S_ERROR                 |                     |   Indicates an unexpected or erroneous situation                             |
 
 Diagram of the TQ entry FSM:
-![TQ entry FSM](/drawio/tq_entry_fsm.png)
+![TQ entry FSM](/drawio/tq_entry_fsm.jpg)
 ## Typical FSM flow:
 
 <!-- ### Write Hit: &nbsp;&nbsp; <span style={{ fontSize: '0.7em' }}>S_IDLE -> S_LU_CORE -> S_IDLE</span> -->
