@@ -29,3 +29,4 @@ To start the ModelSim GUI, simply type vsim -gui on the command line. This will 
 The ModelSim GUI is particularly useful for tasks such as waveform analysis, which can be visualized more easily in the GUI than in the command-line interface.   
 The GUI also provides a more intuitive way to navigate and interact with the simulation environment.  
 
+
