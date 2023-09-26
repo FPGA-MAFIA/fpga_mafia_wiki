@@ -8,4 +8,4 @@ This will allow to use drop down menus, and see what are the available options, 
 To run the build gui:  
 ```./gui_build.py ```
 This will open an interactive GUI that will allow you to build and run commands.
-![2023-09-26-11-36-24.png](/static/snapshots/2023-09-26-11-36-24.png)
+![2023-09-26-11-36-24.png](/snapshots/2023-09-26-11-36-24.png)
