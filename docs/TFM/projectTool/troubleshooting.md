@@ -14,3 +14,4 @@ note : It's important to know that the way you write the PATH in Windows is diff
 For example' PATH in windows that looks like that `c:\folder1\folder2` will be written in `~/.bashrc` as `/c/folder1/folder2`
 
 [^1] To create `.bashrc` please [read here](/TFM/projectTool/bashrc.md)
+

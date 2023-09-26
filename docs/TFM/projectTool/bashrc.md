@@ -27,3 +27,16 @@ ls -a
 
 This is just one of the many powerful things you can do with that file.   
 Now, you can move to the next section, we will comeback to that file in the future.
+
+## This is how a regular bashrc file might look
+
+![2023-09-26-16-55-12.png](/snapshots/2023-09-26-16-55-12.png)
+
+You don't need to have all this lines, and in many cases everything will work even if the file is empty.   
+Let's look at the different parts of this file:   
+
+**PATH**: In this section, you can find all the important paths your computer needs. 
+
+**ALIASING**: Here, you can find some handy shortcuts called aliases. We'll talk about them later. Just remember, aliases make typing easier, but you can work without them.
+
+**SHELL CUSTUMIZATION**: This is a cool feature that adds 'git bash + your current directory + branch name' to your command prompt. You can copy that line and ask [ChatGPT](https://chat.openai.com/) if you want more details."
