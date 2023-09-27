@@ -111,8 +111,8 @@ MAFIA_Build: [
     },
     {
       type: 'doc',
-      id: 'TFM/walkthrough_mafia',
-      label: 'walkthrough_mafia',
+      id: 'build_script/getting_started',
+      label: 'getting started',
     },
     {
       type: 'doc',
