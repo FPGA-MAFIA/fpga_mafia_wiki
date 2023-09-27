@@ -55,3 +55,29 @@ GitHub Copilot is an AI-powered coding assistant developed by GitHub in collabor
 <u> extension id </u>: GitHub.copilot
 
 * Please note that this extension is not for free. [Paying policy](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)
+
+### Paste image
+The "Paste Image" Visual Studio Code (VSCode) extension is a tool that allows you to easily paste images from your clipboard directly into your code editor. Instead of saving an image to a file and then manually inserting it into your code or documentation, this extension streamlines the process.
+ --How to use it--
+ 1. Copy an image to your clipboard or use a screenshot tool to capture an image(window + shift + s)
+ 2. Open the command palette (Ctrl+Shift+P) and search for "Paste Image" or use the shortcut (Ctrl+Alt+V)
+ and that's it!
+
+ - The image will be pasted into your current file at the cursor position
+ - The image will be saved in the same directory as your current file
+
+To set the folder where images are saved, use the "Paste Image: Set Image Path" command. You can also set the default image path in your settings.json file. To do this open the command palette (Ctrl+Shift+P) and search for "Preferences: Open Settings (JSON)" and add the following line to your settings.json file:
+```
+"pasteImage.path": "${projectRoot}/static/snapshots",
+"pasteImage.basePath": "${projectRoot}/static",
+"pasteImage.forceUnixStyleSeparator": true,
+"pasteImage.prefix": "/",
+"pasteImage.insertPattern": "![${imageFileName}](${imageFilePath})",
+```
+
+This is how the `settings.json` file might looks like:   
+We encourage you to "play" with the "Paste image" settings and find the best configuration for you.
+
+![settings_json.png](/snapshots/settings_json.png)
+
+<u> extension id </u>: mushan.vscode-paste-image 
