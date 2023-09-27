@@ -263,7 +263,7 @@ Fabric:[
     },
     {
       type: 'category',
-      label: 'Fabric MAS',
+      label: 'Fabric HAS',
       link: {
         type: 'doc',
         id: 'fabric/MAS_fabric/mas_intro',
@@ -275,13 +275,14 @@ Fabric:[
     },
     {
       type: 'category',
-      label: 'Router MAS',
+      label: 'Router HAS',
       link: {
         type: 'doc',
         id: 'fabric/MAS_router/mas_intro',
       },
       items: [
         'fabric/MAS_router/mas_router',
+        'fabric/MAS_router/mas_next_tile_fifo_arb',
         'fabric/MAS_router/mas_fifo_arb',
         'fabric/MAS_router/mas_arbiter',
         'fabric/MAS_router/mas_fifo',
