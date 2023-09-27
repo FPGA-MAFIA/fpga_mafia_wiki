@@ -22,19 +22,38 @@ The router Micro-Architecture-Specification
 
 
 ## Top level interface
-
-
+### inputs: 
+- clk - Clock signal
+- rst - Reset signal
+- local_tile_id- The location of the TILE inside the FABRIC
+### for each direction [North, East, South, West, Local]:
+#### input request & output ready:
+##### inputs:
+ - in_north_req_valid- Validity of the request to this router interface.
+ - in_north_req- The request to this router interface. 
+ ##### output:
+ - out_north_ready- The readiness of this router interface to receive requests.
+#### output request & input ready:
+##### input:
+ - in_north_ready- The readiness of the destination to receive the request.  
+##### outputs: 
+ - out_north_req_valid- Validity of the request from this router interface.
+ - out_north_req- The request from this router interface.
+    
 ## Main components:
 
 ### next_tile_fifo_arb
-#### Motivation:
+- Overrides the NEXT_TILE direction in order to instruct the next TILE in which direction to go
 
+#### Motivation:
+- When moving from TILE to TILE there is a need to update the destination for the next TILE in order to reach the final destination.
 #### IO Table:
 
 
-### fifo_arb
+### fifo_arb 
+- Round Robin arbiter between 4 FIFOs
 #### Motivation:
-
+- Receiving requests from different directions and responding to everyone according to the algorithm.
 #### IO Table:
 
 
