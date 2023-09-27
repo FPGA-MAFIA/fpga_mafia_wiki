@@ -49,9 +49,33 @@ We created a struct that represents the cache pipeline.
 In every pipe stage, we can access the struct to get the relevant information for the current stage + update the struct with the relevant information that was calculated in the current stage.
 
 ##### The struct contains the following fields:
-| Field Name        | Size     | Description                               |
-| ------------------| -------- | ----------------------------------------- |
-TODO - add the fields
+| Field Name          | Size       | Description                                                           |
+| ------------------- | ---------- | --------------------------------------------------------------------- |
+| lu_valid            |  1  bit      | Indicates if the lookup (LU) operation is valid.                      |
+| lu_offset           |  4  bits     | Offset within the cache line (from `t_offset`).                       |
+| lu_set              |  8  bits     | Set index within the cache (from `t_set_address`).                    |
+| lu_tag              |  8  bits     | Tag associated with the cache line (from `t_tag`).                    |
+| lu_op               |  2  bits     | Specifies the LU operation type (from `t_lu_opcode`).                 |
+| lu_tq_id            |  3  bits     | Transaction Queue (TQ) ID associated with the operation (from `t_tq_id`). |
+| hit                 |  1  bit      | Indicates if the LU operation resulted in a cache hit.               |
+| miss                |  1  bit      | Indicates if the LU operation resulted in a cache miss.              |
+| mb_hit_cancel       |  1  bit      | Indicates whether there's a MultiBank (MB) hit cancellation.         |
+| set_ways_valid      |  4  bits     | Valid bit for each cache way in the specified set.                    |
+| set_ways_modified   |  4  bits     | Modified bit for each cache way in the specified set.                 |
+| set_ways_mru        |  4  bits     | Most Recently Used (MRU) bit for each cache way in the specified set. |
+| set_ways_tags       | 32  bits     | Tags for each cache way in the specified set.                         |
+| set_ways_victim     |  4  bits     | Victim way selection in the specified set.                            |
+| set_ways_hit        |  4  bits     | Indicates if there's a hit for each cache way in the specified set.   |
+| set_ways_enc_hit    |  2  bits     | Encoded hit information for the ways in the specified set.           |
+| cl_data             | 128 bits     | Cache line data (from `t_cl`).                                        |
+| data                | 32 bits      | Data associated with the LU operation.                                |
+| fill_modified       |  1 bit       | Indicates if the cache line is modified during a fill operation.     |
+| fill_rd             |  1 bit       | Indicates if the fill operation is a read operation.                  |
+| reg_id              |  5 bits      | Register ID associated with the operation (from `t_reg_id`).         |
+| dirty_evict         |  1 bit       | Indicates if a dirty eviction is requested.                           |
+| data_array_address  | 10 bits      | Address within the cache data array.                                  |
+| rd_indication       |  1 bit       | Indicates if this operation is a read indication.                     |
+
 
 
 
@@ -103,15 +127,20 @@ When all ways are occupied, we use a bit-flip pseudo MRU (Most Recently Used) po
 
 
 ### Update tag array
-In this stage, the module updates the tag array.
+In this stage, the module updates the tag array. The update process depends on different scenarios:
 #### Read hit
-
+In the case of a read hit, the module updates the Most Recently Used information in the tag array. It ensures that the way that was just accessed becomes the MRU.
 
 #### Write hit
-
+When a write hits a cache line, the module updates both the MRU information and the "modified" status in the tag array. Additionally to the MRU, the modified bits are set for the way that was written to, indicating that its data has been modified.
 
 #### Fill
+In the case of a cache fill, we will have differents updates:
 
+- The MRU is updated.
+- The valid status is set which indicate that it now contains valid data.
+- The tag information in the tag array is updated to match the tag of the incoming data.
+- If the fill operation includes modified data from the merge buffer, the modified status is set which indicate that it now holds modified data.
 
 ##### All are MRU - bit-flip pseudo MRU (Most Recently Used) policy
 Link to the wiki pseudo MRU policy: https://en.wikipedia.org/wiki/Pseudo-LRU#Bit-PLRU

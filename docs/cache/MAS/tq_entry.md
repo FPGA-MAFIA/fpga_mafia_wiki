@@ -130,17 +130,3 @@ Every entry in the TQ is linked to a Merge Buffer entry then we need to take car
         - The merge buffer will be discarded due to all the data is already updates in the cache.
         - The TQ entry will not go back to the S_IDLE state as long there are request to that same CL in the lookup Pipe.  
           This is achieved by having a "req_match_in_pipe" indication in the lookup response struct. 
-          FIXME - need to update RTL and the documentation to support this indication.
-          TODO open issue:
-          Currently we only look at matching CL for "writes" - we should do the same also for "reads" (read after write)
-
-          This is the code that needs updates. (call the signal req_match_in_pipe instead of wr_match_in_pipe)
-          ```systemverilog
-            assign wr_match_in_pipe_q2_q3 = ({cache_pipe_lu_q3.lu_tag,cache_pipe_lu_q3.lu_set} == {cache_pipe_lu_q2.lu_tag,cache_pipe_lu_q2.lu_set}) && //Match address q3 and q2
-                                ( cache_pipe_lu_q3.lu_valid        && cache_pipe_lu_q2.lu_valid)             && //Both valid q3 and q2
-                                ( cache_pipe_lu_q3.lu_op == WR_LU) && (cache_pipe_lu_q2.lu_op == WR_LU);        //Both write q3 and q2
-            assign wr_match_in_pipe_q1_q3 = ({cache_pipe_lu_q3.lu_tag,cache_pipe_lu_q3.lu_set} == {cache_pipe_lu_q1.lu_tag,cache_pipe_lu_q1.lu_set}) && //Match address q3 and q1
-                                            ( cache_pipe_lu_q3.lu_valid        && cache_pipe_lu_q1.lu_valid)             && //Both valid q3 and q1
-                                            ( cache_pipe_lu_q3.lu_op == WR_LU) && (cache_pipe_lu_q1.lu_op == WR_LU);        //Both write q3 and q1
-            assign pipe_lu_rsp_q3.wr_match_in_pipe = wr_match_in_pipe_q1_q3 || wr_match_in_pipe_q2_q3;
-          ```
