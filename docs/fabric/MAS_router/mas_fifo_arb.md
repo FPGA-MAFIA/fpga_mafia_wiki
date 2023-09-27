@@ -17,12 +17,11 @@ A FIFO (First-In-First-Out) arbiter is a component that arbitrates between multi
 ## Main components:
 
 ### fifo
-
+- parametrize FIFO (first in-first out) 
 #### Motivation:
-
-
+- storage requests without losing anyone.  
 
 ### arbiter
-
+- Round Robin arbiter
 #### Motivation:
-
+- controll the output So that all the information is out. 
