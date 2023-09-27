@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
 ---
-# The MAFIA Build Flow
+## The MAFIA Build Flow
 Welcome to the MAFIA: Multi-Agent-Fabric-Integration-Architecture.     
 An initiative aimed at designing a System-on-a-Chip (SoC) Tile-based mesh fabric.  
-For more details please visit the MAFIA HOME PAGE  
+For more details please visit the "MAFIA HOME PAGE"
 
 In this part, we're using what we learned in the TFM section and applying it to the Mafia environment. We strongly recommend that you read the TFM section before continuing with this part.
 

@@ -30,7 +30,7 @@ Please open `mini_core folder` and try to understand the folder structure.
 
 **target folder** - contains the files after building the project. Note that this folder may be empty at this point because we didn't build anything yet.
 
-**verif folder** - contains the test-bench files simulation scripts and test files like initial C program and more.
+**verif folder** - contains the RTL test-bench files, initial C program and more.
 - Open the `verif` folder and try to understand intuitively the content of `tb` and `test` sub folders.
 
 ![mafia_folder3.png](/snapshots/mafia_folders3.png)
