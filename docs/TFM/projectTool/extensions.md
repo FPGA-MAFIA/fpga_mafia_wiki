@@ -81,3 +81,34 @@ We encourage you to "play" with the "Paste image" settings and find the best con
 ![settings_json.png](/snapshots/settings_json.png)
 
 <u> extension id </u>: mushan.vscode-paste-image 
+
+### Waveform Render
+Draw timing diagram waveforms with WaveDrom inside VSCode.
+Saved waveforms will be located in `/static/waveforms` folder.
+
+After installation:
+
+- Go to `/static/waveforms` folder and create file with `.json` extension. This file will contain your waveform code.
+- Write your waveform code inside the file. (you may use the code below as an example)
+- Press Ctrl+k+d to render the waveform.
+- Use Paste Image extension to paste the waveform into your markdown file.
+
+![waveform_extension.png](/snapshots/waveform_extension.png)
+
+This is the code if `*.json` file' feel free to play with it
+```
+{
+  "signal": [
+    {"name": "clk", "wave": "p..........."},
+    {"name": "core2cache_req.valid", "wave": "0101.....0.."},
+    {"name": "core2cache_req.opcode", "wave": "x3x4.....x..", "data": ["read", "write", "write", "write", "write", "write"]},
+    {"name": "core2cache_req.address", "wave": "x3x4.....x..", "data": ["0x05", "0x08", "0x08", "0x08", "0x08", "0x08"]},
+    {"name": "core2cache_req.data", "wave": "xxx4.....x..", "data": ["0xA8", "0xA8", "0xA8", "0xA8", "0xA8"]},
+    {"name": "core2cache_req.reg_id", "wave": "x3xxxxxxx..."},
+    {"name": "cache_ready", "wave": "1.0.....1..."}
+  ]
+}
+```
+for additional information [click here](https://github.com/wavedrom/wavedrom)
+
+<u> extension id </u>: bmpenuelas.waveform-render 

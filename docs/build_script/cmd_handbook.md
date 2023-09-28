@@ -1,24 +1,25 @@
 ### run software compilation
 ```
-./build.py -dut mini_core -test basics -app
+./build.py -dut <dut_name> -test <test_name> -app
 ```
 
 ### run hardware compilation
 ```
-./build.py -dut mini_core -test basics -hw
+./build.py -dut <dut_name> -test <test_name> -hw
 ```
 
 ### run elaboration and simulation
 ```
-./build.py -dut mini_core -test basics -sim
+./build.py -dut <dut_name> -test <test_name> -sim
 ```
 
 ### run elaboration and simulation using gui
 ```
-./build.py -dut mini_core -test basics -sim -gui
+./build.py -dut <dut_name> -test <test_name> -sim -gui
 ```
 
 ### run all the above steps in one command
 ```
-./build.py -dut mini_core -test basics -app -hw -sim -gui
+./build.py -dut <dut_name> -test <test_name> -app -hw -sim -gui
 ```
+
