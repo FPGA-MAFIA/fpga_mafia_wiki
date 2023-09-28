@@ -17,7 +17,9 @@ int main(){
 ./build.py -dut mini_core -test basics -app
 ```
 
-- Go to `target/mini_core/tests/basics` and observe the content of the folder. You should see the following files:
+
+- Go to `target/mini_core/tests/basics` and observe the content of the folder. You should see the following files:   
+
 
 ![basics_sw_compile.png](/snapshots/basics_sw_compile.png)
 
@@ -32,6 +34,8 @@ WOW we got all the files we need to run the HW simulation. Let's try to understa
  - `inst_mem.sv` - This is the instruction memory file that contains the machine code of the C program we wrote suitable for    
  RISC-V ISA. 
 
+Hey, doesn't this seem like something we've seen before? Yes, you're correct. We did something similar when we were compiling a C program in the [RISC-V GCC](../TFM/projectTool/GccRiscV.md) section in TFM. But now, the difference is that we're connecting everything to the MAFIA environment and doing it in a more automated way.
+   
  note: Please download the [riscv-spec](https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf) cause you will need it in the future.
  Please make sure you understand `RV32I Base Instruction Set` as shown in chapter 19 and `RISC-V Assembly Programmer’s Handbook` as shown in chapter 20 cause we will use the following table in the future:
 
@@ -51,3 +55,20 @@ WOW we got all the files we need to run the HW simulation. Let's try to understa
 |    x18-27     |   s2-s11        |  Saved registers                   | 
 |    x28-31     |   t3-6          |  Temporaries                       |                                
 
+### Background of SW Compilation command
+In this section, we will outline the commands that run in the background when you use the   
+ `./build.py -dut mini_core -test basics -app` command.   
+```
+cd ./target/mini_core/tests/basics/gcc_files
+
+riscv-none-embed-gcc.exe -S -ffreestanding -march=rv32i -I ../../../../../app/defines ../../../../.././verif/mini_core/tests/basics.c -o basics_rv32i.c.s
+
+riscv-none-embed-gcc.exe -O3 -march=rv32i -T ../../../../../app/link.common.ld -I ../../../../../app/defines -Wl,--defsym=I_MEM_OFFSET=0 -Wl,--defsym=I_MEM_LENGTH=65536 -Wl,--defsym=D_MEM_OFFSET=65536 -Wl,--defsym=D_MEM_LENGTH=61440 -nostartfiles -D__riscv__ -Wl,-Map=basics.map ../../../../../app/crt0.S basics_rv32i.c.s -o basics_rv32i.elf
+
+riscv-none-embed-objdump.exe -gd basics_rv32i.elf > basics_rv32i_elf.txt
+
+riscv-none-embed-objcopy.exe --srec-len 1 --output-target=verilog basics_rv32i.elf inst_mem.sv
+
+cd C:/workspace/fpga_mafia
+
+```

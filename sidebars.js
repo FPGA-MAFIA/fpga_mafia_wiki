@@ -144,6 +144,11 @@ MAFIA_Build: [
       id: 'build_script/build_gui',
       label: 'Build GUI - command generator',
     },
+    {
+      type: 'doc',
+      id: 'build_script/cmd_handbook',
+      label: 'cmd_handbook',
+    },
   ],
   Cache: [
     {
