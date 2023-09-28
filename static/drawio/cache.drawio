@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Kbkckm6aRAk5_doEy37T" name="tq">
-        <mxGraphModel dx="1844" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1638" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -265,6 +265,17 @@
                 <mxCell id="1" parent="0"/>
                 <mxCell id="Qp_cr52eWOXg02Qrw7AA-1" value="S_ERROR" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
                     <mxGeometry x="350" y="290" width="100" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="DIABD8Z6ACox38gIuSGz" name="wave_valid_ready_backpressure">
+        <mxGraphModel dx="1215" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="JdLC7FJoxUsie_s5hF5N-1" value="{&#10;  &quot;signal&quot;: [&#10;    {&quot;name&quot;: &quot;clk&quot;, &quot;wave&quot;: &quot;p...........&quot;},&#10;    {&quot;name&quot;: &quot;core2cache_req.valid&quot;, &quot;wave&quot;: &quot;0101.....0..&quot;},&#10;    {&quot;name&quot;: &quot;core2cache_req.opcode&quot;, &quot;wave&quot;: &quot;x3x4.....x..&quot;, &quot;data&quot;: [&quot;read&quot;, &quot;write&quot;, &quot;write&quot;, &quot;write&quot;, &quot;write&quot;, &quot;write&quot;]},&#10;    {&quot;name&quot;: &quot;core2cache_req.address&quot;, &quot;wave&quot;: &quot;x3x4.....x..&quot;, &quot;data&quot;: [&quot;0x05&quot;, &quot;0x08&quot;, &quot;0x08&quot;, &quot;0x08&quot;, &quot;0x08&quot;, &quot;0x08&quot;]},&#10;    {&quot;name&quot;: &quot;core2cache_req.data&quot;, &quot;wave&quot;: &quot;xxx4.....x..&quot;, &quot;data&quot;: [&quot;0xA8&quot;, &quot;0xA8&quot;, &quot;0xA8&quot;, &quot;0xA8&quot;, &quot;0xA8&quot;]},&#10;    {&quot;name&quot;: &quot;core2cache_req.reg_id&quot;, &quot;wave&quot;: &quot;x3xxxxxxx...&quot;},&#10;    {&quot;name&quot;: &quot;cache_ready&quot;, &quot;wave&quot;: &quot;1.0.....1...&quot;}&#10;  ]&#10;}" style="shadow=0;dashed=0;align=left;strokeWidth=1;labelBackgroundColor=#ffffff;noLabel=1;shape=mxgraph.wavedrom.abstract.timing;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="180" width="840" height="270" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
