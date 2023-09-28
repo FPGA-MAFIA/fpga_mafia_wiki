@@ -30,7 +30,7 @@ Now, you can move to the next section, we will comeback to that file in the futu
 
 ## This is how a regular bashrc file might look
 
-![2023-09-26-16-55-12.png](/snapshots/2023-09-26-16-55-12.png)
+![bashrc.png](/snapshots/bashrc.png)
 
 You don't need to have all this lines, and in many cases everything will work even if the file is empty.   
 Let's look at the different parts of this file:   
@@ -40,3 +40,31 @@ Let's look at the different parts of this file:
 **ALIASING**: Here, you can find some handy shortcuts called aliases. We'll talk about them later. Just remember, aliases make typing easier, but you can work without them.
 
 **SHELL CUSTUMIZATION**: This is a cool feature that adds 'git bash + your current directory + branch name' to your command prompt. You can copy that line and ask [ChatGPT](https://chat.openai.com/) if you want more details."
+
+Here we supply the content of the given `~/.bashrc` file for your personal use.
+```
+##################### 
+###     PATH      ###
+#####################
+export PATH=$PATH:/c/Users/roman/AppData/Roaming/xPacks/xpack-riscv-none-embed-gcc/bin/        # riscv gcc
+export PATH=$PATH:/c/Users/roman/AppData/Local/Programs/Python/Python311-32                    # python
+export PATH=$PATH:/c/Users/roman/AppData/Roaming/npm                                           # npm
+export PATH=$PATH:/c/Users/roman/AppData/Roaming/npm/node_modules/docusaurus/node_modules/.bin # docusaurus
+export PATH=$PATH:/c/intelFPGA_lite/20.1/quartus/bin64/                                        # quartus prime                        
+
+
+##################### 
+###   ALIASING    ###
+#####################
+alias gcc="riscv-none-embed-gcc"
+alias run_all="./build.py -dut rrv -test alive -app -hw -sim -gui"
+
+
+############################# 
+###  SHELL CUSTUMIZATION  ###
+#############################
+PS1='\[\033[01;32m\]git_bash @ \[\033[01;31m\]\W\[\033[01;33m\]$(__git_ps1 " (%s)")\[\033[01;32m\]> \[\033[00m\]'
+
+```  
+
+
