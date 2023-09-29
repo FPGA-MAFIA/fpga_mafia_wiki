@@ -23,3 +23,8 @@
 ./build.py -dut <dut_name> -test <test_name> -app -hw -sim -gui
 ```
 
+### run the build gui:  
+```
+./gui_build.py
+```
+
