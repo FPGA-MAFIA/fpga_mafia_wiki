@@ -95,7 +95,7 @@ After installation:
 
 ![waveform_extension.png](/snapshots/waveform_extension.png)
 
-This is the code of `*.json` file, feel free to play with it
+This is a code example of `*.json` file, feel free to play with it
 ```
 {
   "signal": [
@@ -109,6 +109,6 @@ This is the code of `*.json` file, feel free to play with it
   ]
 }
 ```
-for additional information [click here](https://github.com/wavedrom/wavedrom)
+Documentation and example can be found [click here](https://github.com/wavedrom/wavedrom)
 
 <u> extension id </u>: bmpenuelas.waveform-render 
