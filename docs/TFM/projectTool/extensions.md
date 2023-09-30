@@ -90,12 +90,12 @@ After installation:
 
 - Go to `/static/waveforms` folder and create file with `.json` extension. This file will contain your waveform code.
 - Write your waveform code inside the file. (you may use the code below as an example)
-- Press Ctrl+k+d to render the waveform.
+- Keep `*.json` opened and press Ctrl+k+d to render the waveform.
 - Use Paste Image extension to paste the waveform into your markdown file.
 
 ![waveform_extension.png](/snapshots/waveform_extension.png)
 
-This is the code if `*.json` file' feel free to play with it
+This is the code of `*.json` file, feel free to play with it
 ```
 {
   "signal": [
