@@ -8,7 +8,7 @@ This will allow to use drop down menus, and see what are the available options, 
 To run the build gui:  
 ```./gui_build.py ```
 This will open an interactive GUI that will allow you to build and run commands.
-![2023-09-26-11-36-24.png](/snapshots/2023-09-26-11-36-24.png)
+![gui_build1.png](/snapshots/gui_build1.png)
 
 ## Working with the GUI
 The best way to learn how to use the GUI is to play with it by yourself, but we still want to give show you some examples.
@@ -19,3 +19,5 @@ Lets assume we want to run the following command:
 ![gui_build2.png](/snapshots/gui_build2.png)
 
 If you wish to see the commands that runs on the terminal, you can choose the `-cmd` box and than `Run Command`.
+
+

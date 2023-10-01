@@ -3,22 +3,17 @@
 ./build.py -dut <dut_name> -test <test_name> -app
 ```
 
-### run hardware compilation
+### run software and hardware compilation
 ```
-./build.py -dut <dut_name> -test <test_name> -hw
-```
-
-### run elaboration and simulation
-```
-./build.py -dut <dut_name> -test <test_name> -sim
+./build.py -dut <dut_name> -test <test_name> -app -hw
 ```
 
-### run elaboration and simulation using gui
+### run software and hardware compilation + elaboration and simulation
 ```
-./build.py -dut <dut_name> -test <test_name> -sim -gui
+./build.py -dut <dut_name> -test <test_name> -app -hw -sim
 ```
 
-### run all the above steps in one command
+### run software and hardware compilation + elaboration and simulation + gui
 ```
 ./build.py -dut <dut_name> -test <test_name> -app -hw -sim -gui
 ```

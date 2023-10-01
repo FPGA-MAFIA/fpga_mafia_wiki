@@ -8,6 +8,9 @@ Hardware compilation is a process where we compile HDL files (In our case, we're
 ```
 If you receive the message 'Test passed,' it means everything is okay. 
 
+- Tip : We recommend you to use the whole command and always include the previous flags to do all the necessary steps from the beginning, for example:  
+`./build.py -dut mini_core -test basics -app -hw` command.  
+
 ### Background of HW Compilation command
 In this section, we will outline the commands that run in the background when you use the
  `./build.py -dut mini_core -test basics -hw` command.   
@@ -21,5 +24,6 @@ cd C:/workspace/fpga_mafia
 ```
 
 Please open the `mini_core_list.f` file and try to understand what it does.
+
 
 
