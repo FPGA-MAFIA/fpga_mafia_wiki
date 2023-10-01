@@ -14,6 +14,9 @@ and many more...
 ```
 If you receive the message 'Test passed,' it means everything is okay. 
 
+- Tip : We recommend you to use the whole command and always include the previous flags to do all the necessary steps from the beginning, for example:  
+`./build.py -dut mini_core -test basics -app -hw -sim` command.  
+
 ### Background of elaboration and simulation command
 
 In this section, we will outline the commands that run in the background when you use the   

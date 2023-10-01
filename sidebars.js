@@ -150,6 +150,32 @@ MAFIA_Build: [
       label: 'cmd_handbook',
     },
   ],
+
+  IPs: [
+    {
+      type: 'doc',
+      id: 'IPs/IPs_intro',
+      label: 'IPs_intro',
+    },
+    {
+      type: 'doc',
+      id: 'IPs/vga',
+      label: 'VGA',
+    },
+    {
+      type: 'doc',
+      id: 'IPs/uart',
+      label: 'UART',
+    },
+    {
+      type: 'doc',
+      id: 'IPs/ps2_keyboard',
+      label: 'PS2',
+    },
+    
+    
+  ],
+
   Cache: [
     {
       type: 'doc',
