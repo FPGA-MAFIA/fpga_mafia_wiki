@@ -1,3 +1,4 @@
+# advanced build options
 If you examine the commands executed in the background during this stage, you will notice various parameters being defined, such as memory length, the crt0.s file, and more. You have the option to modify some of these parameters by using the `-cfg`` flag and providing a configuration.json file.
 In case you don't provide a configuration.json file, the default configuration.json file will be used.
 

@@ -131,7 +131,7 @@ MAFIA_Build: [
     },
     {
       type: 'doc',
-      id: 'build_script/advanced build options',
+      id: 'build_script/advanced_build_options',
       label: 'advanced build options',
     },
     {

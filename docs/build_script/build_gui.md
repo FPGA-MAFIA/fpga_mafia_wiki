@@ -17,7 +17,6 @@ Lets assume we want to run the following command:
  all you need to do is to select the relevant options as shown in the figure and click on the `Run Command` button.   
 
 ![gui_build2.png](/snapshots/gui_build2.png)
-
 If you wish to see the commands that runs on the terminal, you can choose the `-cmd` box and than `Run Command`.
 
 

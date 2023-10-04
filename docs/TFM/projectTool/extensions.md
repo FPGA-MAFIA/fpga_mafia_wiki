@@ -133,3 +133,33 @@ This is a code example of `*.json` file, feel free to play with it
 Documentation and example can be found [click here](https://github.com/wavedrom/wavedrom)  
 https://wavedrom.com/tutorial.html  
 <u> extension id </u>: bmpenuelas.waveform-render 
+
+### Git History
+The "Git History" extension for Visual Studio Code is a powerful tool that enhances your Git version control experience within the VSCode environment. This extension provides a seamless way to explore the commit history of your Git-managed files and repositories directly from the code editor.
+
+Key features and functions of the "Git History" extension include:
+
+**File History Viewer:** It allows you to view the history of a specific file, providing a timeline of commits and changes made to that file over time.
+
+**Commit Details:** You can access detailed information about each commit, such as commit messages, authors, timestamps, and the changes made in that commit.
+
+**Comparison:** It enables you to compare different versions of a file, making it easy to see what was added, modified, or removed between commits.
+
+**Search and Filtering:** It provides search and filtering capabilities, allowing you to locate specific commits, authors, or messages within the commit history.
+
+and many more...   
+
+Overall, the "Git History" extension simplifies the process of tracking changes and understanding the history of your codebase, making it an essential tool for developers who rely on Git for version control in their VSCode workflow.
+
+***How to use it?***
+
+suppose you want to see the history of a specific file. 
+1. Open the file you want to see its history.
+2. Press `ctrl+shift+p` and type `Git: View File History` and press enter. Or right click on the file and choose `Git: View File History`.
+
+<u> extension id </u>: donjayamanne.githistory
+
+
+
+
+
