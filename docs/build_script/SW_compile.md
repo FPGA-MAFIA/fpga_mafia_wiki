@@ -59,11 +59,15 @@ Hey, doesn't this seem like something we've seen before? Yes, you're correct. We
 In this section, we will outline the commands that run in the background when you use the   
  `./build.py -dut mini_core -test basics -app` command.   
 ```
+mkdir ./target/mini_core/tests/basics
+
+mkdir ./target/mini_core/tests/basics/gcc_files
+
 cd ./target/mini_core/tests/basics/gcc_files
 
 riscv-none-embed-gcc.exe -S -ffreestanding -march=rv32i -I ../../../../../app/defines ../../../../.././verif/mini_core/tests/basics.c -o basics_rv32i.c.s
 
-riscv-none-embed-gcc.exe -O3 -march=rv32i -T ../../../../../app/link.common.ld -I ../../../../../app/defines -Wl,--defsym=I_MEM_OFFSET=0 -Wl,--defsym=I_MEM_LENGTH=65536 -Wl,--defsym=D_MEM_OFFSET=65536 -Wl,--defsym=D_MEM_LENGTH=61440 -nostartfiles -D__riscv__ -Wl,-Map=basics.map ../../../../../app/crt0.S basics_rv32i.c.s -o basics_rv32i.elf
+riscv-none-embed-gcc.exe -O3 -march=rv32i -T ../../../../../app/link.common.ld -I ../../../../../app/defines -Wl,--defsym=I_MEM_OFFSET=0 -Wl,--defsym=I_MEM_LENGTH=65536 -Wl,--defsym=D_MEM_OFFSET=65536 -Wl,--defsym=D_MEM_LENGTH=61440 -nostartfiles -D__riscv__ -Wl,-Map=basics.map ../../../../../app/crt0_default.S basics_rv32i.c.s -o basics_rv32i.elf
 
 riscv-none-embed-objdump.exe -gd basics_rv32i.elf > basics_rv32i_elf.txt
 
