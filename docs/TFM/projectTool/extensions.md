@@ -102,7 +102,8 @@ We encourage you to "play" with the "Paste image" settings and find the best con
 
 <u> extension id </u>: mushan.vscode-paste-image 
 
-### Waveform Render
+### Waveform Render  
+https://wavedrom.com/tutorial.html  
 Draw timing diagram waveforms with WaveDrom inside VSCode.
 Saved waveforms will be located in `/static/waveforms` folder.
 
@@ -129,6 +130,6 @@ This is a code example of `*.json` file, feel free to play with it
   ]
 }
 ```
-Documentation and example can be found [click here](https://github.com/wavedrom/wavedrom)
-
+Documentation and example can be found [click here](https://github.com/wavedrom/wavedrom)  
+https://wavedrom.com/tutorial.html  
 <u> extension id </u>: bmpenuelas.waveform-render 
