@@ -131,6 +131,11 @@ MAFIA_Build: [
     },
     {
       type: 'doc',
+      id: 'build_script/advanced build options',
+      label: 'advanced build options',
+    },
+    {
+      type: 'doc',
       id: 'build_script/HW_gui_debug',
       label: 'HW GUI - debug',
     },

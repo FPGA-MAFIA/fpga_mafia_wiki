@@ -13,8 +13,28 @@ Draw.io, now known as "diagrams.net," is a popular web-based diagramming and cha
 Key features of diagrams.net (formerly Draw.io) include a user-friendly interface, real-time collaboration, support for various diagram types, integration with cloud storage services, and the ability to export diagrams in different formats. It's a versatile tool that caters to both personal and professional diagramming needs and is widely used in various industries for visualizing complex ideas and concepts.
 [Click here](https://app.diagrams.net/) to visit the official Draw.io (diagrams.net) site.
 
-
 <u> extension id </u>: hediet.vscode-drawio
+
+### How to use this extension?
+When we use draw.io, we want to create diagrams and turn them into image files for later use. To do this quickly and efficiently, we wrote a Python script. This script goes through all the diagrams in a particular file and automatically turns each of them into an image. Lets see how to use it.
+
+1. First, we have to install the **desktop** version of draw.io (alongside the extension we already added). You can do this by clicking on the link provided. [Click here](https://github.com/jgraph/drawio-desktop/releases)
+2. Add to PATH the draw.io installation folder. In many cases, the installation folder is located in `C:\Program Files\draw.io` or `C:\Program Files\draw.io\bin` and as you can see there is a space in the PATH in `Program Files`, if this is the case add the following command to `~/.bashrc` file:
+```
+export MY_DIRECTORY="Program Files"
+export PATH=$PATH:/c/$MY_DIRECTORY/draw.io/                                                                         
+```
+3. Open new `<your_name>.drawio` file and create your diagram. Please open the file in `/static/drwaio` folder. You can do this by clicking on the Open Folder button in the bottom left corner of the VS Code window and then selecting the `/static/drawio` folder or click `ctrl+shift+p` and type `Draw.io: New Draw.io Diagram`
+
+4. Lets create 3 diagrams in the file. The first diagram will be called `diagram1`, the second `diagram2` and the third `diagram3`. You can name the diagrams as you wish. Draw some basic diagrams and save the file. It may look like this:
+![drawio1.png](/snapshots/drawio1.png)
+
+5. Run the following command
+```
+python drawio_export.py -f <file_name>
+```
+6. Thats it! now you can see that 3 images were created in the same folder as the `*.drawio` file. The images will be named as the diagrams. In our case, the images will be named `diagram1.jpg`, `diagram2.jpg` and `diagram3.jpg`. You can see the images in the `/static/drawio` folder.
+
 
 ### SystemVerilog
 This VS Code extension provides features to read, navigate and write SystemVerilog code much faster.
