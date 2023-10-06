@@ -111,8 +111,8 @@ MAFIA_Build: [
     },
     {
       type: 'doc',
-      id: 'TFM/walkthrough_mafia',
-      label: 'walkthrough_mafia',
+      id: 'build_script/getting_started',
+      label: 'getting started',
     },
     {
       type: 'doc',
@@ -131,6 +131,11 @@ MAFIA_Build: [
     },
     {
       type: 'doc',
+      id: 'build_script/advanced_build_options',
+      label: 'advanced build options',
+    },
+    {
+      type: 'doc',
       id: 'build_script/HW_gui_debug',
       label: 'HW GUI - debug',
     },
@@ -144,7 +149,38 @@ MAFIA_Build: [
       id: 'build_script/build_gui',
       label: 'Build GUI - command generator',
     },
+    {
+      type: 'doc',
+      id: 'build_script/cmd_handbook',
+      label: 'cmd_handbook',
+    },
   ],
+
+  IPs: [
+    {
+      type: 'doc',
+      id: 'IPs/IPs_intro',
+      label: 'IPs_intro',
+    },
+    {
+      type: 'doc',
+      id: 'IPs/vga',
+      label: 'VGA',
+    },
+    {
+      type: 'doc',
+      id: 'IPs/uart',
+      label: 'UART',
+    },
+    {
+      type: 'doc',
+      id: 'IPs/ps2_keyboard',
+      label: 'PS2',
+    },
+    
+    
+  ],
+
   Cache: [
     {
       type: 'doc',

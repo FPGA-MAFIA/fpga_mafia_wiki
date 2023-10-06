@@ -8,3 +8,5 @@ https://www.markdownguide.org
 
 ### More specific, the Markdown cheat-sheet:  
 https://www.markdownguide.org/cheat-sheet/
+
+- To view opened Markdown (*.md) files preview in Visual Studio Code, press `Ctrl+Shift+V` or `Cmd+Shift+V` on a Mac.
