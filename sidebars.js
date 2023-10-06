@@ -186,6 +186,7 @@ MAFIA_Build: [
           items: [
             'cache/Verif/refModel',
             'cache/Verif/Dedicated_test',
+            'cache/Verif/post_proccess',
           ],
         },
   ],
