@@ -105,13 +105,13 @@ assign RegRdData1Q101H = (Ctrl.RegSrc1Q101H == 5'b0) ? 32'b0                    
 ``` 
 This can happen for example in the following case:
 ```
-add x1, x2, x3 (Q101H)
-add x4, x5, x6 (Q102H)
-add x7, x8, x9 (Q103H)
-add x2, x10, x11 (Q104H)
+add x1, x2, x3 (Q104H)
+add x4, x5, x6 (Q103H)
+add x7, x8, x9 (Q102H)
+add x10, x1, x11 (Q101H)
 ```
 
-We need data of `x2` in Q101H stage, but it is not ready yet. So we forward the data from Q104H stage to Q101H stage.
+We need data of `x1` in Q101H stage, but it is not ready yet. So we forward the data from Q104H stage to Q101H stage.
 
 ### mini_core_rf module abstract diagram   
 **---------------------------------------------------------------------------------------------------------------------------------------**
