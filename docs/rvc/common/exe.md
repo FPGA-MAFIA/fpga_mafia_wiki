@@ -8,7 +8,7 @@ b. Calculate address for load/store
 c. Calculate branch/jump target.  
 
 -  2. Check branch condition.
--  3. hazard detection and forwarding. 
+-  3. Data hazard detection and forwarding. 
 
 - This stage is called Q102H.
 
@@ -190,6 +190,12 @@ add x7, x1, x8 # Q102H
 ```
 In the third line we need `x1` register value that is not ready yet because the instruction in Q104H is not finished yet.
 
+another interesting examples:
+```
+add x1, x2, x3 # Q103H
+sw  x1, 0(x2)  # Q102H
+```
+
 ### mini_core_exe abstract data hazard detection diagram   
 **---------------------------------------------------------------------------------------------------------------------------------------**
 
@@ -227,3 +233,5 @@ assign AluIn2Q102H = Ctrl.SelAluImmQ102H ? ImmediateQ102H   : RegRdData2Q102H;
 **---------------------------------------------------------------------------------------------------------------------------------------**
 ![exe](/drawio/exe.jpg)
 **---------------------------------------------------------------------------------------------------------------------------------------**
+
+**Please note that the above implementation behaves correctly but the real hardware implementation can be changed depending on the synthesis tool you use.**
