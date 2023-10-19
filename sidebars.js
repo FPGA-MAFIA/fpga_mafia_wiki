@@ -254,13 +254,13 @@ RISCV_Cores:[
         id: 'rvc/common/intro',
       },
       items: [
-        'rvc/common/ctrl',
         'rvc/common/if',
         'rvc/common/decode',
         'rvc/common/rf',
         'rvc/common/exe',
         'rvc/common/mem_acs',
         'rvc/common/wb',
+        'rvc/common/ctrl',
       ],
     },
     {
