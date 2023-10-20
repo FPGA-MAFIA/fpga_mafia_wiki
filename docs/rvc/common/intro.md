@@ -11,12 +11,12 @@
 |---------------|---------------------|--------------------|-------------------------------------------|----------------------------------|-------------------------------| 
 | mini_core     | mini_core.sv        |                    | main file with all instantiations         |                                  | `/source/mini_core/`          |           
 | fetch         | mini_core_if.sv     | Q100H              | fetch instruction from instruction memory | [if](rvc/common/if.md)           | `/source/mini_core/`          |
-| decode        | mini_core_id.sv     | Q101H              | decode instruction and read register file | [decode](rvc/common/decode.md)   | `/source/mini_core/`          |
+| decode[^1]    | mini_core_id.sv     | Q101H              | decode instruction and read register file | [decode](rvc/common/decode.md)   | `/source/mini_core/`          |
 | execution     | mini_core_exe.sv    | Q102H              | execute instruction                       | [exe](rvc/common/exe.md)         | `/source/mini_core/`          |
 | memory        | mini_core_mem.sv    | Q103H              | read/write memory                         | [mem_acs](rvc/common/mem_acs.md) | `/source/mini_core/`          |
 | write_back    | mini_core_wb.sv     | Q104H              | write back to register file               | [wb](rvc/common/wb.md)           | `/source/mini_core/`          |
  
-
+ 
 ### Package files and macros locations
 
 | file name         |  description                                                      |  location                  |                           
@@ -25,3 +25,5 @@
 | mini_core_pkg.sv  |  enums, structs & parameters for the MAFIA core                   | `/source/mini_core/`       |  
 | common_pkg.sv     |  common parameters, structs, enums used in the many_core_project  | `/source/common/`          | 
 | big_core_pkg.sv   |  common parameters, structs, enums used in the many_core_project  | `/source/bog_core/`        |
+
+[^1]: Decode stage has two modules. The first one is the decoder module: `mini_core_id.sv` and second one is the register file module: `mini_core_rf.sv`
