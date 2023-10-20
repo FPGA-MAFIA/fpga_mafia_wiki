@@ -1,6 +1,7 @@
 # wb
 ## write back stage
 
+- The goal of that stage is to Select which data should be written back to the register file AluOut or DMemRdData.
 
 ### instantiation of mini_core_wb module in mini_core.sv
 
