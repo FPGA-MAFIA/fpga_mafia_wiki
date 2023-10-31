@@ -15,7 +15,7 @@ In case you don't provide a configuration.json file, the default configuration.j
     "I_MEM_LENGTH": 8192,
     "D_MEM_OFFSET": 8192,
     "D_MEM_LENGTH": 16384,
-    "crt0_file"   : "crt2_big_rv32i.S",
+    "crt0_file"   : "crt0_big_rv32i.S",
     "rv32_gcc"    : "rv32i",
     "name"        : "rv32i"
 }

@@ -222,6 +222,7 @@ MAFIA_Build: [
           items: [
             'cache/Verif/refModel',
             'cache/Verif/Dedicated_test',
+            'cache/Verif/post_proccess',
           ],
         },
   ],
@@ -234,19 +235,32 @@ RISCV_Cores:[
     },
     {
       type: 'category',
+      label: 'Single cycle core',
+      link: {
+        type: 'doc',
+        id: 'rvc/sc_core/intro',
+      },
+      items: [
+        'rvc/sc_core/macros',
+        'rvc/sc_core/sc_core_pkg',
+        'rvc/sc_core/sc_core',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Common Components',
       link: {
         type: 'doc',
         id: 'rvc/common/intro',
       },
       items: [
-        'rvc/common/ctrl',
         'rvc/common/if',
         'rvc/common/decode',
         'rvc/common/rf',
         'rvc/common/exe',
         'rvc/common/mem_acs',
         'rvc/common/wb',
+        'rvc/common/ctrl',
       ],
     },
     {
