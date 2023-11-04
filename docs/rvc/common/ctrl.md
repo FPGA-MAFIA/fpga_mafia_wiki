@@ -55,7 +55,7 @@ mini_core_ctrl mini_core_ctrl (
 
 ### Load Hazard 
 
-- A load hazard is not the same as a data hazard we talked about before in the execution stage. A data hazard happens when the data we want is in the pipeline but not in the right place yet. On the other hand, a load hazard occurs when we need data right now, but it hasn't been figured out yet. In these situations, we have to stall (stop) the pipeline and wait until the data becomes available.   
+- A load hazard is not the same as a data hazard we talked before in the execution stage. A data hazard happens when the data we need is in the pipeline but not in the right place yet. On the other hand, a load hazard occurs when we need data right now, but it hasn't been figured out yet. In these situations, we have to stall (stop) the pipeline and wait until the data becomes available.   
 - Lets have a look at the following instruction that causes load hazard
 
 ```
@@ -75,7 +75,7 @@ assign LoadHzrdDetectQ101H       = Rst ? 1'b0 :
 - Note that load hazard detection is done in Q101H stage. We compare the destination register of the previous instruction located in Q102H stage with the source registers of the current instruction located Q101H stage. If the previous instruction is a load instruction and the destination register of the previous instruction is the same as the source register of the current instruction, then we have a load hazard. In this case we have to stall the pipeline and wait until the data becomes available.
 
 - To solve that problem we do the following things:    
-1) Stall Pc in Q100H stage
+1) Stall Pc in Q100H stage   
 2) Disenable IF/ID register  
 ```
 assign ReadyQ101H = (!CoreFreeze) && !(LoadHzrdDetectQ101H); //
@@ -145,7 +145,7 @@ add x5, x6, x7      #Q100H
 ```
 
 if x1 == x2 then it means that we have to flush the instructions in Q101H and Q100H and start fetching instructions from the new address.
- - flush in our context means that we have to change instructions on Q100H and Q101H into NOP's instruction into the pipeline. In this case we have to insert **2 NOP**.
+ - flush in our context means that we have to change instructions in Q100H and Q101H into NOP's. In that case we have to insert **2 NOP's**.
 
  ```
  logic IndirectBranchQ102H;
@@ -162,7 +162,7 @@ assign PreValidInstQ101H = flushQ102H          ? 1'b0 :
                                                  1'b1 ;
  ```
 - IndirectBranchQ102H is a signal that indicates if we have a branch or jump instruction. If we have a branch or jump instruction then we have to flush the pipeline.
-- When flashQ102H is high, it means that we insert NOP into the actual Q101H stage. In order to insert another nop in the next cycle we use the following code to let flash moves threw the pipeline
+- When flashQ102H is high, it means that we insert NOP into the actual Q101H stage. In order to insert another nop in the next cycle we use the following code to let the flash signal moves in  the pipeline
 ```
 `MAFIA_EN_DFF(flushQ103H , flushQ102H   , Clock , ReadyQ103H)
 ```
@@ -192,8 +192,6 @@ assign ReadyQ100H = (!CoreFreeze) && ReadyQ101H;//
 logic ebreak_was_calledQ101H; 
 assign ebreak_was_calledQ101H = (InstructionQ101H == 32'b000000000001_00000_000_00000_1110011);
 ```
-
-
 
 ### note
 - there are more code in the mini_core controller that we didn't discuss here because its relatively simple and easy to understand. For example, the code that responsible for the immediate types construction, AluOp construction, etc.

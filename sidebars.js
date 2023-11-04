@@ -301,6 +301,7 @@ RISCV_Cores:[
         'rvc/core_verification/regressions',
         'rvc/core_verification/rv32i_ref_model',
         'rvc/core_verification/print_sanity',
+        'rvc/core_verification/core_name_tasks',
 
       ],
     },
