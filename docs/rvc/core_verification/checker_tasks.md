@@ -124,9 +124,17 @@ The tasks in this file keep a record of all the information stored in the regist
 - The first write in the `mini_core` was capture during the simulation in time of 200, and the data written to register 1 was 1. This information relates to instruction located at PC 0x00000014.  
 - To fix that issue, you need to debug your core and find out why the data written to register 1 is 1 instead of 0.
 
-### Types of mismatches and possible (non trivial) causes.
-1. Pc is different between the two cores in the same write: This may indicates that your core misses some write instruction to the register file. If your core seems to work ok than it can be caused by the wrong Pc assignment inside the `mini_core_tasks.vh` file. For example: if you use 5 stage pipeline, you need to assign the Pc value to the write history from the `mini_core_wb.sv` stage (PcQ104H).
-2. Data is different between the two cores in the same write: This may indicates that your core writes a wrong data to the register file. One of the reasons for this is that your forwarding unit is not working correctly. 
-3. Different number of writes to the register file: This may indicates that your core misses some write instruction to the register file as in case 1. One of the reasons for this can caused by wrong stall (miss of instruction or perform unnecessary).
+### Types of mismatches and possible causes.
+1. Pc is different between the two cores in the same write.[^1]
+- This may indicates that your core misses some write instruction to the register file.
+- If your core seems to work ok than it can be caused by the wrong Pc assignment inside the `mini_core_tasks.vh` file. For example: if you use 5 stage pipeline, you need to assign the Pc value to the write history from the `mini_core_wb.sv` stage (PcQ104H).
+2. Data is different between the two cores in the same write[^1]
+- This may indicates that your core writes a wrong data to the register file.
+- One of the reasons for this is that your forwarding unit is not working correctly.
+3. Different number of writes to the register file[^1] 
+- This may indicates that your core misses some write instruction to the register file as in case 1. 
+- This can caused by wrong stall (miss of instruction or perform unnecessary one).
 
-- Please remember that there may be many other reasons for the mismatches.
+
+[^1]This may indicates some other issues in your core like alu and many other possible issues.
+
