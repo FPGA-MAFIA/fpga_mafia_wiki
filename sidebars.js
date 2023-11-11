@@ -154,6 +154,11 @@ MAFIA_Build: [
       id: 'build_script/cmd_handbook',
       label: 'cmd_handbook',
     },
+    {
+      type: 'doc',
+      id: 'build_script/sanity_check',
+      label: 'sanity_check',
+    },
   ],
 
   IPs: [
