@@ -274,6 +274,7 @@ RISCV_Cores:[
         'rvc/big_core/big_core_top',
         'rvc/big_core/big_core',
         'rvc/big_core/mem_wrap',
+        'rvc/big_core/csr_registers',
       ],
     },
     {
