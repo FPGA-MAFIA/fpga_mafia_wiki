@@ -280,6 +280,7 @@ RISCV_Cores:[
         'rvc/big_core/big_core',
         'rvc/big_core/mem_wrap',
         'rvc/big_core/csr_registers',
+        'rvc/big_core/pmon',
       ],
     },
     {
