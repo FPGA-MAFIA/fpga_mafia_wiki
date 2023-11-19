@@ -14,9 +14,8 @@ software that run on the processor if it so wishes. The memory size is control b
 All the memory regions that have been described so far are wrapped by mem_wrap so that at the level  of this component the address is checked, and the reference is made to the relevant memory space. In  relation to VGA_MEM, this memory component is wrapped by the VGA Controller and the VGA Controller is a component of mem_wrap. That is, every request to the memory area of the VGA goes through the processor, passes through the mem_wrap to the VGA Controller and then reaches the memory area of the VGA. 
 
 ## VGA controller and protocol specification
-- Before reading the following information, you may refer to the following [video](https://www.youtube.com/watch?v=4enWoVHCykI) and also the following [link](https://embeddedthoughts.com/2016/07/29/driving-a-vga-monitor-using-an-fpga/) to get a better understanding of how the VGA works. [^4]
-
-- You can skip the technical details and go directly to the Implementation of VGA in our project section. For any question, please contact us.
+- **Important Note** : Before reading the following information, you may refer to the following [video](https://www.youtube.com/watch?v=4enWoVHCykI) and also the following [link](https://embeddedthoughts.com/2016/07/29/driving-a-vga-monitor-using-an-fpga/) to get a better understanding of how the VGA works. [^4]. Its not that necessary to understand the following information, but it will help you to understand the VGA controller and the protocol specification.   
+You can skip the technical details and go directly to the Implementation of VGA in our project section. For any question, please [contact us](/docs/contact_us/contact.md).
 
 - The resolution of our target screen is 640×480. There are 640 vertical bits lines and 480 horizontal bits lines. Overall, the screen contains 80×480 = 38,400 bytes, and if we take into account that the size of a word is 4 bytes, the screen contains 9600 words. Each pixel on the screen is represented by a single bit, as a result, the total number of pixels is 640×480 = 307,200 pixels. The VGA support 12 bit RGB[^3], but we decided that having such a large amount of memory was a waste. So, 
 we implemented a monochromatic screen, which each pixel is either on or off.
@@ -60,20 +59,77 @@ between zero and one logic. Suppose we start at the point marked 0 in the wave d
     - `big_core_vga_ctrl.sv` (core name can be changed depending on the core). This file is responsible for reading and writing the pixels from and to the VGA_MEM, creating the RGB signals and 25Mhz clock signal. Each character represented in a rectangular (see the following sections) instead of turning on each picture at every line separably. We make it because its easier to represent characters in that way considering some technical limitations in our project. If you feel confused now, please let us now and we will explain it in more details.  
     - `vga_mem.sv` is the memory component of VGA_MEM.
 
+- VGA modules hierarchy   
+![vga_modules_hierarchy.png](/snapshots/vga_modules_hierarchy.png)
+
 ### character representation
 We mentioned rectangular in the previous sections, now we will try to explain it in more details.   
 - Each character represented in 8x8 matrix. The matrix is 64 bits. so, each character is represented by 64 bits. We can see from the following figure that we can show 80 characters in each line and 60 characters in each column. So, the total number of characters that we can show on the screen is 80x60 = 4800 characters.
 
 ![the_vga_screen.png](/snapshots/the_vga_screen.png)
 
-- Lets understand how to represent the character `A`   
- 
+
 ![character_a.png](/snapshots/character_a.png)
 
+- Lets understand how to represent the character `A`  
+We look at each row and each "on" pixel considered as 1 and each "off" pixel (white) considered as 0. So, the the first row is 0x00000000, the second row is 0x00011000, the third row is 0x00111100 and so on...   
+- We divide the matrix into first 4 rows (TOP) and the last 4 rows (BOTTOM).
+- Than, we represent the letter `A` as two parameters representing consecutive 4 top rows and 4 bottom rows in hexadecimal format in `/app/graphic_vga.h` file.
+```
+#define A_TOP        0x663C1800                  
+#define A_BOTTOM     0x00667E66 
+```
+- You can see the full list of characters in `/app/graphic_vga.h` file ordered by ASCII code.
+```
+/* ASCII tables */
+unsigned int ASCII_TOP[97]   = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SPACE_TOP,
+                                0,0,0,0,0,0,0,0,0,0,COMMA_TOP,0,POINT_TOP,0,ZERO_TOP,ONE_TOP,TWO_TOP,
+                                THREE_TOP,FOUR_TOP,FIVE_TOP,SIX_TOP,SEVEN_TOP,EIGHT_TOP,NINE_TOP,0,0,0,0,0,0,0,A_TOP,
+                                B_TOP,C_TOP,D_TOP,E_TOP,F_TOP,G_TOP,H_TOP,I_TOP,J_TOP,K_TOP,L_TOP,M_TOP,
+                                N_TOP,O_TOP,P_TOP,Q_TOP,R_TOP,S_TOP,T_TOP,U_TOP,V_TOP,W_TOP,X_TOP,Y_TOP,Z_TOP};
+unsigned int ASCII_BOTTOM[97] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+                                SPACE_BOTTOM,0,0,0,0,0,0,0,0,0,0,COMMA_BOTTOM,0,POINT_BOTTOM,0,ZERO_BOTTOM,
+                                ONE_BOTTOM,TWO_BOTTOM,THREE_BOTTOM,FOUR_BOTTOM,FIVE_BOTTOM,SIX_BOTTOM,
+                                SEVEN_BOTTOM,EIGHT_BOTTOM,NINE_BOTTOM,0,0,0,0,0,0,0,A_BOTTOM,B_BOTTOM,C_BOTTOM,D_BOTTOM,
+                                E_BOTTOM,F_BOTTOM,G_BOTTOM,H_BOTTOM,I_BOTTOM,J_BOTTOM,K_BOTTOM,L_BOTTOM,
+                                M_BOTTOM,N_BOTTOM,O_BOTTOM,P_BOTTOM,Q_BOTTOM,R_BOTTOM,S_BOTTOM,T_BOTTOM,
+                                U_BOTTOM,V_BOTTOM,W_BOTTOM,X_BOTTOM,Y_BOTTOM,Z_BOTTOM};
+
+```
+
+
+
+### Running simple vga test
+- We will run it on `big_core_rrv` core. You can run it on any core that have VGA support. 
+- Open or add the following test to your core `/verif/big_core_rrv/tests/alive_vga.c`. 
+```
+
+#include "big_core_defines.h"
+#include "graphic_vga.h"
+
+int main()  { 
+
+    rvc_printf("HELLO_WORLD");
+    rvc_printf("GOOD DAY");
+
+    int num = 7;
+    rvc_print_int(num);
+  
+    return 0;
+    
+}  // main()
+```
+
+- Please make sure to add `print_vga_screen task` to print the screen.    
+You can use the `/verif/big_core_rrv/tb/big_core_rrv_vga_tb.sv` test as a template. 
+Do not forget to change the link to new TB in `/verif/big_core_rrv/tb/big_core_rrv_verif_list.f` file.   
+
+- run `/.build -dut big_core_rrv -test alive_vga -app -sim -gui`.
+- You should see the output in `/target/big_core_rrv/test/alive_vga/screen.log` file. 
+- The content of that file will be: 
+![vga_screen_shot.png](/snapshots/vga_screen_shot.png)
 
 [^1] Please note that the size and addresses of the memory regions can be changed. The current values are defined in `package files` of the specific core.  
 [^2] CR_MEM and VGA_MEM are not defined in all the cores.   
 [^3] When implementing the VGA controller on FPGA, please refer to its manual to see the exact RGB format cause some may have 8 bits resolution instead of 12.   
 [^4] This link is not directly related to our project, but it is a good video to understand how the VGA works and the system verilog code.
-
-
