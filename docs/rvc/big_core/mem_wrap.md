@@ -1,6 +1,7 @@
 ## Introduction
 - The Memory Wrapper wraps together all the types of memories in the system like Instruction Memory, Data Memory, VGA 
-Memory and more if existed.
+Memory and more if existed. 
+- The Memory wrapper plays a crucial role in MMIO by switching between different memory areas.
 
 - Its goal is to provide an interface between the core and the memory.   
 The Figure below illustrates this interface in  HAS_RVC_ASAP project [^1]:
@@ -21,6 +22,7 @@ note: when you try to run the core from your own assembly code, you also have to
 
 - Lets demonstrate the difference between the compiler and the core with an example:
 ![mem_view_hw_sw.png](/snapshots/mem_view_hw_sw.png)
+
 - As we can see from the above figure, all the addresses from 0-3 in the compiler view are mapped to address 0 in the core view. The same goes for addresses 4-7, 8-11 and so on.
 - Thats why the address supplied to the core do not include the 2 lsb bits of the address.   
   For example: if the compiler wants to store/load something to/from `address[31:0]` we supply the `address[31:2]` to the core.
@@ -51,6 +53,11 @@ assign PreDMemRdDataQ104H = (DMemAddressQ104H[1:0] == 2'b01) ? { 8'b0,PreShiftDM
 ```
 
 - for example: if the compiler wants to store byte to address 3 in the memory as seen from the compiler view, than the data will be stored in address 0 of the core in bits 31:24. When we loads the data we do the opposite.
+- Lets take another example:
+  - lets assume we want to store byte `0x10` in address `8'b00000111`, We will also assume for simplicity that the address range is 8 bits instead of 32. This scenario is shown in the above figure  as green color, meaning that we write into 4-th byte of address `1`.
+  -  The address that generated in the compiler and red by the core is : `8'00000111` because the compiler do not care about the granularity of the core.
+  - The address that passed to the Data Memory from the wrapper is `6'000001`. (We remind you the 2 removed lsb bits). 
+  -  The data signal `ShiftDMemWrDataQ103H`  is `0x10000000` and written into address `6'b000001` meaning that we write to the green rectangular as suppose to be. 
 - The best way to understand this is to perform a short simulation on your own paper and see how the data is stored and loaded when storing and than loading bytes, half words and words.   
 
 
