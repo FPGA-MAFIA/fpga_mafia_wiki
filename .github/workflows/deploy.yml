@@ -36,7 +36,7 @@ jobs:
         # Create a new Git repo in build directory
         cd build
         git init
-        git remote add origin https://x-access-token:${DEPLOY_TOKEN}@github.com/amichai-bd/fpga_mafia_wiki.git
+        git remote add origin https://x-access-token:${DEPLOY_TOKEN}@github.com/FPGA-MAFIA/fpga_mafia_wiki.git
         git checkout -b gh-pages
         git add .
         git commit -m "Deploy website"
