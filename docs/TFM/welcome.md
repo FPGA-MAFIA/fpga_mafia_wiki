@@ -9,7 +9,7 @@ Feel free to contact us through the [Contact Us](/docs/contact_us/contact.md) pa
 
 
 ## The MAFIA project TFM  
-The MAFIA project is a multi disciplinary project that requires understanding of many topics.  
+The MAFIA project is a multi-disciplinary project that requires understanding of many topics.  
 - HW logic design
 - Embedded SW development
 - Automation
