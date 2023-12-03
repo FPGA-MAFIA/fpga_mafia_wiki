@@ -127,6 +127,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: 'Daniel Kaufman',
                 to: 'https://github.com/danielk532',
               },
+              {
+                label: 'Roman Gilgor',
+                to: 'https://www.linkedin.com/in/roman-gilgor-a5326532/',
+              },
             ],
           },
           {
