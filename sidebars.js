@@ -45,7 +45,7 @@ TFM: [
         id: 'TFM/projectTool/quartus_intro',
       },
       items: [
-        'TFM/projectTool/quartus',
+        'TFM/projectTool/basic_example',
         'TFM/projectTool/fpga',
         'TFM/projectTool/de10_lite',
         'TFM/projectTool/quartus_gui',
