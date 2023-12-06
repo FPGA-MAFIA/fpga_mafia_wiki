@@ -47,5 +47,37 @@ module tutorial1_leds (
 endmodule
 ```
 3. To compile the file double click on compilation and wait until the compilation is finished. You will see a green check mark if the compilation is successful.
-Compilation is a process that converts the code that you wrote to hardware on the fpga. It also performs place and route, which means that it decides where the hardware will be placed on the fpga and how the hardware will be connected.
+Compilation is a process that converts the code that you wrote to hardware on the fpga. It also performs place and route, which means that it decides where the hardware will be placed on the fpga and how the hardware will be connected.   
+
 ![compilation2.png](/snapshots/fpga_tutorial/compilation2.png)
+
+## Pin assignment
+- In that section we will assign the pins of the fpga to the inputs and outputs of our design. For example we need to connect the leds in our design to the pins of the fpga that are connected to the leds.
+
+1. Go to **assignment** -> **pin planner**. The following window will appear.
+![pin_assignment1.png](/snapshots/fpga_tutorial/pin_assignment1.png) 
+
+- At the button of the window you can see the inputs and the outputs of your design. You can press the `Node Name` to switch the order of the pins.
+- Download de10 lite manual from [here](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=1021&PartNo=4) and open it. You can also find it on google without open the terasic official site.   
+![pin_assignment2.png](/snapshots/fpga_tutorial/pin_assignment2.png) 
+![pin_assignment3.png](/snapshots/fpga_tutorial/pin_assignment3.png) 
+
+- Assign the pins in the following way using the manual:
+![pin_assignment4.png](/snapshots/fpga_tutorial/pin_assignment4.png) 
+
+- The assignment are saved automatically.
+- Compile again to make sure that you assigned the pins correctly.
+
+## Connecting Fpga and generate bit stream file 
+- In that section we will connect the fpga and created the configuration file called **bit file** of our design into the fpga.
+- Please make sure that ypur fpga board is connected to your computer using the usb cable.
+- At the compilation window double click on **program device**. and click **start** on the opened new window.
+![program_device1.png](/snapshots/fpga_tutorial/program_device1.png) 
+
+### Trouble shooting
+- If its your first time you probably will have to install the drivers. For more details [click here](/docs/TFM/projectTool/usb_blaster_driver.md)
+
+- After installing the driver, click **Harward Setup** and select **USB-Blaster**. Then click **Close**.
+
+- Now click **Start** again and wait until the process is finished. You will see a green check mark if the process is successful.
+- Play with the 3 right switches of the fpga and see that the leds are changing accordingly.
