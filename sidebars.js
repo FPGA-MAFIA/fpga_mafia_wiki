@@ -46,7 +46,7 @@ TFM: [
       },
       items: [
         'TFM/projectTool/basic_example',
-        'TFM/projectTool/fpga',
+        'TFM/projectTool/mod3_cnt',
         'TFM/projectTool/de10_lite',
         'TFM/projectTool/quartus_gui',
       ],
