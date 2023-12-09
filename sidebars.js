@@ -161,6 +161,30 @@ MAFIA_Build: [
     },
   ],
 
+  
+  FPGA: [
+    {
+      type: 'doc',
+      id: 'fpga/fpga_intro',
+      label: 'intro',
+    }, 
+    {
+      type: 'category',
+      label: 'snake_game',
+      link: {
+        type: 'doc',
+        id: 'fpga/snake_game/snake_game_intro',
+      },
+      items: [
+        'fpga/snake_game/top_file',
+        'fpga/snake_game/connect_uart',
+        'fpga/snake_game/connect_joystick',
+        'fpga/snake_game/compile',
+        'fpga/snake_game/program_mem',
+      ],
+    },    
+  ],
+
   IPs: [
     {
       type: 'doc',
@@ -181,9 +205,7 @@ MAFIA_Build: [
       type: 'doc',
       id: 'IPs/ps2_keyboard',
       label: 'PS2',
-    },
-    
-    
+    },   
   ],
 
   Cache: [
