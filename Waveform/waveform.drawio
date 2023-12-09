@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="n76aGQRKwCW6AYUZcPGl" name="Page-1">
+        <mxGraphModel dx="1389" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="{&#10;  &quot;signal&quot;: [&#10;    {&quot;name&quot;: &quot;clk&quot;, &quot;wave&quot;: &quot;p...........&quot;},&#10;    {&quot;name&quot;: &quot;core2cache_req.valid&quot;, &quot;wave&quot;: &quot;0101.....0..&quot;},&#10;    {&quot;name&quot;: &quot;core2cache_req.opcode&quot;, &quot;wave&quot;: &quot;x3x4.....x..&quot;, &quot;data&quot;: [&quot;read&quot;, &quot;write&quot;, &quot;write&quot;, &quot;write&quot;, &quot;write&quot;, &quot;write&quot;]},&#10;    {&quot;name&quot;: &quot;core2cache_req.address&quot;, &quot;wave&quot;: &quot;x3x4.....x..&quot;, &quot;data&quot;: [&quot;0x05&quot;, &quot;0x08&quot;, &quot;0x08&quot;, &quot;0x08&quot;, &quot;0x08&quot;, &quot;0x08&quot;]},&#10;    {&quot;name&quot;: &quot;core2cache_req.data&quot;, &quot;wave&quot;: &quot;xxx4.....x..&quot;, &quot;data&quot;: [&quot;0xA8&quot;, &quot;0xA8&quot;, &quot;0xA8&quot;, &quot;0xA8&quot;, &quot;0xA8&quot;]},&#10;    {&quot;name&quot;: &quot;core2cache_req.reg_id&quot;, &quot;wave&quot;: &quot;x3xxxxxxx...&quot;},&#10;    {&quot;name&quot;: &quot;cache_ready&quot;, &quot;wave&quot;: &quot;1.0.....1...&quot;}&#10;  ]&#10;}" style="shadow=0;dashed=0;align=left;strokeWidth=1;labelBackgroundColor=#ffffff;noLabel=1;shape=mxgraph.wavedrom.abstract.timing;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="30" width="800" height="260" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
