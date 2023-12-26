@@ -150,7 +150,7 @@ For more information about the CSR read/write only instructions, refer to the un
 - In our implementation we are using the CSR register `scratchpad_csr` which address is equal to 0x009. The compiler change its name to `vxsat` as described in the privileged spec, chapter 2. Please do not worry about the names of the CSR registers, you may play with those addresses as you wish and examine `_elf.txt` file to see the changes.
 Make sure to supply the correct address of the CSR as defined in `t_csr_addr` enumerator in the big core package file. 
 
-- **For more instructions using asm volatile, please go to `/verif/big_core_rrv/test/alive_csr.c`, We suggest to compile the file and look at the `_elf.txt` file to see the generated instructions.** 
+- **For more instructions using asm volatile, please go to `/verif/core_rrv/test/alive_csr.c`, We suggest to compile the file and look at the `_elf.txt` file to see the generated instructions.** 
 
 ### CSR instructions implemented in the big core
 - CSR control signals are generated in the control unit of the big core. The following code snippet shows the CSR control signals generation. 
