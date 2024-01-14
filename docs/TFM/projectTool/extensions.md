@@ -76,6 +76,16 @@ GitHub Copilot is an AI-powered coding assistant developed by GitHub in collabor
 
 * Please note that this extension is not for free. [Paying policy](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)
 
+***Additional Github extensions***
+- GitHub Actions.   
+ <u> extension id </u>: github.vscode-github-actions
+- GitHub Codespaces.   
+<u> extension id </u>: GitHub.codespaces
+- GitHub Copilot Chat.   
+<u> extension id </u>: GitHub.copilot-chat
+- GitHub Pull Requests and Issues.
+<u> extension id </u>: GitHub.vscode-pull-request-github
+
 ### Paste image
 The "Paste Image" Visual Studio Code (VSCode) extension is a tool that allows you to easily paste images from your clipboard directly into your code editor. Instead of saving an image to a file and then manually inserting it into your code or documentation, this extension streamlines the process.
  --How to use it--
