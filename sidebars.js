@@ -156,8 +156,8 @@ MAFIA_Build: [
     },
     {
       type: 'doc',
-      id: 'build_script/sanity_check',
-      label: 'sanity_check',
+      id: 'build_script/mafia_scripts',
+      label: 'mafia_scripts',
     },
   ],
 

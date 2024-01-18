@@ -6,7 +6,7 @@ But, to learn and ease the process of the writing and running commands, we have 
 This will allow to use drop down menus, and see what are the available options, flags, arguments, tests and more.
 
 To run the build gui:  
-```./gui_build.py ```
+```./scripts/gui_build.py ```
 This will open an interactive GUI that will allow you to build and run commands.
 ![gui_build1.png](/snapshots/gui_build1.png)
 
