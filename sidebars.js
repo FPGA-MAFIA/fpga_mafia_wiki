@@ -248,8 +248,10 @@ MAFIA_Build: [
           },
           items: [
             'cache/Verif/refModel',
-            'cache/Verif/Dedicated_test',
+            'cache/Verif/trackers',
             'cache/Verif/post_proccess',
+            'cache/Verif/Dedicated_test',
+            'cache/Verif/Random_and_stress',
           ],
         },
   ],
