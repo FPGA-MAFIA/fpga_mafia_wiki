@@ -147,13 +147,13 @@ Link to the wiki pseudo MRU policy: https://en.wikipedia.org/wiki/Pseudo-LRU#Bit
 Bit-PLRU stores one status bit for each cache line. These bits are called MRU-bits. Every access to a line sets its MRU-bit to 1, indicating that the line was recently used. Whenever the last remaining 0 bit of a set's status bits is set to 1, all other bits are reset to 0. At cache misses, the leftmost line whose MRU-bit is 0 is replaced.
 
 ```systemverilog
-    //-----------------------------
-    // if all are MRU - need to bit flip and set the new allocation/ last hit
-    //-----------------------------
-    if(&(set_ways_mru_q2)) begin        
-        set_ways_mru_q2 = cache_pipe_lu_q2.hit ? cache_pipe_lu_q2.set_ways_hit    : //reset all, and set only the WR/RD Hit location
-                                                 cache_pipe_lu_q2.set_ways_victim ; //reset all, and set only the WR/RD Hit location
-    end
+//-----------------------------
+// if all are MRU - need to bit flip and set the new allocation/ last hit
+//-----------------------------
+if(&(set_ways_mru_q2)) begin        
+    set_ways_mru_q2 = cache_pipe_lu_q2.hit ? cache_pipe_lu_q2.set_ways_hit    : //reset all, and set only the WR/RD Hit location
+                                             cache_pipe_lu_q2.set_ways_victim ; //reset all, and set only the WR/RD Hit location
+end
 ```
 
 
