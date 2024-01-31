@@ -9,7 +9,7 @@ The FIFO module is intended for buffering data. It supports basic operations suc
 Placeholder for Block Diagram
 [Insert High-Level Block Diagram of the FIFO here]
 ![2024-01-31-11-44-31.png](/snapshots/2024-01-31-11-44-31.png)
-![test2.png](/drawio/test2.png)
+![test2.png](/drawio/test2.jpg)
 
 # Configuration FIFO parameters:
 DATA_WIDTH: Defines the width of the data in the FIFO.
