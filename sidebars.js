@@ -45,8 +45,8 @@ TFM: [
         id: 'TFM/projectTool/quartus_intro',
       },
       items: [
-        'TFM/projectTool/quartus',
-        'TFM/projectTool/fpga',
+        'TFM/projectTool/basic_example',
+        'TFM/projectTool/mod3_cnt',
         'TFM/projectTool/de10_lite',
         'TFM/projectTool/quartus_gui',
       ],
@@ -154,6 +154,35 @@ MAFIA_Build: [
       id: 'build_script/cmd_handbook',
       label: 'cmd_handbook',
     },
+    {
+      type: 'doc',
+      id: 'build_script/mafia_scripts',
+      label: 'mafia_scripts',
+    },
+  ],
+
+  
+  FPGA: [
+    {
+      type: 'doc',
+      id: 'fpga/fpga_intro',
+      label: 'intro',
+    }, 
+    {
+      type: 'category',
+      label: 'snake_game',
+      link: {
+        type: 'doc',
+        id: 'fpga/snake_game/snake_game_intro',
+      },
+      items: [
+        'fpga/snake_game/top_file',
+        'fpga/snake_game/connect_uart',
+        'fpga/snake_game/connect_joystick',
+        'fpga/snake_game/compile',
+        'fpga/snake_game/program_mem',
+      ],
+    },    
   ],
 
   IPs: [
@@ -176,9 +205,7 @@ MAFIA_Build: [
       type: 'doc',
       id: 'IPs/ps2_keyboard',
       label: 'PS2',
-    },
-    
-    
+    },   
   ],
 
   Cache: [
@@ -221,8 +248,10 @@ MAFIA_Build: [
           },
           items: [
             'cache/Verif/refModel',
-            'cache/Verif/Dedicated_test',
+            'cache/Verif/trackers',
             'cache/Verif/post_proccess',
+            'cache/Verif/Dedicated_test',
+            'cache/Verif/Random_and_stress',
           ],
         },
   ],
@@ -274,6 +303,9 @@ RISCV_Cores:[
         'rvc/big_core/big_core_top',
         'rvc/big_core/big_core',
         'rvc/big_core/mem_wrap',
+        'rvc/big_core/csr_registers',
+        'rvc/big_core/cr_mem',
+        'rvc/big_core/pmon',
       ],
     },
     {
@@ -301,6 +333,7 @@ RISCV_Cores:[
         'rvc/core_verification/regressions',
         'rvc/core_verification/rv32i_ref_model',
         'rvc/core_verification/print_sanity',
+        'rvc/core_verification/checker_tasks',
 
       ],
     },

@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'FPGA Multi-Agent FabrIc Architecture ',
   tagline: '',
-  url: 'https://amichai-bd.github.io ',
+  url: 'https://fpga-mafia.github.io ',
   baseUrl: '/fpga_mafia_wiki/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'amichai-bd', // Usually your GitHub org/user name.
+  organizationName: 'fpga-mafia', // Usually your GitHub org/user name.
   projectName: 'fpga_mafia_wiki', // Usually your repo name.
 
   presets: [
@@ -22,7 +22,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/amichai-bd/fpga_mafia_wiki/tree/main',
+          editUrl: 'https://github.com/FPGA-MAFIA/fpga_mafia_wiki/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,6 +72,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },  
           {
             type: 'doc',
+            docId: 'fpga/fpga_intro',
+            position: 'left',
+            label: 'FPGA', 
+          },
+          {
+            type: 'doc',
             docId: 'TFM/welcome',
             position: 'right',
             label: 'TFM',
@@ -91,12 +97,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             href: 'https://github.com/amichai-bd/fpga_mafia_wiki',
             label: 'GitHub - Wiki',
             position: 'right',
-          },
-          {
-            type: 'doc',
-            docId: 'contact_us/contact',
-            position: 'right',
-            label: 'Contact US', 
           },
         ],
       },
@@ -126,6 +126,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 label: 'Daniel Kaufman',
                 to: 'https://github.com/danielk532',
+              },
+              {
+                label: 'Roman Gilgor',
+                to: 'https://www.linkedin.com/in/roman-gilgor-a5326532/',
               },
             ],
           },

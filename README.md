@@ -1,7 +1,7 @@
-[![Deploy_Docusaurus_Pages](https://github.com/amichai-bd/fpga_mafia_wiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/amichai-bd/fpga_mafia_wiki/actions/workflows/deploy.yml)  
+[![Deploy_Docusaurus_Pages](https://github.com/FPGA-MAFIA/fpga_mafia_wiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/FPGA-MAFIA/fpga_mafia_wiki/actions/workflows/deploy.yml)  
 # fpga_mafia_wiki
 The documentation for the fpga_maifa project  
-The website: https://amichai-bd.github.io/fpga_mafia_wiki/  
+The website: https://fpga-mafia.github.io/fpga_mafia_wiki/ 
 
 
 ## Deploying the Wiki  
