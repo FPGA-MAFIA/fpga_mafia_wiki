@@ -1,4 +1,4 @@
-Micro-Architecture Specification (MAS) for Arbiter Module
+# Arbiter MAS
 # 1. Overview
 Brief Description:
 This document details the micro-architecture of an Arbiter module designed to manage multiple client requests and select a winner based on a predefined arbitration scheme.
@@ -7,8 +7,7 @@ Purpose and Functionality:
 The Arbiter module is used to arbitrate among NUM_CLIENTS clients. It determines which client gains access based on the input signals.
 
 # 2. Block Diagram
-[Placeholder for Block Diagram]
-Insert High-Level Block Diagram of the Arbiter here
+![arbiter](/drawio/arbiter.jpg)
 
 # 3. Interfaces
 Signal Descriptions:
@@ -41,21 +40,6 @@ Latency:
 Typically one clock cycle for arbitration decision.
 
 # 7. Error Handling and Exceptions
-The module does not explicitly include error handling mechanisms in the provided RTL. Design-specific error handling should be considered.
+The module does not explicitly include error handling mechanisms in this design.
 # 8. Testing and Verification
-Test Plan Overview:
-
-Verify correct arbitration among multiple clients.
-Test for edge cases where multiple clients request access simultaneously.
-Verification Strategies:
-
-Simulate with varying numbers of clients.
-Stress test with simultaneous requests.
-
-# 9. Change Log
-Revision History:
-
-Initial version: [Date]
-Author Information:
-
-[Author Name]
+In the verification sidebar.

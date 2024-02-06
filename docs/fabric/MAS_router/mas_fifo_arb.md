@@ -1,27 +1,57 @@
-# Fifo_Arb - MAS
-The fifo_arb Micro-Architecture-Specification   
-A FIFO (First-In-First-Out) arbiter is a component that arbitrates between multiple FIFOs.
+# FIFO_arb MAS
+# 1. Overview
+Brief Description:
+This document outlines the micro-architecture of a fifo_arb module designed to manage multiple client requests and select a winner based on a predefined arbitration scheme. It interfaces with multiple fifos, arbitrates among them, and selects a winner to transmit data to the next tile.
 
+Purpose and Functionality:
+The fifo_arb module arbitrates among NUM_CLIENTS clients connected to different fifos. It uses an arbiter module to determine a winner based on the availability of data in the fifos and the readiness of the next tile to accept data.
 
-## General-Description
-- Round Robin arbiter between 4 FIFOs
-- Using the Ready signals from the target TILE to determine which FIFO to pop from
+# 2. Block Diagram
+![fifo_arb](/drawio/fifo_arb.jpg)
 
+# 3. Interfaces
+Signal Descriptions:
 
-## Block Diagram
+| Signal Name                   | Direction | Description                                                        |
+|-------------------------------|-----------|--------------------------------------------------------------------|
+| clk                           | Input     | Clock signal.                                                      |
+| rst                           | Input     | Reset signal.                                                      |
+| valid_alloc_req0, 1, 2, 3      | Input     | Signals indicating valid allocation requests from different clients (0 to NUM_CLIENTS-1). |
+| alloc_req0, 1, 2, 3            | Input     | Transaction details of allocation requests from different clients (0 to NUM_CLIENTS-1). |
+| out_ready_fifo0, 1, 2, 3       | Output    | Signals indicating whether the corresponding fifo (0 to NUM_CLIENTS-1) is ready to accept data. |
+| winner_req                    | Output    | Transaction details of the winning request to be sent to the next tile. |
+| winner_req_valid              | Output    | Signal indicating the validity of the winning request.              |
+| in_ready_north_arb_fifo       | Input     | Signal indicating the readiness of the arbiter fifo in the North direction. |
+| in_ready_east_arb_fifo        | Input     | Signal indicating the readiness of the arbiter fifo in the East direction.  |
+| in_ready_south_arb_fifo       | Input     | Signal indicating the readiness of the arbiter fifo in the South direction. |
+| in_ready_west_arb_fifo        | Input     | Signal indicating the readiness of the arbiter fifo in the West direction.  |
+| in_ready_local_arb_fifo       | Input     | Signal indicating the readiness of the arbiter fifo in the Local direction. |
 
+# 4. Functional Description
+Operational Modes:
 
-## Top level interface
+The module arbitrates among NUM_CLIENTS clients connected to different fifos.
+It uses the arbiter module to determine a winner based on fifo and next tile readiness.
+Data Flow Description:
 
+Allocation requests from different clients are prioritized based on fifo and next tile readiness.
+Upon determining a winner, the winning request is sent to the next tile.
 
-## Main components:
+# 5. Configuration and Control
+Configuration Registers:
 
-### fifo
-- parametrize FIFO (first in-first out) 
-#### Motivation:
-- storage requests without losing anyone.  
+NUM_CLIENTS: Defines the number of clients participating in arbitration.  
+FIFO_ARB_FIFO_DEPTH: Defines the depth of each fifo in the fifo_arb module.
 
-### arbiter
-- Round Robin arbiter
-#### Motivation:
-- controll the output So that all the information is out. 
+# 6. Performance and Characteristics
+Throughput:
+Dependent on the clock frequency.
+
+Latency:
+Dependent on the arbitration scheme and fifo availability.
+
+# 7. Error Handling and Exceptions
+The module does not explicitly include error handling mechanisms in this design.
+
+# 8. Testing and Verification
+In the verification sidebar.
