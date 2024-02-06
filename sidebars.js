@@ -334,6 +334,7 @@ RISCV_Cores:[
         'rvc/core_verification/rv32i_ref_model',
         'rvc/core_verification/print_sanity',
         'rvc/core_verification/checker_tasks',
+        'rvc/core_verification/verification_mini_core',
 
       ],
     },
@@ -380,12 +381,7 @@ Fabric:[
       },
       items: [
         'fabric/verification/verification_fabric',
-        'fabric/verification/verification_mini_core_tile',
-        'fabric/verification/verification_mini_core',
-        'fabric/verification/verification_router',
         'fabric/verification/verification_fifo_arb',
-        'fabric/verification/verification_arbiter',
-        'fabric/verification/verification_fifo',
       ],
     },
   ],

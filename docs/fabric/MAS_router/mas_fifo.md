@@ -1,3 +1,4 @@
+# FIFO MAS
 # Overview
 Brief Description:
 This document describes the micro-architecture specification of a FIFO (First-In-First-Out) module, designed to temporarily store and manage data in a sequential manner.
