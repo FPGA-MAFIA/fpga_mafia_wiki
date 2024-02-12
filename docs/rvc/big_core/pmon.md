@@ -10,6 +10,7 @@
 - To do that we are going to use two csr counters:
    - `instret` - counts the number of instructions retired(executed completely). 
    - `cycle` - counts the number of clock cycles. 
+   -  Those Csr's are read only. They sample the machine mode csr's `mcycle` and `minstret`. 
 
 Those hard wired counters have a size of 32 bits. Its important to say that RV32 spec allows us to extend their size to 64 bits by using two more counters: `instreth` and `cycleh`. 
 - In our design, we name `cycle` and `cycleh` as `CSR_CYCLE_LOW` and `CSR_CYCLE_HIGH` respectively.    
