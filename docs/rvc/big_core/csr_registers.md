@@ -169,4 +169,16 @@ assign CsrInstQ101H.csr_imm_bit  = InstructionQ101H[14];
 - CSR unit located in `Q102H` execution stage because we need to forward data to rd if necessary.
 - CSR register defined in the core package file under `t_csr_addr` enumerator which includes all the CSR addresses used in the core and the registers them self in the `t_csr` struct
 
+### PMON measurments
+note: The following csr's defined in `source/core_rrv` core.
+- Please refer to [pmon link](/docs/rvc/big_core/pmon.md).
+
+### Custom CSR's  
+note: The following csr's defined in `source/core_rrv` core.
+- timer interrupt exception csr's:
+  - `csr_custom_mtime` - Used to measure time of our system. This csr is read only from software and can be updated only in HW. Each clock it decrements by one. Used only in machine mode.
+  - `csr_cutome_mtimecmp` - This csr is RW csr and used for comparison with `custom_mtime`. We use it in Timer interrupt exception.
+   See [Timer_interrupt_exception](/docs/rvc/big_core/timer_interrupt_exception.md)
+  - `csr_custom_LFSR`     - Used for generating pseudo random numbers. The algorithm is based on LFSR algorithm. For biggest cycle we used  the following Polynom: `x^32 + x^22 + x^2 + x^1 + 1`. That Csr is RO and can be updated by HW for seed value update.
+
 
