@@ -42,10 +42,24 @@ Data Flow Description:
 3. It determines the priority of different cardinal directions based on the target address and the current tile's ID.
 4. The selected cardinal direction for each request is then provided as output.
 
-# 4. Configuration and Control
-Configuration Registers:
+# 4. Testing and Verification
+- In the tests we had to make sure that we get to a sevearl coverage points to ensure the reliability of this module.
+### 1. Determining Next Tile ID:
 
-The module is primarily configured through the `NEXT_TILE_CARDINAL` parameter, which specifies the preferred cardinal direction for forwarding requests.
+- The module calculates the next tile ID based on the current tile ID and the specified cardinal direction (NORTH, SOUTH, EAST, WEST, or LOCAL).
+- Coverage point: Ensure that each cardinal direction is covered and correctly assigns the next tile ID based on the current tile ID.
 
-# 5. Testing and Verification
-In the verification sidebar.
+### 2. Setting Terms for Calculating Next Cardinal:
+
+- Terms are set to calculate the next cardinal direction based on the request addresses and request valid signals.
+- Coverage point: Validate that the terms are correctly set for each direction and that the calculation considers valid requests.
+
+### 3. Translating Back to Cardinal Terms:
+
+- The module translates the terms used for calculating the next cardinal direction back to the cardinal terms required for the output.
+- Coverage point: Verify that the translation accurately maps terms to the corresponding cardinal directions.
+
+### 4. Setting the Next Cardinal According to Algorithm:
+
+- The module determines the next cardinal direction according to the specified algorithm. It prioritizes reaching the row (north or south) before reaching the column (east or west).
+- Coverage point: Ensure that the algorithm correctly sets the next cardinal direction based on the conditions specified, including priority for row or column traversal.
