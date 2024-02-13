@@ -306,8 +306,7 @@ RISCV_Cores:[
         'rvc/big_core/csr_registers',
         'rvc/big_core/cr_mem',
         'rvc/big_core/pmon',
-        'rvc/big_core/illegal_instruction_exception',
-        'rvc/big_core/timer_interrupt_exception',
+        'rvc/big_core/exceptions',
       ],
     },
     {
@@ -339,6 +338,11 @@ RISCV_Cores:[
         'rvc/core_verification/verification_mini_core',
 
       ],
+    },
+    {
+      type: 'doc',
+      id: 'rvc/sw_libraries',
+      label: 'SW libraries',
     },
   ],
 Fabric:[
