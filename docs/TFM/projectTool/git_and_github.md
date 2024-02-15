@@ -72,7 +72,7 @@ Discussions in GitHub provide a dedicated space for collaboration. They allow fo
 ## Simple Guide - Minimal Flow to Contribute to the Project
 
 ### Clone from Repository  
-- ```git clone https://github.com/amichai-bd/fpga_mafia.git```  
+- ```git clone https://github.com/FPGA-MAFIA/fpga_mafia.git```
 - ```cd fpga_mafia```  
 
 ### Create a New Branch  
