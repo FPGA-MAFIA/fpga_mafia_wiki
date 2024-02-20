@@ -28,14 +28,13 @@ Signal Descriptions:
 | in_ready_local_arb_fifo       | Input     | Signal indicating the readiness of the arbiter fifo in the Local direction. |
 
 # 4. Functional Description
-Operational Modes:
+The fifo_arb module utilizes a complex Round Robin scheme to prioritize allocation requests from multiple clients. This scheme involves masking the Round Robin candidates with two conditions:
 
-The module arbitrates among NUM_CLIENTS clients connected to different fifos.
-It uses the arbiter module to determine a winner based on fifo and next tile readiness.
-Data Flow Description:
+1. Valid Request Waiting to Pop: The Round Robin candidates are masked to exclude any clients whose allocation requests are not valid or ready to be processed. This ensures that only requests that are eligible for processing are considered in the Round Robin selection.
 
-Allocation requests from different clients are prioritized based on fifo and next tile readiness.
-Upon determining a winner, the winning request is sent to the next tile.
+2. Target Readiness: Additionally, the Round Robin candidates are masked based on the readiness of the target FIFO arbiter to accept new requests. This means that even if a client has a valid request, it will only be considered if the target FIFO arbiter is ready to receive new requests. This condition optimizes the allocation process by ensuring that requests are processed efficiently and without unnecessary delays.
+
+The combination of these masking conditions in the Round Robin scheme enhances the overall efficiency and fairness of request allocation in the fifo_arb module, allowing it to effectively manage multiple client requests and select winners based on predefined criteria.
 
 # 5. Configuration and Control
 Configuration Registers:

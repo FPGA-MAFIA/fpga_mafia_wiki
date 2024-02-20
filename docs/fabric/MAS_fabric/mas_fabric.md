@@ -50,5 +50,15 @@ The `fabric` module operates in a single mode, facilitating data routing and com
 In future we will be able to cange the size of the fabric by changing the ROW and COL paramters, we will also be able to connect different tiles and not just the mini_core_tile.
 
 ## 6. Testing and Verification
+ We wanted to test some crutial points, the verification is in the [fabric verification tab](../verification/verification_fabric.md).
 
-Specify details about testing and verification procedures in the verification sidebar.
+The testing and verification of the fabric module were conducted to ensure its functionality, performance, and robustness. Several key tests were performed:
+
+1. **All Tiles Tests:** This test demonstrated that each tile within the fabric could successfully send data to any other tile. It included operations with opcodes for write (WR) and read (RD), as well as read responses (RD_RSP).
+
+2. **Stress Test:** This test put the fabric under high stress by injecting data at a rapid rate. The purpose was to evaluate the fabric's performance and stability under extreme load conditions.
+
+3. **Back Pressure (BP) Test:** In this test, all the FIFOs in the fabric were filled to capacity, simulating a scenario where the fabric is under maximum load. The test verified that the fabric could handle this situation without losing transactions and that once the fabric reached full capacity, it properly halted further transactions.
+
+These tests, along with others detailed in the fabric verification documentation, ensured that the fabric module met the required specifications and performance expectations.
+

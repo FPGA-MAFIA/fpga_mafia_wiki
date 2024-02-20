@@ -100,7 +100,7 @@ In our design, HOL blocking can occur if we naively insert only one fifo_arb for
 The router module that addresses the HOL blocking problem by efficiently managing the allocation of communication resources among multiple incoming requests. Here's how the router module achieves this:
 
 1. **Input Buffering**:
-   - Incoming communication requests from neighboring tiles are first buffered in FIFO buffers within the `fifo_arb` module. Each FIFO buffer corresponds to a particular communication channel or direction.
+   - Incoming communication requests from neighboring tiles are first buffered in FIFO buffers within the `fifo_arb` module. Each FIFO buffer corresponds to a particular communication channel or direction, more info on the [mas_fifo_arb tab](mas_fifo_arb.md)
 
 2. **Arbitration**:
    - The `fifo_arb` module uses the `arbiter` module to arbitrate among the buffered requests. The `arbiter` ensures fair access to the communication resources by selecting one request at a time based on a round-robin scheduling policy.
