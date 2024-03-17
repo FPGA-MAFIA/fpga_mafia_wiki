@@ -54,6 +54,13 @@ While the current routing algorithm uses the "x,y" approach, there is potential 
 
 Another possible improvement to the routing scheme could be the use of adaptive routing. Adaptive routing algorithms dynamically select the path for each packet based on the network conditions and traffic load at the time of routing. This approach can potentially optimize the routing path to avoid congested or faulty areas in the network, leading to better overall performance and reliability. Implementing adaptive routing would involve monitoring network conditions and updating the routing decisions accordingly, which could be achieved through additional logic and decision-making mechanisms in the routing algorithm.
 
+Waveform example:
+
+![next_tile_fifo_arb](../../../static/snapshots/fabric_waves/next_tile_fifo_arb_in_tile_22_and_BP.jpg)
+
+In this waveform, we observe the routing process for a request originating from tile [2,2], as indicated by the 'local_tile_id' signal, with a destination of [1,3], as shown by the 'req_address' signal. According to our 'x,y' routing algorithm, the request first moves along the Y-axis to align with the target's Y-coordinate. In this case, the request travels south from tile [2,2] to [2,3], completing the Y-axis alignment. Once the Y-coordinate is matched, the algorithm then shifts its focus to the X-axis. The request subsequently moves west from [2,3] to [1,3], reaching its final destination. This sequential approach of addressing the Y-coordinate before the X-coordinate is a characteristic feature of the 'x,y' routing method.
+
+
 # 4. Testing and Verification
 - In the tests we had to make sure that we get to a sevearl coverage points to ensure the reliability of this module.
 ### 1. Determining Next Tile ID:

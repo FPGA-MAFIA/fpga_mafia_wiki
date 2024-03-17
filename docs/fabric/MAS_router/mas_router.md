@@ -120,6 +120,12 @@ The router module that addresses the HOL blocking problem by efficiently managin
 
 In summary, the router module utilizing the `fifo_arb` module, which incorporates the `arbiter` module, solves the HOL blocking problem by efficiently managing communication resources, ensuring fair access to these resources, and dynamically selecting and routing data packets based on incoming requests.
 
+Waveform example:
+
+![router](../../../static/snapshots/fabric_waves/router_tile_33.jpg)
+
+In this waveform, we can observe the routing process in action. The router receives a request from the north, as indicated by the 'in_north_req' signal. After evaluating the request and determining the appropriate routing path, the router decides to forward this request westward. This decision is reflected in the 'out_west_req' signal, which becomes active, signifying that the request is being sent in the west direction. Additionally, we can see that the 'valid' and 'ready' signals are asserted correctly, ensuring a smooth and efficient data exchange between the different interfaces of the router. This example demonstrates the router's ability to dynamically route requests based on their destination, while managing the flow control signals to maintain data integrity and prevent congestion.
+
 
 # 5. Tests and verification
 Since one of the main issues was the occurrence of HOL, we needed to test it directly to provoke HOL and then verify its resolution. Therefore, we devised a Back Pressure (BP) test. This test fills all the FIFOs in the router and prevents any transactions from being released. At a certain point, after all the FIFOs are full, we release the blocking and allow the data to flow. Subsequently, we expect to observe that all the transactions that managed to enter the FIFOs are processed. Additionally, we aim to ensure that the router does not accept any new transactions while it is full, thus preventing any transactions from disappearing.
