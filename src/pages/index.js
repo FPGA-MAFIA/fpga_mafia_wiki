@@ -35,7 +35,7 @@ function HomepageHeader() {
             <p>
               This project is currently a work in progress
               <br/> We are in the process of enabling and integrating individual IPs
-              <br/> Our team is working diligently to deliver a fully functional fabric by October 1, 2023.
+              <br/> Our team is working diligently to deliver a fully functional fabric by May, 2024.
             </p>
           </div>
         </div>
