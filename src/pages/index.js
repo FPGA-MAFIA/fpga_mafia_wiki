@@ -23,8 +23,8 @@ function HomepageHeader() {
 
         {/* Badge from GitHub for project status */}
         <div style={{ textAlign: 'center' }}>
-          <a href="https://github.com/amichai-bd/fpga_mafia/actions/workflows/mafia_sanity.yml">
-            <img src="https://github.com/amichai-bd/fpga_mafia/actions/workflows/mafia_sanity.yml/badge.svg" alt="mafia_sanity badge" />
+          <a href="https://github.com/amichai-bd/fpga_mafia/actions/workflows/mafia_level2.yml">
+            <img src="https://github.com/amichai-bd/fpga_mafia/actions/workflows/mafia_level2.yml/badge.svg" alt="mafia_level2 badge" />
           </a>
         </div>
 
