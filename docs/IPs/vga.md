@@ -100,8 +100,8 @@ unsigned int ASCII_BOTTOM[97] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
 
 ### Running simple vga test
-- We will run it on `core_rrv` core. You can run it on any core that have VGA support. 
-- Open or add the following test to your core `/verif/core_rrv/tests/alive_vga.c`. 
+- We will run it on `big_core` core. You can run it on any core that have VGA support. 
+- Open or add the following test to your core `/verif/big_core/tests/alive_vga.c`. 
 ```
 
 #include "big_core_defines.h"
@@ -121,11 +121,11 @@ int main()  {
 ```
 
 - Please make sure to add `print_vga_screen task` to print the screen.    
-You can use the `/verif/core_rrv/tb/core_rrv_vga_tb.sv` test as a template. 
-Do not forget to change the link to new TB in `/verif/core_rrv/tb/core_rrv_verif_list.f` file.   
+You can use the `/verif/big_core/tb/big_core_vga_tb.sv` test as a template. 
+Do not forget to change the link to new TB in `/verif/big_core/tb/big_core_verif_list.f` file.   
 
-- run `/.build -dut core_rrv -test alive_vga -app -sim -gui`.
-- You should see the output in `/target/core_rrv/test/alive_vga/screen.log` file. 
+- run `/.build -dut big_core -test alive_vga -app -sim -gui`.
+- You should see the output in `/target/big_core/test/alive_vga/screen.log` file. 
 - The content of that file will be: 
 ![vga_screen_shot.png](/snapshots/vga_screen_shot.png)
 

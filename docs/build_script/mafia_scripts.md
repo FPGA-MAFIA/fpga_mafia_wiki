@@ -15,16 +15,16 @@ The `-yml` flag is used to specify the name of the test file. In this case, it i
 - This script is used to generate a list of parameters for a specific core inside `verif/<core_name>` directory. The list of the parameters will be located in `/target` directory.
 For example:
 ```
-./scripts/gen_parameter_list.py core_rrv
+./scripts/gen_parameter_list.py big_core
 ``` 
-Will generate file name `core_rrv_parameter_list.csv` in `/target`
+Will generate file name `big_core_parameter_list.csv` in `/target`
 
 ### ovrd_params.py
 - This script overrides the default parameters of a specific core. The override parameters will be located in `/verif/<core_name>` directory.
 - The list of the parameters we wish to override and their new values will be located in `/scriprs/ovrd_params` directory.
-For example, assume we would like to override the default parameters of `core_rrv` core. We will need to create a file named `new_params_list.csv` in `/scripts/ovrd_params` directory. The file will contain the list of the parameters we wish to override and their new values and then run the command
+For example, assume we would like to override the default parameters of `big_core` core. We will need to create a file named `new_params_list.csv` in `/scripts/ovrd_params` directory. The file will contain the list of the parameters we wish to override and their new values and then run the command
 ```
-./scripts/ovrd_params.py -dut core_rrv -ovrd_file new_params_list
+./scripts/ovrd_params.py -dut big_core -ovrd_file new_params_list
 ```
 - Suppose we want to override `RF_NUM_MSB` parameter, then the format of `new_params_list.csv` file will be:
 ```

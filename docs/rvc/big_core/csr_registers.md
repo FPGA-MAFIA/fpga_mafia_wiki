@@ -150,7 +150,7 @@ For more information about the CSR read/write only instructions, refer to the un
 - In our implementation we are using the CSR register `scratchpad_csr` which address is equal to 0x009. The compiler change its name to `vxsat` as described in the privileged spec, chapter 2. Please do not worry about the names of the CSR registers, you may play with those addresses as you wish and examine `_elf.txt` file to see the changes.
 Make sure to supply the correct address of the CSR as defined in `t_csr_addr` enumerator in the big core package file. 
 
-- **For more instructions using asm volatile, please go to `/verif/core_rrv/test/alive_csr.c`, We suggest to compile the file and look at the `_elf.txt` file to see the generated instructions.** 
+- **For more instructions using asm volatile, please go to `/verif/big_core/test/alive_csr.c`, We suggest to compile the file and look at the `_elf.txt` file to see the generated instructions.** 
 
 ### CSR instructions implemented in the big core
 - CSR control signals are generated in the control unit of the big core. The following code snippet shows the CSR control signals generation. 
@@ -170,11 +170,11 @@ assign CsrInstQ101H.csr_imm_bit  = InstructionQ101H[14];
 - CSR register defined in the core package file under `t_csr_addr` enumerator which includes all the CSR addresses used in the core and the registers them self in the `t_csr` struct
 
 ### PMON measurments
-note: The following csr's defined in `source/core_rrv` core.
+note: The following csr's defined in `source/big_core` core.
 - Please refer to [pmon link](/docs/rvc/big_core/pmon.md).
 
 ### Custom CSR's  
-note: The following csr's defined in `source/core_rrv` core.
+note: The following csr's defined in `source/big_core` core.
 - timer interrupt exception csr's:
   - `csr_custom_mtime` - Used to measure time of our system. This csr is read only from software and can be updated only in HW. Each clock it decrements by one. Used only in machine mode.
   - `csr_cutome_mtimecmp` - This csr is RW csr and used for comparison with `custom_mtime`. We use it in Timer interrupt exception.
