@@ -23,8 +23,8 @@ The same goes for `instret` and `instreth` which are named `CSR_INSTRET_LOW` and
 - After we calculate the number of valid instructions and clock cycles, we can calculate the CPI and IPC. The CPI is calculated by dividing the number of clock cycles by the number of instructions. The IPC is calculated by dividing the number of instructions by the number of clock cycles.
 
 ### realistic example
-- The task that calculates the CPI and IPC is located at the `verif/core_rrv/tb` folder[^2] 
-- We run the following test named `alive.c` on the core_rrv with 6 pipeline stages:
+- The task that calculates the CPI and IPC is located at the `verif/big_core/tb` folder[^2] 
+- We run the following test named `alive.c` on the big_core with 6 pipeline stages:
 ```
 int sum(int x, int y){
     return x + y;

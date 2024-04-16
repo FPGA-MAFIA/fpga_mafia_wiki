@@ -31,13 +31,13 @@ Illegal instruction is a synchronous exception because its origin comes from the
 - Compiler errors (very rare but possible).
 
 ### Cases in our core
-For more details, please refer to `/source/core_rrv/illegal_instruction.vh`
+For more details, please refer to `/source/big_core/illegal_instruction.vh`
 - Some of the `Funct7` fields in R-type instructions do not zero
 - `Funct3` do not match the instruction. For example we try to execute S-type instruction and `Funct3  = 111`.
 - Un recognized OpCode that not supported by the core or not allowed by the spec.
 
 ### Illegal Instruction Generation
-- We use the test `/verif/core_rrv/alive_illegal.c`.
+- We use the test `/verif/big_core/alive_illegal.c`.
 - We try to create an instruction with illegal `FUCT7`, we generate `slli` with funct7 = 0x7f instead of 0x0
 ```
    // This instruction is trying to generate slli instruction with illegal FUNCT7.
