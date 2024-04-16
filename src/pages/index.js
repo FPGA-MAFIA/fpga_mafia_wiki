@@ -23,8 +23,8 @@ function HomepageHeader() {
 
         {/* Badge from GitHub for project status */}
         <div style={{ textAlign: 'center' }}>
-          <a href="https://github.com/amichai-bd/fpga_mafia/actions/workflows/mafia_sanity.yml">
-            <img src="https://github.com/amichai-bd/fpga_mafia/actions/workflows/mafia_sanity.yml/badge.svg" alt="mafia_sanity badge" />
+          <a href="https://github.com/amichai-bd/fpga_mafia/actions/workflows/mafia_level2.yml">
+            <img src="https://github.com/amichai-bd/fpga_mafia/actions/workflows/mafia_level2.yml/badge.svg" alt="mafia_level2 badge" />
           </a>
         </div>
 
@@ -35,7 +35,7 @@ function HomepageHeader() {
             <p>
               This project is currently a work in progress
               <br/> We are in the process of enabling and integrating individual IPs
-              <br/> Our team is working diligently to deliver a fully functional fabric by October 1, 2023.
+              <br/> Our team is working diligently to deliver a fully functional fabric by May, 2024.
             </p>
           </div>
         </div>

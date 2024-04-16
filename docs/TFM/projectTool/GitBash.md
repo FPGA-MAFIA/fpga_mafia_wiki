@@ -20,7 +20,7 @@ Furthermore, Git Bash allows you to write shell scripts and interact with other 
 To set Git Bash as the default terminal in VSCode:
 
 1. Go to File > Preferences > Settings
-2. Search for "terminal.integrated.shell.windows"
+2. Search for "terminal.integrated.shell.windows" // FIXME - this is not working 
 3. Choose "Git Bash"
 * You can also set the default terminal to Git Bash by clicking the `˅` sign in the terminal window and choosing "Select Default Profile"    
 

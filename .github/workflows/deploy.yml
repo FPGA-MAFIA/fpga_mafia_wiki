@@ -1,4 +1,4 @@
-name: Deploy_Docusaurus_Pages
+name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,20 +24,10 @@ jobs:
     - name: Build the project
       run: yarn build
 
-    - name: Configure Git
-      run: |
-        git config --global user.name "GitHub Actions Bot"
-        git config --global user.email "actions@github.com"
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        branch: gh-pages  # The branch the action should deploy to.
+        folder: build     # The folder the action should deploy.
+        token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically creates a GITHUB_TOKEN secret to use in your workflow.
 
-    - name: Deploy to GitHub Pages manually
-      env:
-        DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-      run: |
-        # Create a new Git repo in build directory
-        cd build
-        git init
-        git remote add origin https://x-access-token:${DEPLOY_TOKEN}@github.com/FPGA-MAFIA/fpga_mafia_wiki.git
-        git checkout -b gh-pages
-        git add .
-        git commit -m "Deploy website"
-        git push -u origin gh-pages --force

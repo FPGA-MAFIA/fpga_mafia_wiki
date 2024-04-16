@@ -100,7 +100,7 @@ In our design, HOL blocking can occur if we naively insert only one fifo_arb for
 The router module that addresses the HOL blocking problem by efficiently managing the allocation of communication resources among multiple incoming requests. Here's how the router module achieves this:
 
 1. **Input Buffering**:
-   - Incoming communication requests from neighboring tiles are first buffered in FIFO buffers within the `fifo_arb` module. Each FIFO buffer corresponds to a particular communication channel or direction.
+   - Incoming communication requests from neighboring tiles are first buffered in FIFO buffers within the `fifo_arb` module. Each FIFO buffer corresponds to a particular communication channel or direction, more info on the [mas_fifo_arb tab](mas_fifo_arb.md)
 
 2. **Arbitration**:
    - The `fifo_arb` module uses the `arbiter` module to arbitrate among the buffered requests. The `arbiter` ensures fair access to the communication resources by selecting one request at a time based on a round-robin scheduling policy.
@@ -119,6 +119,12 @@ The router module that addresses the HOL blocking problem by efficiently managin
    - This continuous operation ensures that communication resources are utilized effectively and that incoming requests are processed without delays or bottlenecks caused by HOL blocking.
 
 In summary, the router module utilizing the `fifo_arb` module, which incorporates the `arbiter` module, solves the HOL blocking problem by efficiently managing communication resources, ensuring fair access to these resources, and dynamically selecting and routing data packets based on incoming requests.
+
+Waveform example:
+
+![router](../../../static/snapshots/fabric_waves/router_tile_33.jpg)
+
+In this waveform, we can observe the routing process in action. The router receives a request from the north, as indicated by the 'in_north_req' signal. After evaluating the request and determining the appropriate routing path, the router decides to forward this request westward. This decision is reflected in the 'out_west_req' signal, which becomes active, signifying that the request is being sent in the west direction. Additionally, we can see that the 'valid' and 'ready' signals are asserted correctly, ensuring a smooth and efficient data exchange between the different interfaces of the router. This example demonstrates the router's ability to dynamically route requests based on their destination, while managing the flow control signals to maintain data integrity and prevent congestion.
 
 
 # 5. Tests and verification
