@@ -61,7 +61,7 @@ The tasks in this file keep a record of all the information stored in the regist
 # Data Integrity final status: Data integrity test passed
 # ===============================
 ```
-- This is the output of the data integrity test for one `mini_core` tests. It shows the number of writes to the register file of your core and the reference core, at this case is the programs writes 45 into the register file. It also shows the data written to the register file (Data), the time at which it was written(time), Pc value of the instruction at which it was written(PC) and the written value(RegDsd).
+- This is the output of the data integrity test for one of the`mini_core` tests. It shows the number of writes to the register file of your core and the reference core, at this case is the programs writes 45 into the register file. It also shows the data written to the register file (Data), the time at which it was written(time), Pc value of the instruction at which it was written(PC) and the written value(RegDsd).
 - As you can see, the data written to the register file of your core and the reference core are the same and the test is passed.
 
 ### Output of the data integrity test in case of mismatch.
@@ -73,32 +73,32 @@ The tasks in this file keep a record of all the information stored in the regist
 # rf_write_history size     = 45
 #  >> rf_write_history[0] Mismatch!!
 # ** Error: ERROR: rf_write_history mismatch
-#    Time: 730 ps  Scope: big_big_core_tb.di_register_write File: ../../../verif/big_big_core/tb/mini_core_tasks.vh Line: 84
+#    Time: 730 ps  Scope: mini_core_tb.di_register_write File: ../../../verif/mini_core/tb/mini_core_tasks.vh Line: 84
 #       ref_rf_write_history[0] =   {time: 150, Pc: 00000014, RegDst:  1, Data: 00000000}
 #       rf_write_history    [0] =   {time: 200, Pc: 00000014, RegDst:  1, Data: 00000001}
 #  >> rf_write_history[1] Mismatch!!
 # ** Error: ERROR: rf_write_history mismatch
-#    Time: 730 ps  Scope: big_big_core_tb.di_register_write File: ../../../verif/big_big_core/tb/mini_core_tasks.vh Line: 84
+#    Time: 730 ps  Scope: mini_core_tb.di_register_write File: ../../../verif/mini_core/tb/mini_core_tasks.vh Line: 84
 #       ref_rf_write_history[1] =   {time: 160, Pc: 00000018, RegDst:  2, Data: 00000000}
 #       rf_write_history    [1] =   {time: 210, Pc: 00000018, RegDst:  2, Data: 00000002}
 #  >> rf_write_history[2] Mismatch!!
 # ** Error: ERROR: rf_write_history mismatch
-#    Time: 730 ps  Scope: big_big_core_tb.di_register_write File: ../../../verif/big_big_core/tb/mini_core_tasks.vh Line: 84
+#    Time: 730 ps  Scope: mini_core_tb.di_register_write File: ../../../verif/mini_core/tb/mini_core_tasks.vh Line: 84
 #       ref_rf_write_history[2] =   {time: 170, Pc: 0000001c, RegDst:  3, Data: 00000000}
 #       rf_write_history    [2] =   {time: 220, Pc: 0000001c, RegDst:  3, Data: 00000002}
 #  >> rf_write_history[3] Mismatch!!
 # ** Error: ERROR: rf_write_history mismatch
-#    Time: 730 ps  Scope: big_big_core_tb.di_register_write File: ../../../verif/big_big_core/tb/mini_core_tasks.vh Line: 84
+#    Time: 730 ps  Scope: mini_core_tb.di_register_write File: ../../../verif/mini_core/tb/mini_core_tasks.vh Line: 84
 #       ref_rf_write_history[3] =   {time: 180, Pc: 00000020, RegDst:  4, Data: 00000000}
 #       rf_write_history    [3] =   {time: 230, Pc: 00000020, RegDst:  4, Data: 00000002}
 #  >> rf_write_history[4] Mismatch!!
 # ** Error: ERROR: rf_write_history mismatch
-#    Time: 730 ps  Scope: big_big_core_tb.di_register_write File: ../../../verif/big_big_core/tb/mini_core_tasks.vh Line: 84
+#    Time: 730 ps  Scope: mini_core_tb.di_register_write File: ../../../verif/mini_core/tb/mini_core_tasks.vh Line: 84
 #       ref_rf_write_history[4] =   {time: 190, Pc: 00000024, RegDst:  5, Data: 00000000}
 #       rf_write_history    [4] =   {time: 240, Pc: 00000024, RegDst:  5, Data: 00000002}
 #  >> rf_write_history[5] Mismatch!!
 # ** Error: ERROR: rf_write_history mismatch
-#    Time: 730 ps  Scope: big_big_core_tb.di_register_write File: ../../../verif/big_big_core/tb/mini_core_tasks.vh Line: 84
+#    Time: 730 ps  Scope: mini_core_tb.di_register_write File: ../../../verif/mini_core/tb/mini_core_tasks.vh Line: 84
 #       ref_rf_write_history[5] =   {time: 200, Pc: 00000028, RegDst:  6, Data: 00000000}
 #       rf_write_history    [5] =   {time: 250, Pc: 00000028, RegDst:  6, Data: 00000002}
 .
@@ -106,7 +106,7 @@ The tasks in this file keep a record of all the information stored in the regist
 .
 #  >> rf_write_history[44] Mismatch!!
 # ** Error: ERROR: rf_write_history mismatch
-#    Time: 730 ps  Scope: big_big_core_tb.di_register_write File: ../../../verif/big_big_core/tb/mini_core_tasks.vh Line: 84
+#    Time: 730 ps  Scope: mini_core_tb.di_register_write File: ../../../verif/mini_core/tb/mini_core_tasks.vh Line: 84
 #       ref_rf_write_history[44] =   {time: 630, Pc: 00000188, RegDst:  2, Data: 0001f000}
 #       rf_write_history    [44] =   {time: 720, Pc: 00000189, RegDst:  2, Data: 0001f004}
 # rf_write_history size match

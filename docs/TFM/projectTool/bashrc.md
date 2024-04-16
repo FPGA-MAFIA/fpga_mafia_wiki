@@ -57,7 +57,7 @@ export PATH=$PATH:/c/intelFPGA_lite/20.1/quartus/bin64/                         
 ###   ALIASING    ###
 #####################
 alias gcc="riscv-none-embed-gcc"
-alias run_all="./build.py -dut rrv -test alive -app -hw -sim -gui"
+alias run_all="./build.py -dut big_core -test alive -app -hw -sim -gui"
 
 
 ############################# 
