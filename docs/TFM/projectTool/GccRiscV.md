@@ -1,5 +1,5 @@
 ### RISCV GCC Installation
-- https://github.com/xpack-dev-tools/riscv-none-embed-gcc-xpack/releases/ -> File name: "xpack-riscv-none-embed-gcc-10.2.0-1.2-win32-x64.zip"). If newer versions are available, you can also download them and then extract into the correct location as shown in the next section.
+- https://github.com/xpack-dev-tools/riscv-none-embed-gcc-xpack/releases/tag/v10.2.0-1.2/ -> File name: "xpack-riscv-none-embed-gcc-10.2.0-1.2-win32-x64.zip"). If newer versions are available, you can also download them and then extract into the correct location as shown in the next section.
 
 You can unzip the file into any library, but we suggest unzipping it to this specific Windows path.   
 `C:\Users\your-user-name\AppData\Roaming\xPacks\xpack-riscv-none-embed-gcc`
