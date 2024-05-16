@@ -215,6 +215,11 @@ MAFIA_Build: [
       label: 'Intro',
     },
     {
+      type: 'doc',
+      id: 'cache/cheat_sheet',
+      label: 'Cheat Sheet',
+    },
+    {
       type: 'category',
       label: 'HAS',
       link: {
