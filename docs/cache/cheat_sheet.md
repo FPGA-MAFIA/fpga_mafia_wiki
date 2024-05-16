@@ -19,6 +19,7 @@
 ## G
 
 ## H
+- **Hit** : Requested data is in the cache.
 
 ## I
 
@@ -31,6 +32,8 @@
 ## M
 - **MB** : Merge buffer. Buffer that located inside the Transaction queue entry(TQ) used to merge CL of 128 width with shorter data like word, half word and bytes. 
 - **Modified** : Modified data is data that been changed inside the cache and has not been stored back into far memory(FM) causing the far memory(FM) to be not updated. 
+- **Miss(Read)** : Requested data is not in the cache
+- **Miss(Write)** : Core refers to an address that its data not in the cache meaning that we have to fill it first.
 
 ## N
 
