@@ -10,7 +10,7 @@
 ## E
 - **Evict** : The process of erasing data from the cache to fill with new one.
 - **Evict(dirty evict)** : The remove data is not in the far memory(FM) yet and it must be updated there before it will be removed.
-- **Evict(silent/clean evict)** : The removed data has not been changed or already been updated in the far memory(FM). So it can be removed without any need to update thefar memory(FM).
+- **Evict(silent/clean evict)** : The removed data has not been changed or already been updated in the far memory(FM). So it can be removed without any need to update the far memory(FM).
 
 ## F
 - **Fill** : Process of bringing data from far memory(FM) into the Cache.
@@ -19,7 +19,7 @@
 ## G
 
 ## H
-- **Hit** : Requested data is in the cache. In our design a Hit can have many meanings:  it can be a CL hit which takes place on the pipe. It can be a "hit on existing tq entry" where a new request overlaps with tq that being processed.
+- **Hit** : Requested data is in the cache. In our design a Hit can have many meanings:  it can be a CL hit which takes place on the pipe. It can be a "hit on existing tq entry" where a new request overlaps with tq that being processed for example the cpu sends requests that may refer to the same CL.
 
 ## I
 
