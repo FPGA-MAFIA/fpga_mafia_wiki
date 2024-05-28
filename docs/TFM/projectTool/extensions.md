@@ -169,6 +169,10 @@ suppose you want to see the history of a specific file.
 
 <u> extension id </u>: donjayamanne.githistory
 
+### GitLens
+GitLens supercharges the built-in capabilities of Git in VS Code. It helps you visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and much more.
+
+<u> extension id </u>: eamodio.gitlens
 
 
 
